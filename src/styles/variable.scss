@@ -1,0 +1,65 @@
+// Brand Colors based on image_90e91f.png
+
+$bg-light: #fff;
+$bg-light-blue: #f0f6fa;
+$bg-dark: #000;
+$primary: #0E77F3; // Deep navy blue background
+$orange: #ff7a00;
+$primary-dark: #193180; // Deep navy blue background
+$secondary: #3B4155;
+$nav-link-color: #d1d8e9; // Soft light gray/blue text
+$nav-link-hover: #ffffff; // Pure white on hover
+$nav-border-color: rgba(255, 255, 255, 0.15); // Thin structural borders
+$text-gray: #7d879c;
+$text-light: #fff;
+$text-dark: #0f172a;
+$text-dark-blue: #4b566b;
+$text-red: #EB4C4C;
+$highlight-text: #ffb703;
+// border colors
+$border-gray: #e2e8f0;
+$border-light-gray: #f4f6f9;
+
+// Buttons
+$btn-host-bg: #007bff; // Vivid blue button
+$btn-host-hover: #0056b3;
+
+// Fonts & Spacing
+$font-nav: 'Inter', system-ui, -apple-system, sans-serif;
+
+// font sizes
+$fs-hero-xxl: 4.75rem;
+$fs-hero-xl: 2.5rem;
+$fs-hero-lg: 2rem;
+$fs-hero-md: 1.5rem;
+$fs-hero-sm: 1rem;
+
+//common font sizes 
+$fs-common-xxl-4: 3.125rem;
+$fs-common-xxl-3: 3rem;
+$fs-common-xxl-2: 2.75rem;
+$fs-common-xxl: 2.5rem;
+$fs-common-xl-3: 2.25rem;
+$fs-common-xl-2: 2rem;
+$fs-common-xl: 1.5rem;
+$fs-common-lg: 1.25rem;
+$fs-common-md-2: 1.125rem;
+$fs-common-md: 1rem;
+$fs-common-base: 0.875rem;
+$fs-common-sm: 0.75rem;
+$fs-common-xs: 0.625rem;
+
+//font weight
+$fw-hero-bold: 800;
+$fw-bold: 700;
+$fw-semibold: 600;
+$fw-medium: 500;
+$fw-regular: 400;
+
+// border radius
+$radius-base: 0.625rem;
+$radius-sm: 0.75rem;
+$radius-md: 1rem;
+$radius-lg: 1.25rem;
+$radius-xl: 1.5rem;
+$radius-rounded: 50%;

@@ -1,0 +1,219 @@
+@use "./variable" as *;
+
+.hero-header-section {
+    position: relative;
+    color: $text-light;
+    // height: 100vh;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+
+        .hero-prev-btn,
+        .hero-next-btn {
+            display: block;
+            background-color: $bg-light !important;
+            border-color: $bg-light !important;
+            opacity: 0.8;
+
+            &:hover {
+                color: $text-dark !important;
+            }
+        }
+    }
+
+    @media(max-width:768px) {
+
+        .hero-prev-btn,
+        .hero-next-btn {
+            display: none !important;
+        }
+
+        &:hover {
+
+            .hero-prev-btn,
+            .hero-next-btn {
+                display: none !important;
+            }
+        }
+
+    }
+
+    .hero-slide-content {
+        overflow: hidden;
+    }
+
+    .scroll-indicator {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 5;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        color: $secondary;
+        cursor: pointer;
+
+        .scroll-oval {
+            width: 38px;
+            height: 60px;
+            border: 2px dotted $secondary;
+            border-radius: 999px;
+
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            padding-top: 8px;
+            overflow: hidden;
+        }
+
+        .scroll-down-icon {
+            stroke-width: 2.5;
+        }
+    }
+
+    &:hover {
+        .nav-custom-btn {
+            display: flex;
+        }
+    }
+
+    .hero-slider-main {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+        width: 100%;
+
+        @media(max-width: 768px) {
+            height: 70vh;
+        }
+
+        @media(max-width: 576px) {
+            height: auto;
+            padding: 50px 0;
+        }
+    }
+
+
+    .hero-overlay {
+        z-index: 1;
+        background: linear-gradient(90deg, #3d3d3d -40.19%, #ff6a000f 99.92%);
+        position: absolute;
+        inset: 0;
+    }
+
+    .hero-slide-content {
+        position: relative;
+        z-index: 2;
+        max-width: 1024px;
+
+        @media (max-width:768px) {
+            max-width: 576px;
+        }
+
+        @media (max-width:576px) {
+            max-width: 420px;
+        }
+
+        .hero-description {
+            color: $text-light;
+            opacity: 1;
+            font-size: $fs-common-md-2 !important;
+
+            @media (max-width:768px) {
+                font-size: $fs-common-md !important;
+            }
+        }
+
+
+    }
+
+    .hero-title-h1 {
+        font-size: Clamp($fs-hero-xl, 6vw, $fs-hero-xxl);
+        line-height: 1.2;
+        font-weight: 800;
+        // letter-spacing: -0.02em;
+        text-shadow: 0 2px 3px #828282;
+    }
+
+    .nav-custom-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+
+        width: 50px;
+        height: 50px;
+        border-radius: $radius-rounded;
+        border: 1px solid $primary;
+        background-color: $primary;
+        color: $text-dark;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: $primary;
+            color: $text-light;
+            border-color: $primary;
+        }
+    }
+
+    .hero-prev-btn {
+        left: 20px;
+        display: none;
+        transition: all 0.4s ease-in;
+    }
+
+    .hero-next-btn {
+        transition: all 0.4s ease-in;
+        right: 20px;
+        display: none;
+    }
+}
+
+.hero-slider-main {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    /* Or your custom container dimension */
+
+    // Isolated background element
+    .hero-bg-layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+
+        // Smooth transition back and forth when active states change
+        transition: transform 20s cubic-bezier(0.25, 1, 0.5, 1);
+        transform: scale(1); // Default initial zoom scale for incoming hidden slides
+    }
+
+    // Text container layers overriding the layout position
+    .z-index-2 {
+        z-index: 2;
+    }
+}
+
+// Global hook applied dynamically by Swiper onto the active DOM node
+.swiper-slide-active {
+    .hero-bg-layer {
+        transform: scale(1.25) !important; // Smoothly shifts scale configuration down to base target size
+    }
+}

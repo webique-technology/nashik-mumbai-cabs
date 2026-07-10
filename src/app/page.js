@@ -1,66 +1,142 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import CounterSection from "@/components/sections/CounterSection";
+import HeroHeader from "@/components/sections/HeroHeader";
+import { LeftTextRightImageCommnSec } from "@/components/sections/LTRI_CommonSec";
+import PopularDestinations from "@/components/sections/PopularDestination";
+import { PromoBanner } from "@/components/sections/PromoSection";
+import { ServiceTabsSection } from "@/components/sections/ServicesTabSec";
+import WhyChooseUs from "@/components/sections/WhyChooseUsSec";
+import TestimonialSec from "@/components/sections/TestimonialSec";
+
+import tourGuide from "../../public/images/tour-guide.png"
+import calendar from "../../public/images/calendar.png"
+import tags from "../../public/images/tags.png"
+
 
 export default function Home() {
+
+  const ExplorationSec = {
+    heading: "Your Effortless Path to World Exploration",
+    imageSrc: "/images/about-sec-img.jpg", // Replace with your image asset
+    badgeText: {
+      normalText: "Capture memories",
+      highlightedText: "but also savor the Present Moment."
+    },
+    features: [
+      {
+        id: 1,
+        icon: tourGuide.src,
+        title: "Transportation",
+        description: "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups."
+      },
+      {
+        id: 2,
+        icon: calendar.src,
+        title: "Tours & Excursions",
+        description: "Expertly guided, curated travel packages exploring scenic wonders and cultural landmarks to ensure an unforgettable destination experience."
+      },
+      {
+        id: 3,
+        icon: tags.src,
+        title: "Corporate Travel",
+        description: "Streamlined corporate logistics and efficient group transportation solutions customized to simplify high-level business travel needs."
+      }
+    ]
+  };
+
+  const PromoData = {
+    highlightText: "",
+    mainTitleNormal: "",
+    mainTitleBold: "Our Premium Travel Solutions.",
+    mainTitleSuffix: "",
+    buttonText: "",
+    desc: [],
+    features: [
+      {
+        id: 1,
+        icon: "Car",
+        title: "Hire Cabs in Nashik",
+        description: "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups."
+      },
+      {
+        id: 2,
+        icon: "Plane",
+        title: "Airport Pickup / Drop Taxi Services",
+        description: "Reliable and punctual transfers to and from all major airports including CSMIA Mumbai. Professional chauffeurs ensure you never miss a flight."
+      },
+      {
+        id: 3,
+        icon: "Bus",
+        title: "Bus Services from Nashik",
+        description: "Spacious and comfortable bus rentals for group pilgrimages and corporate tours in Nashik and surrounding areas, equipped with modern amenities."
+      }
+    ],
+    // Replace with your image source path matching image_d1d2a0.jpg
+    bgImage: "/images/services-img.webp"
+  };
+
+  const whyChooseUsData = {
+    title: "Why Choose Us",
+    features: [
+      {
+        id: 1,
+        iconName: "UserCheck", // Maps to <UserCheck /> icon component
+        title: "Tour Guide",
+        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+      },
+      {
+        id: 2,
+        iconName: "Coins", // Maps to <Coins /> icon component
+        title: "Friendly Price",
+        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+      },
+      {
+        id: 3,
+        iconName: "CalendarDays", // Maps to <CalendarDays /> icon component
+        title: "Instant Booking",
+        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+      },
+      {
+        id: 4,
+        iconName: "FileText", // Maps to <FileText /> icon component
+        title: "Custom Strategy",
+        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+      }
+    ]
+  };
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main>
+      <HeroHeader />
+      <LeftTextRightImageCommnSec
+        heading={ExplorationSec.heading}
+        features={ExplorationSec.features}
+        imageSrc={ExplorationSec.imageSrc}
+        badgeText={ExplorationSec.badgeText}
+      />
+      <CounterSection />
+      <PromoBanner
+        content={{
+          highlightText: PromoData.highlightText,
+          mainTitleNormal: PromoData.mainTitleNormal,
+          mainTitleBold: PromoData.mainTitleBold,
+          mainTitleSuffix: PromoData.mainTitleSuffix,
+          buttonText: PromoData.buttonText,
+          // onBtnClick: () => console.log("Navigating to travel booking page...")
+        }}
+        desc={PromoData.desc}
+        features={PromoData.features} // FIXED: Added this missing line to render your services list!
+        bgImage={PromoData.bgImage}
+      />
+      <WhyChooseUs
+        title={whyChooseUsData.title}
+        features={whyChooseUsData.features}
+      />
+      <ServiceTabsSection
+        title="Your Next Trip Plan"
+        highlightWord="Book"
+      />
+      <PopularDestinations />
+      <TestimonialSec />
+    </main>
   );
 }

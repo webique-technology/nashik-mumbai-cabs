@@ -1,0 +1,34 @@
+@use "./variable" as *;
+
+.popular-destinations-section {
+    position: relative;
+    // You mentioned adding the background manually; here is the placeholder mapping.
+    // Replace with your local relative map silhouette or vector background image asset.
+    background: url('../../public/images/destination-bg.jpg') no-repeat center center;
+    background-size: cover;
+
+    .section-main-title {
+        font-size: $fs-common-xxl;
+        color: $text-dark;
+        letter-spacing: -0.5px;
+    }
+
+    .footer-promo-text {
+        font-size: $fs-common-md;
+        color: $text-dark-blue;
+    }
+
+    .btn-view-all {
+        background-color: #e2e7ee;
+        color: $text-dark;
+        font-size: $fs-common-base;
+        font-weight: $fw-semibold;
+        border-radius: $radius-sm;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+
+        &:hover {
+            background-color: #d4dae3;
+            transform: translateY(-1px);
+        }
+    }
+}

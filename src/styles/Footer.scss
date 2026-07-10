@@ -1,0 +1,208 @@
+@use "./variable" as *;
+
+footer {
+
+    background: linear-gradient(to bottom, #111111, #000000);
+
+    /* Logo */
+    .footer-logo-icon {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #ff6a00, #d4af37);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            color: $text-light;
+        }
+    }
+
+    .services-link {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        font-size: 14px;
+        color: lab(65.9269% -.832707 -8.17474);
+
+        li {
+            // background: url("../assets/images/dot-bullet.png");
+            // background-position: 0 center;
+            // background-size: 8px;
+            padding-left: 15px;
+            background-repeat: no-repeat;
+            position: relative;
+
+            &:hover {
+                .footer-description-box {
+                    display: block;
+                }
+            }
+        }
+
+        .footer-description-box {
+            position: absolute;
+            top: -60px;
+            right: 0;
+            display: none;
+            background-color: #272727;
+            padding: 10px;
+            border: 1px solid $text-light;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 5;
+
+            ul {
+                list-style: none !important;
+            }
+        }
+
+        ul li {
+            &::marker {
+                display: none;
+            }
+        }
+
+        @media(max-width:767px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none !important;
+
+            li {
+                list-style: none !important;
+                padding: 2px 10px;
+                background: #ffffff1a;
+                border: 1px solid #ffffff1c;
+                border-radius: 20px;
+                color: $text-light;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .footer-text,
+    .footer-link,
+    span {
+        font-size: $fs-common-base;
+        color: #c0c1c1;
+        text-decoration: none;
+        transition: 0.3s;
+        width: fit-content;
+    }
+
+    .footer-link--webname {
+        color: $text-light !important;
+        text-decoration: none;
+
+        &:hover {
+            color: $primary !important;
+        }
+    }
+
+    /* Text */
+    .footer-title {
+        font-size: $fs-common-md;
+        margin: 0;
+    }
+
+    .footer-subtitle {
+        font-size: $fs-common-xs;
+        color: $primary;
+        margin: 0;
+    }
+
+    /* Links */
+    .footer-link:hover {
+        color: $primary;
+    }
+
+    /* Heading */
+    .footer-heading {
+        font-size: $fs-common-md !important;
+        margin-bottom: 15px;
+    }
+
+    /* Icons */
+    .icon {
+        color: $primary;
+    }
+
+    /* Social */
+    .social-icon {
+        width: 36px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $text-light;
+    }
+
+    .social-icon:hover {
+        background: $primary;
+    }
+
+    /* WhatsApp */
+    .whatsapp-btn {
+        background: $text-gray;
+        color: $text-light;
+    }
+
+    .whatsapp-btn:hover {
+        background: $text-gray;
+        color: $text-light;
+    }
+
+    /* Newsletter */
+    .newsletter-box {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 15px;
+        border-radius: 8px;
+
+        p {
+            font-size: $fs-common-xs;
+            color: $text-gray;
+            line-height: auto;
+        }
+    }
+
+    .btn-subscribe {
+        background: $primary;
+        color: $text-light;
+    }
+
+    .btn-subscribe:hover {
+        background: $primary;
+        color: $text-light;
+    }
+
+    /* Bottom */
+    .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: $primary-dark;
+    }
+
+    .play-style-btn {
+        border: 1px solid $bg-dark;
+        border-radius: 8px;
+        background-color: $bg-light;
+        text-decoration: none;
+        color: $text-dark;
+        transition: all 0.2s ease-in-out;
+
+        p {
+            font-size: $fs-common-sm;
+            line-height: 16px !important;
+        }
+
+        &:hover {
+            background-color: $bg-dark;
+            color: $bg-light;
+            border-color: $bg-light;
+        }
+
+    }
+}
