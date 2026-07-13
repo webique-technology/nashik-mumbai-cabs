@@ -66,7 +66,7 @@ const TestimonialSec = () => {
                 {/* Section Heading Text - Simple static treatment, no animation rules */}
                 <Row className="justify-content-center mb-5 text-center">
                     <Col md={8}>
-                        <h2 className="section-title fw-bold">What our Clients say</h2>
+                        <h2 className="section-title fw-semibold">What our Clients say</h2>
                     </Col>
                 </Row>
 

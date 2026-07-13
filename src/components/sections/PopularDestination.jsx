@@ -19,7 +19,7 @@ const PopularDestinations = ({
                 {/* Main Section Header */}
                 <Row className="justify-content-center mb-5 text-center">
                     <Col md={8}>
-                        <h2 className="section-title fw-bold">{title}</h2>
+                        <h2 className="section-title fw-semibold">{title}</h2>
                     </Col>
                 </Row>
 

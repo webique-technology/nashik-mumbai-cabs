@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Container } from "react-bootstrap";
 import { CityServicesRoute } from "@/lib/data";
 import "../../styles/CommonSec.scss";
+import "../../styles/main.scss";
 
 // Configuration for the acceleration/deceleration interpolation smoothing factor
 const ANIMATION_CONFIG = { SMOOTH_TAU: 0.25 };
@@ -127,7 +128,7 @@ const IndustryMarquee = () => {
         <section className="industry-marquee-section section-padding bg-white overflow-hidden position-relative">
             <Container>
                 <div className="text-center mb-5">
-                    <h2 className="section-title fw-black tracking-tight text-dark display-6 font-weight-bold">
+                    <h2 className="section-title fw-semibold">
                         Popular City Services
                     </h2>
                     <p className="text-muted">

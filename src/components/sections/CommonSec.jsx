@@ -25,7 +25,7 @@ export const FeatureGridSec = ({
                                 {badgeText}
                             </span>
                         )}
-                        <h2 className="feature-main-heading section-title fw-bold mb-3">{mainHeading}</h2>
+                        <h2 className="feature-main-heading section-title fw-semibold mb-3">{mainHeading}</h2>
                         {subHeading && (
                             <p className="feature-sub-heading text-muted small-base mb-0">
                                 {subHeading}

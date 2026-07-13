@@ -18,7 +18,7 @@ const LeftTextRightImageCommnSec = ({
 
                     {/* Left Column: Content & Features */}
                     <Col lg={6} md={12} className="content-col">
-                        <h2 className="section-title mb-4 fw-bold">{heading}</h2>
+                        <h2 className="section-title mb-4 fw-semibold">{heading}</h2>
 
                         <div className="features-list">
                             {features?.map((feature, index) => (
@@ -128,7 +128,7 @@ const RightTextLeftImageCommnSec = ({
 
                     {/* Right Column: Content & Features */}
                     <Col lg={6} md={12} className="content-col">
-                        <h2 className="section-title mb-4 fw-bold">{heading}</h2>
+                        <h2 className="section-title mb-4 fw-semibold">{heading}</h2>
 
                         <div className="features-list">
                             {features?.map((feature, index) => {

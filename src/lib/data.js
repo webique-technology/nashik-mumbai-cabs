@@ -161,7 +161,7 @@ const rawCityRoutes = [
     { id: "route-08", label: "Nashik to Nagpur" },
     { id: "route-09", label: "Nashik to Saputara" },
     { id: "route-10", label: "Nashik Shingnapur to Shani Shingnapur" },
-    { id: "route-11", label: "Nashik to NashBhimashankarik" },
+    { id: "route-11", label: "Nashik to Bhimashankar" },
     { id: "route-12", label: "Nashik to Kalyan" },
     { id: "route-13", label: "Nashik to Ahmednagar" },
     { id: "route-14", label: "Nashik to Jalna" },

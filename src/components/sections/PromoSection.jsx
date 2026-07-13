@@ -48,10 +48,10 @@ const PromoBanner = ({
                                             {content.highlightText}
                                         </span>
                                     )}
-                                    <h2 className="section-title mb-4">
+                                    <h2 className="section-title mb-4 fw-semibold">
                                         {content.mainTitleNormal}
                                         {content.mainTitleNormal && <br />}
-                                        <strong>{content.mainTitleBold}</strong> {content.mainTitleSuffix}
+                                        <strong className='fw-semibold'>{content.mainTitleBold}</strong> {content.mainTitleSuffix}
                                     </h2>
                                 </>
                             )}

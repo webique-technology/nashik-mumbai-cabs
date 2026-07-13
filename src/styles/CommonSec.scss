@@ -549,12 +549,6 @@
 
 // industery marquee
 .industry-marquee-section {
-    .section-title {
-        font-size: 2.25rem;
-        font-weight: 800;
-        letter-spacing: -0.5px;
-        color: #1e293b;
-    }
 
     .marquee-container-fluid {
         position: relative;
@@ -643,9 +637,9 @@
         white-space: nowrap;
 
         &:hover {
-            background-color: #0f172a;
+            background-color: $bg-dark;
             color: $text-light;
-            border-color: #0f172a;
+            border-color: $text-dark;
         }
     }
 }

@@ -12,7 +12,7 @@ const WhyChooseUs = ({ title, features }) => {
                 <Row className="justify-content-center mb-5 text-center">
                     <Col md={8}>
                         <div className="title-wrapper d-inline-block position-relative">
-                            <h2 className="section-title fw-bold px-3">{title}</h2>
+                            <h2 className="section-title fw-semibold px-3">{title}</h2>
                             {/* Optional: Add custom decorative absolute elements for the handwritten accent lines if needed */}
                             <span className="accent-underline"></span>
                         </div>
