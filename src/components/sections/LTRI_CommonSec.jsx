@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import * as LucideIcons from "lucide-react";
 import "../../styles/CommonSec.scss"
+import { AnimationSecComponent } from '../ui/AnimationSecComponent';
 
 // section Left text content and right side image
 const LeftTextRightImageCommnSec = ({
@@ -18,49 +19,55 @@ const LeftTextRightImageCommnSec = ({
 
                     {/* Left Column: Content & Features */}
                     <Col lg={6} md={12} className="content-col">
-                        <h2 className="section-title mb-4 fw-semibold">{heading}</h2>
+                        <AnimationSecComponent>
+                            <h2 className="section-title mb-4 fw-semibold">{heading}</h2>
 
-                        <div className="features-list">
-                            {features?.map((feature, index) => (
-                                <div key={feature.id || index} className="feature-item d-flex align-items-start mb-4">
-                                    <div className="icon-wrapper flex-shrink-0 me-2 me-sm-4 d-flex align-items-center justify-content-center">
-                                        {/* Accepts either a component/node or an image path */}
-                                        {typeof feature.icon === 'string' ? (
-                                            <img src={feature.icon} alt={feature.title} className="feature-icon" />
-                                        ) : (
-                                            feature.icon
-                                        )}
+                            <div className="features-list">
+                                {features?.map((feature, index) => (
+                                    <div key={feature.id || index} className="feature-item d-flex align-items-start mb-4">
+                                        <div className="icon-wrapper flex-shrink-0 me-2 me-sm-4 d-flex align-items-center justify-content-center">
+                                            {/* Accepts either a component/node or an image path */}
+                                            {typeof feature.icon === 'string' ? (
+                                                <img src={feature.icon} alt={feature.title} className="feature-icon" />
+                                            ) : (
+                                                feature.icon
+                                            )}
+                                        </div>
+                                        <div>
+                                            <h5 className="feature-title fw-bold mb-1">{feature.title}</h5>
+                                            <p className="feature-desc text-muted mb-0">{feature.description}</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h5 className="feature-title fw-bold mb-1">{feature.title}</h5>
-                                        <p className="feature-desc text-muted mb-0">{feature.description}</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
+                                ))}
+                            </div>
+                        </AnimationSecComponent>
                     </Col>
 
                     {/* Right Column: Creative Visual Showcase */}
-                    <Col lg={6} md={12} className="visual-col d-flex justify-content-center align-items-center">
-                        <div className="image-wrapper position-relative">
-                            {/* Masked/Brush-stroke style image container */}
-                            <div className="masked-image-container">
-                                <img
-                                    src={imageSrc}
-                                    alt="Destination Showcase"
-                                    className="main-showcase-img img-fluid"
-                                />
-                            </div>
+                    <Col lg={6} md={12} className="">
+                        <AnimationSecComponent>
+                            <div className='visual-col d-flex justify-content-center align-items-center'>
+                                <div className="image-wrapper position-relative">
+                                    {/* Masked/Brush-stroke style image container */}
+                                    <div className="masked-image-container">
+                                        <img
+                                            src={imageSrc}
+                                            alt="Destination Showcase"
+                                            className="main-showcase-img img-fluid"
+                                        />
+                                    </div>
 
-                            {/* Floating Badge/Card */}
-                            {badgeText && (
-                                <div className="floating-badge floating-badge-right shadow-sm p-4 bg-white rounded-3 position-absolute">
-                                    <p className="badge-content mb-0 text-secondary">
-                                        {badgeText.normalText} <span className="text-dark fw-bold">{badgeText.highlightedText}</span>
-                                    </p>
+                                    {/* Floating Badge/Card */}
+                                    {badgeText && (
+                                        <div className="floating-badge floating-badge-right shadow-sm p-4 bg-white rounded-3 position-absolute">
+                                            <p className="badge-content mb-0 text-secondary">
+                                                {badgeText.normalText} <span className="text-dark fw-bold">{badgeText.highlightedText}</span>
+                                            </p>
+                                        </div>
+                                    )}
                                 </div>
-                            )}
-                        </div>
+                            </div>
+                        </AnimationSecComponent>
                     </Col>
 
                 </Row>

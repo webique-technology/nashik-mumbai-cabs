@@ -5,6 +5,7 @@ import { Container, Row, Col, Button, Badge } from "react-bootstrap";
 import { ArrowLeft, ShieldCheck, User, Compass, HelpCircle } from "lucide-react";
 import Link from "next/link";
 import "../../styles/CommonSec.scss"
+import { BookingForm } from "./CommonSec";
 
 const CabDetail = ({ cab }) => {
     return (
@@ -61,27 +62,30 @@ const CabDetail = ({ cab }) => {
 
                     {/* Right Column: Interactive Image Frame Box */}
                     <Col xs={12} lg={5} className="order-1 order-lg-2 d-flex flex-column align-items-center justify-content-start">
-                        <div className="vehicle-image-card p-4 bg-white border shadow-sm rounded text-center w-100 position-sticky" style={{ top: '100px' }}>
-                            <div className="img-frame mb-4 p-3 d-flex align-items-center justify-content-center bg-light rounded">
-                                <img
-                                    src={cab.imageSrc}
-                                    alt={cab.name}
-                                    className="img-fluid detail-vehicle-img"
-                                    onError={(e) => {
-                                        e.target.onerror = null;
-                                        e.target.src = "https://placehold.co/500x350?text=Vehicle+Image";
-                                    }}
-                                />
+                        <div className="rounded text-center w-100 position-sticky" style={{ top: '100px' }}>
+                            <div className="vehicle-image-card bg-white border shadow-sm  p-4 mb-4">
+                                <div className="img-frame mb-4 p-3 d-flex align-items-center justify-content-center bg-light rounded">
+                                    <img
+                                        src={cab.imageSrc}
+                                        alt={cab.name}
+                                        className="img-fluid detail-vehicle-img"
+                                        onError={(e) => {
+                                            e.target.onerror = null;
+                                            e.target.src = "https://placehold.co/500x350?text=Vehicle+Image";
+                                        }}
+                                    />
+                                </div>
+
+                                <h2 className="h4 fw-bold text-dark mb-0">{cab.name}</h2>
                             </div>
 
-                            <h2 className="h4 fw-bold text-dark mb-3">{cab.name}</h2>
-
                             {/* Call to Action Button */}
-                            <a href="tel:+917507778070" className="w-100 d-block text-decoration-none">
+                            {/* <a href="tel:+917507778070" className="w-100 d-block text-decoration-none">
                                 <Button variant="dark" className="book-now-cta-btn w-100 py-3 text-uppercase fw-bold rounded-0">
                                     Book This Vehicle Now
                                 </Button>
-                            </a>
+                            </a> */}
+                            <BookingForm />
                         </div>
                     </Col>
                 </Row>

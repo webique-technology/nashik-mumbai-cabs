@@ -7,9 +7,10 @@ import { ServiceTabsSection } from "@/components/sections/ServicesTabSec";
 import WhyChooseUs from "@/components/sections/WhyChooseUsSec";
 import TestimonialSec from "@/components/sections/TestimonialSec";
 
-import tourGuide from "../../public/images/tour-guide.png"
-import calendar from "../../public/images/calendar.png"
-import tags from "../../public/images/tags.png"
+import tourGuide from "../../public/images/transportation.png"
+import calendar from "../../public/images/airplane.png"
+import tags from "../../public/images/travel-bag.png"
+import { CarBlock } from "@/components/sections/CommonSec";
 
 
 export default function Home() {
@@ -81,25 +82,25 @@ export default function Home() {
         id: 1,
         iconName: "UserCheck", // Maps to <UserCheck /> icon component
         title: "Tour Guide",
-        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+        description: "Professional, well-mannered drivers who double as local travel guides throughout Maharashtra."
       },
       {
         id: 2,
         iconName: "Coins", // Maps to <Coins /> icon component
         title: "Friendly Price",
-        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+        description: "Transparent, budget-friendly outstation taxi rates with no hidden tolls or surprise surcharges."
       },
       {
         id: 3,
         iconName: "CalendarDays", // Maps to <CalendarDays /> icon component
         title: "Instant Booking",
-        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+        description: "Seamless 24/7 digital reservations with instant ride allocation and quick vehicle dispatch."
       },
       {
         id: 4,
         iconName: "FileText", // Maps to <FileText /> icon component
         title: "Custom Strategy",
-        description: "Non nisi sit amet facilisis magna etiam tempor nunc cursus metus aliquam pellentesque."
+        description: "Tailored transit logistics carefully planned for corporate events, family trips, and pilgrimages."
       }
     ]
   };
@@ -107,6 +108,7 @@ export default function Home() {
   return (
     <main>
       <HeroHeader />
+      <CarBlock />
       <LeftTextRightImageCommnSec
         heading={ExplorationSec.heading}
         features={ExplorationSec.features}

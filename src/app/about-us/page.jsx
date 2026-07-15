@@ -8,12 +8,46 @@ import { AppDownloadBanner } from '@/components/sections/PromoSection';
 import mobileImg from "../../../public/images/promo-mobiles.png"
 import appDBgImage from "../../../public/images/promo-banner-2.jpg"
 import { FaqSec } from '@/components/sections/FaqSec';
+import { LeftTextRightImageCommnSec } from '@/components/sections/LTRI_CommonSec';
+import tourGuide from "../../../public/images/tour-guide.png"
+import calendar from "../../../public/images/calendar.png"
+import tags from "../../../public/images/tags.png"
+import { SpecialOffer } from '@/components/sections/CommonSec';
 
 export default function AboutPage() {
     const breadcrumbPaths = [
         { label: "Home", url: "/" },
         { label: "About Us", url: "/about" }
     ];
+
+    const ExplorationSec = {
+        heading: "Your Effortless Path to World Exploration",
+        imageSrc: "/images/about-banner.png", // Replace with your image asset
+        badgeText: {
+            normalText: "Capture memories",
+            highlightedText: "but also savor the Present Moment."
+        },
+        features: [
+            {
+                id: 1,
+                icon: tourGuide.src,
+                title: "Transportation",
+                description: "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups."
+            },
+            {
+                id: 2,
+                icon: calendar.src,
+                title: "Tours & Excursions",
+                description: "Expertly guided, curated travel packages exploring scenic wonders and cultural landmarks to ensure an unforgettable destination experience."
+            },
+            {
+                id: 3,
+                icon: tags.src,
+                title: "Corporate Travel",
+                description: "Streamlined corporate logistics and efficient group transportation solutions customized to simplify high-level business travel needs."
+            }
+        ]
+    };
 
     const downloadSectionData = {
         titlePrefix: "Your First Booking Discount -",
@@ -34,6 +68,12 @@ export default function AboutPage() {
                 bgImage={innerPageBg} // Can be static object image frame or direct hotlink string paths
                 overlayOpacity={0.6}
                 textAlign="center"
+            />
+            <LeftTextRightImageCommnSec
+                heading={ExplorationSec.heading}
+                features={ExplorationSec.features}
+                imageSrc={ExplorationSec.imageSrc}
+                badgeText={ExplorationSec.badgeText}
             />
             <TestimonialSec />
             <AppDownloadBanner

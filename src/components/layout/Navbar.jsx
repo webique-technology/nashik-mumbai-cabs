@@ -58,7 +58,7 @@ const Navbar = () => {
                         {/* <img src={""} alt="Logo" width={50} height={50} className="me-2" /> */}
                         <div className="logo-text">
                             <h1 className="text-light">Nashik</h1>
-                            <p className="lh-auto">Mumbai Cabs</p>
+                            <p className="lh-auto highlight-text highlight-text-primary">Mumbai Cabs</p>
                         </div>
                     </Link>
 

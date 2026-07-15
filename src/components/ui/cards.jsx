@@ -209,7 +209,7 @@ export { TestimonialCard };
 const CommonBanner = ({
     title,
     breadcrumbs = [],
-    bgImage,
+    bgImage = "/images/common-banner.avif",
     bgColorClass = '', // If you want to use a specific theme/Bootstrap color class (e.g., 'bg-primary')
     overlayOpacity = 0.5, // Customizable overlay darkness (0 to 1)
     textAlign = 'center', // left, center, right

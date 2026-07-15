@@ -4,12 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-poppins), sans-serif;
+    font-family: var(--font-roboto), sans-serif;
 }
 
 .highlight-text {
     &-red {
         color: red !important;
+    }
+
+    &-primary {
+        color: $primary !important;
     }
 
     &-orange {
@@ -54,7 +58,28 @@
 }
 
 .text-primary {
-    color: $primary !important; // Clean corporate blue match
+    color: $primary; // Clean corporate blue match
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-poppins), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+    letter-spacing: 0.5px;
 }
 
 .small-12 {
@@ -139,15 +164,15 @@
         border-color: $primary;
 
         &:hover {
-            background-color: $text-dark;
-            border-color: $text-dark;
+            background-color: $primary-hover;
+            border-color: $primary-hover;
         }
     }
 }
 
 .btn-square {
     padding: 9px 25px !important;
-    border: none;
+    border: none !important;
     border-radius: 4px;
     font-size: $fs-common-md;
     transition: background-color 0.2s ease, transform 0.2s ease;
@@ -675,6 +700,10 @@
             border-radius: 50%;
             z-index: 2;
             transition: background-color 0.3s ease;
+
+            svg {
+                color: $primary;
+            }
         }
 
         .feature-body {

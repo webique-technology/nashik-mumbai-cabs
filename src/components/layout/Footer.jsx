@@ -42,7 +42,7 @@ const Footer = () => {
                             </div>
                             <div className="ms-2">
                                 <h3 className="footer-title">Nashik</h3>
-                                <p className="footer-subtitle highlight-text highlight-text-orange">Mumbai Cabs</p>
+                                <p className="footer-subtitle highlight-text highlight-text-primary">Mumbai Cabs</p>
                             </div>
                         </div>
                         <p className="footer-text d-none d-md-block p-0 pe-sm-3">
@@ -104,22 +104,22 @@ const Footer = () => {
                     <Col md={6} lg={3}>
                         <h3 className="footer-heading">Other Services</h3>
                         <ul className='services-link list-unstyled'>
-                            <li className='mb-2'>
+                            <li className='mb-2 p-0'>
                                 <Link href="/taxi-packages" target='_blank' className='footer-link d-block mb-1 py-1'>Taxi Packages</Link>
                             </li>
-                            <li className='mb-2'>
+                            <li className='mb-2 p-0'>
                                 <Link href="/cities" target='_blank' className='footer-link d-block mb-1 py-1'>Cities</Link>
                             </li>
-                            <li className='mb-2'>
+                            <li className='mb-2 p-0'>
                                 <Link href="/airport" target='_blank' className='footer-link d-block mb-1 py-1'>Airport</Link>
                             </li>
-                            <li className='mb-2'>
+                            <li className='mb-2 p-0'>
                                 <Link href="/cabs" target='_blank' className='footer-link d-block mb-1 py-1'>Cabs</Link>
                             </li>
-                            <li className='mb-2'>
+                            <li className='mb-2 p-0'>
                                 <Link href="/railway-station" target='_blank' className='footer-link d-block mb-1 py-1'>Railway Station</Link>
                             </li>
-                            <li className='mb-2'>
+                            <li className='mb-2 p-0'>
                                 <Link href="/bus" target='_blank' className='footer-link d-block mb-1 py-1'>Bus</Link>
                             </li>
                         </ul>

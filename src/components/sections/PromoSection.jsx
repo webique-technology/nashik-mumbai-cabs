@@ -71,7 +71,7 @@ const PromoBanner = ({
                                         return (
                                             <div key={feature.id || index} className="feature-item d-flex align-items-start mb-4">
                                                 <div className="icon-wrapper flex-shrink-0 me-2 me-sm-4 d-flex align-items-center justify-content-center">
-                                                    <IconComponent size={40} strokeWidth={1.5} className="text-primary" />
+                                                    <IconComponent size={40} strokeWidth={1.5} className="" />
                                                 </div>
                                                 <div>
                                                     <h5 className="feature-title fw-bold mb-1">{feature.title}</h5>
@@ -159,13 +159,13 @@ const AppDownloadBanner = ({
                         <div className="download-buttons-group d-flex flex-wrap gap-3">
                             <Link href={iosLink} passHref>
                                 <div className="btn btn-ios d-inline-flex align-items-center gap-2 fw-semibold text-white">
-                                    Download iOS
+                                    Expolre Cabs
                                 </div>
                             </Link>
 
                             <Link href={androidLink} passHref>
                                 <div className="btn btn-android d-inline-flex align-items-center gap-2 fw-semibold text-dark bg-white">
-                                    Download Android
+                                    Book Now
                                 </div>
                             </Link>
                         </div>

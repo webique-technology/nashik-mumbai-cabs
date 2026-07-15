@@ -1,4 +1,4 @@
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Poppins, Roboto } from "next/font/google";
 import "../styles/variable.scss";
 import "../styles/main.scss";
 // src/app/layout.js
@@ -20,6 +20,12 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+const roboto = Roboto({
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ["latin"],
+  variable: "--font-roboto",
+});
+
 export const metadata = {
   title: 'Nashik Mumbai Cabs | Reliable Taxi & Car Rentals',
   description: 'Book affordable and comfortable cab services between Nashik and Mumbai. Available 24/7.',
@@ -27,7 +33,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+    <html lang="en" className={`${inter.variable} ${poppins.variable} ${roboto.variable}`}>
       <body>
         <Navbar />
         {children}

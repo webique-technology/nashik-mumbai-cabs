@@ -1,0 +1,138 @@
+@use "./variable" as *; // Adjust file location to point to your variables sheet
+
+.contact-page-section {
+    background-color: $bg-light;
+
+    .contact-main-heading {
+        font-size: $fs-common-xxl-3;
+        color: $text-dark;
+        letter-spacing: -0.5px;
+    }
+
+    .contact-sub-text {
+        font-size: $fs-common-md-2;
+        color: $text-dark-blue;
+        line-height: 1.5;
+    }
+
+    // Left Form Content Card Wrapper Container
+    .contact-form-card {
+        background-color: $bg-light;
+        border: 1px solid $border-gray;
+        border-radius: $radius-xl;
+        padding: 3rem;
+
+        .field-custom-label {
+            font-size: $fs-common-base;
+            color: $primary; // Custom branding highlight trace
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .custom-input-field,
+        .custom-textarea-field {
+            background-color: $bg-light-blue; // Using your pale blue canvas background
+            color: $text-dark;
+            font-size: $fs-common-md;
+            font-weight: $fw-medium;
+            border-radius: $radius-base;
+            padding: 0.9rem 1.2rem;
+            transition: background-color 0.2s ease;
+
+            &::placeholder {
+                color: $text-gray;
+                opacity: 0.6;
+            }
+
+            &:focus {
+                background-color: lighten($bg-light-blue, 2%);
+                box-shadow: 0 0 0 2px rgba(14, 119, 243, 0.1);
+                outline: none;
+            }
+        }
+
+        .custom-textarea-field {
+            resize: none;
+        }
+
+        .custom-privacy-checkbox {
+            font-size: $fs-common-base;
+
+            .form-check-input {
+                cursor: pointer;
+                border-color: $border-gray;
+
+                &:checked {
+                    background-color: $primary;
+                    border-color: $primary;
+                }
+            }
+        }
+
+        .btn-submit-message {
+            background-color: $btn-host-bg; // vivid blue mapping
+            font-size: $fs-common-md;
+            padding: 0.9rem 2rem;
+            border-radius: $radius-rounded * 2; // Pills pill capsule border tracking
+            transition: background-color 0.2s ease, transform 0.1s ease;
+
+            &:hover {
+                background-color: $btn-host-hover;
+            }
+
+            &:active {
+                transform: scale(0.99);
+            }
+        }
+    }
+
+    // Right Side Structural Blocks Information
+    .info-block-item {
+        border: 1px solid $border-light-gray;
+        border-radius: $radius-md;
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: translateY(-2px);
+        }
+
+        .info-icon-circle {
+            width: 48px;
+            height: 48px;
+            background-color: $highlight-text; // Bright clean turquoise tone matching icon badge
+        }
+
+        .info-title {
+            font-size: $fs-common-lg;
+            color: $text-dark;
+        }
+
+        .info-description {
+            font-size: $fs-common-md;
+            line-height: 1.5;
+        }
+
+        .info-anchor-link {
+            color: $text-gray;
+            font-size: $fs-common-md;
+
+            &:hover {
+                color: $highlight-text;
+            }
+        }
+    }
+}
+
+// Fluid Breakpoint Fixes for Mobile Resolutions
+@media (max-width: 767.98px) {
+    .contact-page-section {
+
+        .contact-main-heading {
+            font-size: $fs-common-xl-3;
+        }
+
+        .contact-form-card {
+            padding: 1.5rem;
+        }
+    }
+}

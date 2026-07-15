@@ -91,9 +91,9 @@ const HeroHeader = () => {
 
                                             {/* Subheading Entrance */}
                                             {/* <AnimationSecComponent type="vertical" direction="up" delay={0.2} distance={40}> */}
-                                            <span className='mb-3 badge badge-subTitle d-block'>
+                                            {/* <span className='mb-3 badge badge-subTitle d-block'>
                                                 {item.subTitle}
-                                            </span>
+                                            </span> */}
                                             {/* </AnimationSecComponent> */}
 
                                             {/* Title Entrance */}

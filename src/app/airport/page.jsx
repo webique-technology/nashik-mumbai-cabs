@@ -1,26 +1,21 @@
-import { ServiceTabsSection } from "@/components/sections/ServicesTabSec";
 import { CommonBanner } from "@/components/ui/cards";
 
-const CabsPage = () => {
+const AirportPage = () => {
     const breadcrumbPaths = [
         { label: "Home", url: "/" },
-        { label: "Cabs", url: "/cabs" }
+        { label: "Airport", url: "/airport" }
     ];
     return (
         <main>
             <CommonBanner
-                title="Cabs Services"
+                title="Airport Services"
                 breadcrumbs={breadcrumbPaths}
                 bgImage={"/images/common-banner.avif"} // Can be static object image frame or direct hotlink string paths
                 overlayOpacity={0.6}
                 textAlign="center"
             />
-            <ServiceTabsSection
-                title="Your Next Trip Plan"
-                highlightWord="Book"
-            />
         </main>
     )
 }
 
-export default CabsPage;
+export default AirportPage;
