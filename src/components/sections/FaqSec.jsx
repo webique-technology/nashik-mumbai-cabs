@@ -22,7 +22,7 @@ export const FaqSec = () => {
         <section className="faq-section section-padding position-relative py-5">
             <Container>
                 <div className="text-center mb-5">
-                    <h2 className="section-title fw-semibold text-dark">
+                    <h2 className="section-title text-dark">
                         Frequently Asked Questions
                     </h2>
                 </div>

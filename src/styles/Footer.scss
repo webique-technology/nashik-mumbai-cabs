@@ -90,6 +90,11 @@ footer {
         text-decoration: none;
         transition: 0.3s;
         width: fit-content;
+        @media(max-width:768px){
+            padding: 4px 8px !important;
+            width: auto;
+            margin: 0 !important;
+        }
     }
 
     .footer-link--webname {

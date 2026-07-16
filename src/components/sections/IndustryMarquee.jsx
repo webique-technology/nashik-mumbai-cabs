@@ -128,8 +128,8 @@ const IndustryMarquee = () => {
         <section className="industry-marquee-section section-padding bg-white overflow-hidden position-relative">
             <Container>
                 <div className="text-center mb-5">
-                    <h2 className="section-title fw-semibold">
-                        Popular City Services
+                    <h2 className="section-title">
+                        Popular City <span className="title-highlight">Services</span>
                     </h2>
                     <p className="text-muted">
                         Discover Reliable Cab Services in Top Cities with Nashik Mumbai Cabs. Click Below to Explore Availability!

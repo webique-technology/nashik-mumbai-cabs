@@ -2,52 +2,58 @@ import CounterSection from "@/components/sections/CounterSection";
 import HeroHeader from "@/components/sections/HeroHeader";
 import { LeftTextRightImageCommnSec } from "@/components/sections/LTRI_CommonSec";
 import PopularDestinations from "@/components/sections/PopularDestination";
-import { PromoBanner } from "@/components/sections/PromoSection";
+import {
+  AppDownloadBanner,
+  PromoBanner,
+} from "@/components/sections/PromoSection";
 import { ServiceTabsSection } from "@/components/sections/ServicesTabSec";
 import WhyChooseUs from "@/components/sections/WhyChooseUsSec";
 import TestimonialSec from "@/components/sections/TestimonialSec";
 
-import tourGuide from "../../public/images/transportation.png"
-import calendar from "../../public/images/airplane.png"
-import tags from "../../public/images/travel-bag.png"
-import { CarBlock } from "@/components/sections/CommonSec";
-
+import tourGuide from "../../public/images/transportation.png";
+import calendar from "../../public/images/airplane.png";
+import tags from "../../public/images/travel-bag.png";
+import { BookingForm, CarBlock } from "@/components/sections/CommonSec";
 
 export default function Home() {
-
   const ExplorationSec = {
-    heading: "Your Effortless Path to World Exploration",
+    heading: "Your Effortless Path to World ",
+    highlightWord: "Exploration",
     imageSrc: "/images/about-sec-img.jpg", // Replace with your image asset
     badgeText: {
       normalText: "Capture memories",
-      highlightedText: "but also savor the Present Moment."
+      highlightedText: "but also savor the Present Moment.",
     },
     features: [
       {
         id: 1,
         icon: tourGuide.src,
         title: "Transportation",
-        description: "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups."
+        description:
+          "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups.",
       },
       {
         id: 2,
         icon: calendar.src,
         title: "Tours & Excursions",
-        description: "Expertly guided, curated travel packages exploring scenic wonders and cultural landmarks to ensure an unforgettable destination experience."
+        description:
+          "Expertly guided, curated travel packages exploring scenic wonders and cultural landmarks to ensure an unforgettable destination experience.",
       },
       {
         id: 3,
         icon: tags.src,
         title: "Corporate Travel",
-        description: "Streamlined corporate logistics and efficient group transportation solutions customized to simplify high-level business travel needs."
-      }
-    ]
+        description:
+          "Streamlined corporate logistics and efficient group transportation solutions customized to simplify high-level business travel needs.",
+      },
+    ],
   };
 
   const PromoData = {
     highlightText: "",
     mainTitleNormal: "",
-    mainTitleBold: "Our Premium Travel Solutions.",
+    mainTitleBold: "Our Premium Travel",
+    highlightWord: "Solutions.",
     mainTitleSuffix: "",
     buttonText: "",
     desc: [],
@@ -56,53 +62,72 @@ export default function Home() {
         id: 1,
         icon: "Car",
         title: "Hire Cabs in Nashik",
-        description: "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups."
+        description:
+          "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups.",
       },
       {
         id: 2,
         icon: "Plane",
         title: "Airport Pickup / Drop Taxi Services",
-        description: "Reliable and punctual transfers to and from all major airports including CSMIA Mumbai. Professional chauffeurs ensure you never miss a flight."
+        description:
+          "Reliable and punctual transfers to and from all major airports including CSMIA Mumbai. Professional chauffeurs ensure you never miss a flight.",
       },
       {
         id: 3,
         icon: "Bus",
         title: "Bus Services from Nashik",
-        description: "Spacious and comfortable bus rentals for group pilgrimages and corporate tours in Nashik and surrounding areas, equipped with modern amenities."
-      }
+        description:
+          "Spacious and comfortable bus rentals for group pilgrimages and corporate tours in Nashik and surrounding areas, equipped with modern amenities.",
+      },
     ],
     // Replace with your image source path matching image_d1d2a0.jpg
-    bgImage: "/images/services-img.webp"
+    bgImage: "/images/services-img.webp",
   };
 
   const whyChooseUsData = {
-    title: "Why Choose Us",
+    title: "Why Choose",
+    highlightWord: "Us",
     features: [
       {
         id: 1,
         iconName: "UserCheck", // Maps to <UserCheck /> icon component
         title: "Tour Guide",
-        description: "Professional, well-mannered drivers who double as local travel guides throughout Maharashtra."
+        description:
+          "Professional, well-mannered drivers who double as local travel guides throughout Maharashtra.",
       },
       {
         id: 2,
         iconName: "Coins", // Maps to <Coins /> icon component
         title: "Friendly Price",
-        description: "Transparent, budget-friendly outstation taxi rates with no hidden tolls or surprise surcharges."
+        description:
+          "Transparent, budget-friendly outstation taxi rates with no hidden tolls or surprise surcharges.",
       },
       {
         id: 3,
         iconName: "CalendarDays", // Maps to <CalendarDays /> icon component
         title: "Instant Booking",
-        description: "Seamless 24/7 digital reservations with instant ride allocation and quick vehicle dispatch."
+        description:
+          "Seamless 24/7 digital reservations with instant ride allocation and quick vehicle dispatch.",
       },
       {
         id: 4,
         iconName: "FileText", // Maps to <FileText /> icon component
         title: "Custom Strategy",
-        description: "Tailored transit logistics carefully planned for corporate events, family trips, and pilgrimages."
-      }
-    ]
+        description:
+          "Tailored transit logistics carefully planned for corporate events, family trips, and pilgrimages.",
+      },
+    ],
+  };
+
+  const downloadSectionData = {
+    titlePrefix: "Ready to Travel?",
+    titleHighlight: "Book Your Cab",
+    titleSuffix: "and Secure a Reliable Ride Instantly!",
+    iosLink: "tel:+911234567890",
+    androidLink:
+      "https://wa.me/911234567890?text=Hello%2C%20I%20would%20like%20to%20book%20a%20cab.%20Please%20provide%20more%20details.",
+    mockupImageSrc: "/images/promo-mobiles.png",
+    // Can accept imported static object 'dualPhonesMockup' or normal string route paths
   };
 
   return (
@@ -111,6 +136,7 @@ export default function Home() {
       <CarBlock />
       <LeftTextRightImageCommnSec
         heading={ExplorationSec.heading}
+        highlightWord={ExplorationSec.highlightWord}
         features={ExplorationSec.features}
         imageSrc={ExplorationSec.imageSrc}
         badgeText={ExplorationSec.badgeText}
@@ -119,6 +145,7 @@ export default function Home() {
       <PromoBanner
         content={{
           highlightText: PromoData.highlightText,
+          highlightWord: PromoData.highlightWord,
           mainTitleNormal: PromoData.mainTitleNormal,
           mainTitleBold: PromoData.mainTitleBold,
           mainTitleSuffix: PromoData.mainTitleSuffix,
@@ -131,14 +158,22 @@ export default function Home() {
       />
       <WhyChooseUs
         title={whyChooseUsData.title}
+        highlightWord={whyChooseUsData.highlightWord}
         features={whyChooseUsData.features}
       />
-      <ServiceTabsSection
-        title="Your Next Trip Plan"
-        highlightWord="Book"
-      />
+      <ServiceTabsSection title="Your Next Trip Plan" highlightWord="Book" />
       <PopularDestinations />
       <TestimonialSec />
+      <AppDownloadBanner
+        titlePrefix={downloadSectionData.titlePrefix}
+        titleHighlight={downloadSectionData.titleHighlight}
+        titleSuffix={downloadSectionData.titleSuffix}
+        iosLink={downloadSectionData.iosLink}
+        androidLink={downloadSectionData.androidLink}
+        mockupImageSrc={downloadSectionData.mockupImageSrc}
+        bgImage={"/images/promo-banner-2.jpg"}
+        rightComponent={<BookingForm titleClass={"d-none"} />}
+      />
     </main>
   );
 }

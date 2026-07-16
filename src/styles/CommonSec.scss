@@ -260,7 +260,7 @@
         .btn {
             padding: 0.8rem 1.75rem;
             border-radius: 4px;
-            font-size: $fs-common-sm;
+            font-size: $fs-common-base;
             border: none;
             transition: opacity 0.2s ease, transform 0.2s ease;
             text-decoration: none;
@@ -280,9 +280,13 @@
         }
 
         .btn-android {
-            background-color: $bg-light;
-            color: $text-dark !important;
+            background-color: #3EBC54 !important;
             border: 1px solid transparent;
+
+            img {
+                width: 26px;
+                height: 26px;
+            }
         }
     }
 
@@ -302,6 +306,33 @@
                 height: auto;
                 display: block;
                 object-fit: contain;
+            }
+        }
+
+        .dynamic-component-wrapper {
+            position: absolute;
+            top: 100%;
+            transform: translateY(-50%);
+            z-index: 1;
+
+            .taxi-booking-card {
+                padding: 25px;
+                border: none !important;
+                background-color: $primary !important;
+
+                .form-input-field {
+                    padding: 12px;
+                    background-color: #ffedcb;
+                    border: 1px solid #c7c7c7;
+                }
+            }
+
+            @media (max-width: 767.68px) {
+                position: static !important;
+                transform: none !important;
+                top: auto !important;
+                bottom: auto !important;
+                z-index: 0 !important;
             }
         }
     }
@@ -687,10 +718,11 @@
         margin-top: 0;
 
         .car-block-card {
-            padding: 18px;
+            padding: 14px;
 
             .card-title {
-                font-size: $fs-common-md;
+                font-size: $fs-common-base;
+                font-weight: $fw-regular;
             }
         }
     }
@@ -757,7 +789,7 @@
         }
 
         &:focus {
-            border-color: darken($border-gray, 20%);
+            border-color: $border-gray;
         }
     }
 

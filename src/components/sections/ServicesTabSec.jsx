@@ -24,7 +24,7 @@ const ServiceTabsSection = ({ title, highlightWord, sliderBtns = false }) => {
 
                 {/* Title Block */}
                 <div className="text-center mb-4">
-                    <h2 className="section-title fw-semibold text-dark">
+                    <h2 className="section-title text-dark">
                         {title} <span className="title-highlight">{highlightWord}</span>
                     </h2>
                 </div>

@@ -48,7 +48,7 @@ export default function ContactPage() {
         e.preventDefault();
 
         // 1. WhatsApp number { Mahakumbh Tours & Travles number }
-        const targetWhatsAppNumber = "917507778088";
+        const targetWhatsAppNumber = "919876543210";
 
         // 2. Format a clean message using line breaks (%0A)
         const formattedText = `*New Inquiry From Website*%0A%0A` +
