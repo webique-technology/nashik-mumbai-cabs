@@ -104,9 +104,9 @@ const Footer = () => {
                     <Col md={6} lg={3}>
                         <h3 className="footer-heading">Other Services</h3>
                         <ul className='services-link list-unstyled'>
-                            <li className='mb-2 p-0'>
+                            {/* <li className='mb-2 p-0'>
                                 <Link href="/taxi-packages" target='_blank' className='footer-link d-block mb-1 py-1'>Taxi Packages</Link>
-                            </li>
+                            </li> */}
                             <li className='mb-2 p-0'>
                                 <Link href="/cities" target='_blank' className='footer-link d-block mb-1 py-1'>Cities</Link>
                             </li>

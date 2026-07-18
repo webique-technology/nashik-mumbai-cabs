@@ -3,8 +3,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Container, Row, Col, Form } from "react-bootstrap";
+import { usePathname } from "next/navigation";
 import * as LucideIcons from "lucide-react";
 import "../../styles/CommonSec.scss";
+import { CabsData } from "@/lib/data";
 
 export const FeatureGridSec = ({
   badgeText = "OUR EXPERTISE",
@@ -145,18 +147,32 @@ export const CarBlock = ({}) => {
   );
 };
 
-export const BookingForm = ({ titleClass }) => {
+export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
+  const pathname = usePathname();
+
+  const isAirportPage = pathname?.includes("/airport");
+
+  const tourTypeOptions = [
+    { tourType: "Outstation" },
+    { tourType: "One Way" },
+    { tourType: "Round Trip" },
+    { tourType: "Airport Pickup / Drop" },
+    { tourType: "Local" },
+  ];
+
   const [formData, setFormData] = useState({
     taxiType: "",
-    startDestination: "",
-    endDestination: "",
+    tourType: "",
+    pickupAddress: "",
+    dropAddress: "",
+    pickupDate: "",
+    pickupTime: "",
     completeName: "",
     emailAddress: "",
     phoneNo: "",
     message: "",
   });
 
-  // Target business WhatsApp number (Replace with your actual company number)
   const WHATSAPP_NUMBER = "919876543210";
 
   const handleChange = (e) => {
@@ -170,42 +186,37 @@ export const BookingForm = ({ titleClass }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Map internal keys to display names for cleaner layout reading
-    const taxiLabels = {
-      sedan: "Swift / Etios (Sedan)",
-      suv: "Innova Crysta / Ertiga (SUV)",
-      tempo: "Tempo Traveller (17 Str)",
-      bus: "AC Luxury Tour Bus",
-    };
+    // Dynamically build the service specification string based on route condition
+    const serviceSelection = isAirportPage
+      ? `*Taxi Type:* ${formData.taxiType || "N/A"}`
+      : `*Tour Type:* ${formData.tourType || "N/A"}`;
 
-    const selectedTaxi = taxiLabels[formData.taxiType] || formData.taxiType;
-
-    // Construct the formatted plain text layout structure
     const textMessage =
       `*New Cab Booking Request*\n` +
       `Hello, I would like to book a cab. Here are my ride details:\n\n` +
-      `*Taxi Type:* ${selectedTaxi}\n` +
-      `*From:* ${formData.startDestination}\n` +
-      `*To:* ${formData.endDestination}\n\n` +
       `*Customer Name:* ${formData.completeName}\n` +
       `*Contact Number:* ${formData.phoneNo}\n` +
-      `*Email:* ${formData.emailAddress}\n` +
+      `*Email:* ${formData.emailAddress}\n\n` +
+      `${serviceSelection}\n` + // Dynamically injects the selected option value
+      `*Pickup Date:* ${formData.pickupDate}\n` +
+      `*Pickup Time:* ${formData.pickupTime}\n\n` +
+      `*Pickup Add:* ${formData.pickupAddress}\n` +
+      `*Drop Add:* ${formData.dropAddress}\n\n` +
       `*Message:* ${formData.message || "N/A"}`;
 
-    // Safely convert characters into URL friendly hex codes
     const encodedMessage = encodeURIComponent(textMessage);
-
-    // Generate universal cross-platform link layout
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
 
-    // Open text message string stream inside active tab window context
     window.open(whatsappUrl, "_blank");
 
-    // Clear internal React state arrays safely
+    // Reset all form arrays cleanly
     setFormData({
       taxiType: "",
-      startDestination: "",
-      endDestination: "",
+      tourType: "",
+      pickupAddress: "",
+      dropAddress: "",
+      pickupDate: "",
+      pickupTime: "",
       completeName: "",
       emailAddress: "",
       phoneNo: "",
@@ -214,115 +225,177 @@ export const BookingForm = ({ titleClass }) => {
   };
 
   return (
-    <div className="taxi-booking-card border bg-white shadow-sm">
+    <div className="taxi-booking-card border shadow-sm p-4 rounded-3">
       <div className={`card-header-block text-start mb-4 ${titleClass}`}>
-        <h2 className="booking-main-title fw-bold text-dark">
+        <h2 className="booking-main-title h4 fw-bold text-dark mb-1">
           Book Your Taxi Ride
         </h2>
-        <p className="booking-subtitle text-muted mb-0">
+        <p className="booking-subtitle small text-muted mb-0">
           To get the ride of your taxi please select from the following:
         </p>
       </div>
 
       <Form onSubmit={handleSubmit} className="booking-form-element">
-        {/* Taxi Type Select Dropdown */}
-        <Form.Group className="mb-4">
-          <Form.Select
-            name="taxiType"
-            value={formData.taxiType}
-            onChange={handleChange}
-            className="form-input-field custom-select"
-            required
-          >
-            <option value="">Choose Taxi Type</option>
-            <option value="sedan">Swift / Etios (Sedan)</option>
-            <option value="suv">Innova Crysta / Ertiga (SUV)</option>
-            <option value="tempo">Tempo Traveller (17 Str)</option>
-            <option value="bus">AC Luxury Tour Bus</option>
-          </Form.Select>
-        </Form.Group>
-
-        <div className="form-grid-row mb-4">
-          <Form.Group className="grid-item">
-            <Form.Control
-              type="text"
-              name="startDestination"
-              placeholder="Start Destination"
-              value={formData.startDestination}
-              onChange={handleChange}
-              className="form-input-field"
-              required
-            />
-          </Form.Group>
-          <Form.Group className="grid-item">
-            <Form.Control
-              type="text"
-              name="endDestination"
-              placeholder="End Destination"
-              value={formData.endDestination}
-              onChange={handleChange}
-              className="form-input-field"
-              required
-            />
-          </Form.Group>
-        </div>
-
-        <div className="form-grid-row mb-4">
-          <Form.Group className="grid-item">
-            <Form.Control
-              type="text"
-              name="completeName"
-              placeholder="Complete Name"
-              value={formData.completeName}
-              onChange={handleChange}
-              className="form-input-field"
-              required
-            />
-          </Form.Group>
-          <Form.Group className="grid-item">
-            <Form.Control
-              type="email"
-              name="emailAddress"
-              placeholder="Email Address"
-              value={formData.emailAddress}
-              onChange={handleChange}
-              className="form-input-field"
-              required
-            />
-          </Form.Group>
-        </div>
-
-        {/* Full-width Phone Number Group */}
-        <Form.Group className="mb-4">
+        <Form.Group className="mb-3">
           <Form.Control
-            type="tel"
-            name="phoneNo"
-            placeholder="Phone No"
-            value={formData.phoneNo}
+            type="text"
+            name="completeName"
+            placeholder="Full Name"
+            value={formData.completeName}
             onChange={handleChange}
             className="form-input-field"
             required
           />
         </Form.Group>
 
-        {/* Textarea Message Field */}
+        <div className="row g-3 mb-3">
+          <div className="col-12 col-sm-6">
+            <Form.Group>
+              <Form.Control
+                type="tel"
+                name="phoneNo"
+                placeholder="Phone No"
+                value={formData.phoneNo}
+                onChange={handleChange}
+                className="form-input-field"
+                required
+              />
+            </Form.Group>
+          </div>
+          <div className="col-12 col-sm-6">
+            <Form.Group>
+              <Form.Control
+                type="email"
+                name="emailAddress"
+                placeholder="Email Address"
+                value={formData.emailAddress}
+                onChange={handleChange}
+                className="form-input-field"
+                required
+              />
+            </Form.Group>
+          </div>
+        </div>
+
+        {isAirportPage ? (
+          <Form.Group className="mb-3">
+            <Form.Select
+              name="taxiType"
+              value={formData.taxiType}
+              onChange={handleChange}
+              className="form-select form-input-field custom-select"
+              required
+            >
+              <option value="" className="w-100 p-3">Choose Vehicle Type</option>
+              {CabsData.map((taxi, index) => (
+                <option key={index} value={taxi.name} className="w-100 p-3">
+                  {taxi.name}
+                </option>
+              ))}
+            </Form.Select>
+          </Form.Group>
+        ) : (
+          <Form.Group className="mb-3">
+            <Form.Select
+              name="tourType"
+              value={formData.tourType}
+              onChange={handleChange}
+              className="form-select form-input-field custom-select"
+              required
+            >
+              <option value="">Choose Tour Type</option>
+              {tourTypeOptions.map((tour, index) => (
+                <option key={index} value={tour.tourType}>
+                  {tour.tourType}
+                </option>
+              ))}
+            </Form.Select>
+          </Form.Group>
+        )}
+
+        <div className="row g-3 mb-3">
+          <div className="col-12 col-sm-6">
+            <Form.Group>
+              <Form.Control
+                type="text"
+                name="pickupAddress"
+                placeholder="Pickup Add."
+                value={formData.pickupAddress}
+                onChange={handleChange}
+                className="form-input-field"
+                required
+              />
+            </Form.Group>
+          </div>
+          <div className="col-12 col-sm-6">
+            <Form.Group>
+              <Form.Control
+                type="text"
+                name="dropAddress"
+                placeholder="Drop Add."
+                value={formData.dropAddress}
+                onChange={handleChange}
+                className="form-input-field"
+                required
+              />
+            </Form.Group>
+          </div>
+        </div>
+
+        <div className="row g-3 mb-3">
+          <div className="col-12 col-sm-6">
+            <Form.Group>
+              <Form.Control
+                type="text"
+                name="pickupDate"
+                placeholder="Pickup Date"
+                value={formData.pickupDate}
+                onChange={handleChange}
+                onFocus={(e) => (e.target.type = "date")}
+                onBlur={(e) => {
+                  if (!e.target.value) e.target.type = "text";
+                }}
+                className="form-input-field"
+                required
+              />
+            </Form.Group>
+          </div>
+
+          <div className="col-12 col-sm-6">
+            <Form.Group>
+              <Form.Control
+                type="text"
+                name="pickupTime"
+                placeholder="Pickup Time"
+                value={formData.pickupTime}
+                onChange={handleChange}
+                onFocus={(e) => (e.target.type = "time")}
+                onBlur={(e) => {
+                  if (!e.target.value) e.target.type = "text";
+                }}
+                className="form-input-field"
+                required
+              />
+            </Form.Group>
+          </div>
+        </div>
+
         <Form.Group className="mb-4">
           <Form.Control
             as="textarea"
             name="message"
-            placeholder="Message"
-            rows={4}
+            placeholder="Additional Instructions / Message"
+            rows={3}
             value={formData.message}
             onChange={handleChange}
             className="form-input-field text-area-field"
           />
         </Form.Group>
 
-        {/* Left-Aligned Primary Yellow Button */}
-        <div className="text-start mt-4">
+        <div className="text-start">
           <button
             type="submit"
-            className="btn btn-square btn-square-light text-uppercase fw-bold"
+            className={`btn-square btn-square-light ${btnClass}`}
           >
             Submit Request
           </button>

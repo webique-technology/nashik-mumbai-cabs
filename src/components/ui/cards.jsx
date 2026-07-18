@@ -6,10 +6,14 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Star, MapPin, Bookmark } from "lucide-react";
 import "../../styles/CommonSec.scss";
 
-const DestinationCard = ({ image, count, title, slugPath }) => {
+const DestinationCard = ({ image, count, title, slugPath, description }) => {
   return (
     // Replaced dynamic string interpolations with automated precise slugs
-    <Link href={slugPath} target="_blank" className="text-decoration-none h-100">
+    <Link
+      href={slugPath}
+      target="_blank"
+      className="text-decoration-none h-100"
+    >
       <div className="destination-card d-flex align-items-center bg-white shadow-sm overflow-hidden h-100">
         {/* Left side: Image container with hover zoom */}
         <div className="img-container flex-shrink-1 flex-sm-shrink-0">
@@ -26,11 +30,21 @@ const DestinationCard = ({ image, count, title, slugPath }) => {
 
         {/* Right side: Text details */}
         <div className="card-details d-grid p-3 p-md-4 flex-grow-1">
-          <div className="badge-hotel d-inline-flex align-items-center mb-2 px-2 py-1 rounded-pill">
-            <span className="dot me-1"></span>
-            <span className="count-text">{count} Sightseeing Spots</span>
-          </div>
-          <h4 className="destination-title fw-bold mb-0">{title}</h4>
+          {count && (
+            <div className="badge-hotel d-inline-flex align-items-center mb-2 px-2 py-1 rounded-pill">
+              <span className="dot me-1"></span>
+              <span className="count-text">{count} Sightseeing Spots</span>
+            </div>
+          )}
+          <h4 className="destination-title fw-bold mb-1">{title}</h4>
+          {description &&
+            description.slice(0, 1).map((desc, index) => {
+              return (
+                <p key={index} className="mb-0 small-12 text-excerpt text-muted">
+                  {desc}
+                </p>
+              );
+            })}
         </div>
       </div>
     </Link>

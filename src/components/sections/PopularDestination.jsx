@@ -4,15 +4,15 @@ import React from "react";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
-import { PopularDestinationsData } from "@/lib/data"; // Fetch updated centralized array
+import { TaxiServicesCityToCity } from "@/lib/data"; // Fetch updated centralized array
 import "../../styles/PopularDestinayion.scss";
 import { DestinationCard } from "../ui/cards";
 
 const PopularDestinations = ({
   title = "Most Popular",
-  footerText = "These popular destinations have a lot to offer!",
-  buttonText = "View All Destinations",
-  highlightWord = "Destinations",
+  footerText = "These popular City have a lot to offer!",
+  buttonText = "View All City",
+  highlightWord = "City",
 }) => {
   return (
     <section className="popular-destinations-section section-padding">
@@ -31,13 +31,13 @@ const PopularDestinations = ({
 
         {/* Destination Grid */}
         <Row className="g-4 mb-4 mb-md-5">
-          {PopularDestinationsData.map((dest) => (
+          {TaxiServicesCityToCity.filter((dest) => dest.popularCity === true).map((dest) => (
             <Col lg={4} xs={6} key={dest.id}>
               <DestinationCard
                 image={dest.image}
-                count={dest.count}
-                title={dest.title}
-                slugPath={dest.slugPath}
+                title={dest.popularCityTitle}
+                slugPath={`/cities/${dest.slug}`}
+                description={dest.longDistance?.content || [dest.intro]}
               />
             </Col>
           ))}
@@ -47,9 +47,9 @@ const PopularDestinations = ({
         <Row className="justify-content-center align-items-center text-center mt-4">
           <Col className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3">
             <span className="footer-promo-text text-muted">{footerText}</span>
-            <button className="btn btn-view-all d-flex align-items-center gap-2 px-4 py-2 border-0">
+            <Link href="/cities" target="_blank" className="btn btn-view-all d-flex align-items-center gap-2 px-4 py-2 border-0">
               {buttonText} <span>&rarr;</span>
-            </button>
+            </Link>
           </Col>
         </Row>
       </Container>
@@ -57,4 +57,4 @@ const PopularDestinations = ({
   );
 };
 
-export default PopularDestinations
+export default PopularDestinations;

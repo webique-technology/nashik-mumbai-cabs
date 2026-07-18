@@ -80,7 +80,7 @@ const ServiceTabsSection = ({ title, highlightWord, sliderBtns = false }) => {
 
                                             {/* Info Block */}
                                             <Card.Body className="p-2 d-grid align-items-center">
-                                                <Card.Title className="vehicle-name fw-bold fs-5 mb-3 text-dark">
+                                                <Card.Title className="vehicle-name fw-semibold fs-5 mb-3 text-dark">
                                                     {cab.name}
                                                 </Card.Title>
 

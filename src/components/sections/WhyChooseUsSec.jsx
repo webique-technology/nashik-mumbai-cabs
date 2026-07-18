@@ -34,9 +34,9 @@ const WhyChooseUs = ({ title, features, highlightWord }) => {
               LucideIcons[item.iconName] || LucideIcons.HelpCircle;
 
             return (
-              <Col xl={3} lg={3} md={6} sm={12} key={item.id || idx}>
-                <AnimationSecComponent distance={50} duration={0.7}>
-                  <div className="feature-box bg-white text-center p-4 position-relative">
+              <Col xl={3} lg={3} md={6} xs={6} key={item.id || idx}>
+                <AnimationSecComponent distance={50} duration={0.7} className="h-100">
+                  <div className="feature-box bg-white text-center p-3 p-sm-4 position-relative">
                     {/* Floating Top Rounded Icon Circle */}
                     <div className="icon-badge position-absolute top-0 start-50 translate-middle d-flex align-items-center justify-content-center bg-white shadow-sm">
                       <IconComponent size={28} className="" strokeWidth={1.5} />
@@ -44,7 +44,7 @@ const WhyChooseUs = ({ title, features, highlightWord }) => {
 
                     {/* Feature Card Text Meta */}
                     <div className="feature-body mt-4">
-                      <h4 className="feature-heading fw-bold mb-3">
+                      <h4 className="feature-heading fw-semibold fw-sm-bold mb-3">
                         {item.title}
                       </h4>
                       <p className="feature-description text-muted small mb-0">

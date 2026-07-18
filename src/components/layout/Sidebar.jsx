@@ -17,7 +17,7 @@ const NavSidebar = ({ setIsMenuOpen }) => {
                 {/* Fixed links below */}
                 <Link href="/" className="mobile-link" onClick={setIsMenuOpen}>Home</Link>
                 <Link href="/about-us" className="mobile-link" onClick={setIsMenuOpen}>About-Us</Link>
-                <Link href="/taxi-packages" className="mobile-link" onClick={setIsMenuOpen}>Taxi Packages</Link>
+                {/* <Link href="/taxi-packages" className="mobile-link" onClick={setIsMenuOpen}>Taxi Packages</Link> */}
                 <Link href="/cities" className="mobile-link" onClick={setIsMenuOpen}>Cities</Link>
                 <Link href="/airport" className="mobile-link" onClick={setIsMenuOpen}>Airport</Link>
                 <Link href="/cabs" className="mobile-link" onClick={setIsMenuOpen}>Cabs</Link>

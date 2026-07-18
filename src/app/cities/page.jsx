@@ -1,5 +1,6 @@
-import CityTaxiServices from "@/components/sections/CityTaxiServices";
+import ServicesGridCardSection from "@/components/sections/ServicesGridSec";
 import { CommonBanner } from "@/components/ui/cards";
+import { TaxiServicesCityToCity } from "@/lib/data";
 
 const CitiesPage = () => {
   const breadcrumbPaths = [
@@ -15,7 +16,7 @@ const CitiesPage = () => {
         overlayOpacity={0.6}
         textAlign="center"
       />
-      <CityTaxiServices />
+      <ServicesGridCardSection data={TaxiServicesCityToCity} />
     </main>
   );
 };

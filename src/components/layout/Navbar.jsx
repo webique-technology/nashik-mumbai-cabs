@@ -70,9 +70,9 @@ const Navbar = () => {
                         <Link href="/about-us" className={`nav-link-custom ${"/about-us" === "/about-us" ? "active" : ""}`}>
                             about
                         </Link>
-                        <Link href="/taxi-packages" className={`nav-link-custom ${"/taxi-packages" === "/taxi-packages" ? "active" : ""}`}>
+                        {/* <Link href="/taxi-packages" className={`nav-link-custom ${"/taxi-packages" === "/taxi-packages" ? "active" : ""}`}>
                             Taxi Packages
-                        </Link>
+                        </Link> */}
                         <Link href="/cities" className={`nav-link-custom ${"/cities" === "/cities" ? "active" : ""}`}>
                             Cities
                         </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
                         </Link>
                     </nav>
 
-                    <div className="d-none d-lg-block">
+                    <div className="d-none d-lg-inline-flex">
                         <LinkPillBtn
                             btnText={"Book Now"}
                             href={"/#"}

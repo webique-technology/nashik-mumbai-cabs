@@ -1,9 +1,54 @@
-import Link from "next/link"
+import Link from "next/link";
+import "../../styles/main.scss";
 
-export const LinkPillBtn = ({ href, btnText, varaint = "primary" }) => {
-    return (
-        <Link href={href} className={`pill-btn ${varaint}`}>
-            {btnText}
-        </Link>
-    )
-}
+export const LinkPillBtn = ({
+  href,
+  target,
+  btnText,
+  img,
+  imgClass = "btn-icon-image",
+  icon,
+  varaint = "primary",
+}) => {
+  return (
+    <Link
+      href={href}
+      target={target}
+      className={`pill-btn d-flex align-items-center justify-content-center gap-2 ${varaint}`}
+    >
+      <div>
+        {img && (
+          <img src={img} className={imgClass} alt={`${img}` || "image"} />
+        )}
+        {icon}
+      </div>
+      {btnText}
+    </Link>
+  );
+};
+
+export const secondaryBtn = ({
+  type,
+  varaint = "secondary",
+  img,
+  imgClass,
+  icon,
+  btnText,
+  onClick,
+}) => {
+  return (
+    <button
+      type={type}
+      className={`btn-square d-flex align-items-center gap-2 ${varaint}`}
+      onClick={onClick}
+    >
+      <div>
+        {img && (
+          <img src={img} className={imgClass} alt={`${img}` || "image"} />
+        )}
+        {icon}
+      </div>
+      {btnText}
+    </button>
+  );
+};

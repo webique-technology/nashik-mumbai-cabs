@@ -318,7 +318,6 @@
             .taxi-booking-card {
                 padding: 25px;
                 border: none !important;
-                background-color: $primary !important;
 
                 .form-input-field {
                     padding: 12px;
@@ -735,6 +734,7 @@
     max-width: 620px;
     margin: 0 auto;
     font-family: 'Inter', system-ui, sans-serif;
+    background-color: $primary;
 
     .booking-main-title {
         font-size: $fs-common-xl-2;
@@ -777,8 +777,10 @@
         padding: 0.95rem 1.25rem;
         font-size: $fs-common-md;
         color: $text-dark;
-        background-color: $bg-light;
-        border: 1px solid $border-gray;
+        background-color: $light-orange;
+        // background-color: $bg-light;
+        // border: 1px solid $border-gray;
+        border: 1px solid #c7c7c7;
         border-radius: $radius-sm; // Native block look matching the target template wireframe
         box-shadow: none !important;
         transition: border-color 0.2s ease-in-out;
