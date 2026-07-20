@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import { usePathname } from "next/navigation";
 import * as LucideIcons from "lucide-react";
+import { Award, ShieldCheck, Sparkles, PhoneCall } from "lucide-react";
 import "../../styles/CommonSec.scss";
 import { CabsData } from "@/lib/data";
 
@@ -286,7 +287,9 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
               className="form-select form-input-field custom-select"
               required
             >
-              <option value="" className="w-100 p-3">Choose Vehicle Type</option>
+              <option value="" className="w-100 p-3">
+                Choose Vehicle Type
+              </option>
               {CabsData.map((taxi, index) => (
                 <option key={index} value={taxi.name} className="w-100 p-3">
                   {taxi.name}
@@ -402,5 +405,77 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
         </div>
       </Form>
     </div>
+  );
+};
+
+export const PilgrimStandard = () => {
+  const standardsList = [
+    {
+      id: "standard-1",
+      icon: <Award size={32} className="card-icon" />,
+      title: "Vetted & Verified Drivers",
+      description:
+        "Every driver undergoes a background check and a specialized orientation for the Nashik city routes and temple etiquettes.",
+      isFeatured: false,
+    },
+    {
+      id: "standard-2",
+      icon: <ShieldCheck size={36} className="card-icon" />,
+      title: "100% Booking Guarantee",
+      description:
+        "Once confirmed, your vehicle is locked in. No cancellations during the peak mela hours.",
+      isFeatured: true, // This maps to the primary colored card in the image
+    },
+    {
+      id: "standard-3",
+      icon: <Sparkles size={32} className="card-icon" />,
+      title: "Sanitized Fleet",
+      description:
+        "Vehicles are deep cleaned after every trip following international hygiene protocols.",
+      isFeatured: false,
+    },
+    {
+      id: "standard-4",
+      icon: <PhoneCall size={30} className="card-icon" />,
+      title: "24/7 Roadside Assistance",
+      description:
+        "Dedicated helpline for any on-road emergencies, ensuring your journey remains uninterrupted.",
+      isFeatured: false,
+    },
+  ];
+
+  return (
+    <section className="pilgrim-standard-section section-padding bg-light">
+      <Container>
+        {/* Section Heading */}
+        <div className="text-center section-header">
+          <h2 className="section-title">The Premium Ride <span className="title-highlight">Standard</span></h2>
+        </div>
+
+        {/* Dynamic Cards Grid */}
+        <Row className="g-4 justify-content-center align-items-stretch">
+          {standardsList.map((item) => (
+            <Col key={item.id} xs={6} sm={6} md={6} lg={3} className="d-flex">
+              <div
+                className={`standard-card d-flex flex-column rounded-4 p-4 transition-all w-100 ${
+                  item.isFeatured
+                    ? "featured-card shadow"
+                    : "standard-white shadow-sm"
+                }`}
+              >
+                {/* Icon Wrapper Context */}
+                <div className="icon-container mb-4">{item.icon}</div>
+
+                {/* Card Title */}
+                <h3 className="card-heading fw-bold mb-3">{item.title}</h3>
+
+                {/* Card Description */}
+                <p className="card-desc lh-base mb-0">{item.description}</p>
+              </div>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </section>
   );
 };

@@ -7,40 +7,58 @@ import { TestimonialCard } from "../ui/cards";
 import { SwiperSlide } from "swiper/react";
 
 import clientAvatar1 from "../../../public/images/test-avatar-1.png";
+import { LinkPillBtn } from "../ui/Buttons";
+import { ArrowRight } from "lucide-react";
 
 const TestimonialSec = () => {
   const testimonialsMockData = [
     {
       id: 1,
       rating: 5,
-      text: "Metus vulputate eu scelerisque felis imperdiet. At in tellus integer feugiat scelerisque varius morbi enim nunc. Eu nisl nunc mi ipsum faucibus. Vel facilisis volutpat est velit egestas dui. Orci porta non pulvinar neque laoreet.",
-      name: "Parsley Monta",
+      text: "Book today 2 Crysta from Nashik to Mumbai International Airport Drop Return Journey 6 May Very punctual on time neat clean new car Chauffeur well trained best service provider taxi service car rental in nashik recommended.",
+      name: "Vishal Tambe",
       role: "Traveler",
-      avatar: clientAvatar1.src || "https://placehold.co/100x100",
+      avatar: clientAvatar1.src,
     },
     {
       id: 2,
       rating: 5,
-      text: "Metus vulputate eu scelerisque felis imperdiet. At in tellus integer feugiat scelerisque varius morbi enim nunc. Eu nisl nunc mi ipsum faucibus. Vel facilisis volutpat est velit egestas dui. Orci porta non pulvinar neque laoreet.",
-      name: "Norman Gordon",
+      text: "Best Taxi Services in Nashik Family Car Hire From Nashik to Pune Airport Cab.",
+      name: "sagar kadam",
       role: "Traveler",
-      avatar: clientAvatar1.src || "https://placehold.co/100x100",
+      avatar: clientAvatar1.src,
     },
     {
       id: 3,
       rating: 5,
-      text: "Metus vulputate eu scelerisque felis imperdiet. At in tellus integer feugiat scelerisque varius morbi enim nunc. Eu nisl nunc mi ipsum faucibus. Vel facilisis volutpat est velit egestas dui. Orci porta non pulvinar neque laoreet.",
-      name: "Amara Silva",
-      role: "Explorer",
-      avatar: clientAvatar1.src || "https://placehold.co/100x100",
+      text: "Hire cab from Nashik to Pune Airport Viman Nagar One Way Taxi Nice Experience best car rental Nashik.",
+      name: "Ratnadeep Lokhande",
+      role: "Traveler",
+      avatar: clientAvatar1.src,
     },
     {
       id: 4,
-      rating: 4,
-      text: "Metus vulputate eu scelerisque felis imperdiet. At in tellus integer feugiat scelerisque varius morbi enim nunc. Eu nisl nunc mi ipsum faucibus. Vel facilisis volutpat est velit egestas dui. Orci porta non pulvinar neque laoreet.",
-      name: "Amara Silva",
-      role: "Explorer",
-      avatar: clientAvatar1.src || "https://placehold.co/100x100",
+      rating: 5,
+      text: "Very nice impressive service providers taxi services in Nashik.",
+      name: "Sumit Pavankar",
+      role: "Traveler",
+      avatar: clientAvatar1.src,
+    },
+    {
+      id: 5,
+      rating: 5,
+      text: "Best Taxi services for Mumbai Pune Airport.",
+      name: "Sainath Netare",
+      role: "Traveler",
+      avatar: clientAvatar1.src,
+    },
+    {
+      id: 6,
+      rating: 5,
+      text: "Nashik to Pune Best Taxi Service Hire From Nashik Panchvati Maharashtra.",
+      name: "Kiran Nawale",
+      role: "Traveler",
+      avatar: clientAvatar1.src,
     },
   ];
 
@@ -65,10 +83,11 @@ const TestimonialSec = () => {
       <Container>
         {/* Section Heading Text - Simple static treatment, no animation rules */}
         <Row className="justify-content-center mb-4 text-center">
-          <Col md={8}>
-            <h2 className="section-title">
+          <Col md={12} className="d-flex align-items-center justify-content-center justify-content-sm-between">
+            <h2 className="section-title text-start mb-0">
               What our Clients <span className="title-highlight">say</span>
             </h2>
+            <LinkPillBtn href={"#"} btnText={"Review"} rightIcon={<ArrowRight />}/>
           </Col>
         </Row>
 

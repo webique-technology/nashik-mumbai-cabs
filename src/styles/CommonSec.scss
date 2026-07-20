@@ -812,3 +812,85 @@
         min-height: 120px;
     }
 }
+
+// cards in cabs & bus
+.pilgrim-standard-section {
+    background-color: $bg-light;
+
+    .section-header {
+        margin-bottom: 4rem;
+
+        .main-title {
+            font-family: $font-nav;
+            font-size: $fs-common-xxl-3;
+            color: $text-dark;
+            letter-spacing: -0.03em;
+        }
+    }
+
+    .standard-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
+
+        // Default Non-Featured (White Background) Card Rules
+        &.standard-white {
+            background-color: $bg-light;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05) !important;
+
+            .icon-container {
+                color: $primary; // Original warning orange accents for the icon glyphs
+            }
+
+            .card-heading {
+                color: $text-dark;
+                font-size: $fs-common-md-2;
+            }
+
+            .card-desc {
+                color: $text-dark-blue;
+                font-size: $fs-common-base;
+                font-weight: $fw-medium;
+            }
+        }
+
+        // Featured Highlighted Card Styles (Replaces orange with your primary code)
+        &.featured-card {
+            background-color: $primary; // Dynamic primary golden orange override 
+            box-shadow: 0 20px 40px rgba(250, 182, 55, 0.25) !important;
+
+            .icon-container {
+                color: $text-light;
+            }
+
+            .card-heading {
+                color: $text-light;
+                font-size: $fs-common-md-2;
+            }
+
+            .card-desc {
+                color: rgba(255, 255, 255, 0.9);
+                font-size: $fs-common-base;
+                font-weight: $fw-medium;
+            }
+        }
+
+        // Hover Effect to mirror standard dynamic premium design elements
+        &:hover {
+            transform: translateY(-8px);
+        }
+    }
+}
+
+// Mobile Layout Responsive Tweaks
+@media (max-width: 991px) {
+    .pilgrim-standard-section {
+
+        .section-header {
+            margin-bottom: 2.5rem;
+
+            .main-title {
+                font-size: $fs-common-xl-3;
+            }
+        }
+    }
+}

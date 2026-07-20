@@ -115,7 +115,6 @@ LeftTextRightImageCommnSec.propTypes = {
 export { LeftTextRightImageCommnSec };
 
 // section LEFT side image and right side text content
-
 const RightTextLeftImageCommnSec = ({
   heading,
   features,

@@ -139,8 +139,8 @@ const Footer = () => {
                                 <li className="d-flex mb-3">
                                     <Phone size={18} className="me-2 mt-1 icon flex-shrink-0" />
                                     <div>
-                                        <a href="tel:+917507778088" className="footer-link d-block">
-                                            +91 75077 78088
+                                        <a href="tel:+919225899899" className="footer-link d-block">
+                                            +91 92258 99899
                                         </a>
                                     </div>
                                 </li>

@@ -40,7 +40,10 @@ const DestinationCard = ({ image, count, title, slugPath, description }) => {
           {description &&
             description.slice(0, 1).map((desc, index) => {
               return (
-                <p key={index} className="mb-0 small-12 text-excerpt text-muted">
+                <p
+                  key={index}
+                  className="mb-0 small-12 text-excerpt text-muted"
+                >
                   {desc}
                 </p>
               );
@@ -199,7 +202,43 @@ TripCard.propTypes = {
 export { TripCard };
 
 // testimonial card
-const TestimonialCard = ({ rating, text, name, role, avatar }) => {
+const TestimonialCard = ({ rating, text, name, role }) => {
+  const userInitial = name ? name.trim().charAt(0).toUpperCase() : "?";
+
+  const getAvatarStyles = (userName) => {
+    const bgColors = [
+      "#e63946", // Soft Red
+      "#2a9d8f", // Teal
+      "#457b9d", // Slate Blue
+      "#e9c46a", // Warm Yellow
+      "#f4a261", // Orange
+      "#8338ec", // Purple
+      "#3a86c8", // Medium Blue
+      "#06d6a0", // Mint Green
+    ];
+
+    let hash = 0;
+    if (userName) {
+      for (let i = 0; i < userName.length; i++) {
+        hash = userName.charCodeAt(i) + ((hash << 5) - hash);
+      }
+    }
+
+    const colorIndex = Math.abs(hash) % bgColors.length;
+    const backgroundColor = bgColors[colorIndex];
+
+    // Returns styles with good text contrast rules
+    return {
+      backgroundColor,
+      color: "#ffffff",
+      fontSize: "1.2rem",
+      width: "45px",
+      height: "45px",
+    };
+  };
+
+  const avatarStyle = getAvatarStyles(name);
+
   return (
     <div className="testimonial-card bg-light p-4 p-md-5 d-flex flex-column justify-content-between h-100 position-relative border-0">
       <div>
@@ -209,7 +248,6 @@ const TestimonialCard = ({ rating, text, name, role, avatar }) => {
             <Star
               key={idx}
               size={16}
-              // This handles the solid fill for active stars and transparent/light fill for empty stars
               fill={idx < rating ? "#ffb703" : "transparent"}
               className={idx < rating ? "text-warning" : "text-muted-light"}
             />
@@ -223,21 +261,14 @@ const TestimonialCard = ({ rating, text, name, role, avatar }) => {
       {/* Footer Profile Details */}
       <div className="card-footer-profile d-flex align-items-center justify-content-between pt-2">
         <div className="d-flex align-items-center gap-3">
-          <div className="avatar-frame flex-shrink-0 position-relative overflow-hidden rounded-circle">
-            {avatar?.src ? (
-              <Image
-                src={avatar}
-                alt={name}
-                className="img-fluid object-cover w-100 h-100"
-              />
-            ) : (
-              <img
-                src={avatar}
-                alt={name}
-                className="img-fluid object-cover w-100 h-100"
-              />
-            )}
+          {/* UPDATED: Dynamic Text Initial Circle instead of an image box */}
+          <div
+            className="avatar-initial-circle flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle fw-bold shadow-sm select-none"
+            style={avatarStyle}
+          >
+            {userInitial}
           </div>
+
           <div className="profile-meta">
             <h5 className="profile-name fw-bold mb-0 text-dark">{name}</h5>
             <span className="profile-role text-uppercase text-muted small tracking-wider">

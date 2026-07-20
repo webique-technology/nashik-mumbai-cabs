@@ -10,9 +10,9 @@ export const DetailPage1 = ({ dataObject }) => {
     <>
       <main className="py-5 bg-white text-dark">
         <div className="container">
-          <div className="row g-4 justify-content-center">
+          <Row className="row g-4 justify-content-center">
             {/* Main Layout Content Column */}
-            <div className="col-12 col-lg-7">
+            <Col lg={7} className="">
               <article className="data-details-page px-2">
                 {/* 1. Dynamic Header Image Banner */}
                 {data.image && (
@@ -148,17 +148,17 @@ export const DetailPage1 = ({ dataObject }) => {
                   </section>
                 )}
               </article>
-            </div>
+            </Col>
 
             {/* Sidebar Area with Booking Form */}
-            <div className="col-12 col-lg-5">
+            <Col lg={5} className="">
               <div className="position-sticky" style={{ top: "2rem" }}>
                 <BookingForm btnClass="btn-square-primary" />
 
                 <Row className="g-4 mt-2">
                   <Col>
                     <LinkPillBtn
-                      href={"tel:+919822393852"}
+                      href={"tel:+919225899899"}
                       icon={<PhoneCall size={18}/>}
                       btnText={"Call Us"}
                       varaint="pill-btn primary rounded-2 text-center w-100 d-block"
@@ -166,7 +166,7 @@ export const DetailPage1 = ({ dataObject }) => {
                   </Col>
                   <Col>
                     <LinkPillBtn
-                      href={`https://wa.me/1234567890?text=${encodeURIComponent("Hello! I want to book a taxi request.")}`}
+                      href={`https://wa.me/919225899899?text=${encodeURIComponent("Hello! I want to book a taxi request.")}`}
                       target="_blank"
                       btnText={"Contact Us"}
                       img={"/images/whatsapp.svg"}
@@ -175,8 +175,8 @@ export const DetailPage1 = ({ dataObject }) => {
                   </Col>
                 </Row>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </div>
       </main>
     </>

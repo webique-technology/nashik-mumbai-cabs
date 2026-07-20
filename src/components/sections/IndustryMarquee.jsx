@@ -8,6 +8,7 @@ import React, {
   useCallback,
 } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Container } from "react-bootstrap";
 import { CityServicesRoute, footerLinksData } from "@/lib/data";
 import "../../styles/CommonSec.scss";
@@ -161,8 +162,12 @@ export const IndustryMarquee = () => {
 };
 
 export const DynamicFooterLinks = () => {
+  const pathname = usePathname();
+
+  // Check if the current path matches /cabs or /bus precisely
+  const hideBgLight = pathname === "/cabs" || pathname === "/bus";
   return (
-    <section className="text-white section-padding">
+    <section className={`text-white section-padding ${hideBgLight ? "" : "bg-light"}`}>
       <div className="container">
         <div className="text-center mb-4 mb-md-5">
           <h2 className="section-title">
@@ -189,7 +194,11 @@ export const DynamicFooterLinks = () => {
                 {section.links.map((link, idx) => (
                   <li key={idx} className="d-flex align-items-start gap-2">
                     {/* Actual Clickable Hyperlink Route */}
-                    <img src="/images/hand-right.png" className="icon" alt="hand-right" />
+                    <img
+                      src="/images/hand-right.png"
+                      className="icon"
+                      alt="hand-right"
+                    />
                     <Link
                       href={link.href}
                       className={`text-decoration-none small transition-all link-text link-text-dark ${

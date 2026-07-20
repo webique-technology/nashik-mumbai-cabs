@@ -8,6 +8,7 @@ export const LinkPillBtn = ({
   img,
   imgClass = "btn-icon-image",
   icon,
+  rightIcon,
   varaint = "primary",
 }) => {
   return (
@@ -16,13 +17,14 @@ export const LinkPillBtn = ({
       target={target}
       className={`pill-btn d-flex align-items-center justify-content-center gap-2 ${varaint}`}
     >
-      <div>
-        {img && (
-          <img src={img} className={imgClass} alt={`${img}` || "image"} />
-        )}
-        {icon}
-      </div>
+      {(img && icon) && (
+  <div>
+    <img src={img} className={imgClass} alt={img || "image"} />
+    {icon}
+  </div>
+)}
       {btnText}
+      {rightIcon}
     </Link>
   );
 };

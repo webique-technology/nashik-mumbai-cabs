@@ -227,7 +227,7 @@ export default function ContactPage() {
                                 </div>
                                 <div className="info-meta">
                                     <h4 className="info-title fw-bold mb-2">Call Us</h4>
-                                    <Link href="telto:+917507778088" className="info-anchor-link fw-semibold text-decoration-none">+91 75077 78088</Link>
+                                    <Link href="telto:+919225899899" className="info-anchor-link fw-semibold text-decoration-none">+91 92258 99899</Link>
                                     <p className="info-description mb-0 text-muted small">Available 24/7 for support and bookings.</p>
                                 </div>
                             </div>

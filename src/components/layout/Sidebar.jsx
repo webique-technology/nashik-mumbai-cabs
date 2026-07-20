@@ -40,8 +40,8 @@ const NavSidebar = ({ setIsMenuOpen }) => {
                             <li className="d-flex mb-3 poppins">
                                 <Phone size={18} className="me-2 mt-1 icon" />
                                 <div>
-                                    <a href="tel:+917507778070" className="footer-link text-decoration-none small-base text-dark d-block">
-                                        +91 7507778070
+                                    <a href="tel:+919225899899" className="footer-link text-decoration-none small-base text-dark d-block">
+                                        +91 92258 99899
                                     </a>
                                 </div>
                             </li>

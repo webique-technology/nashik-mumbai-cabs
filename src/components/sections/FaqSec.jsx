@@ -19,11 +19,11 @@ export const FaqSec = () => {
     const rightColumnFaqs = faqData.slice(4, 8);
 
     return (
-        <section className="faq-section section-padding position-relative py-5">
+        <section className="faq-section section-padding position-relative">
             <Container>
                 <div className="text-center mb-5">
                     <h2 className="section-title text-dark">
-                        Frequently Asked Questions
+                        Frequently Asked <span className="title-highlight">Questions</span>
                     </h2>
                 </div>
 

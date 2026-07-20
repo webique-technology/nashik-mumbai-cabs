@@ -10,13 +10,13 @@ export const slugify = (text = "") => {
 };
 
 // Cabs cars data
-const rawCabsData = [
+export const rawCabsData = [
   {
     id: "cab-01",
     name: "Mahindra Xylo",
     title: "Book / Hire Xylo / Scorpio",
     routesSubtitle:
-      "Premium Cab Services between Nashik, Mumbai, Nashik, Pune, Shani Shingnapur, Manmad, Trimbakeshwar, and Nashik Airport.",
+      "Premium Cab Services between Nashik, Mumbai, Pune, Shani Shingnapur, Manmad, Trimbakeshwar, and Nashik Airport.",
     description:
       "We provide Budget Mahindra Xylo/Scorpio Cab rentals ensuring premium comfort and spacious legroom. Highly ideal for family packages, outstation tours, and business transit, our vehicles come fully equipped with modern amenities. Get clean taxis accompanied by our highly experienced local drivers-cum-guides.",
     imageSrc: "/images/mahindra-xylo.avif",
@@ -24,13 +24,28 @@ const rawCabsData = [
     notes:
       "Mahindra Xylo/Scorpio Online Booking, Luxury Car Hire for Family Tours, Outstation Online Cab Booking all over Maharashtra, Best Economical Car Rental Services.",
     category: "SUV",
+    features: [
+      "6-7 Passengers",
+      "Spacious Legroom",
+      "Carrier Available",
+      "Dual AC",
+      "Music System",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Mahindra Xylo",
+        ratePerKm: "₹14/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
     id: "cab-02",
     name: "Toyota Innova",
     title: "Book / Hire Toyota Innova",
     routesSubtitle:
-      "Premium Cab Services between Nashik, Mumbai, Nashik, Pune, Shani Shingnapur, Manmad, Trimbakeshwar, and Nashik Airport.",
+      "Premium Cab Services between Nashik, Mumbai, Pune, Shani Shingnapur, Manmad, Trimbakeshwar, and Nashik Airport.",
     description:
       "Experience premium class travel with our spotless Toyota Innova fleet. Recognized across Maharashtra for elite comfort and unmatched highway safety, it is the top choice for long-distance outstation journeys, corporate transits, and multicity holiday itineraries.",
     imageSrc: "/images/toyota-innova.avif",
@@ -38,6 +53,21 @@ const rawCabsData = [
     notes:
       "Toyota Innova Car Rental, Premium SUV Hire for Long Trips, Nashik Mumbai Airport Drop Taxi, Affordable Innova Tour Packages.",
     category: "SUV",
+    features: [
+      "6-7 Passengers",
+      "Elite Highway Safety",
+      "Plush Pushback Seats",
+      "Dual Air Conditioning",
+      "Ample Boot Space",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Toyota Innova",
+        ratePerKm: "₹16/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
     id: "cab-03",
@@ -51,7 +81,22 @@ const rawCabsData = [
     providerFallback: "Nashik Mumbai Cabs",
     notes:
       "Budget Multi-Utility Vehicle Booking, Chevrolet Tavera Rental for Pilgrimages, Large Group Cab Booking, Economical Outstation Taxi.",
-    category: "Suv",
+    category: "SUV",
+    features: [
+      "8-9 Passengers",
+      "Deep Cabin Space",
+      "Robust Suspension",
+      "Powerful AC Grid",
+      "Pilgrimage Optimized",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Chevrolet Tavera",
+        ratePerKm: "₹13/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
     id: "cab-04",
@@ -66,9 +111,24 @@ const rawCabsData = [
     notes:
       "Maruti Ertiga Rental Online, Cheap 7 Seater Taxi Booking, Intercity Hybrid Cab Hire, Affordable Family Tour Vehicle.",
     category: "SUV",
+    features: [
+      "6 Passengers",
+      "Hybrid Fuel Efficiency",
+      "Compact Structural Profile",
+      "Air Conditioning",
+      "Flexible Folding Rear Seats",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Maruti Ertiga",
+        ratePerKm: "₹12/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
-    id: "cab-05", // Incremented ID for your fleet sequencing
+    id: "cab-05",
     name: "Hyundai Verna",
     title: "Book / Hire Hyundai Verna",
     routesSubtitle:
@@ -80,6 +140,21 @@ const rawCabsData = [
     notes:
       "Hyundai Verna Sedan Booking, Premium Luxury Cab Rental, Outstation Executive Sedan Taxi, Local Corporate Tour Packages.",
     category: "Sedan",
+    features: [
+      "4 Passengers",
+      "Executive Styling",
+      "Premium Cabin Insulation",
+      "Climate Control AC",
+      "Deep Boot Space",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Hyundai Verna",
+        ratePerKm: "₹12/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
     id: "cab-06",
@@ -94,6 +169,21 @@ const rawCabsData = [
     notes:
       "Swift Dzire Online Booking, Budget Sedan Taxi Hire, Fast Airport Pick & Drop, Economical One-Way Cab Services.",
     category: "Sedan",
+    features: [
+      "4 Passengers",
+      "Highly Economical",
+      "Excellent Air Conditioning",
+      "Compact Design",
+      "Station Transfer Ready",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Swift Dzire",
+        ratePerKm: "₹11/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
     id: "cab-07",
@@ -108,6 +198,21 @@ const rawCabsData = [
     notes:
       "Hyundai Aura Taxi Services, Affordable Compact Sedan Rentals, Railway Station Connection Cab, Lowest Fare Premium Sedan.",
     category: "Sedan",
+    features: [
+      "4 Passengers",
+      "Tech-Loaded Interiors",
+      "Contemporary Look",
+      "Responsive AC Grid",
+      "Smart Travel Storage",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Hyundai Aura",
+        ratePerKm: "₹11/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
     id: "cab-08",
@@ -122,6 +227,21 @@ const rawCabsData = [
     notes:
       "Indica Vista Hatchback Hire, Cheapest Local Car Booking, Small Family Tour Taxi, Short Distance Economical Ride.",
     category: "Sedan",
+    features: [
+      "4 Passengers",
+      "Pocket Friendly",
+      "City Driving Optimization",
+      "Air Conditioning",
+      "Maneuverable Footprint",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Indica Vista",
+        ratePerKm: "₹10/km",
+        minKm: "200 km/day",
+        driverAllowance: "₹300/day",
+      },
+    ],
   },
   {
     id: "cab-09",
@@ -136,6 +256,21 @@ const rawCabsData = [
     notes:
       "10 Seater Tempo Traveller Booking, Luxury Mini Van Hire, Family Pilgrimage Transport, Premium Group Travel Service.",
     category: "Tempo Traveller",
+    features: [
+      "10 Passengers",
+      "Pushback Luxury Seats",
+      "Dual Zone AC",
+      "Ample Cargo Space",
+      "Entertainment Screens Built-In",
+    ],
+    pricingTable: [
+      {
+        vehicle: "10 Str Tempo Traveller",
+        ratePerKm: "₹20/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹500/day",
+      },
+    ],
   },
   {
     id: "cab-10",
@@ -150,6 +285,21 @@ const rawCabsData = [
     notes:
       "20 Seater Bus Rental Online, Corporate Event Logistics, Large Tempo Traveller Rental, Group Tour Packages Maharashtra.",
     category: "Tempo Traveller",
+    features: [
+      "20 Passengers",
+      "Wide Center Aisles",
+      "Premium Audio-Visual Unit",
+      "Shock Absorber Suspension",
+      "Event Transport Ready",
+    ],
+    pricingTable: [
+      {
+        vehicle: "20 Str Tempo Traveller",
+        ratePerKm: "₹24/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹500/day",
+      },
+    ],
   },
   {
     id: "cab-11",
@@ -164,20 +314,256 @@ const rawCabsData = [
     notes:
       "25 Seater Tempo Traveller Hire, Heavy Group Tour Logistics, Corporate Shuttle Services, Intercity Heavy Group Transit.",
     category: "Tempo Traveller",
+    features: [
+      "25 Passengers",
+      "Heavy-Duty Highway Chassis",
+      "Extended Wheelbase Stability",
+      "Roof Carrier Integration",
+      "Long Distance Optimized",
+    ],
+    pricingTable: [
+      {
+        vehicle: "25 Str Tempo Traveller",
+        ratePerKm: "₹26/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹500/day",
+      },
+    ],
+  },
+
+  // ─── ADDED NEW BUS SPECIFIC FLEET CORES ────────────────────────────────────
+
+  {
+    id: "bus-01",
+    name: "Best Bus Service in Nashik",
+    title: "Best Bus Service in Nashik | Luxury Commercial Fleet",
+    routesSubtitle:
+      "Reliable Passenger Bus Operations Across Core Maharashtra Pilgrim Tracks.",
+    description:
+      "We are recognized as a premier transport provider offering dependable coach options directly out of Nashik. Our vehicles are meticulously inspected to guarantee prompt departures, high performance across toll highways, and smooth passenger transport for large tour packages.",
+    imageSrc: "/images/nashik-best-bus.png",
+    providerFallback: "Nashik Tour Coaches",
+    notes:
+      "Top Rated Nashik Bus Service, Hire Commercial Coaches Nashik, Pilgrimage Group Bus Fleet, Best Maharashtra Sightseeing Bus.",
+    category: "Bus",
+    features: [
+      "Fully Customizable Capacities",
+      "Immaculate Cabins",
+      "Regulated Driving Speed Monitors",
+      "All-India Tourist Permits",
+      "AC & Non-AC Fleet Arrays",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Standard Nashik Coach",
+        ratePerKm: "By Quotation",
+        minKm: "Included",
+        driverAllowance: "Included",
+      },
+    ],
   },
   {
-    id: "cab-12",
-    name: "Hire AC Bus",
-    title: "Book / Hire Premium AC Bus Luxury Rentals",
+    id: "bus-02",
+    name: "25 Seater Bus on Rent in Nashik",
+    title: "25 Seater Bus on Rent in Nashik | Midi Coach Rental",
     routesSubtitle:
-      "Grand Commercial Bus Fleet for Corporate Excursions and Large Pilgrimage Tours.",
+      "Optimal Group Transport for Medium Sized Pilgrim Circles and Family Tours.",
     description:
-      "Large capacity luxury transport coaches for extensive events. Includes premium fully automated dual zone climate controllers, wide visual glass structures, and maximum luggage capacities overseen by veteran heavy vehicle captains.",
-    imageSrc: "/images/hire-bus.jpg",
-    providerFallback: "Nashik Mumbai Cabs",
+      "Our 25-seater luxury midi-bus bridges the gap between smaller mini-vans and full-scale commercial coaches. It provides maximum interior cooling capability and ample headroom, ensuring your family or corporate tier arrives at central shrines fully refreshed.",
+    imageSrc: "/images/bus-25-seater.png",
+    providerFallback: "Nashik Tour Coaches",
     notes:
-      "Luxury AC Bus Booking, Premium Coach Rentals Online, High Capacity Group Tourism, Marriage Event Fleet Logistics.",
+      "25 Seater Bus Hire Nashik, Midi Commercial Bus Booking, Medium Family Tour Coach, Affordable Nashik Shani Shingnapur Bus.",
     category: "Bus",
+    features: [
+      "25 Premium Pushback Seats",
+      "Hi-Cool Air Conditioning",
+      "Integrated LCD Entertainment Systems",
+      "Individual Reading Lights",
+      "Rear Luggage Boots",
+    ],
+    pricingTable: [
+      {
+        vehicle: "25 Seater Luxury Bus",
+        ratePerKm: "₹26/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹500/day",
+      },
+    ],
+  },
+  {
+    id: "bus-03",
+    name: "32 Seater Bus on Rent in Nashik",
+    title: "32 Seater Bus on Rent in Nashik | Luxury Passenger Bus",
+    routesSubtitle:
+      "Spacious Multi-Row Seating Configurations for Marriage Events and Regional Transfers.",
+    description:
+      "Streamline transportation logistics for marriage functions or large family pilgrimage packages. Built on an advanced commercial chassis with customized shock suspensions, this 32-seater keeps medium-to-large circles traveling together safely and comfortably.",
+    imageSrc: "/images/bus-32-seater.png",
+    providerFallback: "Nashik Tour Coaches",
+    notes:
+      "32 Seater Coach Booking Nashik, Marriage Fleet Logistics Maharashtra, 32 Seat AC Bus Rental, Nashik to Pune Group Bus.",
+    category: "Bus",
+    features: [
+      "32 Ergonomic Reclining Seats",
+      "Plush Wide Center Aisles",
+      "Premium Bass Audio System",
+      "Advanced Air Braking Systems",
+      "Tinted UV Protection Windows",
+    ],
+    pricingTable: [
+      {
+        vehicle: "32 Seater Luxury Bus",
+        ratePerKm: "₹30/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹500/day",
+      },
+    ],
+  },
+  {
+    id: "bus-04",
+    name: "35 Seater Bus on Rent in Nashik",
+    title: "35 Seater Bus on Rent in Nashik | Mid-Large Luxury Coach",
+    routesSubtitle:
+      "Heavy Duty Outstation Inter-City Commutes for Academic Tours and Corporate Retreats.",
+    description:
+      "Optimized for extended highway routes throughout central Maharashtra. Features wide panoramic structural window framing, comfortable seating rows, and maximum under-floor luggage hold areas overseen by veteran long-distance heavy vehicle captains.",
+    imageSrc: "/images/bus-35-seater.jpg",
+    providerFallback: "Nashik Tour Coaches",
+    notes:
+      "35 Seater Bus Rental Nashik, Corporate Outstation Coach Hire, Academic Tour Transport Nashik, Heavy Duty Passenger Bus.",
+    category: "Bus",
+    features: [
+      "35 Luxury Recliners",
+      "Panoramic Visual Glass Profiles",
+      "Under-Floor Large Luggage Holds",
+      "Digital Cockpit GPS System",
+      "Emergency Exit Protocols Installed",
+    ],
+    pricingTable: [
+      {
+        vehicle: "35 Seater Luxury Bus",
+        ratePerKm: "₹32/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹500/day",
+      },
+    ],
+  },
+  {
+    id: "bus-05",
+    name: "45 Seater Bus on Rent in Nashik",
+    title: "45 Seater Bus on Rent in Nashik | Premium Commercial Coach",
+    routesSubtitle:
+      "High-Capacity Executive Coaches for Large Scale Events and Holiday Itineraries.",
+    description:
+      "Designed for heavy group transit management requirements. Includes fully automated premium dual-zone climate controllers, comfortable multi-row configurations, and exceptional vehicle durability, protecting your travel timeline from roadside complications.",
+    imageSrc: "/images/bus-45-seater.png",
+    providerFallback: "Nashik Tour Coaches",
+    notes:
+      "45 Seater Bus Hire Nashik, Large Scale Event Fleet Logistics, High Capacity Pilgrimage Transport, Premium AC Coach Rental.",
+    category: "Bus",
+    features: [
+      "45 Reclining Passenger Seats",
+      "Dual Zone Climate Controllers",
+      "Pneumatic Automatic Sliding Doors",
+      "Heavy Trunk Cargo Layouts",
+      "Night Vision Driving Assist Cameras",
+    ],
+    pricingTable: [
+      {
+        vehicle: "45 Seater Premium Coach",
+        ratePerKm: "₹36/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹600/day",
+      },
+    ],
+  },
+  {
+    id: "bus-06",
+    name: "50-Seater Bus on Rent in Nashik",
+    title: "50-Seater Bus on Rent in Nashik | Maxi Coach Fleet",
+    routesSubtitle:
+      "Our Largest Passenger Bus Layout Structured for Grand Logistics and Massive Group Travel.",
+    description:
+      "The ultimate solution for high-capacity transportation rules. Engineered explicitly to keep large groups unified on extended outstation journeys, this bus guarantees high structural stability and an easier, smooth highway cruise over multiple hours.",
+    imageSrc: "/images/bus-50-seater.png",
+    providerFallback: "Nashik Tour Coaches",
+    notes:
+      "50 Seater Bus Rental Nashik, Maximum Capacity Tour Coach, Large Wedding Guest Transport, Nashik to Mumbai 50 Seat Bus.",
+    category: "Bus",
+    features: [
+      "50 Full-Comfort Passenger Layouts",
+      "Extended Wheelbase Highway Stability",
+      "High-Volume Belly Cargo Shells",
+      "Individual Overhead AC Vents",
+      "Integrated Charging Points",
+    ],
+    pricingTable: [
+      {
+        vehicle: "50 Seater Maxi Coach",
+        ratePerKm: "₹40/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹600/day",
+      },
+    ],
+  },
+  {
+    id: "bus-07",
+    name: "Mini Bus on Rent in Nashik",
+    title: "Mini Bus on Rent in Nashik | Urban Micro Bus Rentals",
+    routesSubtitle:
+      "Compact Passenger Form Factors for Swift Local Sightseeing and Urban Transfers.",
+    description:
+      "The ideal modern minibus choice combining great fuel parameters with excellent urban maneuverability. Perfect for navigating congested temple town crossroads or managing immediate point-to-point train station transfers safely.",
+    imageSrc: "/images/mini-bus.png",
+    providerFallback: "Nashik Tour Coaches",
+    notes:
+      "Mini Bus Rental Nashik, Local Sightseeing Mini Bus Hire, Cheap Micro Bus Booking, Station Drop Mini Bus.",
+    category: "Bus",
+    features: [
+      "15-21 Compact Passenger Capacities",
+      "Urban Crossroad Maneuverability",
+      "Responsive Roof AC System",
+      "Low Ground Clearance Step Entry",
+      "Sleek Aerodynamic Outer Shell",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Premium Local Mini Bus",
+        ratePerKm: "₹22/km",
+        minKm: "250 km/day",
+        driverAllowance: "₹400/day",
+      },
+    ],
+  },
+  {
+    id: "bus-08",
+    name: "Ac bus booking in Nashik",
+    title: "AC Bus Booking in Nashik | Online Luxury Coach Rentals",
+    routesSubtitle:
+      "Instant Premium AC Coach Deployments with Fixed Outstation Rate Cards.",
+    description:
+      "Secure immediate air-conditioned commercial coach placements via our online booking engine. Avoid hot travel seasons entirely with automated interior climate cooling arrays and professional heavy vehicle operations.",
+    imageSrc: "/images/hire-bus.jpg",
+    providerFallback: "Nashik Tour Coaches",
+    notes:
+      "Online AC Bus Booking Nashik, Hire Luxury AC Coaches, Fixed Tariff Bus Rental, Air Conditioned Group Transit Maharashtra.",
+    category: "Bus",
+    features: [
+      "Advanced Climate Control Filtering",
+      "Guaranteed Air Conditioned Cleanliness",
+      "Punctual Terminal Placements",
+      "Vetted Heavy Route Highway Captains",
+      "Transparent Pricing Matrices",
+    ],
+    pricingTable: [
+      {
+        vehicle: "Luxury AC Tour Bus",
+        ratePerKm: "₹35/km",
+        minKm: "300 km/day",
+        driverAllowance: "₹600/day",
+      },
+    ],
   },
 ];
 

@@ -10,9 +10,6 @@ import { ServiceTabsSection } from "@/components/sections/ServicesTabSec";
 import WhyChooseUs from "@/components/sections/WhyChooseUsSec";
 import TestimonialSec from "@/components/sections/TestimonialSec";
 
-import tourGuide from "../../public/images/transportation.png";
-import calendar from "../../public/images/airplane.png";
-import tags from "../../public/images/travel-bag.png";
 import { BookingForm, CarBlock } from "@/components/sections/CommonSec";
 
 export default function Home() {
@@ -27,21 +24,21 @@ export default function Home() {
     features: [
       {
         id: 1,
-        icon: tourGuide.src,
+        icon: "/images/transportation.png",
         title: "Transportation",
         description:
           "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups.",
       },
       {
         id: 2,
-        icon: calendar.src,
+        icon: "/images/airplane.png",
         title: "Tours & Excursions",
         description:
           "Expertly guided, curated travel packages exploring scenic wonders and cultural landmarks to ensure an unforgettable destination experience.",
       },
       {
         id: 3,
-        icon: tags.src,
+        icon: "/images/travel-bag.png",
         title: "Corporate Travel",
         description:
           "Streamlined corporate logistics and efficient group transportation solutions customized to simplify high-level business travel needs.",
@@ -123,9 +120,9 @@ export default function Home() {
     titlePrefix: "Ready to Travel?",
     titleHighlight: "Book Your Cab",
     titleSuffix: "and Secure a Reliable Ride Instantly!",
-    iosLink: "tel:+911234567890",
+    iosLink: "tel:+919225899899",
     androidLink:
-      "https://wa.me/911234567890?text=Hello%2C%20I%20would%20like%20to%20book%20a%20cab.%20Please%20provide%20more%20details.",
+      "https://wa.me/919225899899?text=Hello%2C%20I%20would%20like%20to%20book%20a%20cab.%20Please%20provide%20more%20details.",
     mockupImageSrc: "/images/promo-mobiles.png",
     // Can accept imported static object 'dualPhonesMockup' or normal string route paths
   };
