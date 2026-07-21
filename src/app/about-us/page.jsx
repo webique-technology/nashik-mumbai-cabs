@@ -1,17 +1,29 @@
 import React from "react";
 import { CommonBanner } from "@/components/ui/cards";
 import innerPageBg from "../../../public/images/common-banner.avif"; // Import your static layout graphics
-import TestimonialSec from "@/components/sections/TestimonialSec";
 import { AppDownloadBanner } from "@/components/sections/PromoSection";
 
 import mobileImg from "../../../public/images/promo-mobiles.png";
 import appDBgImage from "../../../public/images/promo-banner-2.jpg";
 import { FaqSec } from "@/components/sections/FaqSec";
 import { LeftTextRightImageCommnSec } from "@/components/sections/LTRI_CommonSec";
-import tourGuide from "../../../public/images/tour-guide.png";
-import calendar from "../../../public/images/calendar.png";
-import tags from "../../../public/images/tags.png";
-import { PilgrimStandard, SpecialOffer } from "@/components/sections/CommonSec";
+import {
+  BookingForm,
+  PilgrimStandard,
+  SpecialOffer,
+} from "@/components/sections/CommonSec";
+import CounterSection from "@/components/sections/CounterSection";
+import { generatePageMetadata } from "@/lib/seo";
+
+export const metadata = generatePageMetadata({
+  staticData: {
+    title: "About Us | Leading Taxi Service Provider in Nashik",
+    description:
+      "Learn more about Nashik Mumbai Cabs, our vision, vetted professional drivers, and fleet quality standards.",
+    image: "/images/about-banner.jpg",
+  },
+  path: "/about",
+});
 
 export default function AboutPage() {
   const breadcrumbPaths = [
@@ -20,42 +32,42 @@ export default function AboutPage() {
   ];
 
   const ExplorationSec = {
-    heading: "Your Effortless Path to World ",
-    highlightWord: "Exploration",
+    heading: "10 Years of Delivering Reliable ",
+    highlightWord: "Cab Journeys",
     imageSrc: "/images/about-sec-img.jpg", // Replace with your image asset
     badgeText: {
-      normalText: "Capture memories",
-      highlightedText: "but also savor the Present Moment.",
+      normalText: "Looking for an ,",
+      highlightedText: "exciting way to explore Nashik’s hidden gems.",
     },
     features: [
       {
         id: 1,
         icon: "/images/transportation.png",
-        title: "Transportation",
+        title: "Outstation & City Cabs",
         description:
-          "A diverse fleet of reliable vehicles, from luxury sedans to spacious vans, tailored perfectly for solo travelers, families, and corporate groups.",
+          "A diverse fleet of sanitized sedans, SUVs, and tempo travellers tailored for seamless intercity runs, family tours, and local sightseeing.",
       },
       {
         id: 2,
         icon: "/images/airplane.png",
-        title: "Tours & Excursions",
+        title: "Airport Pickups & Drops",
         description:
-          "Expertly guided, curated travel packages exploring scenic wonders and cultural landmarks to ensure an unforgettable destination experience.",
+          "Prompt and stress-free airport transfers connecting Nashik directly to Mumbai (CSMIA), Pune, Shirdi, and Ozar terminals 24/7.",
       },
       {
         id: 3,
         icon: "/images/travel-bag.png",
-        title: "Corporate Travel",
+        title: "Pilgrimage & Corporate Tours",
         description:
-          "Streamlined corporate logistics and efficient group transportation solutions customized to simplify high-level business travel needs.",
+          "Trusted, hassle-free travel packages for major shrines like Trimbakeshwar, Shirdi, and Bhimashankar, alongside corporate fleet logistics.",
       },
     ],
   };
 
   const downloadSectionData = {
-    titlePrefix: "Your First Booking Discount -",
-    titleHighlight: "Get 25% Off",
-    titleSuffix: "on Your Next Adventure with Us!",
+    titlePrefix: "Ever wondered how smooth your journey can be? At ",
+    titleHighlight: "Nashik Mumbai Cabs",
+    titleSuffix: "We Make It Happen.",
     iosLink: "tel:+919225899899",
     androidLink:
       "https://wa.me/919225899899?text=Hello%2C%20I%20would%20like%20to%20book%20a%20cab.%20Please%20provide%20more%20details.",
@@ -80,6 +92,7 @@ export default function AboutPage() {
         imageSrc={ExplorationSec.imageSrc}
         badgeText={ExplorationSec.badgeText}
       />
+      <CounterSection />
       <PilgrimStandard />
       <FaqSec />
       <AppDownloadBanner
@@ -90,6 +103,7 @@ export default function AboutPage() {
         androidLink={downloadSectionData.androidLink}
         mockupImageSrc={downloadSectionData.mockupImageSrc}
         bgImage={appDBgImage}
+        rightComponent={<BookingForm titleClass={"d-none"} />}
       />
     </main>
   );

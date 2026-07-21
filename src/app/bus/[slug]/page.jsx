@@ -1,22 +1,35 @@
 import { notFound } from "next/navigation";
 import { CabsData } from "@/lib/data";
-import CabDetail from "@/components/sections/CabDetail"; // We will create this next
+import CabDetail from "@/components/sections/CabDetail";
+import { generatePageMetadata } from "@/lib/seo";
 
-// Dynamic Title Generation for SEO Optimization
+// Dynamic Metadata Generation for SEO Optimization
 export async function generateMetadata({ params }) {
-  const { slug } = await params;
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;
+
   const bus = CabsData.find((item) => item.slug === slug);
 
-  if (!bus) return { title: "Vehicle Not Found | Nashik Mumbai Cabs" };
+  if (!bus) {
+    return generatePageMetadata({
+      staticData: {
+        title: "Vehicle Not Found | Nashik Mumbai Cabs",
+        description: "The requested bus or vehicle details could not be found.",
+      },
+      path: `/bus/${slug || ""}`,
+    });
+  }
 
-  return {
-    title: `${bus.name} Rental | Reliable Taxi & Car Rentals`,
-    description: bus.description.slice(0, 160),
-  };
+  // Uses your centralized SEO helper to build complete OpenGraph & Twitter tags
+  return generatePageMetadata({
+    data: bus,
+    path: `/bus/${slug}`,
+  });
 }
 
 export default async function BusDetailPage({ params }) {
-  const { slug } = await params;
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;
 
   // Filter array to locate the selected item by slug key
   const bus = CabsData.find((item) => item.slug === slug);

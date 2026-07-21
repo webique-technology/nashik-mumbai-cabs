@@ -1,28 +1,39 @@
 import React from "react";
-// Corrected: Point directly to the specific airport helper functions in your single data file
-import { getAirportTourBySlug, getAllAirportSlugs } from "@/lib/airportData";
+// Ensure this path matches where your airport helper functions are defined
+import { getAirportTourBySlug } from "@/lib/airportData"; 
 import { DetailPage1 } from "@/components/sections/DetailPageComp";
 import Link from "next/link";
+import { generatePageMetadata } from "@/lib/seo";
 
-export async function generateStaticParams() {
-  const slugs = getAllAirportSlugs();
-  return slugs || [];
-}
-
+// 1. Dynamic SEO Metadata Generator
 export async function generateMetadata({ params }) {
-  const { slug } = await params;
-  const tour = getAirportTourBySlug(slug);
+  // Await params safely
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;
 
-  if (!tour) return { title: "Airport Route Not Found" };
+  const airportTour = getAirportTourBySlug(slug);
 
-  return {
-    title: tour.meta?.title || tour.title,
-    description: tour.meta?.description || tour.intro,
-  };
+  if (!airportTour) {
+    return generatePageMetadata({
+      staticData: { 
+        title: "Airport Route Not Found | Nashik Mumbai Cabs",
+        description: "The requested airport taxi route could not be located."
+      },
+      path: `/airport/${slug || ""}`,
+    });
+  }
+
+  return generatePageMetadata({
+    data: airportTour,
+    path: `/airport/${slug}`,
+  });
 }
 
+// 2. Server Component Default Export
 export default async function AirportDetailPage({ params }) {
-  const { slug } = await params;
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;
+
   const tour = getAirportTourBySlug(slug);
 
   if (!tour) return <NotFoundError />;
@@ -36,6 +47,9 @@ function NotFoundError() {
       <h1 className="display-6 fw-bold text-dark mb-3">
         Airport Route Not Found
       </h1>
+      <p className="text-muted mb-4">
+        We couldn't find the specific airport transfer route you are looking for.
+      </p>
       <Link
         href="/"
         className="btn btn-warning px-4 py-2 fw-semibold text-dark shadow-sm"

@@ -14,7 +14,7 @@ export const rawCabsData = [
   {
     id: "cab-01",
     name: "Mahindra Xylo",
-    title: "Book / Hire Xylo / Scorpio",
+    title: "Xylo / Scorpio",
     routesSubtitle:
       "Premium Cab Services between Nashik, Mumbai, Pune, Shani Shingnapur, Manmad, Trimbakeshwar, and Nashik Airport.",
     description:
@@ -43,7 +43,7 @@ export const rawCabsData = [
   {
     id: "cab-02",
     name: "Toyota Innova",
-    title: "Book / Hire Toyota Innova",
+    title: "Toyota Innova",
     routesSubtitle:
       "Premium Cab Services between Nashik, Mumbai, Pune, Shani Shingnapur, Manmad, Trimbakeshwar, and Nashik Airport.",
     description:
@@ -72,7 +72,7 @@ export const rawCabsData = [
   {
     id: "cab-03",
     name: "Chevrolet Tavera / Enjoy",
-    title: "Book / Hire Chevrolet Tavera / Enjoy",
+    title: "Chevrolet Tavera / Enjoy",
     routesSubtitle:
       "Affordable Multi-Utility Vehicle Rental Services across Maharashtra.",
     description:
@@ -101,7 +101,7 @@ export const rawCabsData = [
   {
     id: "cab-04",
     name: "Maruti Ertiga",
-    title: "Book / Hire Maruti Ertiga",
+    title: "Maruti Ertiga",
     routesSubtitle:
       "Smart 7-Seater Cab Services between Nashik, Mumbai, and Nashik.",
     description:
@@ -130,7 +130,7 @@ export const rawCabsData = [
   {
     id: "cab-05",
     name: "Hyundai Verna",
-    title: "Book / Hire Hyundai Verna",
+    title: "Hyundai Verna",
     routesSubtitle:
       "Premium Executive Sedan Rental for Stylish City Travel and Outstation Journeys.",
     description:
@@ -159,7 +159,7 @@ export const rawCabsData = [
   {
     id: "cab-06",
     name: "Swift Dzire",
-    title: "Book / Hire Swift Dzire",
+    title: "Swift Dzire",
     routesSubtitle:
       "Most Popular Compact Sedan Service for Economical Highway Travels.",
     description:
@@ -188,7 +188,7 @@ export const rawCabsData = [
   {
     id: "cab-07",
     name: "Hyundai Aura",
-    title: "Book / Hire Hyundai Aura",
+    title: "Hyundai Aura",
     routesSubtitle:
       "Modern and Stylish Compact Sedan for Smart City Rides and Regional Tours.",
     description:
@@ -217,7 +217,7 @@ export const rawCabsData = [
   {
     id: "cab-08",
     name: "Indica Vista",
-    title: "Book / Hire Indica Vista",
+    title: "Indica Vista",
     routesSubtitle:
       "Pocket-Friendly Compact Hatchback for Daily Point-to-Point Runs.",
     description:
@@ -246,7 +246,7 @@ export const rawCabsData = [
   {
     id: "cab-09",
     name: "Tempo Traveller 10 Seater",
-    title: "Book / Hire 10 Seater Tempo Traveller",
+    title: "10 Seater Tempo Traveller",
     routesSubtitle:
       "Luxury Group Mini-Bus Services for Pilgrimages and Family Outings.",
     description:
@@ -275,7 +275,7 @@ export const rawCabsData = [
   {
     id: "cab-10",
     name: "Tempo Traveller 20 Seater",
-    title: "Book / Hire 20 Seater Tempo Traveller",
+    title: "20 Seater Tempo Traveller",
     routesSubtitle:
       "Spacious Group Logistics for Corporate Retreats and Grand Family Events.",
     description:
@@ -304,7 +304,7 @@ export const rawCabsData = [
   {
     id: "cab-11",
     name: "Tempo Traveller 25 Seater",
-    title: "Book / Hire 25 Seater Tempo Traveller",
+    title: "25 Seater Tempo Traveller",
     routesSubtitle:
       "Heavy Duty Group Transport for Corporate and Tourism Sectors.",
     description:
@@ -1222,14 +1222,14 @@ export const footerLinksData = [
     id: "bus-services",
     title: "NASHIK BUS SERVICES",
     links: [
-      { text: "Best Bus Service in Nashik", href: "#" },
-      { text: "25 Seater Bus on Rent in Nashik", href: "#" },
-      { text: "32 Seater Bus on Rent in Nashik", href: "#" },
-      { text: "35 Seater Bus on Rent in Nashik", href: "#" },
-      { text: "45 Seater Bus on Rent in Nashik", href: "#" },
-      { text: "50-Seater Bus on Rent in Nashik", href: "#" },
-      { text: "Mini Bus on Rent in Nashik", href: "#" },
-      { text: "Ac bus booking in nashik", href: "#" },
+      { text: "Best Bus Service in Nashik", href: "/bus/best-bus-service-in-nashik" },
+      { text: "25 Seater Bus on Rent in Nashik", href: "/bus/25-seater-bus-on-rent-in-nashik" },
+      { text: "32 Seater Bus on Rent in Nashik", href: "/bus/32-seater-bus-on-rent-in-nashik" },
+      { text: "35 Seater Bus on Rent in Nashik", href: "/bus/35-seater-bus-on-rent-in-nashik" },
+      { text: "45 Seater Bus on Rent in Nashik", href: "/bus/45-seater-bus-on-rent-in-nashik" },
+      { text: "50-Seater Bus on Rent in Nashik", href: "/bus/50-seater-bus-on-rent-in-nashik" },
+      { text: "Mini Bus on Rent in Nashik", href: "/bus/mini-bus-on-rent-in-nashik" },
+      { text: "Ac bus booking in nashik", href: "/bus/ac-bus-booking-in-nashik" },
     ],
   },
 ];

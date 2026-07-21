@@ -65,7 +65,7 @@ const CabDetail = ({ cab }) => {
                 {cab.category} Fleet Choice
               </Badge>
               <h1 className="main-title fw-bold text-dark display-6 mb-2">
-                {cab.title}
+                Book / Hire {cab.title}
               </h1>
               <p className="route-subtitle text-primary fw-medium small-base mb-0">
                 {cab.routesSubtitle}
