@@ -8,6 +8,7 @@ import * as LucideIcons from "lucide-react";
 import { Award, ShieldCheck, Sparkles, PhoneCall } from "lucide-react";
 import "../../styles/CommonSec.scss";
 import { CabsData } from "@/lib/data";
+import { AnimationSecComponent } from "../ui/AnimationSecComponent";
 
 export const FeatureGridSec = ({
   badgeText = "OUR EXPERTISE",
@@ -135,10 +136,12 @@ export const CarBlock = ({}) => {
           {carBlockData.map((car, index) => {
             return (
               <Col xs={4} md={4} xl={2} key={index}>
-                <div className="car-block-card shadow-sm border">
-                  <img src={car.icon} alt={car.title} className="img-fluid" />
-                  <h3 className="card-title h5 fw-bold mb-0">{car.title}</h3>
-                </div>
+                <AnimationSecComponent>
+                  <div className="car-block-card shadow-sm border">
+                    <img src={car.icon} alt={car.title} className="img-fluid" />
+                    <h3 className="card-title h5 fw-bold mb-0">{car.title}</h3>
+                  </div>
+                </AnimationSecComponent>
               </Col>
             );
           })}
@@ -449,7 +452,9 @@ export const PilgrimStandard = () => {
       <Container>
         {/* Section Heading */}
         <div className="text-center section-header">
-          <h2 className="section-title">The Premium Ride <span className="title-highlight">Standard</span></h2>
+          <h2 className="section-title">
+            The Premium Ride <span className="title-highlight">Standard</span>
+          </h2>
         </div>
 
         {/* Dynamic Cards Grid */}

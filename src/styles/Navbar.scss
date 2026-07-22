@@ -150,10 +150,12 @@
     text-decoration: none;
     color: $text-light;
     border-bottom: 1px solid $text-gray;
+    // border-radius: $radius-md;
 
     &:hover {
         color: $text-dark;
-        background: $text-gray;
+        background: $primary;
+        // border-radius: $radius-md;
     }
 }
 
@@ -162,5 +164,17 @@
     flex-direction: column;
     gap: 10px;
     margin-top: 15px;
-}
+    background-color: $primary;
+    padding: 12px;
+    border-radius: $radius-md;
 
+    a {
+        font-size: $fs-common-base;
+        color: $text-light;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        &:hover{
+            color: $text-dark;
+        }
+    }
+}

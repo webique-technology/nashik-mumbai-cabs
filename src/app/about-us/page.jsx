@@ -34,7 +34,7 @@ export default function AboutPage() {
   const ExplorationSec = {
     heading: "10 Years of Delivering Reliable ",
     highlightWord: "Cab Journeys",
-    imageSrc: "/images/about-sec-img.jpg", // Replace with your image asset
+    imageSrc: "/images/about-page-img.jpg", // Replace with your image asset
     badgeText: {
       normalText: "Looking for an ,",
       highlightedText: "exciting way to explore Nashik’s hidden gems.",

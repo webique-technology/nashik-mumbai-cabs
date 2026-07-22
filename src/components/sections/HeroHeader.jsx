@@ -23,15 +23,15 @@ export const heroSliderConfig = [
     {
         id: 1,
         image: banner2.src || "",
-        title: "Welcome to Nashik Mumbai Cabs",
+        title: "Experience seamless travel with Nashik Mumbai Cabs.",
         subTitle: "Book With Us",
-        desc: "Enjoy comfortable and reliable transportation between Nashik and Mumbai, available 24/7.",
+        desc: "Professional taxi service connecting Nashik and Mumbai with reliable, comfortable, and affordable rides. Trusted drivers, 24/7 service, and hassle-free bookings.",
         btnText: "Book Now"
     },
     {
         id: 2,
         image: banner3.src || "",
-        title: "Discover a Wonderful Place with us.",
+        title: "Start your hassle-free journey with Nashik Mumbai Cabs.",
         subTitle: "Book With Us",
         desc: "Explore the most beautiful destinations and enjoy unforgettable travel experiences with us.",
         btnText: "Book Now"

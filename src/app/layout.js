@@ -85,7 +85,7 @@ export default function RootLayout({ children }) {
         {/* <IndustryMarquee /> */}
         <Footer />
         <a
-          href="https://wa.me/911234567890?text=Hello%20I%20want%20to%20know%20more"
+          href="https://wa.me/919225899899?text=Hello%20I%20want%20to%20know%20more"
           target="_blank"
           className="whatsapp-btn"
         >

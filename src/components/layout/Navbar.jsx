@@ -55,11 +55,11 @@ const Navbar = () => {
                     {/* Logo Section */}
                     <Link href="/" className="d-flex align-items-center text-decoration-none logo" onClick={closeMenu}>
                         {/* <div className="logo-icon"><span className="text-white">ॐ</span></div> */}
-                        {/* <img src={""} alt="Logo" width={50} height={50} className="me-2" /> */}
-                        <div className="logo-text">
+                        <img src={"/images/nmc-logo-2.png"} alt="Logo" className="me-2 brand-logo" />
+                        {/* <div className="logo-text">
                             <h1 className="text-light">Nashik</h1>
                             <p className="lh-auto highlight-text highlight-text-primary">Mumbai Cabs</p>
-                        </div>
+                        </div> */}
                     </Link>
 
                     {/* Navigation Stream Container Block */}
@@ -88,15 +88,15 @@ const Navbar = () => {
                         <Link href="/bus" className={`nav-link-custom ${"/bus" === "/bus" ? "active" : ""}`}>
                             Bus
                         </Link>
-                        <Link href="/contact-us" className={`nav-link-custom ${"/contact-us" === "/contact-us" ? "active" : ""}`}>
+                        {/* <Link href="/contact-us" className={`nav-link-custom ${"/contact-us" === "/contact-us" ? "active" : ""}`}>
                             contact
-                        </Link>
+                        </Link> */}
                     </nav>
 
                     <div className="d-none d-lg-inline-flex">
                         <LinkPillBtn
-                            btnText={"Book Now"}
-                            href={"/#"}
+                            btnText={"Contact"}
+                            href={"/contact-us"}
                         />
                     </div>
 

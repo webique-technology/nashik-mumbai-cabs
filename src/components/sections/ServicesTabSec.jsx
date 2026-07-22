@@ -127,7 +127,7 @@ const ServiceTabsSection = ({
                           <Link
                             href={`${pathPrefix}/${cab.slug}`}
                             passHref
-                            target="_blank"
+                            // target="_blank"
                             className="w-100"
                           >
                             <Button className="btn-square btn-square-font-base btn-square-primary py-1 w-100">

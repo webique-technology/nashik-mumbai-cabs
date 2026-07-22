@@ -12,10 +12,6 @@ import facebook from "../../../public/images/facebook-logo.svg";
 import insta from "../../../public/images/instagram-logo.svg";
 import youtube from "../../../public/images/youtube-logo.svg";
 import xLogo from "../../../public/images/x-logo.svg";
-import logo from "../../../public/images/maharashtra-tour-logo.png";
-import googleLogo from "../../../public/images/google-logo.png";
-import tripAdvisorLogo from "../../../public/images/trip-advisor.png";
-import justdial from "../../../public/images/justdial-logo.png";
 import paymentLogos from "../../../public/images/footer_payment_icon.png";
 
 const Footer = () => {
@@ -33,18 +29,10 @@ const Footer = () => {
                 <div className="">
                   {/* <span>ॐ</span> */}
                   <img
-                    src={logo.src}
+                    src={"/images/nmc-logo-2.png"}
                     alt="Logo"
-                    width={50}
-                    height={50}
-                    className="me-1"
+                    className="me-1 brand-logo"
                   />
-                </div>
-                <div className="ms-2">
-                  <h3 className="footer-title">Nashik</h3>
-                  <p className="footer-subtitle highlight-text highlight-text-primary">
-                    Mumbai Cabs
-                  </p>
                 </div>
               </div>
               <p className="footer-text d-none d-md-block p-0 pe-sm-3">
@@ -56,7 +44,7 @@ const Footer = () => {
               {/* Social Link Wrappers */}
               <div className="d-flex gap-2 mt-3 mb-3">
                 <a
-                  href="https://www.facebook.com/people/Mahakumbh-Tours-Travels/61585265510417/?ref=PROFILE_EDIT_xav_ig_profile_page_web#"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -70,7 +58,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.threads.com/@mahakumbh_tours_travels"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -84,7 +72,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/mahakumbh_tours_travels/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -98,7 +86,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.youtube.com/@mahakumbhtourstravels"
+                  href="#"
                   className="social-icon"
                 >
                   <Image
@@ -215,13 +203,12 @@ const Footer = () => {
                       className="me-2 mt-1 icon flex-shrink-0"
                     />
                     <Link
-                      href="https://maps.app.goo.gl/2snH44TGiHw6UATM7"
+                      href="https://maps.app.goo.gl/SgWUvNo8fQQ3uv7y6"
                       target="_blank"
                       className="footer-link d-block"
                     >
                       <span>
-                        Office Shop No 11, NYSA Business Centre, Makhmalabad Rd,
-                        Ghadge Nagar, Nashik, Maharashtra 422003
+                        Shop No. 7, Nysa Buisness Centre, Ghadge Nagar, Makhmalabad, Nashik, Maharashtra 422003
                       </span>
                     </Link>
                   </li>
@@ -240,20 +227,17 @@ const Footer = () => {
                     <Mail size={18} className="me-2 mt-1 icon flex-shrink-0" />
                     <div className="d-flex flex-column">
                       <a
-                        href="mailto:kumbhtourstravels@gmail.com"
+                        href="mailto:nashikmumbaicabs@gmail.com"
                         className="footer-link"
                       >
-                        kumbhtourstravels@gmail.com
-                      </a>
-                      <a
-                        href="mailto:mahakumbhtourstravels@gmail.com"
-                        className="footer-link"
-                      >
-                        mahakumbhtourstravels@gmail.com
+                        nashikmumbaicabs@gmail.com
                       </a>
                     </div>
                   </li>
                 </ul>
+              </div>
+              <div>
+                <img src={paymentLogos.src} alt="payment logos" />
               </div>
               {/* <div className="d-flex mb-3 mb-md-0 flex-wrap align-items-center gap-2 justify-content-start">
                             <Link
@@ -316,19 +300,23 @@ const Footer = () => {
         {/* Bottom Copyright Status Panel */}
         <div className="footer-bottom">
           <div className="container py-4 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-            <p className="mb-0 fw-medium small-12 text-light text-center text-md-start">
+            <p className="mb-0 fw-medium text-light text-center text-md-start">
               © 2026 All Rights Reserved by{" "}
-              <span className="text-light fw-bold">Nashik Mumbai Cabs</span>{" "}
+              <span className="text-light fs-6 fw-bold">Nashik Mumbai Cabs</span>{" "}
               {currentYear}
             </p>
             <div className="d-flex gap-3">
-              <img src={paymentLogos.src} alt="payment logos" />
-              {/* <p className="footer-text m-0">
-                            developedBy
-                            <a href="https://webique.in/" target="_blank" rel="noopener noreferrer" className='footer-link--webname'>
-                                Webique Technology
-                            </a>
-                        </p> */}
+              <p className="text-light m-0">
+                Design & Developed By&nbsp;
+                <a
+                  href="https://webique.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-link-webname fw-bold"
+                >
+                  Webique Technology
+                </a>
+              </p>
             </div>
           </div>
         </div>
