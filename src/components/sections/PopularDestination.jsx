@@ -7,6 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { TaxiServicesCityToCity } from "@/lib/data"; // Fetch updated centralized array
 import "../../styles/PopularDestinayion.scss";
 import { DestinationCard } from "../ui/cards";
+import { AnimationSecComponent } from "../ui/AnimationSecComponent";
 
 const PopularDestinations = ({
   title = "Most Popular",
@@ -31,25 +32,43 @@ const PopularDestinations = ({
 
         {/* Destination Grid */}
         <Row className="g-4 mb-4 mb-md-5">
-          {TaxiServicesCityToCity.filter((dest) => dest.popularCity === true).map((dest) => (
+          {TaxiServicesCityToCity.filter(
+            (dest) => dest.popularCity === true,
+          ).map((dest, index) => (
             <Col lg={4} xs={6} key={dest.id}>
-              <DestinationCard
-                image={dest.image}
-                title={dest.popularCityTitle}
-                slugPath={`/cities/${dest.slug}`}
-                description={dest.longDistance?.content || [dest.intro]}
-              />
+              <AnimationSecComponent
+                distance={index * 10}
+                duration={0.7}
+                className="h-100"
+              >
+                <DestinationCard
+                  image={dest.image}
+                  title={dest.popularCityTitle}
+                  slugPath={`/cities/${dest.slug}`}
+                  description={dest.longDistance?.content || [dest.intro]}
+                />
+              </AnimationSecComponent>
             </Col>
           ))}
         </Row>
 
         {/* Section Footer Actions */}
         <Row className="justify-content-center align-items-center text-center mt-4">
-          <Col className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3">
-            <span className="footer-promo-text text-muted">{footerText}</span>
-            <Link href="/cities" target="_blank" className="btn btn-view-all d-flex align-items-center gap-2 px-4 py-2 border-0">
-              {buttonText} <span>&rarr;</span>
-            </Link>
+          <Col className="">
+            <AnimationSecComponent
+              distance={200}
+              duration={0.7}
+              className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3"
+            >
+              <span className="footer-promo-text text-muted">{footerText}</span>
+              <Link
+                href="/cities"
+                target="_blank"
+                className="btn btn-view-all d-flex align-items-center gap-2 px-4 py-2 border-0"
+              >
+                {buttonText} <span>&rarr;</span>
+              </Link>
+            </AnimationSecComponent>
           </Col>
         </Row>
       </Container>

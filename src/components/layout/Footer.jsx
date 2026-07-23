@@ -300,13 +300,13 @@ const Footer = () => {
         {/* Bottom Copyright Status Panel */}
         <div className="footer-bottom">
           <div className="container py-4 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-            <p className="mb-0 fw-medium text-light text-center text-md-start">
+            <p className="mb-0 fw-medium text-light text-center text-lg-start">
               © 2026 All Rights Reserved by{" "}
-              <span className="text-light fs-6 fw-bold">Nashik Mumbai Cabs</span>{" "}
+              <span className="text-light fw-bold">Nashik Mumbai Cabs</span>{" "}
               {currentYear}
             </p>
             <div className="d-flex gap-3">
-              <p className="text-light m-0">
+              <p className="text-light m-0 text-center text-lg-end">
                 Design & Developed By&nbsp;
                 <a
                   href="https://webique.in/"

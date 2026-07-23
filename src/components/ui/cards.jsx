@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import { Star, MapPin, Bookmark } from "lucide-react";
 import "../../styles/CommonSec.scss";
+import { AnimationSecComponent } from "./AnimationSecComponent";
 
 const DestinationCard = ({ image, count, title, slugPath, description }) => {
   return (
@@ -257,11 +258,8 @@ const TestimonialCard = ({ rating, text, name, role }) => {
         {/* Feedback Text Review */}
         <p className="feedback-text text-secondary mb-5">{text}</p>
       </div>
-
-      {/* Footer Profile Details */}
       <div className="card-footer-profile d-flex align-items-center justify-content-between pt-2">
         <div className="d-flex align-items-center gap-3">
-          {/* UPDATED: Dynamic Text Initial Circle instead of an image box */}
           <div
             className="avatar-initial-circle flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle fw-bold shadow-sm select-none"
             style={avatarStyle}
@@ -277,7 +275,6 @@ const TestimonialCard = ({ rating, text, name, role }) => {
           </div>
         </div>
 
-        {/* Decorative Quote Mark graphic */}
         <div className="quote-mark-icon select-none">
           <svg
             width="48"

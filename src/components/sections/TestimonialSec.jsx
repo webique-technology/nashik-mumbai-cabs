@@ -9,6 +9,7 @@ import { SwiperSlide } from "swiper/react";
 import clientAvatar1 from "../../../public/images/test-avatar-1.png";
 import { LinkPillBtn } from "../ui/Buttons";
 import { ArrowRight } from "lucide-react";
+import { AnimationSecComponent } from "../ui/AnimationSecComponent";
 
 const TestimonialSec = () => {
   const testimonialsMockData = [
@@ -83,39 +84,54 @@ const TestimonialSec = () => {
       <Container>
         {/* Section Heading Text - Simple static treatment, no animation rules */}
         <Row className="justify-content-center mb-4 text-center">
-          <Col md={12} className="d-flex align-items-center justify-content-center justify-content-sm-between">
-            <h2 className="section-title text-start mb-0">
-              What our Clients <span className="title-highlight">say</span>
-            </h2>
-            <LinkPillBtn href={"#"} btnText={"Review"} rightIcon={<ArrowRight />}/>
+          <Col
+            md={12}
+            className="d-flex align-items-center justify-content-center justify-content-sm-between"
+          >
+            <AnimationSecComponent
+              distance={210}
+              duration={0.7}
+              className="d-flex align-items-center justify-content-center justify-content-sm-between gap-3 w-100"
+            >
+              <h2 className="section-title text-start mb-0">
+                What our Clients <span className="title-highlight">say</span>
+              </h2>
+              <LinkPillBtn
+                href={"#"}
+                btnText={"Review"}
+                rightIcon={<ArrowRight />}
+              />
+            </AnimationSecComponent>
           </Col>
         </Row>
 
         {/* Swiper Slider Mount */}
-        <Row>
-          <Col xs={12}>
-            <SwiperSliderComp
-              navigation={false} // Disable standard next/prev arrow graphics to match image pagination focus
-              pagination={true}
-              timeDelay={4000}
-              spaceBetween={24}
-              breakpoints={sliderBreakpoints}
-              className="testimonial-swiper-wrapperpb-4"
-            >
-              {testimonialsMockData?.map((item) => (
-                <SwiperSlide key={item.id} className="h-auto">
-                  <TestimonialCard
-                    rating={item.rating}
-                    text={item.text}
-                    name={item.name}
-                    role={item.role}
-                    avatar={item.avatar}
-                  />
-                </SwiperSlide>
-              ))}
-            </SwiperSliderComp>
-          </Col>
-        </Row>
+        <AnimationSecComponent distance={200} duration={0.7}>
+          <Row>
+            <Col xs={12}>
+              <SwiperSliderComp
+                navigation={false} // Disable standard next/prev arrow graphics to match image pagination focus
+                pagination={true}
+                timeDelay={4000}
+                spaceBetween={24}
+                breakpoints={sliderBreakpoints}
+                className="testimonial-swiper-wrapperpb-4"
+              >
+                {testimonialsMockData?.map((item) => (
+                  <SwiperSlide key={item.id} className="h-auto">
+                    <TestimonialCard
+                      rating={item.rating}
+                      text={item.text}
+                      name={item.name}
+                      role={item.role}
+                      avatar={item.avatar}
+                    />
+                  </SwiperSlide>
+                ))}
+              </SwiperSliderComp>
+            </Col>
+          </Row>
+        </AnimationSecComponent>
       </Container>
     </section>
   );

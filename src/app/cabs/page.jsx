@@ -6,9 +6,9 @@ import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
   staticData: {
-    title: "Cabs - Car - Taxi Service in Nashik | Leading Taxi Service Provider in Nashik",
+    title: "Car Rental Service in Nashik | Outstation Cabs, Airport Taxi & Local Travel",
     description:
-      "Learn more about Nashik Mumbai Cabs, our vision, vetted professional drivers, and fleet quality standards.",
+      "Book affordable cabs from Nashik to Shirdi, Mumbai, Pune & all Maharashtra. Reliable drivers, AC cabs & on-time service guaranteed.",
     image: "/images/about-banner.jpg",
   },
   path: "/cabs",

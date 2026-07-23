@@ -78,7 +78,7 @@ const CounterSection = () => {
                                     }`}
                             >
                                 <AnimationSecComponent duration={(index + 1) * 0.1} className={"h-100"}>
-                                    <div className="counter-item d-flex flex-column align-items-center text-center"
+                                    <div className="counter-item h-100 d-flex flex-column align-items-center text-center"
                                         style={{ backgroundColor: stat.bgColor }}
                                     >
                                         {/* Icon Circle wrapper */}

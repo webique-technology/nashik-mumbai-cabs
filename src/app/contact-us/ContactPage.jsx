@@ -8,6 +8,7 @@ import "../../styles/contactPage.scss";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import { MapPin, Mail, Phone, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import { AnimationSecComponent } from "@/components/ui/AnimationSecComponent";
 
 export default function ContactPageComp() {
   const breadcrumbPaths = [
@@ -90,173 +91,188 @@ export default function ContactPageComp() {
           {/* Section Header Top Text Group */}
           <Row className="mb-5">
             <Col className="text-center">
-              <h2 className="contact-main-heading fw-bold mb-3">
-                Get in Touch
-              </h2>
-              <p className="contact-sub-text text-muted mb-0">
-                Premium intercity mobility across Maharashtra. We're here to
-                assist with your travel needs, 24/7.
-              </p>
+              <AnimationSecComponent>
+                <h2 className="contact-main-heading fw-bold mb-3">
+                  Get in Touch
+                </h2>
+                <p className="contact-sub-text text-muted mb-0">
+                  Premium intercity mobility across Maharashtra. We're here to
+                  assist with your travel needs, 24/7.
+                </p>
+              </AnimationSecComponent>
             </Col>
           </Row>
 
-          <Row className="gy-5">
+          <Row className="g-4">
             {/* Left Column: Form Card Wrapper */}
             <Col lg={7} md={12}>
-              <div className="contact-form-card shadow-sm">
-                <Form onSubmit={handleSubmit}>
-                  <Row className="gy-4">
-                    <Col md={6} xs={12}>
-                      <Form.Group controlId="formFullName">
-                        <Form.Label className="field-custom-label text-uppercase fw-bold">
-                          Full Name
-                        </Form.Label>
-                        <Form.Control
-                          type="text"
-                          name="fullName"
-                          placeholder="John Doe"
-                          value={formData.fullName}
-                          onChange={handleChange}
-                          className="custom-input-field border-0"
-                          required
-                        />
-                      </Form.Group>
-                    </Col>
+              <AnimationSecComponent
+                duration={0.5}
+                distance={100}
+                delay={0.1}
+              >
+                <div className="contact-form-card shadow-sm">
+                  <Form onSubmit={handleSubmit}>
+                    <Row className="gy-4">
+                      <Col md={6} xs={12}>
+                        <Form.Group controlId="formFullName">
+                          <Form.Label className="field-custom-label text-uppercase fw-bold">
+                            Full Name
+                          </Form.Label>
+                          <Form.Control
+                            type="text"
+                            name="fullName"
+                            placeholder="John Doe"
+                            value={formData.fullName}
+                            onChange={handleChange}
+                            className="custom-input-field border-0"
+                            required
+                          />
+                        </Form.Group>
+                      </Col>
 
-                    <Col md={6} xs={12}>
-                      <Form.Group controlId="formEmail">
-                        <Form.Label className="field-custom-label text-uppercase fw-bold">
-                          Email Address
-                        </Form.Label>
-                        <Form.Control
-                          type="email"
-                          name="email"
-                          placeholder="john@example.com"
-                          value={formData.email}
-                          onChange={handleChange}
-                          className="custom-input-field border-0"
-                          required
-                        />
-                      </Form.Group>
-                    </Col>
+                      <Col md={6} xs={12}>
+                        <Form.Group controlId="formEmail">
+                          <Form.Label className="field-custom-label text-uppercase fw-bold">
+                            Email Address
+                          </Form.Label>
+                          <Form.Control
+                            type="email"
+                            name="email"
+                            placeholder="john@example.com"
+                            value={formData.email}
+                            onChange={handleChange}
+                            className="custom-input-field border-0"
+                            required
+                          />
+                        </Form.Group>
+                      </Col>
 
-                    <Col md={6} xs={12}>
-                      <Form.Group controlId="formPhone">
-                        <Form.Label className="field-custom-label text-uppercase fw-bold">
-                          Phone Number
-                        </Form.Label>
-                        <Form.Control
-                          type="text"
-                          name="phone"
-                          placeholder="+91 00000 00000"
-                          value={formData.phone}
-                          onChange={handleChange}
-                          className="custom-input-field border-0"
-                          required
-                        />
-                      </Form.Group>
-                    </Col>
+                      <Col md={6} xs={12}>
+                        <Form.Group controlId="formPhone">
+                          <Form.Label className="field-custom-label text-uppercase fw-bold">
+                            Phone Number
+                          </Form.Label>
+                          <Form.Control
+                            type="text"
+                            name="phone"
+                            placeholder="+91 00000 00000"
+                            value={formData.phone}
+                            onChange={handleChange}
+                            className="custom-input-field border-0"
+                            required
+                          />
+                        </Form.Group>
+                      </Col>
 
-                    <Col md={6} xs={12}>
-                      <Form.Group controlId="formSubject">
-                        <Form.Label className="field-custom-label text-uppercase fw-bold">
-                          Subject
-                        </Form.Label>
-                        <Form.Control
-                          type="text"
-                          name="subject"
-                          placeholder="Inquiry about..."
-                          value={formData.subject}
-                          onChange={handleChange}
-                          className="custom-input-field border-0"
-                        />
-                      </Form.Group>
-                    </Col>
+                      <Col md={6} xs={12}>
+                        <Form.Group controlId="formSubject">
+                          <Form.Label className="field-custom-label text-uppercase fw-bold">
+                            Subject
+                          </Form.Label>
+                          <Form.Control
+                            type="text"
+                            name="subject"
+                            placeholder="Inquiry about..."
+                            value={formData.subject}
+                            onChange={handleChange}
+                            className="custom-input-field border-0"
+                          />
+                        </Form.Group>
+                      </Col>
 
-                    <Col xs={12}>
-                      <Form.Group controlId="formMessage">
-                        <Form.Label className="field-custom-label text-uppercase fw-bold">
-                          Message
-                        </Form.Label>
-                        <Form.Control
-                          as="textarea"
-                          name="message"
-                          rows={4}
-                          placeholder="How can we help you today?"
-                          value={formData.message}
-                          onChange={handleChange}
-                          className="custom-textarea-field border-0"
-                          required
-                        />
-                      </Form.Group>
-                    </Col>
+                      <Col xs={12}>
+                        <Form.Group controlId="formMessage">
+                          <Form.Label className="field-custom-label text-uppercase fw-bold">
+                            Message
+                          </Form.Label>
+                          <Form.Control
+                            as="textarea"
+                            name="message"
+                            rows={4}
+                            placeholder="How can we help you today?"
+                            value={formData.message}
+                            onChange={handleChange}
+                            className="custom-textarea-field border-0"
+                            required
+                          />
+                        </Form.Group>
+                      </Col>
 
-                    <Col xs={12}>
-                      <button
-                        type="submit"
-                        className="pill-btn primary d-inline-flex align-items-center gap-2"
-                      >
-                        Submit Message <ArrowRight size={18} />
-                      </button>
-                    </Col>
-                  </Row>
-                </Form>
-              </div>
+                      <Col xs={12}>
+                        <button
+                          type="submit"
+                          className="pill-btn primary d-inline-flex align-items-center gap-2"
+                        >
+                          Submit Message <ArrowRight size={18} />
+                        </button>
+                      </Col>
+                    </Row>
+                  </Form>
+                </div>
+              </AnimationSecComponent>
             </Col>
 
             {/* Right Column: Direct Info Blocks & Road Media Aspect */}
-            <Col lg={5} md={12} className="d-flex flex-column gap-4">
-              {/* Box Item 1: Office Info */}
-              <div className="info-block-item d-flex align-items-start gap-4 p-4 shadow-sm bg-white">
-                <div className="info-icon-circle rounded-circle flex-shrink-0 d-flex align-items-center justify-content-center text-white">
-                  <MapPin size={22} />
+            <Col lg={5} md={12}>
+              <AnimationSecComponent
+                duration={0.5}
+                distance={100}
+                delay={0.1}
+                className="d-flex flex-column gap-4"
+              >
+                {/* Box Item 1: Office Info */}
+                <div className="info-block-item d-flex align-items-start gap-4 p-4 shadow-sm bg-white">
+                  <div className="info-icon-circle rounded-circle flex-shrink-0 d-flex align-items-center justify-content-center text-white">
+                    <MapPin size={22} />
+                  </div>
+                  <div className="info-meta">
+                    <h4 className="info-title fw-semibold mb-2">Our Office</h4>
+                    <Link
+                      href="#"
+                      className="info-anchor-link fw-semibold text-decoration-none"
+                    >
+                      Office Shop No 11, NYSA Business Centre, Makhmalabad Rd,
+                      Ghadge Nagar, Nashik, Maharashtra 422003
+                    </Link>
+                  </div>
                 </div>
-                <div className="info-meta">
-                  <h4 className="info-title fw-semibold mb-2">Our Office</h4>
-                  <Link
-                    href="#"
-                    className="info-anchor-link fw-semibold text-decoration-none"
-                  >
-                    Office Shop No 11, NYSA Business Centre, Makhmalabad Rd,
-                    Ghadge Nagar, Nashik, Maharashtra 422003
-                  </Link>
-                </div>
-              </div>
 
-              {/* Box Item 2: Email Us */}
-              <div className="info-block-item d-flex align-items-start gap-4 p-4 shadow-sm bg-white">
-                <div className="info-icon-circle rounded-circle flex-shrink-0 d-flex align-items-center justify-content-center text-white">
-                  <Mail size={22} />
+                {/* Box Item 2: Email Us */}
+                <div className="info-block-item d-flex align-items-start gap-4 p-4 shadow-sm bg-white">
+                  <div className="info-icon-circle rounded-circle flex-shrink-0 d-flex align-items-center justify-content-center text-white">
+                    <Mail size={22} />
+                  </div>
+                  <div className="info-meta">
+                    <h4 className="info-title fw-semibold mb-2">Email Us</h4>
+                    <Link
+                      href="mailto:kumbhtourstravels@gmail.com"
+                      className="info-anchor-link fw-semibold text-decoration-none"
+                    >
+                      kumbhtourstravels@gmail.com
+                    </Link>
+                  </div>
                 </div>
-                <div className="info-meta">
-                  <h4 className="info-title fw-semibold mb-2">Email Us</h4>
-                  <Link
-                    href="mailto:kumbhtourstravels@gmail.com"
-                    className="info-anchor-link fw-semibold text-decoration-none"
-                  >
-                    kumbhtourstravels@gmail.com
-                  </Link>
-                </div>
-              </div>
 
-              {/* Box Item 3: Call Us */}
-              <div className="info-block-item d-flex align-items-start gap-4 p-4 shadow-sm bg-white">
-                <div className="info-icon-circle rounded-circle flex-shrink-0 d-flex align-items-center justify-content-center text-white">
-                  <Phone size={22} />
+                {/* Box Item 3: Call Us */}
+                <div className="info-block-item d-flex align-items-start gap-4 p-4 shadow-sm bg-white">
+                  <div className="info-icon-circle rounded-circle flex-shrink-0 d-flex align-items-center justify-content-center text-white">
+                    <Phone size={22} />
+                  </div>
+                  <div className="info-meta">
+                    <h4 className="info-title fw-bold mb-2">Call Us</h4>
+                    <Link
+                      href="telto:+919225899899"
+                      className="info-anchor-link fw-semibold text-decoration-none"
+                    >
+                      +91 92258 99899
+                    </Link>
+                    <p className="info-description mb-0 text-muted small">
+                      Available 24/7 for support and bookings.
+                    </p>
+                  </div>
                 </div>
-                <div className="info-meta">
-                  <h4 className="info-title fw-bold mb-2">Call Us</h4>
-                  <Link
-                    href="telto:+919225899899"
-                    className="info-anchor-link fw-semibold text-decoration-none"
-                  >
-                    +91 92258 99899
-                  </Link>
-                  <p className="info-description mb-0 text-muted small">
-                    Available 24/7 for support and bookings.
-                  </p>
-                </div>
-              </div>
+              </AnimationSecComponent>
             </Col>
           </Row>
         </Container>

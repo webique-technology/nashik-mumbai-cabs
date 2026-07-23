@@ -452,31 +452,48 @@ export const PilgrimStandard = () => {
       <Container>
         {/* Section Heading */}
         <div className="text-center section-header">
-          <h2 className="section-title">
-            The Premium Ride <span className="title-highlight">Standard</span>
-          </h2>
+          <AnimationSecComponent
+            type="vertical"
+            direction="up"
+            duration={0.5}
+            distance={50}
+            delay={0.1}
+          >
+            <h2 className="section-title">
+              The Premium Ride <span className="title-highlight">Standard</span>
+            </h2>
+          </AnimationSecComponent>
         </div>
 
         {/* Dynamic Cards Grid */}
         <Row className="g-4 justify-content-center align-items-stretch">
           {standardsList.map((item) => (
             <Col key={item.id} xs={6} sm={6} md={6} lg={3} className="d-flex">
-              <div
-                className={`standard-card d-flex flex-column rounded-4 p-4 transition-all w-100 ${
-                  item.isFeatured
-                    ? "featured-card shadow"
-                    : "standard-white shadow-sm"
-                }`}
+              <AnimationSecComponent
+                type="fadeIn"
+                direction="up"
+                duration={0.5}
+                distance={50}
+                delay={0.1}
+                className="h-100"
               >
-                {/* Icon Wrapper Context */}
-                <div className="icon-container mb-4">{item.icon}</div>
+                <div
+                  className={`standard-card h-100 d-flex flex-column rounded-4 p-4 transition-all w-100 ${
+                    item.isFeatured
+                      ? "featured-card shadow"
+                      : "standard-white shadow-sm"
+                  }`}
+                >
+                  {/* Icon Wrapper Context */}
+                  <div className="icon-container mb-4">{item.icon}</div>
 
-                {/* Card Title */}
-                <h3 className="card-heading fw-bold mb-3">{item.title}</h3>
+                  {/* Card Title */}
+                  <h3 className="card-heading fw-bold mb-3">{item.title}</h3>
 
-                {/* Card Description */}
-                <p className="card-desc lh-base mb-0">{item.description}</p>
-              </div>
+                  {/* Card Description */}
+                  <p className="card-desc lh-base mb-0">{item.description}</p>
+                </div>
+              </AnimationSecComponent>
             </Col>
           ))}
         </Row>

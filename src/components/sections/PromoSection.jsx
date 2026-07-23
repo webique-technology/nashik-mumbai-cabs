@@ -6,9 +6,9 @@ import Image from "next/image";
 import * as LucideIcons from "lucide-react";
 import { PhoneCall } from "lucide-react";
 
-
 import "../../styles/CommonSec.scss";
 import { BookingForm } from "./CommonSec";
+import { AnimationSecComponent } from "../ui/AnimationSecComponent";
 
 // first promotion banner
 const PromoBanner = ({
@@ -45,24 +45,26 @@ const PromoBanner = ({
               {/* 1. Main Content Block */}
               {content && (
                 <>
-                  {content.highlightText && (
-                    <span className="highlight-tag d-block fw-bold mb-3">
-                      {content.highlightText}
-                    </span>
-                  )}
-                  <h2 className="section-title">
-                    {content.mainTitleNormal}
-                    {content.mainTitleNormal && <br />}
-                    <span className="fw-extrabold">
-                      {content.mainTitleBold}
-                    </span>
-                    {content.mainTitleSuffix}
-                    {content.highlightWord && (
-                      <span className="title-highlight text-warning ms-2">
-                        {content.highlightWord}
+                  <AnimationSecComponent distance={200} duration={0.7}>
+                    {content.highlightText && (
+                      <span className="highlight-tag d-block fw-bold mb-3">
+                        {content.highlightText}
                       </span>
                     )}
-                  </h2>
+                    <h2 className="section-title">
+                      {content.mainTitleNormal}
+                      {content.mainTitleNormal && <br />}
+                      <span className="fw-extrabold">
+                        {content.mainTitleBold}
+                      </span>
+                      {content.mainTitleSuffix}
+                      {content.highlightWord && (
+                        <span className="title-highlight text-warning ms-2">
+                          {content.highlightWord}
+                        </span>
+                      )}
+                    </h2>
+                  </AnimationSecComponent>
                 </>
               )}
 
@@ -75,36 +77,38 @@ const PromoBanner = ({
 
               {/* 3. Features Services List Layout */}
               {features && features.length > 0 && (
-                <div className="features-list my-4">
-                  {features.map((feature, index) => {
-                    // Resolve Lucide component strings safely
-                    const IconComponent =
-                      LucideIcons[feature.icon] || LucideIcons.HelpCircle;
+                <AnimationSecComponent distance={200} duration={0.7}>
+                  <div className="features-list my-4">
+                    {features.map((feature, index) => {
+                      // Resolve Lucide component strings safely
+                      const IconComponent =
+                        LucideIcons[feature.icon] || LucideIcons.HelpCircle;
 
-                    return (
-                      <div
-                        key={feature.id || index}
-                        className="feature-item d-flex align-items-start mb-4"
-                      >
-                        <div className="icon-wrapper flex-shrink-0 me-2 me-sm-4 d-flex align-items-center justify-content-center">
-                          <IconComponent
-                            size={40}
-                            strokeWidth={1.5}
-                            className=""
-                          />
+                      return (
+                        <div
+                          key={feature.id || index}
+                          className="feature-item d-flex align-items-start mb-4"
+                        >
+                          <div className="icon-wrapper flex-shrink-0 me-2 me-sm-4 d-flex align-items-center justify-content-center">
+                            <IconComponent
+                              size={40}
+                              strokeWidth={1.5}
+                              className=""
+                            />
+                          </div>
+                          <div>
+                            <h5 className="feature-title fw-bold mb-1">
+                              {feature.title}
+                            </h5>
+                            <p className="feature-desc text-muted mb-0 small">
+                              {feature.description}
+                            </p>
+                          </div>
                         </div>
-                        <div>
-                          <h5 className="feature-title fw-bold mb-1">
-                            {feature.title}
-                          </h5>
-                          <p className="feature-desc text-muted mb-0 small">
-                            {feature.description}
-                          </p>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
+                      );
+                    })}
+                  </div>
+                </AnimationSecComponent>
               )}
 
               {/* 4. Action Button */}
@@ -179,13 +183,23 @@ const AppDownloadBanner = ({
             sm={12}
             className="text-content-col position-relative z-1"
           >
-            <h2 className="banner-heading text-white fw-bold mb-4">
-              {titlePrefix}{" "}
-              <span className="highlight-text">{titleHighlight}</span>{" "}
-              {titleSuffix}
-            </h2>
+            <AnimationSecComponent
+              duration={0.5}
+              distance={100}
+            >
+              <h2 className="banner-heading text-white fw-bold mb-4">
+                {titlePrefix}{" "}
+                <span className="highlight-text">{titleHighlight}</span>{" "}
+                {titleSuffix}
+              </h2>
+            </AnimationSecComponent>
 
-            <div className="download-buttons-group d-flex flex-wrap gap-3">
+            <AnimationSecComponent
+              duration={0.5}
+              distance={100}
+              delay={0.1}
+            >
+              <div className="download-buttons-group d-flex flex-wrap gap-3">
               <Link href={iosLink} passHref target="_blank">
                 <div className="btn btn-ios d-inline-flex align-items-center gap-2 fw-semibold text-white">
                   <PhoneCall />
@@ -200,6 +214,7 @@ const AppDownloadBanner = ({
                 </div>
               </Link>
             </div>
+            </AnimationSecComponent>
           </Col>
 
           {/* Right Side: Dynamic Component OR Fallback Image Mockup */}
@@ -211,25 +226,35 @@ const AppDownloadBanner = ({
             {rightComponent ? (
               /* Render dynamic React component/JSX if passed */
               <div className="dynamic-component-wrapper w-100">
-                {rightComponent}
+                <AnimationSecComponent
+                  duration={0.5}
+                  distance={100}
+                >
+                  {rightComponent}
+                </AnimationSecComponent>
               </div>
             ) : mockupImageSrc ? (
               /* Fallback to image layout logic if no dynamic component is provided */
               <div className="mockup-img-wrapper">
-                {typeof mockupImageSrc === "object" && mockupImageSrc.src ? (
-                  <Image
-                    src={mockupImageSrc}
-                    alt="App Mobile Mockups"
-                    className="double-mockup-img img-fluid"
-                    priority
-                  />
-                ) : (
-                  <img
-                    src={mockupImageSrc}
-                    alt="App Mobile Mockups Image"
-                    className="double-mockup-img img-fluid"
-                  />
-                )}
+                <AnimationSecComponent
+                  duration={0.5}
+                  distance={100}
+                >
+                  {typeof mockupImageSrc === "object" && mockupImageSrc.src ? (
+                    <Image
+                      src={mockupImageSrc}
+                      alt="App Mobile Mockups"
+                      className="double-mockup-img img-fluid"
+                      priority
+                    />
+                  ) : (
+                    <img
+                      src={mockupImageSrc}
+                      alt="App Mobile Mockups Image"
+                      className="double-mockup-img img-fluid"
+                    />
+                  )}
+                </AnimationSecComponent>
               </div>
             ) : null}
           </Col>

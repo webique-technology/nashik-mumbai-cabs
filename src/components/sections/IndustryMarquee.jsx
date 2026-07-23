@@ -13,6 +13,7 @@ import { Container } from "react-bootstrap";
 import { CityServicesRoute, footerLinksData } from "@/lib/data";
 import "../../styles/CommonSec.scss";
 import "../../styles/main.scss";
+import { AnimationSecComponent } from "../ui/AnimationSecComponent";
 
 // Configuration for the acceleration/deceleration interpolation smoothing factor
 const ANIMATION_CONFIG = { SMOOTH_TAU: 0.25 };
@@ -167,52 +168,73 @@ export const DynamicFooterLinks = () => {
   // Check if the current path matches /cabs or /bus precisely
   const hideBgLight = pathname === "/cabs" || pathname === "/bus";
   return (
-    <section className={`text-white section-padding ${hideBgLight ? "" : "bg-light"}`}>
+    <section
+      className={`text-white section-padding ${hideBgLight ? "" : "bg-light"}`}
+    >
       <div className="container">
         <div className="text-center mb-4 mb-md-5">
-          <h2 className="section-title">
-            Popular City <span className="title-highlight">Services</span>
-          </h2>
-          <p className="text-muted">
-            Discover Reliable Cab Services in Top Cities with Nashik Mumbai
-            Cabs. Click Below to Explore Availability!
-          </p>
+          <AnimationSecComponent
+            type="vertical"
+            direction="up"
+            duration={0.5}
+            distance={50}
+            delay={0.1}
+          >
+            <h2 className="section-title">
+              Popular City <span className="title-highlight">Services</span>
+            </h2>
+            <p className="text-muted">
+              Discover Reliable Cab Services in Top Cities with Nashik Mumbai
+              Cabs. Click Below to Explore Availability!
+            </p>
+          </AnimationSecComponent>
         </div>
         <div className="row g-4 justify-content-center">
           {footerLinksData.map((section) => (
             <div key={section.id} className="col-12 col-sm-6 col-md-6 col-lg-3">
-              {/* Column Heading */}
-              <h3
-                className="fs-6 fw-bold text-uppercase mb-2 mb-sm-3 tracking-wide text-dark"
-                style={{ letterSpacing: "0.5px" }}
+              <AnimationSecComponent
+                type="vertical"
+                direction="up"
+                duration={0.5}
+                distance={100}
+                delay={0.2}
               >
-                {section.title}
-              </h3>
+                {/* Column Heading */}
+                <h3
+                  className="fs-6 fw-bold text-uppercase mb-2 mb-sm-3 tracking-wide text-dark"
+                  style={{ letterSpacing: "0.5px" }}
+                >
+                  {section.title}
+                </h3>
 
-              {/* Links Stream Stack */}
-              <ul className="list-unstyled d-flex flex-column pill-badge pill-badge-icon gap-1 gap-sm-2 gap-md-3 m-0 p-0">
-                {section.links.map((link, idx) => (
-                  <li key={idx} className="d-flex align-items-start gap-2">
-                    {/* Actual Clickable Hyperlink Route */}
-                    <img
-                      src="/images/hand-right.png"
-                      className="icon"
-                      alt="hand-right"
-                    />
-                    <Link
-                      href={link.href}
-                      className={`text-decoration-none small transition-all link-text link-text-dark ${
-                        link.isHighlighted
-                          ? "text-warning fw-semibold"
-                          : "text-dark opacity-75 hover-opacity-100"
-                      }`}
-                      style={{ fontSize: "0.9rem", transition: "opacity 0.2s" }}
-                    >
-                      {link.text}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+                {/* Links Stream Stack */}
+                <ul className="list-unstyled d-flex flex-column pill-badge pill-badge-icon gap-1 gap-sm-2 gap-md-3 m-0 p-0">
+                  {section.links.map((link, idx) => (
+                    <li key={idx} className="d-flex align-items-start gap-2">
+                      {/* Actual Clickable Hyperlink Route */}
+                      <img
+                        src="/images/hand-right.png"
+                        className="icon"
+                        alt="hand-right"
+                      />
+                      <Link
+                        href={link.href}
+                        className={`text-decoration-none small transition-all link-text link-text-dark ${
+                          link.isHighlighted
+                            ? "text-warning fw-semibold"
+                            : "text-dark opacity-75 hover-opacity-100"
+                        }`}
+                        style={{
+                          fontSize: "0.9rem",
+                          transition: "opacity 0.2s",
+                        }}
+                      >
+                        {link.text}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </AnimationSecComponent>
             </div>
           ))}
         </div>

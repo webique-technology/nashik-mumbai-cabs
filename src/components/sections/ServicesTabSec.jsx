@@ -6,6 +6,7 @@ import Link from "next/link";
 import PropTypes from "prop-types";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { CabsData } from "@/lib/data";
+import { AnimationSecComponent } from "../ui/AnimationSecComponent";
 
 const ServiceTabsSection = ({
   title,
@@ -48,37 +49,51 @@ const ServiceTabsSection = ({
       <Container>
         {/* Title Block */}
         <div className="text-center mb-4">
-          <h2 className="section-title text-dark">
-            {title} <span className="title-highlight">{highlightWord}</span>
-          </h2>
+          <AnimationSecComponent
+            distance={200}
+            duration={0.8}
+            className="h-100"
+          >
+            <h2 className="section-title text-dark">
+              {title} <span className="title-highlight">{highlightWord}</span>
+            </h2>
+          </AnimationSecComponent>
         </div>
 
         {/* Dynamic Category Tab Filter Switcher */}
-        <div className="tabs-nav-container d-flex justify-content-center mb-5">
-          <div className="tabs-pill d-flex gap-1 gap-sm-2 align-items-center justify-content-center bg-white shadow-sm p-2 rounded-3">
-            {tabsList.map((tabLabel) => (
-              <button
-                key={tabLabel}
-                type="button"
-                className={`tab-nav-btn rounded-2 border-0 px-2 px-sm-4 py-1 py-sm-2 fw-semibold transition-all ${
-                  activeTab === tabLabel ? "active shadow-sm" : ""
-                }`}
-                onClick={() => setActiveTab(tabLabel)}
-              >
-                {tabLabel}
-              </button>
-            ))}
+        <AnimationSecComponent distance={205} duration={0.8}>
+          <div className="tabs-nav-container d-flex justify-content-center mb-5">
+            <div className="tabs-pill d-flex gap-1 gap-sm-2 align-items-center justify-content-center bg-white shadow-sm p-2 rounded-3">
+              {tabsList.map((tabLabel) => (
+                <button
+                  key={tabLabel}
+                  type="button"
+                  className={`tab-nav-btn rounded-2 border-0 px-2 px-sm-4 py-1 py-sm-2 fw-semibold transition-all ${
+                    activeTab === tabLabel ? "active shadow-sm" : ""
+                  }`}
+                  onClick={() => setActiveTab(tabLabel)}
+                >
+                  {tabLabel}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
+        </AnimationSecComponent>
 
         {/* Grid Window Display */}
         <div className="tab-view-window position-relative">
           {sliderBtns === true && (
             <>
-              <button type="button" className="slider-arrow arrow-left shadow-sm d-flex align-items-center justify-content-center position-absolute rounded-circle bg-white border">
+              <button
+                type="button"
+                className="slider-arrow arrow-left shadow-sm d-flex align-items-center justify-content-center position-absolute rounded-circle bg-white border"
+              >
                 <ChevronLeft size={20} />
               </button>
-              <button type="button" className="slider-arrow arrow-right shadow-sm d-flex align-items-center justify-content-center position-absolute rounded-circle bg-white border">
+              <button
+                type="button"
+                className="slider-arrow arrow-right shadow-sm d-flex align-items-center justify-content-center position-absolute rounded-circle bg-white border"
+              >
                 <ChevronRight size={20} />
               </button>
             </>
@@ -89,9 +104,11 @@ const ServiceTabsSection = ({
               {filteredCabs.length ? (
                 filteredCabs.map((cab) => {
                   const currentCategory = cab.category.toLowerCase();
-                  const pathPrefix = (currentCategory === "bus" || currentCategory === "tempo traveller") 
-                    ? "/bus" 
-                    : "/cabs";
+                  const pathPrefix =
+                    currentCategory === "bus" ||
+                    currentCategory === "tempo traveller"
+                      ? "/bus"
+                      : "/cabs";
 
                   return (
                     <Col
@@ -102,40 +119,42 @@ const ServiceTabsSection = ({
                       lg={3}
                       className="d-flex"
                     >
-                      <Card className="cab-display-card text-center w-100 shadow-sm border d-flex flex-column justify-content-between p-2 p-sm-3">
-                        {/* Image Block */}
-                        <div className="card-image-box d-flex align-items-center justify-content-center">
-                          <img
-                            src={cab.imageSrc}
-                            alt={cab.name}
-                            className="img-fluid vehicle-img"
-                            onError={(e) => {
-                              e.target.onerror = null;
-                              e.target.src =
-                                "https://placehold.co/240x160?text=Vehicle+Image";
-                            }}
-                          />
-                        </div>
+                      <AnimationSecComponent distance={210} duration={0.9} className="h-100">
+                        <Card className="cab-display-card h-100 text-center w-100 shadow-sm border d-flex flex-column justify-content-between p-2 p-sm-3">
+                          {/* Image Block */}
+                          <div className="card-image-box d-flex align-items-center justify-content-center">
+                            <img
+                              src={cab.imageSrc}
+                              alt={cab.name}
+                              className="img-fluid vehicle-img"
+                              onError={(e) => {
+                                e.target.onerror = null;
+                                e.target.src =
+                                  "https://placehold.co/240x160?text=Vehicle+Image";
+                              }}
+                            />
+                          </div>
 
-                        {/* Info Block */}
-                        <Card.Body className="p-2 d-grid align-items-center">
-                          <Card.Title className="vehicle-name fw-semibold fs-5 mb-3 text-dark">
-                            {cab.name}
-                          </Card.Title>
+                          {/* Info Block */}
+                          <Card.Body className="p-2 d-grid align-items-center">
+                            <Card.Title className="vehicle-name fw-semibold fs-5 mb-3 text-dark">
+                              {cab.name}
+                            </Card.Title>
 
-                          {/* Dynamic View Route Button using computed pathPrefix */}
-                          <Link
-                            href={`${pathPrefix}/${cab.slug}`}
-                            passHref
-                            // target="_blank"
-                            className="w-100"
-                          >
-                            <Button className="btn-square btn-square-font-base btn-square-primary py-1 w-100">
-                              View Details
-                            </Button>
-                          </Link>
-                        </Card.Body>
-                      </Card>
+                            {/* Dynamic View Route Button using computed pathPrefix */}
+                            <Link
+                              href={`${pathPrefix}/${cab.slug}`}
+                              passHref
+                              // target="_blank"
+                              className="w-100"
+                            >
+                              <Button className="btn-square btn-square-font-base btn-square-primary py-1 w-100">
+                                View Details
+                              </Button>
+                            </Link>
+                          </Card.Body>
+                        </Card>
+                      </AnimationSecComponent>
                     </Col>
                   );
                 })

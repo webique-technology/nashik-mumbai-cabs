@@ -217,6 +217,18 @@ footer {
         border-top: 1px solid $bg-light;
         background-color: $primary;
         position: relative;
+
+        span {
+            font-size: $fs-common-md;
+        }
+
+        @media(max-width:767px) {
+
+            p,
+            span {
+                font-size: $fs-common-base;
+            }
+        }
     }
 
     .play-style-btn {
