@@ -106,11 +106,7 @@ export default function ContactPageComp() {
           <Row className="g-4">
             {/* Left Column: Form Card Wrapper */}
             <Col lg={7} md={12}>
-              <AnimationSecComponent
-                duration={0.5}
-                distance={100}
-                delay={0.1}
-              >
+              <AnimationSecComponent duration={0.5} distance={100} delay={0.1}>
                 <div className="contact-form-card shadow-sm">
                   <Form onSubmit={handleSubmit}>
                     <Row className="gy-4">
@@ -229,11 +225,11 @@ export default function ContactPageComp() {
                   <div className="info-meta">
                     <h4 className="info-title fw-semibold mb-2">Our Office</h4>
                     <Link
-                      href="#"
+                      href="https://maps.app.goo.gl/SgWUvNo8fQQ3uv7y6"
                       className="info-anchor-link fw-semibold text-decoration-none"
                     >
-                      Office Shop No 11, NYSA Business Centre, Makhmalabad Rd,
-                      Ghadge Nagar, Nashik, Maharashtra 422003
+                      Shop No. 7, Nysa Buisness Centre, Ghadge Nagar,
+                      Makhmalabad, Nashik, Maharashtra 422003
                     </Link>
                   </div>
                 </div>
@@ -246,10 +242,10 @@ export default function ContactPageComp() {
                   <div className="info-meta">
                     <h4 className="info-title fw-semibold mb-2">Email Us</h4>
                     <Link
-                      href="mailto:kumbhtourstravels@gmail.com"
+                      href="mailto:nashikmumbaicabs@gmail.com"
                       className="info-anchor-link fw-semibold text-decoration-none"
                     >
-                      kumbhtourstravels@gmail.com
+                      nashikmumbaicabs@gmail.com
                     </Link>
                   </div>
                 </div>
@@ -262,7 +258,7 @@ export default function ContactPageComp() {
                   <div className="info-meta">
                     <h4 className="info-title fw-bold mb-2">Call Us</h4>
                     <Link
-                      href="telto:+919225899899"
+                       href="tel:+919225899899"
                       className="info-anchor-link fw-semibold text-decoration-none"
                     >
                       +91 92258 99899
