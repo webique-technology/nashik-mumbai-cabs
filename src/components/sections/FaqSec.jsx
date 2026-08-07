@@ -65,6 +65,7 @@ export const FaqSec = () => {
                     duration={0.5}
                     distance={100}
                     delay={i * 0.2}
+                    key={i}
                   >
                     <Accordion.Item
                       eventKey={`faq-${currentId}`}
@@ -92,6 +93,7 @@ export const FaqSec = () => {
                     duration={0.5}
                     distance={100}
                     delay={i * 0.2}
+                    key={i}
                   >
                     <Accordion.Item
                       eventKey={`faq-${currentId}`}

@@ -130,7 +130,7 @@ export default function Home() {
   return (
     <main>
       <HeroHeader />
-      <CarBlock />
+      {/* <CarBlock /> */}
       <LeftTextRightImageCommnSec
         heading={ExplorationSec.heading}
         highlightWord={ExplorationSec.highlightWord}

@@ -8,7 +8,7 @@ export const DetailPage1 = ({ dataObject }) => {
   const data = dataObject;
   return (
     <>
-      <main className="py-5 bg-white text-dark">
+      <main className="py-4 py-sm-5 bg-white text-dark">
         <div className="container">
           <Row className="row g-4 justify-content-center">
             {/* Main Layout Content Column */}
@@ -152,7 +152,7 @@ export const DetailPage1 = ({ dataObject }) => {
 
             {/* Sidebar Area with Booking Form */}
             <Col lg={5} className="">
-              <div className="position-sticky" style={{ top: "2rem" }}>
+              <div className="position-sticky" style={{ top: "80px" }}>
                 <BookingForm btnClass="btn-square-primary" />
 
                 <Row className="g-4 mt-2">

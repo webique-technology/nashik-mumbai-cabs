@@ -324,6 +324,57 @@ export const airportToursData = [
         "Book clean outstation cabs from Nashik to Kolhapur Airport. Competitive flat rates, professional drivers.",
     },
   },
+
+  // ─── 7. NAVI MUMBAI AIRPORT ROUTE ──────────────────────────────────────────
+  {
+    id: "airport-07",
+    title: "Nashik to Navi Mumbai International Airport Taxi Services",
+    slug: "nashik-to-navi-mumbai-airport-taxi",
+    image: "/images/navi-mumbai-airport.webp",
+    tagline: "Nashik to Navi Mumbai Airport Pickup / Drop Taxi Services",
+    company: "Nashik Sai Yatra Cabs",
+    intro:
+      "Direct outstation taxi transfers connecting Nashik straight to the newly operational Navi Mumbai International Airport (NMI / Ulwe sector) with zero stress.",
+    fleetDescription:
+      "Clean outstation sedans, Innova Crysta SUVs, and tempo travellers equipped for comfortable long-distance highway travel.",
+    contentBlocks: [
+      {
+        type: "text",
+        heading: "Direct Transit via Samruddhi & Expressway Links",
+        content:
+          "Avoid the dense inner Mumbai city traffic jams. Our experienced drivers take smooth highway bypasses via Thane, Belapur, and JNPT port corridors straight into the modern terminal gates of Navi Mumbai International Airport.",
+      },
+      {
+        type: "callout",
+        heading: "Route Distance & Express Rates",
+        content:
+          "Nashik to Navi Mumbai Airport measures roughly 150 km to 160 km. Enjoy clear, flat outstation package pricing inclusive of highway toll taxes.",
+      },
+      {
+        type: "list",
+        heading: "Why Choose Our Navi Mumbai Airport Service?",
+        items: [
+          "Faster route access bypassing South/Central Mumbai traffic bottlenecks",
+          "Flight status monitoring for timely pickup and drop-off coordination",
+          "Dedicated outstation drivers with complete route familiarity",
+          "Spacious luggage holds tailored for long-haul and international travelers",
+        ],
+        closing:
+          "Reserve your direct terminal cab today for a hassle-free journey to NMI Airport.",
+      },
+    ],
+    longDistance: {
+      heading: "Connecting Navi Mumbai to Nashik Pilgrimage Points",
+      content:
+        "Landing at NMI? We also arrange immediate highway drops straight from Navi Mumbai Airport to Trimbakeshwar, Shirdi, or Panchavati.",
+      closing: "Call us for direct flight terminal booking!",
+    },
+    meta: {
+      title: "Nashik to Navi Mumbai Airport Taxi | NMI Airport Cab Service",
+      description:
+        "Book reliable cabs from Nashik to Navi Mumbai International Airport (NMI). Low fixed rates, door-to-door expressway transfers.",
+    },
+  },
 ];
 
 // Dynamic Helper utilities

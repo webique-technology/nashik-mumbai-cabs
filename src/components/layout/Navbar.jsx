@@ -95,7 +95,7 @@ const Navbar = () => {
 
                     <div className="d-none d-lg-inline-flex">
                         <LinkPillBtn
-                            btnText={"Contact"}
+                            btnText={"Book now"}
                             href={"/contact-us"}
                         />
                     </div>

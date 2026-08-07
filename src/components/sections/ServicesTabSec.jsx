@@ -50,7 +50,7 @@ const ServiceTabsSection = ({
         {/* Title Block */}
         <div className="text-center mb-4">
           <AnimationSecComponent
-            distance={200}
+            distance={100}
             duration={0.8}
             className="h-100"
           >
@@ -61,7 +61,7 @@ const ServiceTabsSection = ({
         </div>
 
         {/* Dynamic Category Tab Filter Switcher */}
-        <AnimationSecComponent distance={205} duration={0.8}>
+        <AnimationSecComponent distance={100} duration={0.8}>
           <div className="tabs-nav-container d-flex justify-content-center mb-5">
             <div className="tabs-pill d-flex gap-1 gap-sm-2 align-items-center justify-content-center bg-white shadow-sm p-2 rounded-3">
               {tabsList.map((tabLabel) => (
@@ -119,7 +119,7 @@ const ServiceTabsSection = ({
                       lg={3}
                       className="d-flex"
                     >
-                      <AnimationSecComponent distance={210} duration={0.9} className="h-100">
+                      <AnimationSecComponent distance={105} duration={0.9} className="h-100">
                         <Card className="cab-display-card h-100 text-center w-100 shadow-sm border d-flex flex-column justify-content-between p-2 p-sm-3">
                           {/* Image Block */}
                           <div className="card-image-box d-flex align-items-center justify-content-center">

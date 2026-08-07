@@ -21,7 +21,7 @@ const CounterSection = () => {
     const stats = [
         {
             id: 1,
-            endValue: 60.4,
+            endValue: 124,
             decimals: 1,
             suffix: "K",
             label: "Happy Traveller",
@@ -32,7 +32,7 @@ const CounterSection = () => {
         },
         {
             id: 2,
-            endValue: 30.4,
+            endValue: 85,
             decimals: 1,
             suffix: "K",
             label: "Tent Sites",
@@ -43,7 +43,7 @@ const CounterSection = () => {
         },
         {
             id: 3,
-            endValue: 78.6,
+            endValue: 126,
             decimals: 1,
             suffix: "%",
             label: "Satisfaction Rate",
@@ -54,7 +54,7 @@ const CounterSection = () => {
         },
         {
             id: 4,
-            endValue: 5.2,
+            endValue: 10,
             decimals: 1,
             prefix: "0",
             suffix: "+",
@@ -98,18 +98,18 @@ const CounterSection = () => {
 
                                         {/* CountUp Trigger */}
                                         <h2 className="counter-number fw-bold mb-1">
-                                            {stat.prefix}
+                                            {/* {stat.prefix} */}
                                             {inView ? (
                                                 <CountUp
                                                     end={stat.endValue}
-                                                    decimals={stat.decimals}
+                                                    // decimals={stat.decimals}
                                                     duration={2.5}
                                                     separator=","
                                                 />
                                             ) : (
                                                 "0.0"
                                             )}
-                                            {stat.suffix}
+                                            {/* {stat.suffix} */}
                                         </h2>
 
                                         {/* Label */}

@@ -483,6 +483,201 @@ export const railwayToursData = [
         "Book reliable airport/station connecting cabs from Nashik to Chhatrapati Sambhajinagar Railway Station (formerly Aurangabad). Upfront pricing.",
     },
   },
+
+  // ─── 13. IGATPURI ROUTE ────────────────────────────────────────────────────
+  {
+    id: "rail-13",
+    title: "Nashik to Igatpuri Railway Station Taxi Service",
+    slug: "nashik-to-igatpuri-railway-taxi",
+    image: "/images/igatpuri-railway.jpg",
+    tagline: "Nashik to Igatpuri Railway Station Taxi Service",
+    company: "Nashik Sai Yatra Cabs",
+    intro:
+      "Reliable and prompt cab services connecting Nashik city center directly to Igatpuri Railway Station across the Kasara Ghat belt.",
+    fleetDescription:
+      "Well-maintained hatchback models, AC sedans, and high-ground-clearance SUVs suitable for hill route transfers.",
+    contentBlocks: [
+      {
+        type: "text",
+        heading: "Ghat-Section Transit Specialists",
+        content:
+          "Igatpuri is a vital railway hub for changing train engines and navigating the Western Ghats line. Our drivers are specifically trained for safe, smooth navigation along mountain expressways.",
+      },
+      {
+        type: "callout",
+        heading: "Distance Metrics",
+        content:
+          "Spans roughly 45 km via NH 160. Transparent flat pricing with zero hidden mountain surge costs.",
+      },
+    ],
+    longDistance: {
+      heading: "Local Sightseeing Add-ons",
+      content:
+        "Add stopovers at Dhammagiri Vipassana Centre, Bhavali Dam, or Bhatsa River Valley seamlessly along your transfer.",
+      closing: "Book your Igatpuri station transfer now!",
+    },
+    meta: {
+      title: "Nashik to Igatpuri Railway Station Taxi | Station Cab Service",
+      description:
+        "Book fast and affordable cabs from Nashik to Igatpuri Railway Station. Transparent rates, Ghat-certified drivers.",
+    },
+  },
+
+  // ─── 14. DEVLALI ROUTE ─────────────────────────────────────────────────────
+  {
+    id: "rail-14",
+    title: "Nashik to Devlali Railway Station Taxi Service",
+    slug: "nashik-to-devlali-railway-taxi",
+    image: "/images/devlali-railway.jpg",
+    tagline: "Nashik to Devlali Railway Station Local Taxi Service",
+    company: "Nashik Sai Yatra Cabs",
+    intro:
+      "Quick, hassle-free suburban transfers between Nashik City, the Cantonment sector, and Devlali Railway Station.",
+    fleetDescription:
+      "Comfortable compact cars, local sedans, and multi-passenger vehicles tailored for suburban travel.",
+    contentBlocks: [
+      {
+        type: "text",
+        heading: "Cantonment & Station Connectivity",
+        content:
+          "Devlali is an essential railway station serving military cantonments, local residents, and commuters. Our cab service ensures prompt doorstep pickups and timely platform arrival.",
+      },
+      {
+        type: "callout",
+        heading: "Short Route Fixed Fares",
+        content:
+          "Spans approximately 10 to 15 km depending on your city pickup location. Pocket-friendly flat rates apply across all suburban zones.",
+      },
+    ],
+    longDistance: {
+      heading: "Suburban & Local Package Extensions",
+      content:
+        "Need multi-stop drop-offs across Devlali Camp or Artillery Centre? Custom hourly packages are available.",
+      closing: "Call us today to reserve your Devlali station taxi!",
+    },
+    meta: {
+      title: "Nashik to Devlali Railway Station Taxi | Cantonment Cabs",
+      description:
+        "Book fast local cabs from Nashik to Devlali Railway Station. Safe and punctual pickups with affordable flat pricing.",
+    },
+  },
+
+  // ─── 15. NIPHAD ROUTE ──────────────────────────────────────────────────────
+  {
+    id: "rail-15",
+    title: "Nashik to Niphad Railway Station Taxi Service",
+    slug: "nashik-to-niphad-railway-taxi",
+    image: "/images/niphad-railway.avif",
+    tagline: "Nashik to Niphad Railway Station Taxi Service",
+    company: "Nashik Sai Yatra Cabs",
+    intro:
+      "Seamless and dependable inter-district cab services from Nashik to Niphad Railway Station.",
+    fleetDescription:
+      "Clean AC sedans, hatchbacks, and spacious family utility cars ideal for agricultural and commuter transit.",
+    contentBlocks: [
+      {
+        type: "text",
+        heading: "Connecting Agricultural Hubs",
+        content:
+          "Niphad is a major regional agricultural and rail trading hub. Pre-booking your ride ensures a direct, efficient link for both business commuters and daily travelers.",
+      },
+      {
+        type: "callout",
+        heading: "Route Details",
+        content:
+          "Covers roughly 40 km along the Nashik-Aurangabad highway corridor. Transparent billing with fixed route fares.",
+      },
+    ],
+    longDistance: {
+      heading: "Multi-Station Agricultural Route Transfers",
+      content:
+        "We offer dynamic multi-stop itineraries across grape vineyards and agricultural trading markets nearby.",
+      closing: "Contact our booking counter to confirm your Niphad cab!",
+    },
+    meta: {
+      title: "Nashik to Niphad Railway Station Taxi | Outstation Cab",
+      description:
+        "Book dependable outstation taxis from Nashik to Niphad Railway Station. Low fixed rates and expert drivers.",
+    },
+  },
+
+  // ─── 16. ODHA ROUTE ────────────────────────────────────────────────────────
+  {
+    id: "rail-16",
+    title: "Nashik to Odha Railway Station Taxi Service",
+    slug: "nashik-to-odha-railway-taxi",
+    image: "/images/odha-railway.webp",
+    tagline: "Nashik to Odha Railway Station Local Taxi Service",
+    company: "Nashik Sai Yatra Cabs",
+    intro:
+      "Punctual point-to-point local cab transfers from Nashik urban limits directly to Odha Railway Station.",
+    fleetDescription:
+      "Compact hatchbacks, reliable sedans, and family vans suited for local suburban commuting.",
+    contentBlocks: [
+      {
+        type: "text",
+        heading: "Direct Suburban Station Transit",
+        content:
+          "Avoid public transit delays when reaching local railway platforms. Our driver picks you up right at your doorstep, ensuring you reach Odha Station with zero hassle.",
+      },
+      {
+        type: "callout",
+        heading: "Proximity Pricing",
+        content:
+          "Covers approximately 18 km from central Nashik. Affordable flat rates for smooth local travel.",
+      },
+    ],
+    longDistance: {
+      heading: "Immediate Station Return Cabs",
+      content:
+        "Schedule return pickups from Odha Railway Station back to your hotel or residence instantly.",
+      closing: "Book your Odha local taxi transfer today!",
+    },
+    meta: {
+      title: "Nashik to Odha Railway Station Taxi | Local Station Transfers",
+      description:
+        "Quick point-to-point local taxi booking from Nashik to Odha Railway Station. Safe, low-cost suburban cabs.",
+    },
+  },
+
+  // ─── 17. LAHAVIT ROUTE ─────────────────────────────────────────────────────
+  {
+    id: "rail-17",
+    title: "Nashik to Lahavit Railway Station Taxi Service",
+    slug: "nashik-to-lahavit-railway-taxi",
+    image: "/images/lahavit-railway.webp",
+    tagline: "Nashik to Lahavit Railway Station Taxi Service",
+    company: "Nashik Sai Yatra Cabs",
+    intro:
+      "Comfortable and direct cab connections running from Nashik city directly to Lahavit Railway Station.",
+    fleetDescription:
+      "A complete range of clean, air-conditioned sedans and family hatchbacks ready for short rural transfers.",
+    contentBlocks: [
+      {
+        type: "text",
+        heading: "Rural Railway Line Access",
+        content:
+          "Lahavit station acts as a key transit stop between Devlali and Igatpuri. Our taxi service provides a reliable link for passengers catching passenger and express train connections.",
+      },
+      {
+        type: "callout",
+        heading: "Distance Details",
+        content:
+          "Spans around 25 km from Nashik city center. Upfront, predictable pricing structures.",
+      },
+    ],
+    longDistance: {
+      heading: "Flexible Pickup Timings",
+      content:
+        "Early morning and late-night station pickup schedules available upon advance booking.",
+      closing: "Schedule your Lahavit station cab in advance!",
+    },
+    meta: {
+      title: "Nashik to Lahavit Railway Station Taxi | Station Cab Booking",
+      description:
+        "Reliable cab transfers from Nashik to Lahavit Railway Station. Doorstep pickup and fixed transparent fares.",
+    },
+  },
 ];
 
 // Helper Utilities mapping the array cleanly
