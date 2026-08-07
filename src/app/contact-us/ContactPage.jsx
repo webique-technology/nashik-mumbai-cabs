@@ -96,8 +96,8 @@ export default function ContactPageComp() {
                   Get in Touch
                 </h2>
                 <p className="contact-sub-text text-muted mb-0">
-                  Premium intercity mobility across Maharashtra. We're here to
-                  assist with your travel needs, 24/7.
+                  Premium intercity mobility across Maharashtra. {"We're"} here
+                  to assist with your travel needs, 24/7.
                 </p>
               </AnimationSecComponent>
             </Col>
@@ -243,7 +243,8 @@ export default function ContactPageComp() {
                     <h4 className="info-title fw-semibold mb-2">Email Us</h4>
                     <Link
                       href="mailto:nashikmumbaicabs@gmail.com"
-                      className="info-anchor-link fw-semibold text-decoration-none"
+                      /* --- ADD THE BOOTSTRAP CLASSES 'overflow-auto text-break' below --- */
+                      className="info-anchor-link fw-semibold text-decoration-none overflow-auto text-break"
                     >
                       nashikmumbaicabs@gmail.com
                     </Link>
@@ -258,7 +259,7 @@ export default function ContactPageComp() {
                   <div className="info-meta">
                     <h4 className="info-title fw-bold mb-2">Call Us</h4>
                     <Link
-                       href="tel:+919225899899"
+                      href="tel:+919225899899"
                       className="info-anchor-link fw-semibold text-decoration-none"
                     >
                       +91 92258 99899
