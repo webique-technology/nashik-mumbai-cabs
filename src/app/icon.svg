@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <!-- Rich Golden Metallic Gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE259" />
+      <stop offset="50%" stop-color="#FFA751" />
+      <stop offset="100%" stop-color="#E58C00" />
+    </linearGradient>
+
+    <!-- Subtle Inner Highlight -->
+    <linearGradient id="goldHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF099" />
+      <stop offset="100%" stop-color="#D48200" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Background (for high contrast) -->
+  <rect width="100" height="100" rx="20" fill="#181A1B" />
+
+  <!-- Outer Hexagon Ring -->
+  <g fill="none" stroke="url(#goldGradient)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer Hexagon Body -->
+    <path d="M50,12 L85,32 L85,68 L50,88 L15,68 L15,32 Z" />
+    
+    <!-- Vertical Center Split Line -->
+    <line x1="50" y1="12" x2="50" y2="88" stroke-width="3" opacity="0.6" />
+
+    <!-- Middle Hexagon Ring -->
+    <path d="M50,25 L73,38 L73,62 L50,75 L27,62 L27,38 Z" stroke="url(#goldHighlight)" stroke-width="6" />
+
+    <!-- Inner Hexagon Ring -->
+    <path d="M50,36 L62,43 L62,57 L50,64 L38,57 L38,43 Z" stroke-width="4.5" />
+  </g>
+
+  <!-- Central Gold Pin / Core Dot -->
+  <circle cx="50" cy="50" r="6" fill="url(#goldGradient)" />
+</svg>
