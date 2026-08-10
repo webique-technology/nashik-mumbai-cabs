@@ -729,7 +729,7 @@ export const toursData = [
     id: "tour-03",
     title: "Kopargaon Cab Service",
     slug: "kopargaon-cab",
-    image: "/images/kopargaon-shirdi-Cab.jpg",
+    image: "/images/kopargaon-shirdi-cab.jpg",
     tagline: "Kopargaon to Nashik Cab Service",
     company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
