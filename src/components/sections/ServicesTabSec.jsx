@@ -38,6 +38,7 @@ const ServiceTabsSection = ({
     }
   }, [serializedTabs]);
 
+
   // Filtering function logic handler
   const filteredCabs = CabsData.filter((cab) => {
     if (activeTab === "All Tabs") return true;
