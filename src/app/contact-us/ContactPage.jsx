@@ -226,6 +226,7 @@ export default function ContactPageComp() {
                     <h4 className="info-title fw-semibold mb-2">Our Office</h4>
                     <Link
                       href="https://maps.app.goo.gl/dr8vJdnkumcJhJ5D7"
+                      target="_blank"
                       className="info-anchor-link fw-semibold text-decoration-none"
                     >
                       Shop No. 7, Nysa Buisness Centre, Ghadge Nagar,

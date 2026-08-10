@@ -125,7 +125,7 @@ const Navbar = () => {
           </nav>
 
           <div className="d-none d-lg-inline-flex">
-            <LinkPillBtn btnText={"Book now"} href={"/contact-us"} />
+            <LinkPillBtn btnText={"Book now"} target={"_blank"} href={"/contact-us"} />
           </div>
 
           {/* Actions Panel Wrapper */}

@@ -95,7 +95,7 @@ const HeroHeader = () => {
 
                   <div className="w-100 d-flex flex-column align-items-center justify-content-center">
                     <div className="d-flex align-items-center justify-content-center gap-4 pt-1 execution-row-layer">
-                      <LinkPillBtn btnText={item.btnText} href={item.href} />
+                      <LinkPillBtn btnText={item.btnText} target={"_blank"} href={item.href} />
                     </div>
                   </div>
                 </div>
