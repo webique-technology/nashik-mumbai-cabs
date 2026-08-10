@@ -45,7 +45,7 @@ const PromoBanner = ({
               {/* 1. Main Content Block */}
               {content && (
                 <>
-                  <AnimationSecComponent distance={200} duration={0.7}>
+                  {/* <AnimationSecComponent distance={200} duration={0.7}> */}
                     {content.highlightText && (
                       <span className="highlight-tag d-block fw-bold mb-3">
                         {content.highlightText}
@@ -64,7 +64,7 @@ const PromoBanner = ({
                         </span>
                       )}
                     </h2>
-                  </AnimationSecComponent>
+                  {/* </AnimationSecComponent> */}
                 </>
               )}
 
@@ -77,7 +77,9 @@ const PromoBanner = ({
 
               {/* 3. Features Services List Layout */}
               {features && features.length > 0 && (
-                <AnimationSecComponent distance={200} duration={0.7}>
+                <div 
+                // distance={200} duration={0.7}
+                >
                   <div className="features-list my-4">
                     {features.map((feature, index) => {
                       // Resolve Lucide component strings safely
@@ -108,7 +110,7 @@ const PromoBanner = ({
                       );
                     })}
                   </div>
-                </AnimationSecComponent>
+                </div>
               )}
 
               {/* 4. Action Button */}
@@ -183,22 +185,22 @@ const AppDownloadBanner = ({
             sm={12}
             className="text-content-col position-relative z-1"
           >
-            <AnimationSecComponent
+            {/* <AnimationSecComponent
               duration={0.5}
               distance={100}
-            >
+            > */}
               <h2 className="banner-heading text-white fw-bold mb-4">
                 {titlePrefix}{" "}
                 <span className="highlight-text">{titleHighlight}</span>{" "}
                 {titleSuffix}
               </h2>
-            </AnimationSecComponent>
+            {/* </AnimationSecComponent> */}
 
-            <AnimationSecComponent
+            {/* <AnimationSecComponent
               duration={0.5}
               distance={100}
               delay={0.1}
-            >
+            > */}
               <div className="download-buttons-group d-flex flex-wrap gap-3">
               <Link href={iosLink} passHref target="_blank">
                 <div className="btn btn-ios d-inline-flex align-items-center gap-2 fw-semibold text-white">
@@ -214,7 +216,7 @@ const AppDownloadBanner = ({
                 </div>
               </Link>
             </div>
-            </AnimationSecComponent>
+            {/* </AnimationSecComponent> */}
           </Col>
 
           {/* Right Side: Dynamic Component OR Fallback Image Mockup */}
@@ -226,20 +228,20 @@ const AppDownloadBanner = ({
             {rightComponent ? (
               /* Render dynamic React component/JSX if passed */
               <div className="dynamic-component-wrapper w-100">
-                <AnimationSecComponent
+                {/* <AnimationSecComponent
                   duration={0.5}
                   distance={100}
-                >
+                > */}
                   {rightComponent}
-                </AnimationSecComponent>
+                {/* </AnimationSecComponent> */}
               </div>
             ) : mockupImageSrc ? (
               /* Fallback to image layout logic if no dynamic component is provided */
               <div className="mockup-img-wrapper">
-                <AnimationSecComponent
+                {/* <AnimationSecComponent
                   duration={0.5}
                   distance={100}
-                >
+                > */}
                   {typeof mockupImageSrc === "object" && mockupImageSrc.src ? (
                     <Image
                       src={mockupImageSrc}
@@ -254,7 +256,7 @@ const AppDownloadBanner = ({
                       className="double-mockup-img img-fluid"
                     />
                   )}
-                </AnimationSecComponent>
+                {/* </AnimationSecComponent> */}
               </div>
             ) : null}
           </Col>

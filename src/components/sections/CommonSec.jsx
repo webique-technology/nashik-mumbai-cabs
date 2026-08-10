@@ -136,12 +136,12 @@ export const CarBlock = ({}) => {
           {carBlockData.map((car, index) => {
             return (
               <Col xs={4} md={4} xl={2} key={index}>
-                <AnimationSecComponent>
+                {/* <AnimationSecComponent> */}
                   <div className="car-block-card shadow-sm border">
                     <img src={car.icon} alt={car.title} className="img-fluid" />
                     <h3 className="card-title h5 fw-bold mb-0">{car.title}</h3>
                   </div>
-                </AnimationSecComponent>
+                {/* </AnimationSecComponent> */}
               </Col>
             );
           })}
@@ -452,29 +452,29 @@ export const PilgrimStandard = () => {
       <Container>
         {/* Section Heading */}
         <div className="text-center section-header">
-          <AnimationSecComponent
-            type="vertical"
-            direction="up"
-            duration={0.5}
-            distance={50}
-            delay={0.1}
+          <div
+            // type="vertical"
+            // direction="up"
+            // duration={0.5}
+            // distance={50}
+            // delay={0.1}
           >
             <h2 className="section-title">
               The Premium Ride <span className="title-highlight">Standard</span>
             </h2>
-          </AnimationSecComponent>
+          </div>
         </div>
 
         {/* Dynamic Cards Grid */}
         <Row className="g-4 justify-content-center align-items-stretch">
           {standardsList.map((item) => (
             <Col key={item.id} xs={6} sm={6} md={6} lg={3} className="d-flex">
-              <AnimationSecComponent
-                type="fadeIn"
-                direction="up"
-                duration={0.5}
-                distance={50}
-                delay={0.1}
+              <div
+                // type="fadeIn"
+                // direction="up"
+                // duration={0.5}
+                // distance={50}
+                // delay={0.1}
                 className="h-100"
               >
                 <div
@@ -493,7 +493,7 @@ export const PilgrimStandard = () => {
                   {/* Card Description */}
                   <p className="card-desc lh-base mb-0">{item.description}</p>
                 </div>
-              </AnimationSecComponent>
+              </div>
             </Col>
           ))}
         </Row>

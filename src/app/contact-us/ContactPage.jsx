@@ -91,7 +91,7 @@ export default function ContactPageComp() {
           {/* Section Header Top Text Group */}
           <Row className="mb-5">
             <Col className="text-center">
-              <AnimationSecComponent>
+              {/* <AnimationSecComponent> */}
                 <h2 className="contact-main-heading fw-bold mb-3">
                   Get in Touch
                 </h2>
@@ -99,14 +99,14 @@ export default function ContactPageComp() {
                   Premium intercity mobility across Maharashtra. {"We're"} here
                   to assist with your travel needs, 24/7.
                 </p>
-              </AnimationSecComponent>
+              {/* </AnimationSecComponent> */}
             </Col>
           </Row>
 
           <Row className="g-4">
             {/* Left Column: Form Card Wrapper */}
             <Col lg={7} md={12}>
-              <AnimationSecComponent duration={0.5} distance={100} delay={0.1}>
+              {/* <AnimationSecComponent duration={0.5} distance={100} delay={0.1}> */}
                 <div className="contact-form-card shadow-sm">
                   <Form onSubmit={handleSubmit}>
                     <Row className="gy-4">
@@ -206,15 +206,15 @@ export default function ContactPageComp() {
                     </Row>
                   </Form>
                 </div>
-              </AnimationSecComponent>
+              {/* </AnimationSecComponent> */}
             </Col>
 
             {/* Right Column: Direct Info Blocks & Road Media Aspect */}
             <Col lg={5} md={12}>
-              <AnimationSecComponent
-                duration={0.5}
-                distance={100}
-                delay={0.1}
+              <div
+                // duration={0.5}
+                // distance={100}
+                // delay={0.1}
                 className="d-flex flex-column gap-4"
               >
                 {/* Box Item 1: Office Info */}
@@ -225,7 +225,7 @@ export default function ContactPageComp() {
                   <div className="info-meta">
                     <h4 className="info-title fw-semibold mb-2">Our Office</h4>
                     <Link
-                      href="https://maps.app.goo.gl/SgWUvNo8fQQ3uv7y6"
+                      href="https://maps.app.goo.gl/dr8vJdnkumcJhJ5D7"
                       className="info-anchor-link fw-semibold text-decoration-none"
                     >
                       Shop No. 7, Nysa Buisness Centre, Ghadge Nagar,
@@ -269,7 +269,7 @@ export default function ContactPageComp() {
                     </p>
                   </div>
                 </div>
-              </AnimationSecComponent>
+              </div>
             </Col>
           </Row>
         </Container>

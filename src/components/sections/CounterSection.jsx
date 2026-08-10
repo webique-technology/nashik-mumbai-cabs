@@ -77,7 +77,9 @@ const CounterSection = () => {
                                 className={`col-6 col-sm-6 col-lg-3 counter-col ${index !== stats.length - 1 ? "border-end-md" : ""
                                     }`}
                             >
-                                <AnimationSecComponent duration={(index + 1) * 0.1} className={"h-100"}>
+                                <div 
+                                // duration={(index + 1) * 0.1}
+                                 className={"h-100"}>
                                     <div className="counter-item h-100 d-flex flex-column align-items-center text-center"
                                         style={{ backgroundColor: stat.bgColor }}
                                     >
@@ -117,7 +119,7 @@ const CounterSection = () => {
                                             {stat.label}
                                         </p>
                                     </div>
-                                </AnimationSecComponent>
+                                </div>
                             </div>
                         ))}
                     </div>

@@ -173,12 +173,12 @@ export const DynamicFooterLinks = () => {
     >
       <div className="container">
         <div className="text-center mb-4 mb-md-5">
-          <AnimationSecComponent
-            type="vertical"
-            direction="up"
-            duration={0.5}
-            distance={50}
-            delay={0.1}
+          <div
+            // type="vertical"
+            // direction="up"
+            // duration={0.5}
+            // distance={50}
+            // delay={0.1}
           >
             <h2 className="section-title">
               Popular City <span className="title-highlight">Services</span>
@@ -187,17 +187,17 @@ export const DynamicFooterLinks = () => {
               Discover Reliable Cab Services in Top Cities with Nashik Mumbai
               Pune Shirdi Cabs. Click Below to Explore Availability!
             </p>
-          </AnimationSecComponent>
+          </div>
         </div>
         <div className="row g-4 justify-content-center">
           {footerLinksData.map((section) => (
             <div key={section.id} className="col-12 col-sm-6 col-md-6 col-lg-3">
-              <AnimationSecComponent
-                type="vertical"
-                direction="up"
-                duration={0.5}
-                distance={100}
-                delay={0.2}
+              <div
+                // type="vertical"
+                // direction="up"
+                // duration={0.5}
+                // distance={100}
+                // delay={0.2}
               >
                 {/* Column Heading */}
                 <h3
@@ -230,7 +230,7 @@ export const DynamicFooterLinks = () => {
                     </li>
                   ))}
                 </ul>
-              </AnimationSecComponent>
+              </div>
             </div>
           ))}
         </div>

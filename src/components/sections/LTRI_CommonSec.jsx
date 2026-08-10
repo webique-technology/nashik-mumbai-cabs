@@ -19,7 +19,7 @@ const LeftTextRightImageCommnSec = ({
         <Row className="align-items-center gy-5">
           {/* Left Column: Content & Features */}
           <Col lg={6} md={12} className="content-col">
-            <AnimationSecComponent distance={20}>
+            {/* <AnimationSecComponent distance={20}> */}
               <h2 className="section-title mb-4">
                 {heading}
                 {highlightWord && (
@@ -56,12 +56,12 @@ const LeftTextRightImageCommnSec = ({
                   </div>
                 ))}
               </div>
-            </AnimationSecComponent>
+            {/* </AnimationSecComponent> */}
           </Col>
 
           {/* Right Column: Creative Visual Showcase */}
           <Col lg={6} md={12} className="">
-            <AnimationSecComponent distance={20}>
+            {/* <AnimationSecComponent distance={20}> */}
               <div className="visual-col d-flex justify-content-center align-items-center">
                 <div className="image-wrapper position-relative">
                   {/* Masked/Brush-stroke style image container */}
@@ -86,7 +86,7 @@ const LeftTextRightImageCommnSec = ({
                   )}
                 </div>
               </div>
-            </AnimationSecComponent>
+            {/* </AnimationSecComponent> */}
           </Col>
         </Row>
       </Container>

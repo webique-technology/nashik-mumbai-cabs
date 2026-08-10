@@ -200,7 +200,7 @@ const Footer = () => {
                       className="me-2 mt-1 icon flex-shrink-0"
                     />
                     <Link
-                      href="https://maps.app.goo.gl/SgWUvNo8fQQ3uv7y6"
+                      href="https://maps.app.goo.gl/dr8vJdnkumcJhJ5D7"
                       target="_blank"
                       className="footer-link d-block"
                     >

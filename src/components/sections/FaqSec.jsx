@@ -61,10 +61,10 @@ export const FaqSec = () => {
               {leftColumnFaqs.map((item, i) => {
                 const currentId = i + 1;
                 return (
-                  <AnimationSecComponent
-                    duration={0.5}
-                    distance={100}
-                    delay={i * 0.2}
+                  <div
+                    // duration={0.5}
+                    // distance={100}
+                    // delay={i * 0.2}
                     key={i}
                   >
                     <Accordion.Item
@@ -79,7 +79,7 @@ export const FaqSec = () => {
                         {item.ans}
                       </Accordion.Body>
                     </Accordion.Item>
-                  </AnimationSecComponent>
+                  </div>
                 );
               })}
             </Col>
@@ -89,10 +89,10 @@ export const FaqSec = () => {
               {rightColumnFaqs.map((item, i) => {
                 const currentId = i + 5;
                 return (
-                  <AnimationSecComponent
-                    duration={0.5}
-                    distance={100}
-                    delay={i * 0.2}
+                  <div
+                    // duration={0.5}
+                    // distance={100}
+                    // delay={i * 0.2}
                     key={i}
                   >
                     <Accordion.Item
@@ -107,7 +107,7 @@ export const FaqSec = () => {
                         {item.ans}
                       </Accordion.Body>
                     </Accordion.Item>
-                  </AnimationSecComponent>
+                  </div>
                 );
               })}
             </Col>

@@ -36,9 +36,9 @@ const PopularDestinations = ({
             (dest) => dest.popularCity === true,
           ).map((dest, index) => (
             <Col lg={4} xs={6} key={dest.id}>
-              <AnimationSecComponent
-                distance={index * 10}
-                duration={0.7}
+              <div
+                // distance={index * 10}
+                // duration={0.7}
                 className="h-100"
               >
                 <DestinationCard
@@ -47,7 +47,7 @@ const PopularDestinations = ({
                   slugPath={`/cities/${dest.slug}`}
                   description={dest.longDistance?.content || [dest.intro]}
                 />
-              </AnimationSecComponent>
+              </div>
             </Col>
           ))}
         </Row>
@@ -55,9 +55,9 @@ const PopularDestinations = ({
         {/* Section Footer Actions */}
         <Row className="justify-content-center align-items-center text-center mt-4">
           <Col className="">
-            <AnimationSecComponent
-              distance={200}
-              duration={0.7}
+            <div
+              // distance={200}
+              // duration={0.7}
               className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3"
             >
               <span className="footer-promo-text text-muted">{footerText}</span>
@@ -68,7 +68,7 @@ const PopularDestinations = ({
               >
                 {buttonText} <span>&rarr;</span>
               </Link>
-            </AnimationSecComponent>
+            </div>
           </Col>
         </Row>
       </Container>

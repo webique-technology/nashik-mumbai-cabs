@@ -88,9 +88,9 @@ const TestimonialSec = () => {
             md={12}
             className="d-flex align-items-center justify-content-center justify-content-sm-between"
           >
-            <AnimationSecComponent
-              distance={210}
-              duration={0.7}
+            <div
+              // distance={210}
+              // duration={0.7}
               className="d-flex align-items-center justify-content-center justify-content-sm-between gap-3 w-100"
             >
               <h2 className="section-title text-start mb-0">
@@ -102,12 +102,12 @@ const TestimonialSec = () => {
                 target={"_blank"}
                 rightIcon={<ArrowRight />}
               />
-            </AnimationSecComponent>
+            </div>
           </Col>
         </Row>
 
         {/* Swiper Slider Mount */}
-        <AnimationSecComponent distance={200} duration={0.7}>
+        {/* <AnimationSecComponent distance={200} duration={0.7}> */}
           <Row>
             <Col xs={12}>
               <SwiperSliderComp
@@ -132,7 +132,7 @@ const TestimonialSec = () => {
               </SwiperSliderComp>
             </Col>
           </Row>
-        </AnimationSecComponent>
+        {/* </AnimationSecComponent> */}
       </Container>
     </section>
   );

@@ -21,10 +21,11 @@ const ServicesGridCardSection = ({ data }) => {
         <Row className="g-4">
           {data.map((tour, index) => (
             <Col lg={3} md={6} xs={6} key={tour.id}>
-              <AnimationSecComponent
-                distance={index * 5}
-                duration={0.5}
+              <div
+                // distance={index * 5}
+                // duration={0.5}
                 className="h-100"
+                key={index}
               >
                 <div className="tour-service-card rounded h-100 d-flex flex-column text-center bg-white">
                   {/* Image Wrap */}
@@ -66,7 +67,7 @@ const ServicesGridCardSection = ({ data }) => {
                     </div>
                   </div>
                 </div>
-              </AnimationSecComponent>
+              </div>
             </Col>
           ))}
         </Row>

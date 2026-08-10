@@ -49,36 +49,36 @@ const ServiceTabsSection = ({
       <Container>
         {/* Title Block */}
         <div className="text-center mb-4">
-          <AnimationSecComponent
-            distance={100}
-            duration={0.8}
+          <div
+            // distance={100}
+            // duration={0.8}
             className="h-100"
           >
             <h2 className="section-title text-dark">
               {title} <span className="title-highlight">{highlightWord}</span>
             </h2>
-          </AnimationSecComponent>
+          </div>
         </div>
 
         {/* Dynamic Category Tab Filter Switcher */}
-        <AnimationSecComponent distance={100} duration={0.8}>
-          <div className="tabs-nav-container d-flex justify-content-center mb-5">
-            <div className="tabs-pill d-flex gap-1 gap-sm-2 align-items-center justify-content-center bg-white shadow-sm p-2 rounded-3">
-              {tabsList.map((tabLabel) => (
-                <button
-                  key={tabLabel}
-                  type="button"
-                  className={`tab-nav-btn rounded-2 border-0 px-2 px-sm-4 py-1 py-sm-2 fw-semibold transition-all ${
-                    activeTab === tabLabel ? "active shadow-sm" : ""
-                  }`}
-                  onClick={() => setActiveTab(tabLabel)}
-                >
-                  {tabLabel}
-                </button>
-              ))}
-            </div>
+        {/* <AnimationSecComponent distance={100} duration={0.8}> */}
+        <div className="tabs-nav-container d-flex justify-content-center mb-5">
+          <div className="tabs-pill d-flex gap-1 gap-sm-2 align-items-center justify-content-center bg-white shadow-sm p-2 rounded-3">
+            {tabsList.map((tabLabel) => (
+              <button
+                key={tabLabel}
+                type="button"
+                className={`tab-nav-btn rounded-2 border-0 px-2 px-sm-4 py-1 py-sm-2 fw-semibold transition-all ${
+                  activeTab === tabLabel ? "active shadow-sm" : ""
+                }`}
+                onClick={() => setActiveTab(tabLabel)}
+              >
+                {tabLabel}
+              </button>
+            ))}
           </div>
-        </AnimationSecComponent>
+        </div>
+        {/* </AnimationSecComponent> */}
 
         {/* Grid Window Display */}
         <div className="tab-view-window position-relative">
@@ -119,7 +119,11 @@ const ServiceTabsSection = ({
                       lg={3}
                       className="d-flex"
                     >
-                      <AnimationSecComponent distance={105} duration={0.9} className="h-100">
+                      <div
+                        // distance={105}
+                        // duration={0.9}
+                        className="h-100"
+                      >
                         <Card className="cab-display-card h-100 text-center w-100 shadow-sm border d-flex flex-column justify-content-between p-2 p-sm-3">
                           {/* Image Block */}
                           <div className="card-image-box d-flex align-items-center justify-content-center">
@@ -154,7 +158,7 @@ const ServiceTabsSection = ({
                             </Link>
                           </Card.Body>
                         </Card>
-                      </AnimationSecComponent>
+                      </div>
                     </Col>
                   );
                 })

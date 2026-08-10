@@ -11,18 +11,18 @@ const WhyChooseUs = ({ title, features, highlightWord }) => {
         {/* Section Header */}
         <Row className="justify-content-center mb-4 text-center">
           <Col md={8}>
-            <AnimationSecComponent>
-              <div className="title-wrapper d-inline-block position-relative">
-                <h2 className="section-title px-3">
-                  {title}{" "}
-                  {highlightWord && (
+            {/* <AnimationSecComponent> */}
+            <div className="title-wrapper d-inline-block position-relative">
+              <h2 className="section-title px-3">
+                {title}{" "}
+                {highlightWord && (
                   <span className="title-highlight">{highlightWord}</span>
                 )}
-                </h2>
-                {/* Optional: Add custom decorative absolute elements for the handwritten accent lines if needed */}
-                <span className="accent-underline"></span>
-              </div>
-            </AnimationSecComponent>
+              </h2>
+              {/* Optional: Add custom decorative absolute elements for the handwritten accent lines if needed */}
+              <span className="accent-underline"></span>
+            </div>
+            {/* </AnimationSecComponent> */}
           </Col>
         </Row>
 
@@ -35,7 +35,11 @@ const WhyChooseUs = ({ title, features, highlightWord }) => {
 
             return (
               <Col xl={3} lg={3} md={6} xs={6} key={item.id || idx}>
-                <AnimationSecComponent distance={200} duration={0.7} className="h-100">
+                <div
+                  // distance={200}
+                  // duration={0.7}
+                  className="h-100"
+                >
                   <div className="feature-box bg-white text-center p-3 p-sm-4 position-relative">
                     {/* Floating Top Rounded Icon Circle */}
                     <div className="icon-badge position-absolute top-0 start-50 translate-middle d-flex align-items-center justify-content-center bg-white shadow-sm">
@@ -52,7 +56,7 @@ const WhyChooseUs = ({ title, features, highlightWord }) => {
                       </p>
                     </div>
                   </div>
-                </AnimationSecComponent>
+                </div>
               </Col>
             );
           })}
