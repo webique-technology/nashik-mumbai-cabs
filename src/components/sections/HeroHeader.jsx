@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 import { SwiperSliderComp } from "../ui/SwiperSlider";
 import { SwiperSlide } from "swiper/react";
 import { ArrowRight, ArrowLeft } from "lucide-react";
-import { EffectFade } from "swiper/modules";
+import { EffectFade, Autoplay } from "swiper/modules";
 import { LinkPillBtn } from "../ui/Buttons";
 
 import banner2 from "../../../public/images/banner-4.webp";
@@ -51,7 +51,7 @@ const HeroHeader = () => {
         slidesPerView={1}
         spaceBetween={1}
         effect="fade"
-        modules={[EffectFade]}
+        modules={[EffectFade, Autoplay]}
         pagination={false}
         loop={heroSliderConfig.length > 1}
         autoplay={{
