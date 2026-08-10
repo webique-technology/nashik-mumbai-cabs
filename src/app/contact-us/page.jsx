@@ -6,7 +6,7 @@ export const metadata = generatePageMetadata({
   staticData: {
     title: "Contact Us 24/7 available | Leading Cab Service Provider in Nashik",
     description:
-      "Contact Nashik Mumbai Pune Shirdi Cabs, available 24/7 for Cab services in Nashik, Mumbai, and throughout Maharashtra.",
+      "Contact Nashik Mumbai Pune Shirdi Airport Cabs, available 24/7 for Cab services in Nashik, Mumbai, and throughout Maharashtra.",
     image: "/images/about-banner.jpg",
   },
   path: "/contact-us",

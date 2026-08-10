@@ -10,7 +10,7 @@ export async function generateMetadata({ params }) {
   if (!cab) {
     return generatePageMetadata({
       staticData: {
-        title: "Vehicle Not Found | Nashik Mumbai Pune Shirdi Cabs",
+        title: "Vehicle Not Found | Nashik Mumbai Pune Shirdi Airport Cabs",
       },
       path: `/cabs/${slug}`,
     });

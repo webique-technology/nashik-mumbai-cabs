@@ -30,11 +30,11 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Nashik Mumbai Pune Shirdi Cabs | Reliable Cab & Car Rentals",
+  title: "Nashik Mumbai Pune Shirdi Airport Cabs | Reliable Cab & Car Rentals",
   description:
-    "Experience seamless travel with Nashik Mumbai Pune Shirdi Cabs. Over 10 years of trusted Cab services across Nashik, Mumbai, Pune, and Shirdi. Book affordable outstation cabs, airport transfers, and local sightseeing packages 24/7.",
+    "Experience seamless travel with Nashik Mumbai Pune Shirdi Airport Cabs. Over 10 years of trusted Cab services across Nashik, Mumbai, Pune, and Shirdi. Book affordable outstation cabs, airport transfers, and local sightseeing packages 24/7.",
   keywords: [
-    "Nashik Mumbai Pune Shirdi Cabs",
+    "Nashik Mumbai Pune Shirdi Airport Cabs",
     "Cab service near me",
     "cab service near me",
     "Nashik to Mumbai Cab",
@@ -50,17 +50,18 @@ export const metadata = {
     canonical: "https://nashikmumbaicabs.com", // Replace with your actual domain
   },
   openGraph: {
-    title: "Nashik Mumbai Pune Shirdi Cabs | Reliable Cab & Car Rentals",
+    title:
+      "Nashik Mumbai Pune Shirdi Airport Cabs | Reliable Cab & Car Rentals",
     description:
       "Book affordable and comfortable cab services between Nashik, Mumbai, Pune, and Shirdi. Enjoy 24/7 airport transfers, outstation drops, and local sightseeing tours.",
     url: "https://nashikmumbaicabs.com", // Replace with your actual domain
-    siteName: "Nashik Mumbai Pune Shirdi Cabs",
+    siteName: "Nashik Mumbai Pune Shirdi Airport Cabs",
     images: [
       {
         url: "https://nashikmumbaicabs.com/images/og-banner.jpg", // Replace with your actual OG image path
         width: 1200,
         height: 630,
-        alt: "Nashik Mumbai Pune Shirdi Cabs - Premium Car Rental Services",
+        alt: "Nashik Mumbai Pune Shirdi Airport Cabs - Premium Car Rental Services",
       },
     ],
     locale: "en_IN",
@@ -68,7 +69,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nashik Mumbai Pune Shirdi Cabs | Reliable Cab & Car Rentals",
+    title:
+      "Nashik Mumbai Pune Shirdi Airport Cabs | Reliable Cab & Car Rentals",
     description:
       "Affordable, reliable, and comfortable cab services across Maharashtra. Available 24/7.",
     images: ["https://nashikmumbaicabs.com/images/og-banner.jpg"], // Replace with your actual banner path

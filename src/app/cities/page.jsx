@@ -8,7 +8,7 @@ export const metadata = generatePageMetadata({
   staticData: {
     title: "City Transportation | Leading Cab Service Provider in Nashik",
     description:
-      "Learn more about Nashik Mumbai Pune Shirdi Cabs, our vision, vetted professional drivers, and fleet quality standards.",
+      "Learn more about Nashik Mumbai Pune Shirdi Airport Cabs, our vision, vetted professional drivers, and fleet quality standards.",
     image: "/images/about-banner.jpg",
   },
   path: "/cities",

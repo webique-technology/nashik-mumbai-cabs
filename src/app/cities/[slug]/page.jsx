@@ -18,7 +18,8 @@ export async function generateMetadata({ params }) {
   if (!tour) {
     return generatePageMetadata({
       staticData: {
-        title: "Tour Package Not Found | Nashik Mumbai Pune Shirdi Cabs",
+        title:
+          "Tour Package Not Found | Nashik Mumbai Pune Shirdi Airport Cabs",
         description:
           "The requested tour package or route details could not be found.",
       },

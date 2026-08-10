@@ -19,7 +19,7 @@ export const metadata = generatePageMetadata({
   staticData: {
     title: "About Us | Leading Cab Service Provider in Nashik",
     description:
-      "Learn more about Nashik Mumbai Pune Shirdi Cabs, our vision, vetted professional drivers, and fleet quality standards.",
+      "Learn more about Nashik Mumbai Pune Shirdi Airport Cabs, our vision, vetted professional drivers, and fleet quality standards.",
     image: "/images/about-banner.jpg",
   },
   path: "/about",
@@ -66,7 +66,7 @@ export default function AboutPage() {
 
   const downloadSectionData = {
     titlePrefix: "Ever wondered how smooth your journey can be? At ",
-    titleHighlight: "Nashik Mumbai Pune Shirdi Cabs",
+    titleHighlight: "Nashik Mumbai Pune Shirdi Airport Cabs",
     titleSuffix: "We Make It Happen.",
     iosLink: "tel:+919225899899",
     androidLink:

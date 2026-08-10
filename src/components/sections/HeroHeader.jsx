@@ -18,7 +18,8 @@ export const heroSliderConfig = [
   {
     id: 1,
     image: banner2?.src || banner2 || "",
-    title: "Experience seamless travel with Nashik Mumbai Pune Shirdi Cabs.",
+    title:
+      "Experience seamless travel with Nashik Mumbai Pune Shirdi Airport Cabs.",
     subTitle: "Book With Us",
     desc: "Professional Cab service connecting Nashik and Mumbai with reliable, comfortable, and affordable rides. Trusted drivers, 24/7 service, and hassle-free bookings.",
     btnText: "Learn More",
@@ -28,7 +29,7 @@ export const heroSliderConfig = [
     id: 2,
     image: banner3?.src || banner3 || "",
     title:
-      "Start your hassle-free journey with Nashik Mumbai Pune Shirdi Cabs.",
+      "Start your hassle-free journey with Nashik Mumbai Pune Shirdi Airport Cabs.",
     subTitle: "Book With Us",
     desc: "Explore the most beautiful destinations and enjoy unforgettable travel experiences with us.",
     btnText: "Check Out",
