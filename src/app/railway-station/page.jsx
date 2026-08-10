@@ -1,14 +1,15 @@
 import ServicesGridCardSection from "@/components/sections/ServicesGridSec";
 import { CommonBanner } from "@/components/ui/cards";
-import { NashikRailwayTaxiServices } from "@/lib/railwayData";
+import { NashikRailwayCabServices } from "@/lib/railwayData";
 
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
   staticData: {
-    title: "Railway Pickup - Drop Services | Leading Taxi Service Provider in Nashik",
+    title:
+      "Railway Pickup - Drop Services | Leading Cab Service Provider in Nashik",
     description:
-      "Learn more about Nashik Mumbai Cabs, our vision, vetted professional drivers, and fleet quality standards.",
+      "Learn more about Nashik Mumbai Pune Shirdi Cabs, our vision, vetted professional drivers, and fleet quality standards.",
     image: "/images/about-banner.jpg",
   },
   path: "/cities",
@@ -28,7 +29,7 @@ const RailwayStationPage = () => {
         overlayOpacity={0.6}
         textAlign="center"
       />
-      <ServicesGridCardSection data={NashikRailwayTaxiServices} />
+      <ServicesGridCardSection data={NashikRailwayCabServices} />
     </main>
   );
 };

@@ -20,7 +20,6 @@ const CabDetail = ({ cab }) => {
   return (
     <section className="cab-detail-wrapper section-padding">
       <Container className="py-3">
-        
         {/* 1. BACK BUTTON: Renders first at the absolute top on all screens */}
         <div className="mb-4">
           <Link
@@ -44,7 +43,8 @@ const CabDetail = ({ cab }) => {
               style={{ maxHeight: "280px", objectFit: "contain" }}
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src = "https://placehold.co/500x350?text=Vehicle+Image";
+                e.target.src =
+                  "https://placehold.co/500x350?text=Vehicle+Image";
               }}
             />
           </div>
@@ -53,7 +53,6 @@ const CabDetail = ({ cab }) => {
 
         {/* Grid Setup: Managed via visual order helpers */}
         <Row className="g-4 lg-g-5">
-          
           {/* 3. MAIN LEFT COLUMN: Renders headings/content text next on mobile */}
           {/* order-1 on mobile ensures text sits right below the mobile image banner, above the form */}
           <Col xs={12} lg={7} className="order-1 order-lg-1">
@@ -77,7 +76,8 @@ const CabDetail = ({ cab }) => {
             {/* Description Paragraph Block */}
             <div className="description-block mb-4">
               <h3 className="h5 fw-bold text-dark mb-3 d-flex align-items-center">
-                <Compass size={18} className="me-2 text-primary" /> Journey Overview
+                <Compass size={18} className="me-2 text-primary" /> Journey
+                Overview
               </h3>
               <p className="description-text text-muted lh-lg mb-0">
                 {cab.description}
@@ -88,14 +88,19 @@ const CabDetail = ({ cab }) => {
             {cab.features && cab.features.length > 0 && (
               <div className="features-block mb-4 p-4 bg-white rounded border shadow-sm">
                 <h3 className="h5 fw-bold text-dark mb-3 d-flex align-items-center">
-                  <CheckCircle2 size={18} className="me-2 text-success" /> Vehicle Amenities & Inclusions
+                  <CheckCircle2 size={18} className="me-2 text-success" />{" "}
+                  Vehicle Amenities & Inclusions
                 </h3>
                 <div className="row g-2">
                   {cab.features.map((feature, idx) => (
                     <div key={idx} className="col-12 col-sm-6">
                       <div className="d-flex align-items-center p-2 bg-light rounded border border-light-subtle">
-                        <span className="text-success me-2 fw-bold small">✓</span>
-                        <span className="text-secondary small fw-semibold">{feature}</span>
+                        <span className="text-success me-2 fw-bold small">
+                          ✓
+                        </span>
+                        <span className="text-secondary small fw-semibold">
+                          {feature}
+                        </span>
                       </div>
                     </div>
                   ))}
@@ -107,10 +112,16 @@ const CabDetail = ({ cab }) => {
             {cab.pricingTable && cab.pricingTable.length > 0 && (
               <div className="pricing-table-block mb-4 p-4 bg-white rounded border shadow-sm">
                 <h3 className="h5 fw-bold text-dark mb-3 d-flex align-items-center">
-                  <DollarSign size={18} className="me-2 text-warning" /> Estimated Rate Card (Per-Km Matrix)
+                  <DollarSign size={18} className="me-2 text-warning" />{" "}
+                  Estimated Rate Card (Per-Km Matrix)
                 </h3>
                 <div className="table-responsive">
-                  <Table striped bordered hover className="align-middle mb-0 small-base">
+                  <Table
+                    striped
+                    bordered
+                    hover
+                    className="align-middle mb-0 small-base"
+                  >
                     <thead className="table-dark">
                       <tr>
                         <th>Vehicle Model</th>
@@ -127,25 +138,35 @@ const CabDetail = ({ cab }) => {
                             {row.ratePerKm}
                           </td>
                           <td className="text-secondary">{row.minKm}</td>
-                          <td className="text-secondary">{row.driverAllowance}</td>
+                          <td className="text-secondary">
+                            {row.driverAllowance}
+                          </td>
                         </tr>
                       ))}
                     </tbody>
                   </Table>
                 </div>
                 <p className="small text-muted mt-2 mb-0 italic">
-                  *Note: Tolls, state permits, and state parking charges are calculated additionally based on your exact route checkpoints.
+                  *Note: Tolls, state permits, and state parking charges are
+                  calculated additionally based on your exact route checkpoints.
                 </p>
               </div>
             )}
 
             {/* Trust Driver Fallback Notice */}
             <div className="driver-notice-card p-3 rounded mb-4 d-flex align-items-start bg-white border shadow-sm">
-              <ShieldCheck size={24} className="text-success me-3 mt-1 flex-shrink-0" />
+              <ShieldCheck
+                size={24}
+                className="text-success me-3 mt-1 flex-shrink-0"
+              />
               <div>
-                <h4 className="h6 fw-bold mb-1 text-dark">Experienced Drivers Included</h4>
+                <h4 className="h6 fw-bold mb-1 text-dark">
+                  Experienced Drivers Included
+                </h4>
                 <p className="small text-muted mb-0">
-                  Every ride booked with <strong>{cab.providerFallback}</strong> includes an experienced, professional driver-cum-guide who is well-mannered and fully vetted for a safe journey.
+                  Every ride booked with <strong>{cab.providerFallback}</strong>{" "}
+                  includes an experienced, professional driver-cum-guide who is
+                  well-mannered and fully vetted for a safe journey.
                 </p>
               </div>
             </div>
@@ -153,9 +174,12 @@ const CabDetail = ({ cab }) => {
             {/* SEO and Route Notes Box */}
             <div className="notes-block p-4 rounded bg-white border">
               <h4 className="h6 fw-bold text-dark mb-3 d-flex align-items-center">
-                <HelpCircle size={16} className="me-2 text-warning" /> Booking Reference & Service Scope
+                <HelpCircle size={16} className="me-2 text-warning" /> Booking
+                Reference & Service Scope
               </h4>
-              <p className="notes-text text-muted small lh-base mb-0">{cab.notes}</p>
+              <p className="notes-text text-muted small lh-base mb-0">
+                {cab.notes}
+              </p>
             </div>
           </Col>
 
@@ -167,7 +191,6 @@ const CabDetail = ({ cab }) => {
             className="order-2 order-lg-2 d-flex flex-column align-items-center justify-content-start"
           >
             <div className="w-100 position-sticky" style={{ top: "30px" }}>
-              
               {/* DESKTOP-ONLY VEHICLE CARD: Renders exclusively on viewports >= 992px */}
               <div className="vehicle-image-card bg-white border shadow-sm p-4 mb-4 rounded-3 text-center d-none d-lg-block">
                 <div
@@ -181,7 +204,8 @@ const CabDetail = ({ cab }) => {
                     style={{ maxHeight: "280px", objectFit: "contain" }}
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src = "https://placehold.co/500x350?text=Vehicle+Image";
+                      e.target.src =
+                        "https://placehold.co/500x350?text=Vehicle+Image";
                     }}
                   />
                 </div>
@@ -203,7 +227,7 @@ const CabDetail = ({ cab }) => {
                 </Col>
                 <Col xs={6}>
                   <LinkPillBtn
-                    href={`https://wa.me/919225899899?text=${encodeURIComponent("Hello! I want to book a taxi request.")}`}
+                    href={`https://wa.me/919225899899?text=${encodeURIComponent("Hello! I want to book a Cab request.")}`}
                     target="_blank"
                     btnText={"Contact Us"}
                     img={"/images/whatsapp.svg"}
@@ -213,7 +237,6 @@ const CabDetail = ({ cab }) => {
               </Row>
             </div>
           </Col>
-
         </Row>
       </Container>
     </section>

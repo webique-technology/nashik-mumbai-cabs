@@ -3,79 +3,80 @@ export const airportToursData = [
   // ─── 0. NASHIK AIRPORT ROUTE ───────────────────────────────────────────────
   {
     id: "airport-nashik",
-    title: "Nashik Airport (Ozar) to City Local Pickup / Drop Taxi Services",
-    slug: "nashik-airport-local-taxi",
+    title: "Nashik Airport Pickup & Drop Cab Services",
+    slug: "nashik-airport-cab",
     image: "/images/nashik-airport.jpg",
-    tagline: "Nashik Airport Local Pickup / Drop Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Nashik Airport Local & Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Enjoy highly prompt and premium local airport transfers from Nashik Airport (Ozar) straight into core Nashik city municipal zones, residential sectors, and business centers.",
+      "Enjoy prompt, premium airport transfers connecting Nashik Airport (Ozar) straight into core Nashik city zones, as well as onward connections to Mumbai, Pune, and Shirdi.",
     fleetDescription:
-      "Choose from our versatile localized fleet including compact sedans, spacious hatchbacks, and multi-row family SUVs optimized for city transit loops.",
+      "Choose from our versatile localized fleet including compact sedans, spacious hatchbacks, and multi-row family SUVs optimized for quick city loops and outstation transfers.",
     contentBlocks: [
       {
         type: "text",
-        heading: "Prompt Doorstep Drop-offs",
+        heading: "Prompt Doorstep Pickup & Drop-offs",
         content:
-          "Bypass typical terminal queues and ride-sharing surge delays completely. Our professional local drivers coordinate with inbound flight schedules to pick you up immediately at the Ozar terminal gates, ensuring a swift drop to your hotel or home.",
+          "Bypass terminal queues and ride-sharing surge delays completely. Our professional drivers coordinate with inbound flight schedules to pick you up immediately at the Ozar terminal gates, ensuring a swift drop to your hotel, residence, or neighboring cities.",
       },
       {
         type: "callout",
-        heading: "Distance and Local Flat Rates",
+        heading: "Distance and Flat Rates",
         content:
           "Nashik Airport sits roughly 20 km from the central city square. Enjoy highly competitive point-to-point local fixed rates with zero hidden waiting surcharges.",
       },
       {
         type: "list",
-        heading: "Why Choose Our Local Nashik Airport Line?",
-        intro: "We specialize in stress-free home and hotel transit loops:",
+        heading: "Why Choose Our Nashik Airport Line?",
+        intro: "We specialize in stress-free airport transit loops:",
         items: [
-          "Instant car placement upon your flight touchdown",
-          "Knowledgeable city drivers who map optimal routes",
+          "Instant car placement upon flight touchdown",
+          "Knowledgeable drivers mapping optimal routes",
           "Spacious luggage trunk configurations for heavy cargo",
           "Sanitized, pristine vehicle environments",
-          "Fixed flat rates across all major Nashik municipal zones",
+          "Fixed flat rates across major municipal and regional zones",
         ],
         closing:
-          "Book your prompt Nashik local terminal transfer today for maximum convenience.",
+          "Book your prompt Nashik airport transfer today for maximum convenience.",
       },
     ],
     longDistance: {
       heading: "Heading Outstation from Nashik Airport?",
       content:
-        "We also provide direct outstation extensions from the Ozar tarmac straight to regional pilgrimage destinations like Trimbakeshwar, Shirdi, Saputara, or Pune.",
-      closing: "Call us for instant airport taxi assignments!",
+        "We provide direct outstation cabs from the Ozar tarmac straight to regional pilgrimage and commercial hubs like Trimbakeshwar, Shirdi, Saputara, Thane, and Pune.",
+      closing: "Call us for instant airport cab assignments!",
     },
     meta: {
-      title: "Nashik Airport Taxi | Local Ozar Airport Transfers",
+      title: "Nashik Airport Cab | Ozar Airport Transfers",
       description:
-        "Quick point-to-point local taxi booking from Nashik Ozar Airport into the city. Lowest flat rates, zero waiting times.",
+        "Quick point-to-point cab booking from Nashik Ozar Airport into the city or nearby hubs. Lowest flat rates, zero waiting times.",
     },
   },
+
   // ─── 1. SHIRDI AIRPORT ROUTE ───────────────────────────────────────────────
   {
     id: "airport-01",
-    title: "Nashik to Shirdi Airport Pickup / Drop Taxi Services",
-    slug: "nashik-to-shirdi-airport-taxi",
+    title: "Shirdi International Airport Cab Services",
+    slug: "shirdi-airport-cab",
     image: "/images/datashirdi-airport.webp",
-    tagline: "Nashik to Shirdi Airport Pickup / Drop Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Shirdi Airport Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Enjoy seamless inter-city airport transfers with our premium taxi services operating from Nashik straight to Shirdi International Airport. We offer highly prompt, reliable, and comfortable configurations for absolute travel comfort.",
+      "Enjoy seamless inter-city airport transfers operating to and from Shirdi International Airport (Kakadi). Connecting pilgrims and travelers directly with Nashik, Pune, Mumbai, and Chhatrapati Sambhajinagar.",
     fleetDescription:
-      "Choose from a well-maintained fleet including Swift Dzire, Toyota Innova, and group Tempo Travellers based on your specific passenger size configurations.",
+      "Choose from a well-maintained fleet including Swift Dzire, Toyota Innova Crysta, and group Tempo Travellers configured for family pilgrimage travel.",
     contentBlocks: [
       {
         type: "text",
         heading: "Hassle-Free Airport Transfers",
         content:
-          "Bypass the flight-landing exhaustion. Our professional drivers track your flight arrival timelines in real-time to guarantee that your vehicle is positioned at the terminal precisely as you step out. Enjoy smooth highway cruising along premium connective routes.",
+          "Bypass flight-landing exhaustion. Our professional drivers track your flight arrival timelines in real-time to guarantee that your vehicle is positioned at the terminal precisely as you step out.",
       },
       {
         type: "callout",
         heading: "Distance and Fare Inclusions",
         content:
-          "Nashik to Shirdi Airport scales roughly 90 km depending on your exact departure sector. Our pricing options are fully transparent, competitive, and inclusive of toll parameters.",
+          "Shirdi Airport scales roughly 90 km from Nashik and 15 km from the core Shirdi Sai Baba Temple complex. Pricing options are fully transparent and inclusive of toll parameters.",
       },
       {
         type: "list",
@@ -95,26 +96,26 @@ export const airportToursData = [
     longDistance: {
       heading: "Need Extended Multi-City Airport Booking?",
       content:
-        "We provide complete roundtrip solutions extending beyond basic terminal points directly into comprehensive pilgrimage and leisure custom packages across Maharashtra.",
+        "We provide complete roundtrip solutions extending beyond basic terminal drops into comprehensive pilgrimage and leisure custom packages across Maharashtra.",
       closing: "Call us today to reserve your airport cab instantly!",
     },
     meta: {
-      title: "Nashik to Shirdi Airport Taxi | Pickup & Drop Services",
+      title: "Shirdi Airport Cab | Pickup & Drop Services",
       description:
-        "Book reliable taxi transfers from Nashik to Shirdi Airport. Low fixed fares, premium clean vehicles, 24/7 immediate booking.",
+        "Book reliable cab transfers to and from Shirdi International Airport. Low fixed fares, clean vehicles, 24/7 immediate booking.",
     },
   },
 
   // ─── 2. PUNE AIRPORT ROUTE ─────────────────────────────────────────────────
   {
     id: "airport-02",
-    title: "Nashik to Pune Airport Pickup / Drop Taxi Services",
-    slug: "nashik-to-pune-airport-taxi",
+    title: "Pune International Airport Cab Services",
+    slug: "pune-airport-cab",
     image: "/images/pune-airport.jpg",
-    tagline: "Nashik to Pune Airport Pickup / Drop Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Pune Airport Pickup & Drop Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Reliable, comfortable, and highly punctual outstation airport cab services driving from Nashik directly into Pune International Airport (Lohegaon).",
+      "Reliable, comfortable, and highly punctual outstation airport cab services connecting Pune International Airport (Lohegaon / New Terminal) directly with Nashik, Shirdi, Ahmednagar, and Mumbai.",
     fleetDescription:
       "Fully air-conditioned clean vehicles including fuel-efficient hatchbacks, spacious multi-row family SUVs, and luxury variants.",
     contentBlocks: [
@@ -122,13 +123,13 @@ export const airportToursData = [
         type: "text",
         heading: "About This Connection",
         content:
-          "Nashik to Pune Airport is a prominent route mapping heavily across highway parameters. Devotees and corporate travelers alike use our airport transit loops to completely bypass standard regional travel exhaustion.",
+          "Pune Airport is a major regional travel hub. Devotees and corporate travelers alike use our airport transit loops to conveniently travel between Pune, Nashik (210 km), and Shirdi without standard travel fatigue.",
       },
       {
         type: "callout",
         heading: "Transit Details",
         content:
-          "The route bridges roughly 210 km along smooth expressways. One-way transparent package pricing structures feature clear inclusions covering highway tools.",
+          "Connecting major highways including NH-60. One-way transparent package pricing structures feature clear inclusions covering highway tolls and driver allowances.",
       },
       {
         type: "list",
@@ -140,7 +141,7 @@ export const airportToursData = [
           "Flexible rest stops along safe highway food courts",
         ],
         closing:
-          "Travel across major hubs systematically with absolute security parameters.",
+          "Travel across major regional hubs systematically with absolute safety.",
       },
     ],
     longDistance: {
@@ -150,22 +151,22 @@ export const airportToursData = [
       closing: "Get a custom quotation right now!",
     },
     meta: {
-      title: "Nashik to Pune Airport Taxi Service | Pickup & Drop",
+      title: "Pune Airport Cab Service | Outstation Pickup & Drop",
       description:
-        "Affordable cab booking from Nashik to Pune Airport. Professional expressway travel solutions. Fares fully transparent.",
+        "Affordable cab booking connecting Pune Airport to Nashik, Shirdi, and Mumbai. Professional highway solutions with transparent fares.",
     },
   },
 
   // ─── 3. MUMBAI AIRPORT ROUTE ───────────────────────────────────────────────
   {
     id: "airport-03",
-    title: "Nashik to Mumbai Airport Pickup / Drop Taxi Services",
-    slug: "nashik-to-mumbai-airport-taxi",
+    title: "Mumbai International Airport Cab Services",
+    slug: "mumbai-airport-cab",
     image: "/images/mumbai-airport.jpg",
-    tagline: "Nashik to Mumbai Airport Pickup / Drop Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Mumbai Airport T1 & T2 Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Premium long-distance terminal pickup solutions managing outstation routing from Nashik to Mumbai Chhatrapati Shivaji Maharaj International Airport (T1 & T2).",
+      "Premium long-distance terminal pickup solutions managing outstation routes from Mumbai Chhatrapati Shivaji Maharaj International Airport (T1 & T2) directly to Nashik, Pune, Shirdi, and Thane.",
     fleetDescription:
       "Premium outstation SUVs like Innova Crysta and Ertiga optimized heavily for superior long-haul highway suspension comfort.",
     contentBlocks: [
@@ -173,22 +174,22 @@ export const airportToursData = [
         type: "text",
         heading: "Expressway Cruising Comfort",
         content:
-          "Traverse from Nashik down into the beautiful Kasara Ghat via the Mumbai-Nashik Expressway. Our highly seasoned drivers navigate heavy metropolis traffic exits effortlessly to provide a peaceful transition loop.",
+          "Traverse via the Mumbai-Nashik Expressway or Mumbai-Pune Expressway effortlessly. Our highly seasoned drivers navigate heavy metropolitan exits cleanly to provide a peaceful transition loop.",
       },
       {
         type: "callout",
         heading: "Distance and Pricing Matrix",
         content:
-          "The dynamic run indexes approximately 170 km. Competitive fixed packages directly negate peak surge premium price traps typical of standard ride-sharing apps.",
+          "Mumbai Airport to Nashik measures roughly 170 km, while the Pune corridor measures 150 km. Fixed packages directly eliminate peak surge price traps typical of standard ride-sharing apps.",
       },
       {
         type: "list",
         heading: "Why Choose Our Mumbai Airport Lines?",
         items: [
           "24/7 operations managing late-night international arrivals seamlessly",
-          "Commercially licensed vehicles carrying All-India Tourist Permits safely",
-          "Clean vehicle screening before picking loops commence",
-          "Transparent processing of entry permit fees",
+          "Commercially licensed vehicles carrying All-India Tourist Permits",
+          "Clean vehicle screening before pickup loops commence",
+          "Transparent processing of entry permit fees and tolls",
         ],
         closing: "Reach your destination feeling thoroughly rested.",
       },
@@ -200,77 +201,75 @@ export const airportToursData = [
       closing: "Call us now for stress-free travel planning!",
     },
     meta: {
-      title: "Nashik to Mumbai Airport Cab | Outstation Taxi Transfers",
+      title: "Mumbai Airport Cab | Outstation CSMIA Transfers",
       description:
-        "Book comfortable outstation cabs from Nashik to Mumbai International Airport (T2). Low fixed fares, 24/7 availability.",
+        "Book comfortable outstation cabs from Mumbai International Airport (T1/T2) to Nashik, Pune, or Shirdi. Low fixed fares, 24/7 service.",
     },
   },
 
-  // ─── 4. CHHATRAPATI SAMBHAJINAGAR AIRPORT ROUTE (UPDATED NAME) ──────────────
+  // ─── 4. CHHATRAPATI SAMBHAJINAGAR AIRPORT ROUTE ─────────────────────────────
   {
     id: "airport-04",
-    title:
-      "Nashik to Chhatrapati Sambhajinagar Airport Pickup / Drop Taxi Services",
-    slug: "nashik-to-chhatrapati-sambhajinagar-airport-taxi",
+    title: "Chhatrapati Sambhajinagar Airport Cab Services",
+    slug: "chhatrapati-sambhajinagar-airport-cab",
     image: "/images/chhatrapati-sambhajinagar-airport.jpg",
-    tagline: "Nashik to Chhatrapati Sambhajinagar Airport Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Chhatrapati Sambhajinagar Airport Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Convenient inter-city airport connecting cabs operating daily from Nashik right into Chhatrapati Sambhajinagar Airport (formerly Aurangabad Airport).",
+      "Convenient inter-city airport cabs operating daily from Chhatrapati Sambhajinagar Airport (formerly Aurangabad) directly to Jalna, Shirdi, Nashik, and Pune.",
     fleetDescription:
-      "Wide variety of standard outstation cars and utility vehicles ready for immediate deployment parameters.",
+      "Wide variety of standard outstation sedans, SUVs, and utility vehicles ready for immediate deployment.",
     contentBlocks: [
       {
         type: "text",
         heading: "Reliable Regional Transit",
         content:
-          "We connect core regional industrial and tourist heritage hubs through a systematically managed team of professional drivers who possess thorough geographic knowledge of internal highway state loops.",
+          "We connect core industrial and tourist heritage hubs in Marathwada through a systematically managed team of professional drivers with thorough geographic knowledge of state expressways.",
       },
       {
         type: "callout",
         heading: "Route Specifications",
         content:
-          "Nashik to Chhatrapati Sambhajinagar Airport clocks approximately 180 km. Clear upfront bundle rates provide effortless financial transparency tracking.",
+          "Connecting to Nashik (180 km) and Shirdi (110 km) via fast state highways and the Samruddhi Mahamarg corridor. Upfront bundle rates provide effortless financial transparency.",
       },
     ],
     longDistance: {
       heading: "Combine with Heritage Cave Sightseeing",
       content:
-        "Extend your dynamic transit line to incorporate historical heritage stops at the nearby Ajanta or Ellora caves seamlessly if your itinerary allows.",
+        "Extend your transit line to incorporate historical heritage stops at Ajanta or Ellora caves seamlessly if your itinerary permits.",
       closing: "Connect with our reservation desk now!",
     },
     meta: {
-      title:
-        "Nashik to Chhatrapati Sambhajinagar Airport Taxi | Daily Cab Services",
+      title: "Chhatrapati Sambhajinagar Airport Cab | Daily Transfers",
       description:
-        "Book reliable airport connecting cabs from Nashik to Chhatrapati Sambhajinagar Airport (formerly Aurangabad). Upfront pricing, courteous drivers.",
+        "Book reliable airport cabs connecting Chhatrapati Sambhajinagar Airport to Shirdi, Nashik, and Jalna. Upfront pricing, courteous drivers.",
     },
   },
 
   // ─── 5. NAGPUR AIRPORT ROUTE ───────────────────────────────────────────────
   {
     id: "airport-05",
-    title: "Nashik to Nagpur Airport Pickup / Drop Taxi Services",
-    slug: "nashik-to-nagpur-airport-taxi",
+    title: "Nagpur Dr. Babasaheb Ambedkar Airport Cab Services",
+    slug: "nagpur-airport-cab",
     image: "/images/nagpur-airport.jpg",
-    tagline: "Nashik to Nagpur Airport Pickup / Drop Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Nagpur Airport Expressway Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Premium long-distance outstation solutions connecting Nashik straight to Dr. Babasaheb Ambedkar International Airport in Nagpur via Samruddhi Mahamarg.",
+      "Premium outstation cab solutions connecting Dr. Babasaheb Ambedkar International Airport in Nagpur straight across the Samruddhi Mahamarg to Jalna, Chhatrapati Sambhajinagar, Shirdi, and Nashik.",
     fleetDescription:
       "Top-tier outstation luxury cruisers and utility SUVs recommended for high-speed express highway operations.",
     contentBlocks: [
       {
         type: "text",
-        heading: "Samruddhi Mahamarg Highway Driving",
+        heading: "Samruddhi Mahamarg Express Driving",
         content:
-          "Travel across central Maharashtra instantly. Our drivers are certified for long-distance expressway parameters, securing rapid, highly comfortable driving shifts while heading to Nagpur.",
+          "Travel across central Maharashtra rapidly. Our drivers are certified for long-distance expressway parameters, securing rapid, highly comfortable driving shifts while heading to or from Nagpur.",
       },
       {
         type: "callout",
         heading: "Distance Metrics",
         content:
-          "The route tracks approximately 540 km. Fixed packages explicitly compute high-speed expressway tolls so you don't face unexpected surcharge add-ons.",
+          "Spans approximately 540 km to Nashik and 470 km to Shirdi. Fixed packages explicitly compute high-speed expressway tolls so you don't face unexpected surcharge add-ons.",
       },
     ],
     longDistance: {
@@ -280,22 +279,22 @@ export const airportToursData = [
       closing: "Call for express pricing parameters!",
     },
     meta: {
-      title: "Nashik to Nagpur Airport Taxi | Expressway Cab Transfers",
+      title: "Nagpur Airport Cab | Samruddhi Expressway Transfers",
       description:
-        "Book swift highway taxi transfers from Nashik to Nagpur Airport via Samruddhi Mahamarg. Clean outstation fleets.",
+        "Book swift highway cab transfers from Nagpur Airport via Samruddhi Mahamarg to Nashik, Shirdi, and Sambhajinagar. Clean outstation fleets.",
     },
   },
 
   // ─── 6. KOLHAPUR AIRPORT ROUTE ─────────────────────────────────────────────
   {
     id: "airport-06",
-    title: "Nashik to Kolhapur Airport Pickup / Drop Taxi Services",
-    slug: "nashik-to-kolhapur-airport-taxi",
+    title: "Kolhapur Chhatrapati Rajaram Maharaj Airport Cab Services",
+    slug: "kolhapur-airport-cab",
     image: "/images/kolhapur-airport.jpg",
-    tagline: "Nashik to Kolhapur Airport Pickup / Drop Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Kolhapur Airport Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Cross-regional outstation airport cab operations driving reliably from Nashik into Chhatrapati Rajaram Maharaj Airport in Kolhapur.",
+      "Cross-regional outstation airport cab operations driving reliably from Chhatrapati Rajaram Maharaj Airport in Kolhapur into Pune, Satara, Ahmednagar, and Nashik.",
     fleetDescription:
       "AC Sedans and multi-row family SUVs built perfectly to handle multi-hour state highway configurations cleanly.",
     contentBlocks: [
@@ -303,13 +302,13 @@ export const airportToursData = [
         type: "text",
         heading: "Connecting North and South Maharashtra",
         content:
-          "Transition effortlessly from North Maharashtra down into Western Maharashtra. Perfect for business operators, domestic flyers, and tourists seeking safe direct transits without changing multi-hop train lines.",
+          "Transition effortlessly from Western Maharashtra into North Maharashtra. Perfect for business operators, domestic flyers, and tourists seeking safe direct transits without changing multi-hop train lines.",
       },
       {
         type: "callout",
         heading: "Transit Scope",
         content:
-          "Spans approximately 440 km. Flat package structures feature transparent billing parameters for complete booking comfort.",
+          "Connecting to Pune (230 km) and Nashik (440 km). Flat package structures feature transparent billing parameters for complete booking comfort.",
       },
     ],
     longDistance: {
@@ -319,36 +318,36 @@ export const airportToursData = [
       closing: "Reserve your long-distance transfer today!",
     },
     meta: {
-      title: "Nashik to Kolhapur Airport Cab | Outstation Taxi Booking",
+      title: "Kolhapur Airport Cab | Outstation Cab Booking",
       description:
-        "Book clean outstation cabs from Nashik to Kolhapur Airport. Competitive flat rates, professional drivers.",
+        "Book clean outstation cabs connecting Kolhapur Airport to Pune and Nashik. Competitive flat rates, professional drivers.",
     },
   },
 
   // ─── 7. NAVI MUMBAI AIRPORT ROUTE ──────────────────────────────────────────
   {
     id: "airport-07",
-    title: "Nashik to Navi Mumbai International Airport Taxi Services",
-    slug: "nashik-to-navi-mumbai-airport-taxi",
+    title: "Navi Mumbai International Airport Cab Services",
+    slug: "navi-mumbai-airport-cab",
     image: "/images/navi-mumbai-airport.webp",
-    tagline: "Nashik to Navi Mumbai Airport Pickup / Drop Taxi Services",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Navi Mumbai Airport (NMI) Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Direct outstation taxi transfers connecting Nashik straight to the newly operational Navi Mumbai International Airport (NMI / Ulwe sector) with zero stress.",
+      "Direct outstation cab transfers connecting the Navi Mumbai International Airport (NMI / Ulwe sector) straight to Thane, Mumbai, Pune, Nashik, and Shirdi with zero stress.",
     fleetDescription:
-      "Clean outstation sedans, Innova Crysta SUVs, and tempo travellers equipped for comfortable long-distance highway travel.",
+      "Clean outstation sedans, Innova Crysta SUVs, and Tempo Travellers equipped for comfortable long-distance highway travel.",
     contentBlocks: [
       {
         type: "text",
         heading: "Direct Transit via Samruddhi & Expressway Links",
         content:
-          "Avoid the dense inner Mumbai city traffic jams. Our experienced drivers take smooth highway bypasses via Thane, Belapur, and JNPT port corridors straight into the modern terminal gates of Navi Mumbai International Airport.",
+          "Avoid dense inner Mumbai city traffic jams. Our experienced drivers take smooth highway bypasses via Thane, Belapur, and MTHL corridors straight into the modern terminal gates of Navi Mumbai International Airport.",
       },
       {
         type: "callout",
         heading: "Route Distance & Express Rates",
         content:
-          "Nashik to Navi Mumbai Airport measures roughly 150 km to 160 km. Enjoy clear, flat outstation package pricing inclusive of highway toll taxes.",
+          "Navi Mumbai Airport to Nashik measures roughly 150 km, and Pune measures roughly 120 km. Enjoy clear, flat outstation package pricing inclusive of highway toll taxes.",
       },
       {
         type: "list",
@@ -364,15 +363,15 @@ export const airportToursData = [
       },
     ],
     longDistance: {
-      heading: "Connecting Navi Mumbai to Nashik Pilgrimage Points",
+      heading: "Connecting Navi Mumbai to Pilgrimage Destinations",
       content:
-        "Landing at NMI? We also arrange immediate highway drops straight from Navi Mumbai Airport to Trimbakeshwar, Shirdi, or Panchavati.",
+        "Landing at NMI? We arrange immediate highway drops straight from Navi Mumbai Airport to Trimbakeshwar, Shirdi, or Panchavati.",
       closing: "Call us for direct flight terminal booking!",
     },
     meta: {
-      title: "Nashik to Navi Mumbai Airport Taxi | NMI Airport Cab Service",
+      title: "Navi Mumbai Airport Cab | NMI Airport Cab Service",
       description:
-        "Book reliable cabs from Nashik to Navi Mumbai International Airport (NMI). Low fixed rates, door-to-door expressway transfers.",
+        "Book reliable cabs connecting Navi Mumbai International Airport (NMI) to Nashik, Pune, and Shirdi. Low fixed rates, door-to-door transfers.",
     },
   },
 ];
@@ -387,7 +386,7 @@ export function getAllAirportSlugs() {
   return airportToursData.map((t) => ({ slug: t.slug }));
 }
 
-export const NashikAirportTaxiServices = airportToursData.map((tour) => ({
+export const NashikAirportCabServices = airportToursData.map((tour) => ({
   ...tour,
   redirectUrl: `/airport/${tour.slug}`,
 }));

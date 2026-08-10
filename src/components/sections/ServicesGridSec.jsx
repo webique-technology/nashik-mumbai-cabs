@@ -7,12 +7,12 @@ import { AnimationSecComponent } from "../ui/AnimationSecComponent";
 
 const ServicesGridCardSection = ({ data }) => {
   return (
-    <section className="taxi-services-section py-5 bg-white">
+    <section className="Cab-services-section py-5 bg-white">
       <Container>
         {/* Component Header Block */}
         <div className="text-center mb-5">
           <h2 className="main-section-heading fw-bold text-dark">
-            Nashik Mumbai Cabs & Travels Taxi Services
+            Nashik Mumbai Pune Shirdi Cabs & Travels Cab Services
           </h2>
           <div className="heading-underline"></div>
         </div>

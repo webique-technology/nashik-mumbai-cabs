@@ -6,7 +6,8 @@ import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
   staticData: {
-    title: "Car Rental Service in Nashik | Outstation Cabs, Airport Taxi & Local Travel",
+    title:
+      "Car Rental Service in Nashik | Outstation Cabs, Airport Cab & Local Travel",
     description:
       "Book affordable cabs from Nashik to Shirdi, Mumbai, Pune & all Maharashtra. Reliable drivers, AC cabs & on-time service guaranteed.",
     image: "/images/about-banner.jpg",

@@ -165,7 +165,7 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
   ];
 
   const [formData, setFormData] = useState({
-    taxiType: "",
+    CabType: "",
     tourType: "",
     pickupAddress: "",
     dropAddress: "",
@@ -192,7 +192,7 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
 
     // Dynamically build the service specification string based on route condition
     const serviceSelection = isAirportPage
-      ? `*Taxi Type:* ${formData.taxiType || "N/A"}`
+      ? `*Cab Type:* ${formData.CabType || "N/A"}`
       : `*Tour Type:* ${formData.tourType || "N/A"}`;
 
     const textMessage =
@@ -215,7 +215,7 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
 
     // Reset all form arrays cleanly
     setFormData({
-      taxiType: "",
+      CabType: "",
       tourType: "",
       pickupAddress: "",
       dropAddress: "",
@@ -229,13 +229,13 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
   };
 
   return (
-    <div className="taxi-booking-card border shadow-sm p-4 rounded-3">
+    <div className="Cab-booking-card border shadow-sm p-4 rounded-3">
       <div className={`card-header-block text-start mb-4 ${titleClass}`}>
         <h2 className="booking-main-title h4 fw-bold text-dark mb-1">
-          Book Your Taxi Ride
+          Book Your Cab Ride
         </h2>
         <p className="booking-subtitle small text-muted mb-0">
-          To get the ride of your taxi please select from the following:
+          To get the ride of your Cab please select from the following:
         </p>
       </div>
 
@@ -284,8 +284,8 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
         {isAirportPage ? (
           <Form.Group className="mb-3">
             <Form.Select
-              name="taxiType"
-              value={formData.taxiType}
+              name="CabType"
+              value={formData.CabType}
               onChange={handleChange}
               className="form-select form-input-field custom-select"
               required
@@ -293,9 +293,9 @@ export const BookingForm = ({ titleClass, btnClass = "btn-square-light" }) => {
               <option value="" className="w-100 p-3">
                 Choose Vehicle Type
               </option>
-              {CabsData.map((taxi, index) => (
-                <option key={index} value={taxi.name} className="w-100 p-3">
-                  {taxi.name}
+              {CabsData.map((Cab, index) => (
+                <option key={index} value={Cab.name} className="w-100 p-3">
+                  {Cab.name}
                 </option>
               ))}
             </Form.Select>

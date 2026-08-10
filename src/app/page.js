@@ -65,7 +65,7 @@ export default function Home() {
       {
         id: 2,
         icon: "Plane",
-        title: "Airport Pickup / Drop Taxi Services",
+        title: "Airport Pickup / Drop Cab Services",
         description:
           "Reliable and punctual transfers to and from all major airports including CSMIA Mumbai. Professional chauffeurs ensure you never miss a flight.",
       },
@@ -97,7 +97,7 @@ export default function Home() {
         iconName: "Coins", // Maps to <Coins /> icon component
         title: "Friendly Price",
         description:
-          "Transparent, budget-friendly outstation taxi rates with no hidden tolls or surprise surcharges.",
+          "Transparent, budget-friendly outstation Cab rates with no hidden tolls or surprise surcharges.",
       },
       {
         id: 3,

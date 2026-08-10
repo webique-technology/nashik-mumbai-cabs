@@ -16,7 +16,7 @@ const TestimonialSec = () => {
     {
       id: 1,
       rating: 5,
-      text: "Book today 2 Crysta from Nashik to Mumbai International Airport Drop Return Journey 6 May Very punctual on time neat clean new car Chauffeur well trained best service provider taxi service car rental in nashik recommended.",
+      text: "Book today 2 Crysta from Nashik to Mumbai International Airport Drop Return Journey 6 May Very punctual on time neat clean new car Chauffeur well trained best service provider Cab service car rental in nashik recommended.",
       name: "Vishal Tambe",
       role: "Traveler",
       avatar: clientAvatar1.src,
@@ -24,7 +24,7 @@ const TestimonialSec = () => {
     {
       id: 2,
       rating: 5,
-      text: "Best Taxi Services in Nashik Family Car Hire From Nashik to Pune Airport Cab.",
+      text: "Best Cab Services in Nashik Family Car Hire From Nashik to Pune Airport Cab.",
       name: "sagar kadam",
       role: "Traveler",
       avatar: clientAvatar1.src,
@@ -32,7 +32,7 @@ const TestimonialSec = () => {
     {
       id: 3,
       rating: 5,
-      text: "Hire cab from Nashik to Pune Airport Viman Nagar One Way Taxi Nice Experience best car rental Nashik.",
+      text: "Hire cab from Nashik to Pune Airport Viman Nagar One Way Cab Nice Experience best car rental Nashik.",
       name: "Ratnadeep Lokhande",
       role: "Traveler",
       avatar: clientAvatar1.src,
@@ -40,7 +40,7 @@ const TestimonialSec = () => {
     {
       id: 4,
       rating: 5,
-      text: "Very nice impressive service providers taxi services in Nashik.",
+      text: "Very nice impressive service providers Cab services in Nashik.",
       name: "Sumit Pavankar",
       role: "Traveler",
       avatar: clientAvatar1.src,
@@ -48,7 +48,7 @@ const TestimonialSec = () => {
     {
       id: 5,
       rating: 5,
-      text: "Best Taxi services for Mumbai Pune Airport.",
+      text: "Best Cab services for Mumbai Pune Airport.",
       name: "Sainath Netare",
       role: "Traveler",
       avatar: clientAvatar1.src,
@@ -56,7 +56,7 @@ const TestimonialSec = () => {
     {
       id: 6,
       rating: 5,
-      text: "Nashik to Pune Best Taxi Service Hire From Nashik Panchvati Maharashtra.",
+      text: "Nashik to Pune Best Cab Service Hire From Nashik Panchvati Maharashtra.",
       name: "Kiran Nawale",
       role: "Traveler",
       avatar: clientAvatar1.src,
@@ -97,8 +97,9 @@ const TestimonialSec = () => {
                 What our Clients <span className="title-highlight">say</span>
               </h2>
               <LinkPillBtn
-                href={"#"}
+                href={"https://www.google.com/search?sca_esv=fb1a5f3776cab93f&cs=1&sxsrf=APpeQnvCs0bUW0onirUQa8PJVTDvSn--Pw:1786340545223&si=APenkKmVGdgpMPDQZoEWS8RIAhsqXAKlNLP0B8DNkkiU9KPI0fxCRH4p2IqqgTXjeUrXLWNvgyoasa_YGh2jkoyne8QWfzdTohsfV_CC2xXxSW9K6Ffgq6Dh-IvZ6cWdkC18cPfE5_4CEWQqCd0JbmT3Zz9PU1vmIw%3D%3D&q=Nashik+Mumbai+Pune+Shirdi+Airport+Cabs&hl=en-IN&sa=X&ved=2ahUKEwjlpJONrZWWAxU-juEIHVHTInwQ_oMLegQIBBAB&biw=1920&bih=919&dpr=1#lrd=0x3bddeb961aa59b89:0x6ecc23f8742347e4,3,,,,"}
                 btnText={"Review"}
+                target={"_blank"}
                 rightIcon={<ArrowRight />}
               />
             </AnimationSecComponent>

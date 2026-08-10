@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
-import { TaxiServicesCityToCity } from "@/lib/data"; // Fetch updated centralized array
+import { CabServicesCityToCity } from "@/lib/data"; // Fetch updated centralized array
 import "../../styles/PopularDestinayion.scss";
 import { DestinationCard } from "../ui/cards";
 import { AnimationSecComponent } from "../ui/AnimationSecComponent";
@@ -32,7 +32,7 @@ const PopularDestinations = ({
 
         {/* Destination Grid */}
         <Row className="g-4 mb-4 mb-md-5">
-          {TaxiServicesCityToCity.filter(
+          {CabServicesCityToCity.filter(
             (dest) => dest.popularCity === true,
           ).map((dest, index) => (
             <Col lg={4} xs={6} key={dest.id}>

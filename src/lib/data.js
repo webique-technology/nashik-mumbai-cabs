@@ -18,9 +18,9 @@ export const rawCabsData = [
     routesSubtitle:
       "Premium Cab Services between Nashik, Mumbai, Pune, Shani Shingnapur, Manmad, Trimbakeshwar, and Nashik Airport.",
     description:
-      "We provide Budget Mahindra Xylo/Scorpio Cab rentals ensuring premium comfort and spacious legroom. Highly ideal for family packages, outstation tours, and business transit, our vehicles come fully equipped with modern amenities. Get clean taxis accompanied by our highly experienced local drivers-cum-guides.",
+      "We provide Budget Mahindra Xylo/Scorpio Cab rentals ensuring premium comfort and spacious legroom. Highly ideal for family packages, outstation tours, and business transit, our vehicles come fully equipped with modern amenities. Get clean Cabs accompanied by our highly experienced local drivers-cum-guides.",
     imageSrc: "/images/mahindra-xylo.avif",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
       "Mahindra Xylo/Scorpio Online Booking, Luxury Car Hire for Family Tours, Outstation Online Cab Booking all over Maharashtra, Best Economical Car Rental Services.",
     category: "SUV",
@@ -49,9 +49,9 @@ export const rawCabsData = [
     description:
       "Experience premium class travel with our spotless Toyota Innova fleet. Recognized across Maharashtra for elite comfort and unmatched highway safety, it is the top choice for long-distance outstation journeys, corporate transits, and multicity holiday itineraries.",
     imageSrc: "/images/toyota-innova.avif",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
-      "Toyota Innova Car Rental, Premium SUV Hire for Long Trips, Nashik Mumbai Airport Drop Taxi, Affordable Innova Tour Packages.",
+      "Toyota Innova Car Rental, Premium SUV Hire for Long Trips, Nashik Mumbai Pune Shirdi Airport Drop Cab, Affordable Innova Tour Packages.",
     category: "SUV",
     features: [
       "6-7 Passengers",
@@ -78,9 +78,9 @@ export const rawCabsData = [
     description:
       "Perfect for larger families and pilgrimage groups looking for budget-friendly alternatives without compromising structural seating space. Our Chevrolet fleet handles rough routes effortlessly, delivering a reliable commute to central tourist locations.",
     imageSrc: "/images/chevrolet-tavera-enjoy.avif",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
-      "Budget Multi-Utility Vehicle Booking, Chevrolet Tavera Rental for Pilgrimages, Large Group Cab Booking, Economical Outstation Taxi.",
+      "Budget Multi-Utility Vehicle Booking, Chevrolet Tavera Rental for Pilgrimages, Large Group Cab Booking, Economical Outstation Cab.",
     category: "SUV",
     features: [
       "8-9 Passengers",
@@ -107,9 +107,9 @@ export const rawCabsData = [
     description:
       "The ideal modern 7-seater choice combining ultimate fuel efficiency with urban comfort. Perfect for mid-sized families traveling across busy city centers or taking swift intercity airport highway runs between Nashik and Mumbai.",
     imageSrc: "/images/maruti-ertiga.avif",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
-      "Maruti Ertiga Rental Online, Cheap 7 Seater Taxi Booking, Intercity Hybrid Cab Hire, Affordable Family Tour Vehicle.",
+      "Maruti Ertiga Rental Online, Cheap 7 Seater Cab Booking, Intercity Hybrid Cab Hire, Affordable Family Tour Vehicle.",
     category: "SUV",
     features: [
       "6 Passengers",
@@ -136,9 +136,9 @@ export const rawCabsData = [
     description:
       "Our luxury sedan selection delivers powerful performance, sleek aerodynamics, and an ultra-modern cabin space. Perfect for executive business trips, airport drops, and couples seeking premium high-speed highway comfort.",
     imageSrc: "/images/hyundai-verna.webp",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
-      "Hyundai Verna Sedan Booking, Premium Luxury Cab Rental, Outstation Executive Sedan Taxi, Local Corporate Tour Packages.",
+      "Hyundai Verna Sedan Booking, Premium Luxury Cab Rental, Outstation Executive Sedan Cab, Local Corporate Tour Packages.",
     category: "Sedan",
     features: [
       "4 Passengers",
@@ -165,9 +165,9 @@ export const rawCabsData = [
     description:
       "Maharashtra's favorite choice for economic travel. Enjoy fully air-conditioned, well-maintained Swift Dzire cars perfect for dynamic solo tracking, swift couple getaways, and dynamic airport point-to-point transfers.",
     imageSrc: "/images/swift-dzire.avif",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
-      "Swift Dzire Online Booking, Budget Sedan Taxi Hire, Fast Airport Pick & Drop, Economical One-Way Cab Services.",
+      "Swift Dzire Online Booking, Budget Sedan Cab Hire, Fast Airport Pick & Drop, Economical One-Way Cab Services.",
     category: "Sedan",
     features: [
       "4 Passengers",
@@ -194,9 +194,9 @@ export const rawCabsData = [
     description:
       "A highly practical and tech-loaded compact sedan that perfectly balances fuel efficiency with contemporary styling. Featuring excellent cabin cooling, smart storage spaces, and an economical fare structure ideal for comfortable point-to-point transfers and airport drops.",
     imageSrc: "/images/hyundai-aura.webp",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
-      "Hyundai Aura Taxi Services, Affordable Compact Sedan Rentals, Railway Station Connection Cab, Lowest Fare Premium Sedan.",
+      "Hyundai Aura Cab Services, Affordable Compact Sedan Rentals, Railway Station Connection Cab, Lowest Fare Premium Sedan.",
     category: "Sedan",
     features: [
       "4 Passengers",
@@ -223,9 +223,9 @@ export const rawCabsData = [
     description:
       "The ultimate compact travel option optimized for city navigation and short-distance outstation runs. An exceptionally priced solution offering complete maneuverability for tight schedules.",
     imageSrc: "/images/indica-vista.jpg",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
-      "Indica Vista Hatchback Hire, Cheapest Local Car Booking, Small Family Tour Taxi, Short Distance Economical Ride.",
+      "Indica Vista Hatchback Hire, Cheapest Local Car Booking, Small Family Tour Cab, Short Distance Economical Ride.",
     category: "Sedan",
     features: [
       "4 Passengers",
@@ -252,7 +252,7 @@ export const rawCabsData = [
     description:
       "Travel together with your family without crowding. Our premium 10-seater Tempo Traveller offers pushback luxury seating, powerful dual air conditioning, and deep luggage hold areas for high-end comfort during religious tours.",
     imageSrc: "/images/tempo-traveller-10.jpg",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
       "10 Seater Tempo Traveller Booking, Luxury Mini Van Hire, Family Pilgrimage Transport, Premium Group Travel Service.",
     category: "Tempo Traveller",
@@ -281,7 +281,7 @@ export const rawCabsData = [
     description:
       "Streamline transportation logistics for massive corporate groups or wedding functions. Features customized wide aisles, premium entertainment set systems, and customized shock suspension for maximum travel ease.",
     imageSrc: "/images/tempo-traveller-20.jpg",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
       "20 Seater Bus Rental Online, Corporate Event Logistics, Large Tempo Traveller Rental, Group Tour Packages Maharashtra.",
     category: "Tempo Traveller",
@@ -310,7 +310,7 @@ export const rawCabsData = [
     description:
       "Our largest mini-bus configuration optimized for peak stability and long highway operations. Features comfortable seating arrangements perfect for keeping big tourist circles together comfortably on interstate trips.",
     imageSrc: "/images/tempo-traveller-25.jpg",
-    providerFallback: "Nashik Mumbai Cabs",
+    providerFallback: "Nashik Mumbai Pune Shirdi Cabs",
     notes:
       "25 Seater Tempo Traveller Hire, Heavy Group Tour Logistics, Corporate Shuttle Services, Intercity Heavy Group Transit.",
     category: "Tempo Traveller",
@@ -618,6 +618,8 @@ export const CityServicesRoute = rawCityRoutes.map((route) => ({
 }));
 
 // tourData.js — Complete dynamic tour data
+// tourData.js — Complete dynamic tour data
+// tourData.js — Complete dynamic tour data
 export const toursData = [
   // ─── TOUR 01 ───────────────────────────────────────────────────────────────
   {
@@ -625,14 +627,14 @@ export const toursData = [
     title: "Shani Shingnapur Car Rental Packages",
     slug: "shani-shingnapur-car-rental",
     image: "/images/shani-shingnapur.jpg",
-    tagline: "Nashik to Shani Shingnapur Taxi Services",
-    company: "Nashik Mumbai Cab",
+    tagline: "Shani Shingnapur Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Shani Shingnapur",
     intro:
-      "At Nashik Mumbai Cab, we offer budget-friendly taxi rentals for your journey from Nashik to Shani Shingnapur. Whether you're planning a roundtrip or a one-way ride, we provide the most reliable and affordable taxi services for this sacred journey.",
+      "At Nashik Mumbai Pune Shirdi Cab, we offer budget-friendly Cab rentals for your journey to Shani Shingnapur. Whether you're planning a roundtrip or a one-way ride, we provide the most reliable and affordable Cab services for this sacred journey.",
     fleetDescription:
-      "Our fleet includes a variety of cars like Swift Dzire, Tempo Traveller, and Innova, ensuring that you find the perfect vehicle to suit your needs. With our easy online booking system, friendly drivers, and well-maintained cabs, we guarantee a smooth and hassle-free experience as you travel from Nashik to Shani Shingnapur.",
+      "Our fleet includes a variety of cars like Swift Dzire, Tempo Traveller, and Innova, ensuring that you find the perfect vehicle to suit your needs. With our easy online booking system, friendly drivers, and well-maintained cabs, we guarantee a smooth and hassle-free experience as you travel to Shani Shingnapur.",
     contentBlocks: [
       {
         type: "text",
@@ -644,13 +646,13 @@ export const toursData = [
         type: "callout",
         heading: "Distance and Fare",
         content:
-          "The roundtrip distance from Nashik to Shani Shingnapur is approximately 150 km. Our taxi services provide the most convenient travel option for this route. Taxi fares range between ₹1300 and ₹2500, depending on your vehicle choice and any shared ride arrangements. For larger groups, we offer Tempo Traveller services on a per-seat basis.",
+          "The roundtrip distance to Shani Shingnapur is approximately 150 km. Our Cab services provide the most convenient travel option for this route. Cab fares range between ₹1300 and ₹2500, depending on your vehicle choice and any shared ride arrangements. For larger groups, we offer Tempo Traveller services on a per-seat basis.",
       },
       {
         type: "list",
         heading: "Why Choose Us?",
         intro:
-          "At Nashik Mumbai Cab, we prioritize your safety, comfort, and satisfaction. Our services include:",
+          "At Nashik Mumbai Pune Shirdi Cab, we prioritize your safety, comfort, and satisfaction. Our services include:",
         items: [
           "Safe, punctual, and dependable rides",
           "Competitive pricing",
@@ -673,13 +675,13 @@ export const toursData = [
         intro:
           "While visiting Shani Shingnapur, you can also plan a family outing to these nearby attractions:",
         items: [
-          "Mula Dam (located along the Nashik to Shani Shingnapur road)",
+          "Mula Dam (located along the Shani Shingnapur road)",
           "Temple of Goddess Laxmi",
           "Sant Shri Udasi Baba's Samadhi",
           "Temple of Shri Dattatraya",
         ],
         closing:
-          "For a comfortable and smooth journey from Nashik to Shani Shingnapur, book your taxi with Nashik Mumbai Cab today!",
+          "For a comfortable and smooth journey to Shani Shingnapur, book your Cab with Nashik Mumbai Pune Shirdi Cab today!",
       },
     ],
     longDistance: {
@@ -688,20 +690,20 @@ export const toursData = [
       closing: "Call us today for easy bookings and stress-free travel!",
     },
     meta: {
-      title: "Nashik to Shani Shingnapur Taxi | Nashik Mumbai Cabs",
+      title: "Shani Shingnapur Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Book affordable taxi from Nashik to Shani Shingnapur. Swift Dzire, Innova, Tempo Traveller available. Fares from ₹1300. 24/7 service.",
+        "Book affordable Cab to Shani Shingnapur. Swift Dzire, Innova, Tempo Traveller available. Fares from ₹1300. 24/7 service.",
     },
   },
 
   // ─── TOUR 02 ───────────────────────────────────────────────────────────────
   {
     id: "tour-02",
-    title: "Nashik Trimbakeshwar Darshan",
-    slug: "nashik-trimbakeshwar-darshan",
+    title: "Trimbakeshwar Darshan",
+    slug: "trimbakeshwar-darshan-cab",
     image: "/images/nashik-trimbakeshwar.jpg",
-    tagline: "Nashik to Nashik Trimbakeshwar Taxi Services",
-    company: "Nashik Mumbai Cab",
+    tagline: "Trimbakeshwar Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     intro: "",
     popularCity: true,
     popularCityTitle: "Trimbakeshwar",
@@ -710,40 +712,40 @@ export const toursData = [
       heading: "",
       content: [
         "Trimbakeshwar is a religious center having one of the twelve Jyotirlingas. The extraordinary feature of the Jyotirlinga located here is its three faces embodying Lord Brahma, Lord Vishnu, and Lord Rudra. Due to the excessive use of water, the linga has started to erode. It is said that this erosion symbolizes the eroding nature of human society. The Lingas are covered by a jeweled crown which is placed over the Gold Mask of Tridev (Brahma Vishnu Mahesh).",
-        "Planning a quick trip to Trimbakeshwar from Nashik? Have you thought about how you’re going to commute with your entire family in a convenient and comfortable way? We can help. How? With the best of car rental services from Nashik to Nasik Trimbakeshwar.",
-        "We provide Nashik to nasik trimbakeshwar taxi services at awesome offers. Hire a cab from Nashik to nasik trimbakeshwar from us with best Nashik car services. experience our online taxi booking services from Nashik to nasik trimbakeshwar with reliable and polite drivers.Nashik Mumbai Cabs, the leading car rental services in Nashik has all the variety fleet of cars like swift dzire, tempo traveller, innova to get for a Nashik to nasik trimbakeshwar tour package at affordable fare.",
+        "Planning a quick trip to Trimbakeshwar? Have you thought about how you’re going to commute with your entire family in a convenient and comfortable way? We can help. How? With the best of car rental services to Trimbakeshwar.",
+        "We provide Trimbakeshwar Cab services at awesome offers. Hire a cab to Trimbakeshwar from us with best car services. Experience our online Cab booking services to Trimbakeshwar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cabs, the leading car rental services in Nashik has all the variety fleet of cars like Swift Dzire, Tempo Traveller, Innova to get for a Trimbakeshwar tour package at affordable fare.",
       ],
       closing: "Call us to book your Trimbakeshwar Darshan cab today!",
     },
     meta: {
-      title: "Nashik to Trimbakeshwar Taxi | Nashik Mumbai Cabs",
+      title: "Trimbakeshwar Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Book comfortable taxi from Nashik to Nashik Trimbakeshwar Jyotirlinga. Fares from ₹2000. AC cabs, experienced drivers.",
+        "Book comfortable Cab to Trimbakeshwar Jyotirlinga. Fares from ₹2000. AC cabs, experienced drivers.",
     },
   },
 
   // ─── TOUR 03 ───────────────────────────────────────────────────────────────
   {
     id: "tour-03",
-    title: "Kopargaon to Nashik Taxi Service",
-    slug: "kopargaon-nashik-taxi",
-    image: "/images/kopargaon-shirdi-taxi.jpg",
+    title: "Kopargaon Cab Service",
+    slug: "kopargaon-cab",
+    image: "/images/kopargaon-shirdi-Cab.jpg",
     tagline: "Kopargaon to Nashik Cab Service",
-    company: "Nashik Mumbai Cab",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
       heading: "Need Onward Travel from Nashik?",
       content: [
-        "Planning a quick trip from Kopargaon to Nashik? Wondering how to ensure a comfortable and convenient journey for your entire family? We’ve got you covered with top-notch car rental services! The distance from Kopargaon Railway Station to the Nashik Sai Baba Temple is approximately 18 kilometers, taking about 26 to 30 minutes by taxi. Renting a cab from Kopargaon to Nashik ensures a smooth, fast, and comfortable ride. Our cars are well-maintained and easy to drive, with professional drivers who are familiar with the route and ensure a pleasant travel experience.",
-        "Kopargaon Railway Station, located in Ahmednagar district, Maharashtra, serves the town of Kopargaon and operates under the Solapur railway division of the Central Railway Zone. Sitting at an elevation of 508 meters, the station has two platforms and is part of an electrified single broad gauge line. With 74 trains stopping here, it’s a busy hub. We offer affordable and reliable taxi services from Kopargaon to Nashik, ensuring a stress-free journey.",
-        "Hire a cab from Kopargaon to Nashik with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Sai Yatra Cabs is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
-        "Depending on your travel needs and group size, we offer a range of vehicle options to choose from. Whether you need a one-way trip from Kopargaon to Nashik or a round trip back, our exceptional taxi services ensure a reliable and enjoyable journey.",
-        "Nashik Mumbai Cabs, based in Nashik, Maharashtra, also offers online booking for taxis from Nashik to Kopargaon. Check out our Kopargaon to Nashik taxi fares, and let us make your travel easy and hassle-free.",
+        "Planning a quick trip from Kopargaon to Nashik? Wondering how to ensure a comfortable and convenient journey for your entire family? We’ve got you covered with top-notch car rental services! The distance from Kopargaon Railway Station to the Nashik Sai Baba Temple is approximately 18 kilometers, taking about 26 to 30 minutes by Cab. Renting a cab from Kopargaon to Nashik ensures a smooth, fast, and comfortable ride. Our cars are well-maintained and easy to drive, with professional drivers who are familiar with the route and ensure a pleasant travel experience.",
+        "Kopargaon Railway Station, located in Ahmednagar district, Maharashtra, serves the town of Kopargaon and operates under the Solapur railway division of the Central Railway Zone. Sitting at an elevation of 508 meters, the station has two platforms and is part of an electrified single broad gauge line. With 74 trains stopping here, it’s a busy hub. We offer affordable and reliable Cab services from Kopargaon to Nashik, ensuring a stress-free journey.",
+        "Hire a cab from Kopargaon to Nashik with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Mumbai Pune Shirdi Cabs is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
+        "Depending on your travel needs and group size, we offer a range of vehicle options to choose from. Whether you need a one-way trip from Kopargaon to Nashik or a round trip back, our exceptional Cab services ensure a reliable and enjoyable journey.",
+        "Nashik Mumbai Pune Shirdi Cabs, based in Nashik, Maharashtra, also offers online booking for Cabs to Kopargaon. Check out our Kopargaon to Nashik Cab fares, and let us make your travel easy and hassle-free.",
       ],
       closing: "Call us now for instant cab booking!",
     },
     meta: {
-      title: "Kopargaon to Nashik Taxi | Nashik Mumbai Cabs",
+      title: "Kopargaon to Nashik Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
         "Quick cab from Kopargaon Railway Station to Nashik Sai Baba Temple. Fares from ₹300. 24/7 service.",
     },
@@ -752,374 +754,443 @@ export const toursData = [
   // ─── TOUR 04 ───────────────────────────────────────────────────────────────
   {
     id: "tour-04",
-    title: "Nashik to Manmad Taxi Service",
-    slug: "nashik-manmad-taxi",
+    title: "Manmad Cab Service",
+    slug: "manmad-cab-service",
     image: "/images/nashik-manmad.jpg",
-    tagline: "Nashik to Manmad Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Manmad Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
-      heading: "Long Distance from Nashik?",
+      heading: "Long Distance Travel?",
       content: [
-        "Planning a quick trip from Nashik to Manmad? Wondering how to ensure a comfortable and convenient journey for your entire family? We’ve got you covered with top-notch car rental services! The distance from Nashik to Manmad is approximately 90 kilometers, taking about 2 hours by taxi. Renting a cab from Nashik to Manmad ensures a smooth, fast, and comfortable ride. Our cars are well-maintained and easy to drive, with professional drivers who are familiar with the route and ensure a pleasant travel experience.",
-        "Manmad Railway Station, located in the Nashik district of Maharashtra, is a crucial railway junction operating under the Bhusawal railway division of the Central Railway Zone. Serving as a major transit hub connecting various parts of the country, it handles a massive volume of daily passengers. We offer affordable and reliable taxi services from Nashik to Manmad, ensuring a stress-free journey.",
-        "Hire a cab from Nashik to Manmad with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Mumbai Cab is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
-        "Depending on your travel needs and group size, we offer a range of vehicle options to choose from. Whether you need a one-way trip from Nashik to Manmad or a round trip back, our exceptional taxi services ensure a reliable and enjoyable journey.",
-        "Nashik Mumbai Cabs, based in Nashik, Maharashtra, offers seamless online booking for taxis from Nashik to Manmad and back. Check out our Nashik to Manmad taxi fares, and let us make your travel easy and hassle-free.",
+        "Planning a quick trip to Manmad? Wondering how to ensure a comfortable and convenient journey for your entire family? We’ve got you covered with top-notch car rental services! The distance to Manmad is approximately 90 kilometers, taking about 2 hours by Cab. Renting a cab to Manmad ensures a smooth, fast, and comfortable ride. Our cars are well-maintained and easy to drive, with professional drivers who are familiar with the route and ensure a pleasant travel experience.",
+        "Manmad Railway Station, located in the Nashik district of Maharashtra, is a crucial railway junction operating under the Bhusawal railway division of the Central Railway Zone. Serving as a major transit hub connecting various parts of the country, it handles a massive volume of daily passengers. We offer affordable and reliable Cab services to Manmad, ensuring a stress-free journey.",
+        "Hire a cab to Manmad with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Mumbai Pune Shirdi Cab is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
+        "Depending on your travel needs and group size, we offer a range of vehicle options to choose from. Whether you need a one-way trip to Manmad or a round trip back, our exceptional Cab services ensure a reliable and enjoyable journey.",
+        "Nashik Mumbai Pune Shirdi Cabs offers seamless online booking for Cabs to Manmad and back. Check out our Manmad Cab fares, and let us make your travel easy and hassle-free.",
       ],
       closing: "Call us for bookings!",
     },
     meta: {
-      title: "Nashik to Manmad Taxi | Nashik Mumbai Cabs",
-      description:
-        "Affordable cab from Nashik to Manmad. Fares from ₹1800. 24/7 pickup.",
+      title: "Manmad Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description: "Affordable cab to Manmad. Fares from ₹1800. 24/7 pickup.",
     },
   },
 
   // ─── TOUR 05 ───────────────────────────────────────────────────────────────
   {
     id: "tour-05",
-    title: "Nashik to Bhimashankar Darshan",
-    slug: "Nashik-bhimashankar-taxi",
+    title: "Bhimashankar Darshan",
+    slug: "bhimashankar-darshan-cab",
     image: "/images/nashik-bhimashankar.jpg",
-    tagline: "Nashik to Bhimashankar Jyotirlinga Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Bhimashankar Jyotirlinga Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Bhimashankar",
     longDistance: {
       heading: "Combine with Pune Trip",
       content: [
-        "We provide Nashik to Bhimashankar taxi services at awesome offers. Hire a cab from Nashik to Bhimashankar from us with the best Nashik car services. experience our online cab booking services from Nashik to Bhimashankar with reliable and polite drivers. Nashik Sai Yatra Cabs, the leading car rental services in Nashik has all the variety fleet of cars like Swift Dzire, tempo traveler, Innova to hire for a taxi from Nashik to Bhimashankar at affordable rates",
-        "Bhimashankar Temple is a Jyotirlinga shrine located 50 km northwest of Khed, near Pune, in India. It is located 127 km from Shivaji Nagar (Pune) in the Ghat region of the Sahyadri hills. Bhimashankar is also the source of the river Bhima, which flows southeast and merges with the Krishna river near Raichur. The other Jyotirlinga shrines in Maharashtra are Vaidyanath near Parli Dist Beed, Trimbakeshwara near Nashik, Grishneshwar near Aurangabad and Aundha Nagnath Temple in Hingoli, Nagnaath in Aundh built by Pandav brothers in one night during their exile",
+        "We provide Bhimashankar Cab services at awesome offers. Hire a cab to Bhimashankar from us with the best car services. Experience our online cab booking services to Bhimashankar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cabs, the leading car rental services in Nashik has all the variety fleet of cars like Swift Dzire, Tempo Traveller, Innova to hire for a Cab to Bhimashankar at affordable rates.",
+        "Bhimashankar Temple is a Jyotirlinga shrine located 50 km northwest of Khed, near Pune, in India. It is located 127 km from Shivaji Nagar (Pune) in the Ghat region of the Sahyadri hills. Bhimashankar is also the source of the river Bhima, which flows southeast and merges with the Krishna river near Raichur. The other Jyotirlinga shrines in Maharashtra are Vaidyanath near Parli Dist Beed, Trimbakeshwara near Nashik, Grishneshwar near Aurangabad and Aundha Nagnath Temple in Hingoli, Nagnaath in Aundh built by Pandav brothers in one night during their exile.",
       ],
       closing: "Ask us about combo packages!",
     },
     meta: {
-      title: "Nashik to Bhimashankar Taxi | Nashik Mumbai Cabs",
+      title: "Bhimashankar Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Cab from Nashik to Bhimashankar Jyotirlinga. Expert hill drivers. Fares from ₹3500.",
+        "Cab to Bhimashankar Jyotirlinga. Expert hill drivers. Fares from ₹3500.",
     },
   },
 
   // ─── TOUR 06 ───────────────────────────────────────────────────────────────
   {
     id: "tour-06",
-    title: "Nashik to Ahmednagar Taxi Service",
-    slug: "nashik-ahmednagar-taxi",
+    title: "Ahmednagar Cab Service",
+    slug: "ahmednagar-cab-service",
     image: "/images/nashik-ahmednagar.jpg",
-    tagline: "Nashik to Ahmednagar Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Ahmednagar Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
       heading: "More Destinations from Ahmednagar",
       content: [
-        "Nashik Mumbai Cabs provides Budget Cabs & Taxi on Rent from Nashik to Ahmednagar with roundtrip journey from Nashik.",
-        "We provide Nashik to Ahmednagar taxi services with the lowest fare. Hire a cab from Nashik to Ahmednagar from us with the best local car services. Experience our online cab booking services from Nashik to Ahmednagar with reliable and polite drivers. Nashik Mumbai Cabs, the leading car rental travel services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a taxi from Nashik to Ahmednagar at affordable rates. Located in Maharashtra, the Ahmednagar District is at a distance of approximately 120 km from Nashik.",
+        "Nashik Mumbai Pune Shirdi Cabs provides Budget Cabs & Cab on Rent to Ahmednagar with roundtrip journeys.",
+        "We provide Ahmednagar Cab services with the lowest fare. Hire a cab to Ahmednagar from us with the best local car services. Experience our online cab booking services to Ahmednagar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cabs, the leading car rental travel services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Ahmednagar at affordable rates. Located in Maharashtra, the Ahmednagar District is at a distance of approximately 120 km from Nashik.",
       ],
       closing: "Call us for all your travel needs!",
     },
     meta: {
-      title: "Ahmednagar to Nashik Taxi | Nashik Mumbai Cabs",
-      description:
-        "Reliable cab from Ahmednagar to Nashik. Fares from ₹1200. Book now.",
+      title: "Ahmednagar Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description: "Reliable cab to Ahmednagar. Fares from ₹1200. Book now.",
     },
   },
 
   // ─── TOUR 07 ───────────────────────────────────────────────────────────────
   {
     id: "tour-07",
-    title: "Nashik to Chhatrapati Sambhajinagar Ajanta Ellora Caves",
-    slug: "nashik-chhatrapati-sambhajinagar-ajanta-ellora",
+    title: "Chhatrapati Sambhajinagar Ajanta Ellora Caves",
+    slug: "chhatrapati-sambhajinagar-ajanta-ellora-cab",
     image: "/images/nashik-aurangabad.jpg",
-    tagline: "Nashik to Chhatrapati Sambhajinagar Ajanta Ellora Taxi Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Chhatrapati Sambhajinagar Ajanta Ellora Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
       heading: "Perfect for a 2-Day Tour",
       content: [
         "The Ajanta Caves in the Chhatrapati Sambhajinagar (Aurangabad) district of Maharashtra state of India are about 30 rock-cut Buddhist cave monuments which date from the 2nd century BCE to about 480 or 650 CE. The caves include paintings and sculptures described by the government Archaeological Survey of India as “the finest surviving examples of Indian art, particularly painting”, which are masterpieces of Buddhist religious art, with figures of the Buddha and depictions of the Jataka tales.",
-        "A few of the world heritage sites in Maharashtra are located at Chhatrapati Sambhajinagar (Aurangabad), including Ajanta-Ellora and Bibi ka Maqbara. It is just a 4-5 hour journey from Nashik. If your weekend tour from Nashik is planned on a Saturday, we recommend an excellent extended tour to Ajanta-Ellora. How to travel? Booking a full day car for a quick, convenient, comfortable, and affordable Nashik to Ajanta-Ellora Cab caves tour is the best option you can choose over bus and train.",
-        "Nashik Mumbai Cabs provides Nashik taxi and Nashik cab services for local and outstation destinations. Book budget Cabs in Nashik or hire taxi rental services at a very affordable rate from the most trusted leading car rental service provider in Nashik and surrounding areas at a very economical fare. We offer one of the most affordable and comfortable cab services in the city, with multiple tour packages available as per your budget so you can plan your ride accordingly.",
-        "Our drivers appreciate and enjoy the journey with each of our customers, keeping a primary responsibility for a safer journey & scheduled arrival at nearby places around Nashik, or pickup/drop-off services to nearby airports, railway stations, or tourist places with transparent prices.",
+        "A few of the world heritage sites in Maharashtra are located at Chhatrapati Sambhajinagar (Aurangabad), including Ajanta-Ellora and Bibi ka Maqbara. It is just a 4-5 hour journey. If your weekend tour is planned on a Saturday, we recommend an excellent extended tour to Ajanta-Ellora. How to travel? Booking a full day car for a quick, convenient, comfortable, and affordable Ajanta-Ellora Caves tour is the best option you can choose over bus and train.",
+        "Nashik Mumbai Pune Shirdi Cabs provides Cab services for local and outstation destinations. Book budget Cabs or hire Cab rental services at a very affordable rate from the most trusted leading car rental service provider in the region at a very economical fare. We offer one of the most affordable and comfortable cab services in the city, with multiple tour packages available as per your budget so you can plan your ride accordingly.",
+        "Our drivers appreciate and enjoy the journey with each of our customers, keeping a primary responsibility for a safer journey & scheduled arrival at nearby places, or pickup/drop-off services to nearby airports, railway stations, or tourist places with transparent prices.",
       ],
       closing: "Ask about our 2-day package deals!",
     },
     meta: {
       title:
-        "Nashik to Chhatrapati Sambhajinagar Ajanta Ellora Taxi | Nashik Mumbai Cabs",
+        "Chhatrapati Sambhajinagar Ajanta Ellora Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Cab from Nashik to Ajanta Ellora Caves Aurangabad. Heritage day tour. Fares from ₹2500.",
+        "Cab to Ajanta Ellora Caves Aurangabad. Heritage day tour. Fares from ₹2500.",
     },
   },
 
   // ─── TOUR 08 ───────────────────────────────────────────────────────────────
   {
     id: "tour-08",
-    title: "Nashik to Verul Car Rental / Taxi Service",
-    slug: "nashik-verul-taxi",
+    title: "Verul Car Rental / Cab Service",
+    slug: "verul-car-rental-cab",
     image: "/images/nashik-verul.jpg",
     tagline: "Verul Car Rental",
-    company: "Nashik Mumbai Cab",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Verul",
     longDistance: {
-      heading: "Why Choose Nashik Mumbai Cab?",
+      heading: "Why Choose Nashik Mumbai Pune Shirdi Cab?",
       content: [
-        "We provide Nashik to Verul taxi services at awesome offers. Hire a cab from Nashik to Verul from us with the best local car services. Experience our online cab booking services from Nashik to Verul with reliable and polite drivers. Nashik Mumbai Cabs, the leading car rental services in Nashik, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a taxi from Nashik to Verul at affordable rates.",
-        "Nashik Mumbai Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Nashik to Verul car rentals. We offer highly customized & transparent service at a lower rate in comparison with traditional tour operators. We leverage modern booking systems to ensure you get the absolute best value-to-cost equation.",
-        "Offering premium touring options from Nashik, we welcome the opportunity to introduce ourselves as a renowned transport contractor and fleet owner. We maintain strict quality management standards across our entire company while encouraging and ensuring the active dedication of our team.",
+        "We provide Verul Cab services at awesome offers. Hire a cab to Verul from us with the best local car services. Experience our online cab booking services to Verul with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cabs, the leading car rental services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Verul at affordable rates.",
+        "Nashik Mumbai Pune Shirdi Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Verul car rentals. We offer highly customized & transparent service at a lower rate in comparison with traditional tour operators. We leverage modern booking systems to ensure you get the absolute best value-to-cost equation.",
+        "Offering premium touring options, we welcome the opportunity to introduce ourselves as a renowned transport contractor and fleet owner. We maintain strict quality management standards across our entire company while encouraging and ensuring the active dedication of our team.",
       ],
       closing: "Call us now for instant cab booking!",
     },
     meta: {
-      title: "Nashik to Verul Ellora Taxi | Nashik Mumbai Cabs",
-      description:
-        "Cab from Nashik to Verul Ellora Caves. Day trip fares from ₹2500.",
+      title: "Verul Ellora Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description: "Cab to Verul Ellora Caves. Day trip fares from ₹2500.",
     },
   },
 
   // ─── TOUR 09 ───────────────────────────────────────────────────────────────
   {
     id: "tour-09",
-    title: "Nashik to Ajanta Ellora Taxi Service",
-    slug: "nashik-ajanta-ellora-taxi",
+    title: "Ajanta Ellora Cab Service",
+    slug: "ajanta-ellora-cab-service",
     image: "/images/nashik-ajanta.jpg",
-    tagline: "Nashik to Ajanta & Ellora Combined Tour",
-    company: "Nashik Mumbai Cab",
+    tagline: "Ajanta & Ellora Combined Tour",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
-      heading: "Perfect Weekend Getaway from Nashik",
+      heading: "Perfect Weekend Getaway",
       content: [
-        "We provide Nashik to Ajanta Ellora Car Rental services at awesome offers. Hire a cab from Nashik to Ajanta Ellora from us with the best local car services. Experience our online cab booking services from Nashik to Ajanta Ellora with reliable and polite drivers. Nashik Mumbai Cabs, the leading car rental services in Nashik, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a taxi from Nashik to Ajanta Ellora at affordable rates.",
-        "For Nashik to Ajanta and Ellora Caves outstation (roundtrip) bookings, travelers can secure the best deals on our online cab/taxi booking platform, alongside transparent updates on cab fares and comprehensive tour package details. Nashik Mumbai Cabs provides both economy and luxurious cab options from Nashik to Ajanta and Ellora Caves, which are ideal for small family weekend trips, corporate outings, and long weekend getaways.",
+        "We provide Ajanta Ellora Car Rental services at awesome offers. Hire a cab to Ajanta Ellora from us with the best local car services. Experience our online cab booking services to Ajanta Ellora with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cabs, the leading car rental services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Ajanta Ellora at affordable rates.",
+        "For Ajanta and Ellora Caves outstation (roundtrip) bookings, travelers can secure the best deals on our online cab/Cab booking platform, alongside transparent updates on cab fares and comprehensive tour package details. Nashik Mumbai Pune Shirdi Cabs provides both economy and luxurious cab options to Ajanta and Ellora Caves, which are ideal for small family weekend trips, corporate outings, and long weekend getaways.",
       ],
       closing: "Book your heritage weekend now!",
     },
     meta: {
-      title: "Nashik to Ajanta Ellora Taxi | Nashik Mumbai Cabs",
-      description:
-        "Combined Ajanta Ellora cave tour from Nashik. Fares from ₹4500.",
+      title: "Ajanta Ellora Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description: "Combined Ajanta Ellora cave tour. Fares from ₹4500.",
     },
   },
 
   // ─── TOUR 10 ───────────────────────────────────────────────────────────────
   {
     id: "tour-10",
-    title: "Nashik City Car Rental / Taxi Service",
-    slug: "nashik-city-taxi",
+    title: "City Car Rental / Cab Service",
+    slug: "city-car-rental-cab",
     image: "/images/nashik-city.jpg",
-    tagline: "Nashik to Nashik Taxi Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "City Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
-      heading: "Mumbai via Nashik Package",
+      heading: "Mumbai Package",
       content: [
-        "We provide premium Nashik City Car Rental services at awesome offers. Hire a local or outstation cab from us to experience the best Nashik car rental services. Enjoy our seamless online cab booking system with highly reliable, professional, and polite drivers. Nashik Mumbai Cabs, the leading vehicle rental service in the region, boasts a diverse fleet of well-maintained cars—including Swift Dzire, Tempo Traveller, and Innova—available to hire at incredibly affordable rates.",
-        "Whether you need a local city ride or an outstation roundtrip from Nashik, travelers can get the best deals right here on our online taxi booking platform. Check our competitive cab fares, transparent pricing structures, and customizable Nashik tour packages. Nashik Mumbai Cabs provides both economy and luxurious vehicle options, making us the ideal choice for small family weekend getaways, corporate outings, airport transfers, and long weekend trips.",
+        "We provide premium City Car Rental services at awesome offers. Hire a local or outstation cab from us to experience the best car rental services. Enjoy our seamless online cab booking system with highly reliable, professional, and polite drivers. Nashik Mumbai Pune Shirdi Cabs, the leading vehicle rental service in the region, boasts a diverse fleet of well-maintained cars—including Swift Dzire, Tempo Traveller, and Innova—available to hire at incredibly affordable rates.",
+        "Whether you need a local city ride or an outstation roundtrip, travelers can get the best deals right here on our online Cab booking platform. Check our competitive cab fares, transparent pricing structures, and customizable tour packages. Nashik Mumbai Pune Shirdi Cabs provides both economy and luxurious vehicle options, making us the ideal choice for small family weekend getaways, corporate outings, airport transfers, and long weekend trips.",
       ],
       closing: "Ask about our combo packages!",
     },
     meta: {
-      title: "Nashik to Nashik Taxi | Nashik Mumbai Cabs",
+      title: "City Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Comfortable cab from Nashik to Nashik. Fares from ₹1800. Trimbakeshwar stop available.",
+        "Comfortable city cab. Fares from ₹1800. Trimbakeshwar stop available.",
     },
   },
 
   // ─── TOUR 11 ───────────────────────────────────────────────────────────────
   {
     id: "tour-11",
-    title: "Nashik to Mumbai Car Rental / Taxi Service",
-    slug: "nashik-mumbai-taxi",
+    title: "Mumbai Car Rental / Cab Service",
+    slug: "mumbai-car-rental-cab",
     image: "/images/nashik-mumbai.jpg",
-    tagline: "Nashik to Mumbai Taxi Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Mumbai Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Gateway of India, Mumbai",
     longDistance: {
       heading: "Airport Drop Available",
       content: [
-        "Nashik to Mumbai Cab is an important outstation route for both pilgrims and tourists, covering approximately 165 km via the Mumbai Nashik Expressway. Travelers can book Swift Dzire, Ertiga, Innova, or Tempo Traveller vehicles with experienced drivers for smooth transfers to Mumbai Airport (CSMIA) or any Mumbai location. Toll charges, GST, and driver allowances are included in our transparent pricing—no hidden costs.",
-        "Our Nashik to Mumbai taxi service operates 24x7 with flexible drop-off and round-trip options. For pilgrims, we offer one-day darshan trips including Nashik, Trimbakeshwar, and other temples along the route. Corporate and family groups can choose sedan, SUV, or tempo traveller vehicles based on seating requirements. All vehicles are regularly serviced and sanitized for passenger safety on the highway. Book online or via WhatsApp with instant confirmation.",
+        "The route to Mumbai is an important outstation route for both pilgrims and tourists, covering approximately 165 km via the Mumbai Nashik Expressway. Travelers can book Swift Dzire, Ertiga, Innova, or Tempo Traveller vehicles with experienced drivers for smooth transfers to Mumbai Airport (CSMIA) or any Mumbai location. Toll charges, GST, and driver allowances are included in our transparent pricing—no hidden costs.",
+        "Our Mumbai Cab service operates 24x7 with flexible drop-off and round-trip options. For pilgrims, we offer one-day darshan trips including Trimbakeshwar and other temples along the route. Corporate and family groups can choose sedan, SUV, or tempo traveller vehicles based on seating requirements. All vehicles are regularly serviced and sanitized for passenger safety on the highway. Book online or via WhatsApp with instant confirmation.",
       ],
-      closing: "Book your Mumbai cab from Nashik now!",
+      closing: "Book your Mumbai cab now!",
     },
     meta: {
-      title: "Nashik to Mumbai Taxi | Nashik Mumbai Cabs",
+      title: "Mumbai Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Outstation cab from Nashik to Mumbai. Expressway route. Fares from ₹3500.",
+        "Outstation cab to Mumbai. Expressway route. Fares from ₹3500.",
     },
   },
 
   // ─── TOUR 12 ───────────────────────────────────────────────────────────────
   {
     id: "tour-12",
-    title: "Nashik to Pune Car Rental / Taxi Service",
-    slug: "nashik-pune-taxi",
+    title: "Pune Car Rental / Cab Service",
+    slug: "pune-car-rental-cab",
     image: "/images/nashik-pune.jpg",
-    tagline: "Nashik to Pune Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Pune Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Shaniwar Wada, Pune",
     longDistance: {
       heading: "Pune Airport Drop",
       content: [
-        "Nashik Mumbai Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Nashik to Pune taxi and cab services. We offer affordable car rental options from Nashik to the Pune Airport, as well as general city-to-city transfers between Nashik and Pune. We offer a highly customized & transparent service at a lower rate in comparison with traditional tour operators, leveraging modern booking systems to ensure you get the absolute best value-to-cost equation.",
-        "Offering versatile touring options from Nashik, we welcome the opportunity to introduce ourselves as a renowned transport contractor and fleet owner. We maintain strict quality management standards across our entire company while encouraging and ensuring the active dedication of our team.",
+        "Nashik Mumbai Pune Shirdi Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Pune Cab and cab services. We offer affordable car rental options to the Pune Airport, as well as general city-to-city transfers to Pune. We offer a highly customized & transparent service at a lower rate in comparison with traditional tour operators, leveraging modern booking systems to ensure you get the absolute best value-to-cost equation.",
+        "Offering versatile touring options, we welcome the opportunity to introduce ourselves as a renowned transport contractor and fleet owner. We maintain strict quality management standards across our entire company while encouraging and ensuring the active dedication of our team.",
       ],
       closing: "Call us to plan your trip!",
     },
     meta: {
-      title: "Nashik to Pune Taxi | Nashik Mumbai Cabs",
+      title: "Pune Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Outstation cab Nashik to Pune. Via Shani Shingnapur option. Fares from ₹3200.",
+        "Outstation cab to Pune. Via Shani Shingnapur option. Fares from ₹3200.",
     },
   },
 
   // ─── TOUR 13 ───────────────────────────────────────────────────────────────
   {
     id: "tour-13",
-    title: "Nashik to Lonavala Car Rental / Taxi Service",
-    slug: "nashik-lonavala-taxi",
+    title: "Lonavala Car Rental / Cab Service",
+    slug: "lonavala-car-rental-cab",
     image: "/images/nashik-lonavala.jpg",
-    tagline: "Nashik to Lonavala Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Lonavala Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Lonavala & Khandala",
     longDistance: {
       heading: "Combine with Pune",
       content: [
-        "We provide premium Nashik to Lonavala Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab from Nashik to Lonavala from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who know the routes perfectly. Nashik Mumbai Cabs, the leading vehicle rental service provider in Nashik, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Nashik to Lonavala outstation roundtrip or one-way drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nashik to Lonavala tour packages.",
+        "We provide premium Lonavala Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Lonavala from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who know the routes perfectly. Nashik Mumbai Pune Shirdi Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Lonavala outstation roundtrip or one-way drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Lonavala tour packages.",
       ],
       closing: "Ask us about Lonavala-Pune combo!",
     },
     meta: {
-      title: "Nashik to Lonavala Taxi | Nashik Mumbai Cabs",
-      description:
-        "Cab from Nashik to Lonavala hill station. Fares from ₹4500.",
+      title: "Lonavala Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description: "Cab to Lonavala hill station. Fares from ₹4500.",
     },
   },
 
   // ─── TOUR 14 ───────────────────────────────────────────────────────────────
   {
     id: "tour-14",
-    title: "Nashik to Mahabaleshwar Car Rental / Taxi Service",
-    slug: "nashik-mahabaleshwar-taxi",
+    title: "Mahabaleshwar Car Rental / Cab Service",
+    slug: "mahabaleshwar-car-rental-cab",
     image: "/images/nashik-mahabaleshwar.jpg",
-    tagline: "Nashik to Mahabaleshwar Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Mahabaleshwar Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Mahabaleshwar",
     longDistance: {
       heading: "2-Day Mahabaleshwar Package",
       content: [
-        "We provide premium Nashik to Mahabaleshwar Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab from Nashik to Mahabaleshwar from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey through the scenic ghats. Nashik Mumbai Cabs, the leading vehicle rental service provider in Nashik, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Ertigas, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Nashik to Mahabaleshwar outstation roundtrip or one-way drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nashik to Mahabaleshwar tour packages. Nashik Mumbai Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family weekend getaways to the strawberry farms, office or corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your holiday from Nashik to Mahabaleshwar completely stress-free.",
+        "We provide premium Mahabaleshwar Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Mahabaleshwar from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey through the scenic ghats. Nashik Mumbai Pune Shirdi Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Ertigas, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Mahabaleshwar outstation roundtrip or one-way drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Mahabaleshwar tour packages. Nashik Mumbai Pune Shirdi Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family weekend getaways to the strawberry farms, office or corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your holiday to Mahabaleshwar completely stress-free.",
       ],
       closing: "Enquire about our holiday packages!",
     },
     meta: {
-      title: "Nashik to Mahabaleshwar Taxi | Nashik Mumbai Cabs",
+      title: "Mahabaleshwar Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Scenic cab from Nashik to Mahabaleshwar hill station. Fares from ₹4200.",
+        "Scenic cab to Mahabaleshwar hill station. Fares from ₹4200.",
     },
   },
 
   // ─── TOUR 15 ───────────────────────────────────────────────────────────────
   {
     id: "tour-15",
-    title: "Nashik to Goa Car Rental / Taxi Service",
-    slug: "nashik-goa-taxi",
+    title: "Goa Car Rental / Cab Service",
+    slug: "goa-car-rental-cab",
     image: "/images/nashik-goa.jpg",
-    tagline: "Nashik to Goa Long-Distance Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Goa Long-Distance Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: true,
     popularCityTitle: "Goa",
     longDistance: {
       heading: "The Ultimate Maharashtra-Goa Road Trip",
       content: [
-        "We provide premium Nashik to Goa Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab from Nashik to Goa from us to experience the finest long-distance intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Cabs, the leading vehicle rental service provider in Nashik, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Nashik to Goa outstation roundtrip or long-distance drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nashik to Goa tour packages. Nashik Mumbai Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family vacations, extended coastal road trips, and group holidays. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey from Nashik to Goa completely stress-free.",
+        "We provide premium Goa Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Goa from us to experience the finest long-distance intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Pune Shirdi Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Goa outstation roundtrip or long-distance drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Goa tour packages. Nashik Mumbai Pune Shirdi Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family vacations, extended coastal road trips, and group holidays. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Goa completely stress-free.",
       ],
       closing: "Book our Goa package now!",
     },
     meta: {
-      title: "Nashik to Goa Taxi | Nashik Mumbai Cabs",
+      title: "Goa Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Long-distance cab from Nashik to Goa. Fares from ₹7500. Overnight option.",
+        "Long-distance cab to Goa. Fares from ₹7500. Overnight option.",
     },
   },
 
   // ─── TOUR 16 ───────────────────────────────────────────────────────────────
   {
     id: "tour-16",
-    title: "Nashik to Konkan Car Rental / Taxi Service",
-    slug: "nashik-konkan-taxi",
+    title: "Konkan Car Rental / Cab Service",
+    slug: "konkan-car-rental-cab",
     image: "/images/nashik-konkan.jpg",
-    tagline: "Nashik to Konkan Coast Taxi Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Konkan Coast Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
       heading: "Konkan Weekend Package",
       content: [
-        "We provide premium Nashik to Konkan Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab from Nashik to Konkan from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey down to the beautiful coastal belt. Nashik Mumbai Cabs, the leading vehicle rental service provider in Nashik, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Nashik to Konkan outstation roundtrip, beach holiday, or coastal tour, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nashik to Konkan tour packages. Nashik Mumbai Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for family beach vacations, nature weekend getaways, and extended coastal road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey from Nashik to Konkan completely stress-free.",
+        "We provide premium Konkan Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Konkan from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey down to the beautiful coastal belt. Nashik Mumbai Pune Shirdi Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Konkan outstation roundtrip, beach holiday, or coastal tour, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Konkan tour packages. Nashik Mumbai Pune Shirdi Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for family beach vacations, nature weekend getaways, and extended coastal road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Konkan completely stress-free.",
       ],
       closing: "Book your Konkan escape!",
     },
     meta: {
-      title: "Nashik to Konkan Taxi | Nashik Mumbai Cabs",
+      title: "Konkan Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Cab from Nashik to Konkan coast. Ganpatipule, Ratnagiri, Tarkarli. Fares from ₹5500.",
+        "Cab to Konkan coast. Ganpatipule, Ratnagiri, Tarkarli. Fares from ₹5500.",
     },
   },
 
   // ─── TOUR 17 ───────────────────────────────────────────────────────────────
   {
     id: "tour-17",
-    title: "Nashik to Nagpur Car Rental / Taxi Service",
-    slug: "nashik-nagpur-taxi",
+    title: "Nagpur Car Rental / Cab Service",
+    slug: "nagpur-car-rental-cab",
     image: "/images/nashik-nagpur.jpg",
-    tagline: "Nashik to Nagpur Long-Distance Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Nagpur Long-Distance Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
       heading: "Vidarbha Extension Package",
       content: [
-        "We provide premium Nashik to Nagpur Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab from Nashik to Nagpur from us to experience the finest long-distance intercity travel services in the region, taking full advantage of the fast Samruddhi Mahamarg route. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth, quick, and safe long-distance journey. Nashik Mumbai Cabs, the leading vehicle rental service provider in Nashik, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Nashik to Nagpur outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nashik to Nagpur tour packages. Nashik Mumbai Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family travel, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey from Nashik to Nagpur completely stress-free.",
+        "We provide premium Nagpur Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Nagpur from us to experience the finest long-distance intercity travel services in the region, taking full advantage of the fast Samruddhi Mahamarg route. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth, quick, and safe long-distance journey. Nashik Mumbai Pune Shirdi Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Nagpur outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nagpur tour packages. Nashik Mumbai Pune Shirdi Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family travel, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Nagpur completely stress-free.",
       ],
       closing: "Plan your Vidarbha tour with us!",
     },
     meta: {
-      title: "Nashik to Nagpur Taxi | Nashik Mumbai Cabs",
+      title: "Nagpur Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Long-distance cab from Nashik to Nagpur. Fares from ₹7000. Night travel available.",
+        "Long-distance cab to Nagpur. Fares from ₹7000. Night travel available.",
     },
   },
 
   // ─── TOUR 18 ───────────────────────────────────────────────────────────────
   {
     id: "tour-18",
-    title: "Nashik to Indore Car Rental / Taxi Service",
-    slug: "nashik-indore-taxi",
+    title: "Indore Car Rental / Cab Service",
+    slug: "indore-car-rental-cab",
     image: "/images/nashik-indore.webp",
-    tagline: "Nashik to Indore Inter-State Cab Service",
-    company: "Nashik Mumbai Cab",
+    tagline: "Indore Inter-State Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
     popularCity: false,
     longDistance: {
       heading: "Ujjain Extension",
       content: [
-        "We provide premium Nashik to Indore Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab from Nashik to Indore from us to experience the finest long-distance intercity travel services across state lines. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Cabs, the leading vehicle rental service provider in Nashik, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Nashik to Indore outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nashik to Indore tour packages. Nashik Mumbai Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family vacations, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey from Nashik to Indore completely stress-free.",
+        "We provide premium Indore Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Indore from us to experience the finest long-distance intercity travel services across state lines. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Pune Shirdi Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Indore outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Indore tour packages. Nashik Mumbai Pune Shirdi Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family vacations, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Indore completely stress-free.",
       ],
-      closing: "Book your Nashik to Indore-Ujjain package!",
+      closing: "Book your Indore-Ujjain package!",
     },
     meta: {
-      title: "Nashik to Indore Taxi | Nashik Mumbai Cabs",
+      title: "Indore Cab | Nashik Mumbai Pune Shirdi Cabs",
       description:
-        "Inter-state cab from Nashik to Indore MP. All-India permit. Fares from ₹7500.",
+        "Inter-state cab to Indore MP. All-India permit. Fares from ₹7500.",
+    },
+  },
+
+  // ─── TOUR 19 ───────────────────────────────────────────────────────────────
+  {
+    id: "tour-19",
+    title: "Jalna Car Rental / Cab Service",
+    slug: "jalna-car-rental-cab",
+    image: "/images/jalna.webp",
+    tagline: "Jalna Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
+    popularCity: false,
+    longDistance: {
+      heading: "Connect via Samruddhi Mahamarg",
+      content: [
+        "We provide premium Jalna Car Rental services packed with unbeatable offers and budget-friendly packages. Hire a reliable cab to Jalna from us to experience smooth and comfortable travel via the direct Samruddhi Mahamarg expressway corridor. Enjoy our seamless online cab booking platform with polite, skilled drivers who ensure on-time pick-ups and safe highway transit. Nashik Mumbai Pune Shirdi Cabs offers a wide fleet including Swift Dzire, Ertiga, Innova Crysta, and Tempo Travellers for groups of all sizes.",
+        "Located in the Marathwada region adjacent to Chhatrapati Sambhajinagar, Jalna is a key commercial center known for its steel industry and agricultural trade. Whether you need a one-way transfer, roundtrip ride, or an extended Marathwada heritage tour combined with Shirdi and Ajanta-Ellora, we provide transparent fares with no hidden costs.",
+      ],
+      closing: "Book your Jalna cab service today!",
+    },
+    meta: {
+      title: "Jalna Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description:
+        "Reliable cab service to Jalna via Samruddhi Mahamarg. Fares from ₹3200. 24/7 service.",
+    },
+  },
+
+  // ─── TOUR 20 ───────────────────────────────────────────────────────────────
+  {
+    id: "tour-20",
+    title: "Igatpuri Hill Station Cab Service",
+    slug: "igatpuri-hill-station-cab",
+    image: "/images/nashik-igatpuri.jpg",
+    tagline: "Igatpuri Getaway Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
+    popularCity: true,
+    popularCityTitle: "Igatpuri",
+    longDistance: {
+      heading: "Kasara Ghat & Monsoon Getaway",
+      content: [
+        "Escape to the serene hills with our specialized Igatpuri Car Rental services. Located along the Western Ghats between Mumbai and Nashik, Igatpuri is famous for the Vipassana International Academy (Dhammagiri), Bhatsa River Valley, Kalsubai Peak, and ancient forts like Tringalwadi. We offer flexible local sightseeing, resort pickup/drop, and outstation roundtrips at competitive prices.",
+        "Whether you are traveling from Mumbai, Pune, or Nashik for a weekend retreat or monsoon getaway, Nashik Mumbai Pune Shirdi Cabs ensures a safe, comfortable drive through the Kasara Ghats with experienced mountain drivers. Choose from sedan models, spacious SUVs, or Tempo Travellers for group weekend tours.",
+      ],
+      closing: "Plan your Igatpuri hill retreat with us!",
+    },
+    meta: {
+      title: "Igatpuri Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description:
+        "Book scenic hill station cab to Igatpuri. Resort drops & sightseeing packages from ₹1500.",
+    },
+  },
+
+  // ─── TOUR 21 ───────────────────────────────────────────────────────────────
+  {
+    id: "tour-21",
+    title: "Thane Car Rental / Cab Service",
+    slug: "thane-car-rental-cab",
+    image: "/images/nashik-thane.jpg",
+    tagline: "Thane Expressway Cab Service",
+    company: "Nashik Mumbai Pune Shirdi Cab",
+    popularCity: true,
+    popularCityTitle: "Thane Junction",
+    longDistance: {
+      heading: "Gateway to Mumbai & MMR Region",
+      content: [
+        "Nashik Mumbai Pune Shirdi Cabs offers dedicated Thane Car Rental services connecting Nashik, Pune, Shirdi, and the Mumbai Metropolitan Region. Situated at the crossroads of major national highways and the Samruddhi Mahamarg entrance corridor, Thane is a key transit destination for corporate travelers, commuters, and pilgrims.",
+        "Enjoy door-to-door cab drops to all major Thane localities including Ghodbunder Road, Majiwada, Thane Railway Station, and Eastern Express Highway connectors. We offer clean AC cabs, 24/7 customer support, transparent toll/fare structures, and professional drivers experienced in suburban traffic management.",
+      ],
+      closing: "Call us now to book your Thane cab!",
+    },
+    meta: {
+      title: "Thane Cab | Nashik Mumbai Pune Shirdi Cabs",
+      description:
+        "Direct cab to Thane from Nashik, Pune, or Shirdi. Fast highway connectivity. Fares from ₹2800.",
     },
   },
 ];
@@ -1142,31 +1213,31 @@ export function getAllSlugs() {
 }
 
 // Utility Export: Maps your array to include absolute routing paths.
-export const TaxiServicesCityToCity = toursData.map((tour) => ({
+export const CabServicesCityToCity = toursData.map((tour) => ({
   ...tour,
   redirectUrl: `/cities/${tour.slug}`,
 }));
 
 export const footerLinksData = [
   {
-    id: "taxi-services",
-    title: "NASHIK TAXI SERVICES",
+    id: "Cab-services",
+    title: "NASHIK Cab SERVICES",
     links: [
       {
         text: "Nashik Airport Pickup Drop",
-        href: "/airport/nashik-airport-local-taxi",
+        href: "/airport/nashik-airport-cab",
       },
       {
         text: "Nashik to Kopargaon Pickup Drop",
-        href: "/cities/kopargaon-nashik-taxi",
+        href: "/cities/kopargaon-cab",
       },
       {
-        text: "Nashik to Manmad Taxi Service",
-        href: "/cities/nashik-manmad-taxi",
+        text: "Nashik to Manmad Cab Service",
+        href: "/cities/manmad-cab-service",
       },
       {
         text: "Nashik to Bhimashankar Pickup Drop",
-        href: "/cities/Nashik-bhimashankar-taxi",
+        href: "/cities/bhimashankar-darshan-cab",
       },
       {
         text: "Nashik To Shanishingnapur Pickup Drop",
@@ -1176,45 +1247,45 @@ export const footerLinksData = [
   },
   {
     id: "local-services",
-    title: "NASHIK TO NASHIK SERVICE",
+    title: "Mumbai Cab SERVICE",
     links: [
       {
-        text: "Nashik Centeral Taxi Service",
-        href: "/cities/nashik-city-taxi",
+        text: "Mumbai to Igatpuri Cab Service",
+        href: "/cities/igatpuri-hill-station-cab",
       },
       {
-        text: "Nashik to Trimbakeshwar Taxi Service",
-        href: "/cities/nashik-trimbakeshwar-darshan",
+        text: "Mumbai to Trimbakeshwar Cab Service",
+        href: "/cities/trimbakeshwar-darshan-cab",
       },
       {
-        text: "Nashik to Shirdi Airport Pickup Drop",
-        href: "/airport/nashik-to-shirdi-airport-taxi",
+        text: "Mumbai to Shirdi Airport Pickup Drop",
+        href: "/airport/shirdi-airport-cab",
       },
       {
-        text: "Nashik to Manmad Pickup Drop",
-        href: "/cities/nashik-manmad-taxi",
+        text: "Mumbai to Manmad Pickup Drop",
+        href: "/cities/manmad-cab-service",
       },
     ],
   },
   {
     id: "outstation-cabs",
-    title: "NASHIK TO OUTSTATION CABS",
+    title: "Pune Cab SERVICE",
     links: [
       {
-        text: "Nashik to Mumbai Taxi Service",
-        href: "/cities/nashik-mumbai-taxi",
+        text: "Pune to Mumbai Cab Service",
+        href: "/cities/mumbai-car-rental-cab",
       },
       {
-        text: "Nashik to Pune Taxi Service",
-        href: "/cities/nashik-pune-taxi",
+        text: "Pune to Goa Cab Service",
+        href: "/cities/goa-car-rental-cab",
       },
       {
-        text: "Nashik to Chhatrapati Sambhajinagar Taxi Service",
-        href: "/cities/nashik-chhatrapati-sambhajinagar-ajanta-ellora",
+        text: "Pune to Chhatrapati Sambhajinagar Cab Service",
+        href: "/cities/chhatrapati-sambhajinagar-ajanta-ellora-cab",
       },
       {
-        text: "Nashik to Indore Taxi Service",
-        href: "/cities/nashik-indore-taxi",
+        text: "Pune to Indore Cab Service",
+        href: "/cities/indore-car-rental-cab",
       },
     ],
   },
@@ -1222,14 +1293,38 @@ export const footerLinksData = [
     id: "bus-services",
     title: "NASHIK BUS SERVICES",
     links: [
-      { text: "Best Bus Service in Nashik", href: "/bus/best-bus-service-in-nashik" },
-      { text: "25 Seater Bus on Rent in Nashik", href: "/bus/25-seater-bus-on-rent-in-nashik" },
-      { text: "32 Seater Bus on Rent in Nashik", href: "/bus/32-seater-bus-on-rent-in-nashik" },
-      { text: "35 Seater Bus on Rent in Nashik", href: "/bus/35-seater-bus-on-rent-in-nashik" },
-      { text: "45 Seater Bus on Rent in Nashik", href: "/bus/45-seater-bus-on-rent-in-nashik" },
-      { text: "50-Seater Bus on Rent in Nashik", href: "/bus/50-seater-bus-on-rent-in-nashik" },
-      { text: "Mini Bus on Rent in Nashik", href: "/bus/mini-bus-on-rent-in-nashik" },
-      { text: "Ac bus booking in nashik", href: "/bus/ac-bus-booking-in-nashik" },
+      {
+        text: "Best Bus Service in Nashik",
+        href: "/bus/best-bus-service-in-nashik",
+      },
+      {
+        text: "25 Seater Bus on Rent in Nashik",
+        href: "/bus/25-seater-bus-on-rent-in-nashik",
+      },
+      {
+        text: "32 Seater Bus on Rent in Nashik",
+        href: "/bus/32-seater-bus-on-rent-in-nashik",
+      },
+      {
+        text: "35 Seater Bus on Rent in Nashik",
+        href: "/bus/35-seater-bus-on-rent-in-nashik",
+      },
+      {
+        text: "45 Seater Bus on Rent in Nashik",
+        href: "/bus/45-seater-bus-on-rent-in-nashik",
+      },
+      {
+        text: "50-Seater Bus on Rent in Nashik",
+        href: "/bus/50-seater-bus-on-rent-in-nashik",
+      },
+      {
+        text: "Mini Bus on Rent in Nashik",
+        href: "/bus/mini-bus-on-rent-in-nashik",
+      },
+      {
+        text: "Ac bus booking in nashik",
+        href: "/bus/ac-bus-booking-in-nashik",
+      },
     ],
   },
 ];

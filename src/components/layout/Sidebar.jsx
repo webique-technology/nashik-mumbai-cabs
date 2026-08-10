@@ -13,7 +13,11 @@ const NavSidebar = ({ setIsMenuOpen }) => {
           className="d-flex mb-3 align-items-center text-decoration-none"
         >
           <div className="logo-text">
-            <img src={"/images/nmc-logo-2.png"} alt="Logo" className="me-2 brand-logo" />
+            <img
+              src={"/images/nmc-logo-2.png"}
+              alt="Logo"
+              className="me-2 brand-logo"
+            />
             {/* <h1>Nashik</h1>
             <p className="lh-auto highlight-text highlight-text-primary">Mumbai Cabs</p> */}
           </div>
@@ -25,7 +29,7 @@ const NavSidebar = ({ setIsMenuOpen }) => {
         <Link href="/about-us" className="mobile-link" onClick={setIsMenuOpen}>
           About-Us
         </Link>
-        {/* <Link href="/taxi-packages" className="mobile-link" onClick={setIsMenuOpen}>Taxi Packages</Link> */}
+        {/* <Link href="/Cab-packages" className="mobile-link" onClick={setIsMenuOpen}>Cab Packages</Link> */}
         <Link href="/cities" className="mobile-link" onClick={setIsMenuOpen}>
           Cities
         </Link>
@@ -65,7 +69,8 @@ const NavSidebar = ({ setIsMenuOpen }) => {
                     target="_blank"
                   >
                     <span className="poppins small-base">
-                      Shop No. 7, Nysa Buisness Centre, Ghadge Nagar, Makhmalabad, Nashik, Maharashtra 422003
+                      Shop No. 7, Nysa Buisness Centre, Ghadge Nagar,
+                      Makhmalabad, Nashik, Maharashtra 422003
                     </span>
                   </a>
                 </div>

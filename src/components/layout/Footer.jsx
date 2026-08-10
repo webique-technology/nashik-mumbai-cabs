@@ -36,9 +36,9 @@ const Footer = () => {
                 </div>
               </div>
               <p className="footer-text d-none d-md-block p-0 pe-sm-3">
-                Maharashtra’s most trusted 24/7 intercity taxi service,
-                providing safe, comfortable, and affordable rides between
-                Nashik, Mumbai, & surrounding regions.
+                Maharashtra’s most trusted 24/7 intercity Cab service, providing
+                safe, comfortable, and affordable rides between Nashik, Mumbai,
+                & surrounding regions.
               </p>
 
               {/* Social Link Wrappers */}
@@ -85,10 +85,7 @@ const Footer = () => {
                     className="img-fluid"
                   />
                 </a>
-                <a
-                  href="#"
-                  className="social-icon"
-                >
+                <a href="#" className="social-icon">
                   <Image
                     src={youtube}
                     alt="Youtube"
@@ -142,7 +139,7 @@ const Footer = () => {
               <h3 className="footer-heading">Other Services</h3>
               <ul className="services-link list-unstyled">
                 {/* <li className='mb-2 p-0'>
-                                <Link href="/taxi-packages" target='_blank' className='footer-link d-block mb-1 py-1'>Taxi Packages</Link>
+                                <Link href="/Cab-packages" target='_blank' className='footer-link d-block mb-1 py-1'>Cab Packages</Link>
                             </li> */}
                 <li className="mb-2 p-0">
                   <Link
@@ -208,7 +205,8 @@ const Footer = () => {
                       className="footer-link d-block"
                     >
                       <span>
-                        Shop No. 7, Nysa Buisness Centre, Ghadge Nagar, Makhmalabad, Nashik, Maharashtra 422003
+                        Shop No. 7, Nysa Buisness Centre, Ghadge Nagar,
+                        Makhmalabad, Nashik, Maharashtra 422003
                       </span>
                     </Link>
                   </li>
@@ -302,7 +300,9 @@ const Footer = () => {
           <div className="container py-4 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
             <p className="mb-0 fw-medium text-light text-center text-lg-start">
               © 2026 All Rights Reserved by{" "}
-              <span className="text-light fw-bold">Nashik Mumbai Cabs</span>{" "}
+              <span className="text-light fw-bold">
+                Nashik Mumbai Pune Shirdi Cabs
+              </span>{" "}
               {currentYear}
             </p>
             <div className="d-flex gap-3">

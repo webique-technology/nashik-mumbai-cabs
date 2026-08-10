@@ -1,6 +1,6 @@
 import React from "react";
 // Ensure this path matches where your airport helper functions are defined
-import { getAirportTourBySlug } from "@/lib/airportData"; 
+import { getAirportTourBySlug } from "@/lib/airportData";
 import { DetailPage1 } from "@/components/sections/DetailPageComp";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
@@ -15,9 +15,9 @@ export async function generateMetadata({ params }) {
 
   if (!airportTour) {
     return generatePageMetadata({
-      staticData: { 
-        title: "Airport Route Not Found | Nashik Mumbai Cabs",
-        description: "The requested airport taxi route could not be located."
+      staticData: {
+        title: "Airport Route Not Found | Nashik Mumbai Pune Shirdi Cabs",
+        description: "The requested airport Cab route could not be located.",
       },
       path: `/airport/${slug || ""}`,
     });
@@ -48,7 +48,8 @@ function NotFoundError() {
         Airport Route Not Found
       </h1>
       <p className="text-muted mb-4">
-        We couldn't find the specific airport transfer route you are looking for.
+        We couldn't find the specific airport transfer route you are looking
+        for.
       </p>
       <Link
         href="/"

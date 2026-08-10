@@ -1,14 +1,14 @@
 import ServicesGridCardSection from "@/components/sections/ServicesGridSec";
 import { CommonBanner } from "@/components/ui/cards";
-import { TaxiServicesCityToCity } from "@/lib/data";
+import { CabServicesCityToCity } from "@/lib/data";
 
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
   staticData: {
-    title: "City Transportation | Leading Taxi Service Provider in Nashik",
+    title: "City Transportation | Leading Cab Service Provider in Nashik",
     description:
-      "Learn more about Nashik Mumbai Cabs, our vision, vetted professional drivers, and fleet quality standards.",
+      "Learn more about Nashik Mumbai Pune Shirdi Cabs, our vision, vetted professional drivers, and fleet quality standards.",
     image: "/images/about-banner.jpg",
   },
   path: "/cities",
@@ -28,7 +28,7 @@ const CitiesPage = () => {
         overlayOpacity={0.6}
         textAlign="center"
       />
-      <ServicesGridCardSection data={TaxiServicesCityToCity} />
+      <ServicesGridCardSection data={CabServicesCityToCity} />
     </main>
   );
 };

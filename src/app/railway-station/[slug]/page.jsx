@@ -20,8 +20,10 @@ export async function generateMetadata({ params }) {
   if (!tour) {
     return generatePageMetadata({
       staticData: {
-        title: "Railway Station Route Not Found | Nashik Mumbai Cabs",
-        description: "The requested railway station taxi route could not be found.",
+        title:
+          "Railway Station Route Not Found | Nashik Mumbai Pune Shirdi Cabs",
+        description:
+          "The requested railway station Cab route could not be found.",
       },
       path: `/railway-station/${slug || ""}`,
     });
@@ -52,7 +54,8 @@ function NotFoundError() {
         Railway Station Route Not Found
       </h1>
       <p className="text-muted mb-4">
-        We couldn&apos;t find the specific railway station taxi route you are looking for.
+        We couldn&apos;t find the specific railway station Cab route you are
+        looking for.
       </p>
       <Link
         href="/"

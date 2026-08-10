@@ -1,14 +1,14 @@
 // src/lib/seo.js
 
 const DEFAULT_SITE_CONFIG = {
-  siteName: "Nashik Mumbai Cabs",
+  siteName: "Nashik Mumbai Pune Shirdi Cabs",
   defaultTitle:
-    "Nashik Mumbai Cabs | Premium Taxi & Car Rentals in Maharashtra",
+    "Nashik Mumbai Pune Shirdi Cabs | Premium Cab & Car Rentals in Maharashtra",
   defaultDescription:
-    "Book reliable, affordable, and safe outstation taxis, cabs, and buses from Nashik to Mumbai, Pune, Shirdi, and across Maharashtra. 24/7 service.",
+    "Book reliable, affordable, and safe outstation Cabs, cabs, and buses from Nashik to Mumbai, Pune, Shirdi, and across Maharashtra. 24/7 service.",
   defaultKeywords: [
-    "Nashik Mumbai Cabs",
-    "Taxi service Nashik",
+    "Nashik Mumbai Pune Shirdi Cabs",
+    "Cab service Nashik",
     "Outstation cab booking",
     "Cab rental Nashik to Mumbai",
     "Car hire Nashik",

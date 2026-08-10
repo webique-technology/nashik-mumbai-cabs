@@ -9,7 +9,9 @@ export async function generateMetadata({ params }) {
 
   if (!cab) {
     return generatePageMetadata({
-      staticData: { title: "Vehicle Not Found | Nashik Mumbai Cabs" },
+      staticData: {
+        title: "Vehicle Not Found | Nashik Mumbai Pune Shirdi Cabs",
+      },
       path: `/cabs/${slug}`,
     });
   }
@@ -22,14 +24,14 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function CabDetailPage({ params }) {
-    const { slug } = await params;
+  const { slug } = await params;
 
-    // Filter array to locate the selected item by slug key
-    const cab = CabsData.find((item) => item.slug === slug);
+  // Filter array to locate the selected item by slug key
+  const cab = CabsData.find((item) => item.slug === slug);
 
-    if (!cab) {
-        notFound();
-    }
+  if (!cab) {
+    notFound();
+  }
 
-    return <CabDetail cab={cab} />;
+  return <CabDetail cab={cab} />;
 }

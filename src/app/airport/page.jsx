@@ -1,14 +1,14 @@
 import ServicesGridCardSection from "@/components/sections/ServicesGridSec";
 import { CommonBanner } from "@/components/ui/cards";
-import { NashikAirportTaxiServices } from "@/lib/airportData";
+import { NashikAirportCabServices } from "@/lib/airportData";
 
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
   staticData: {
-    title: "Airport Transportation | Leading Taxi Service Provider in Nashik",
+    title: "Airport Transportation | Leading Cab Service Provider in Nashik",
     description:
-      "Learn more about Nashik Mumbai Cabs, our vision, vetted professional drivers, and fleet quality standards.",
+      "Learn more about Nashik Mumbai Pune Shirdi Cabs, our vision, vetted professional drivers, and fleet quality standards.",
     image: "/images/about-banner.jpg",
   },
   path: "/airport",
@@ -28,7 +28,7 @@ const AirportPage = () => {
         overlayOpacity={0.6}
         textAlign="center"
       />
-      <ServicesGridCardSection data={NashikAirportTaxiServices} />
+      <ServicesGridCardSection data={NashikAirportCabServices} />
     </main>
   );
 };

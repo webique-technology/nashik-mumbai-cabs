@@ -159,14 +159,14 @@ export const DetailPage1 = ({ dataObject }) => {
                   <Col>
                     <LinkPillBtn
                       href={"tel:+919225899899"}
-                      icon={<PhoneCall size={18}/>}
+                      icon={<PhoneCall size={18} />}
                       btnText={"Call Us"}
                       varaint="pill-btn primary rounded-2 text-center w-100 d-block"
                     />
                   </Col>
                   <Col>
                     <LinkPillBtn
-                      href={`https://wa.me/919225899899?text=${encodeURIComponent("Hello! I want to book a taxi request.")}`}
+                      href={`https://wa.me/919225899899?text=${encodeURIComponent("Hello! I want to book a Cab request.")}`}
                       target="_blank"
                       btnText={"Contact Us"}
                       img={"/images/whatsapp.svg"}

@@ -145,8 +145,8 @@ export const IndustryMarquee = () => {
             Popular City <span className="title-highlight">Services</span>
           </h2>
           <p className="text-muted">
-            Discover Reliable Cab Services in Top Cities with Nashik Mumbai
-            Cabs. Click Below to Explore Availability!
+            Discover Reliable Cab Services in Top Cities with Nashik Mumbai Pune
+            Shirdi Cabs. Click Below to Explore Availability!
           </p>
         </div>
       </Container>
@@ -185,7 +185,7 @@ export const DynamicFooterLinks = () => {
             </h2>
             <p className="text-muted">
               Discover Reliable Cab Services in Top Cities with Nashik Mumbai
-              Cabs. Click Below to Explore Availability!
+              Pune Shirdi Cabs. Click Below to Explore Availability!
             </p>
           </AnimationSecComponent>
         </div>
@@ -212,11 +212,7 @@ export const DynamicFooterLinks = () => {
                   {section.links.map((link, idx) => (
                     <li key={idx} className="d-flex align-items-start gap-2">
                       {/* Actual Clickable Hyperlink Route */}
-                      <img
-                        src="/images/hand-right.png"
-                        className="icon"
-                        alt="hand-right"
-                      />
+                      <img src="/images/hand-right.png" className="icon" alt="hand-right" />
                       <Link
                         href={link.href}
                         className={`text-decoration-none small transition-all link-text link-text-dark ${

@@ -18,8 +18,9 @@ export async function generateMetadata({ params }) {
   if (!tour) {
     return generatePageMetadata({
       staticData: {
-        title: "Tour Package Not Found | Nashik Mumbai Cabs",
-        description: "The requested tour package or route details could not be found.",
+        title: "Tour Package Not Found | Nashik Mumbai Pune Shirdi Cabs",
+        description:
+          "The requested tour package or route details could not be found.",
       },
       path: `/cities/${slug || ""}`,
     });
@@ -48,7 +49,7 @@ function NotFoundError() {
     <div className="container my-5 py-5 text-center bg-light rounded-3 border">
       <h1 className="display-6 fw-bold text-dark mb-3">Package Not Found</h1>
       <p className="text-muted mb-4">
-        We couldn't find the specific city tour package you are looking for.
+        We {"couldn't"} find the specific city tour package you are looking for.
       </p>
       <Link
         href="/"

@@ -3,471 +3,471 @@ export const railwayToursData = [
   // ─── 1. SAINAGAR SHIRDI ROUTE ───────────────────────────────────────────────
   {
     id: "rail-01",
-    title: "Nashik to Sainagar Shirdi Railway Station Taxi Service",
-    slug: "nashik-to-sainagar-shirdi-railway-taxi",
+    title: "Sainagar Shirdi Railway Station Cab Service",
+    slug: "sainagar-shirdi-railway-station-cab",
     image: "/images/sainagar-shirdi.jpg",
-    tagline: "Nashik to Sainagar Shirdi Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Sainagar Shirdi Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Travel comfortably from Nashik straight to Sainagar Shirdi Railway Station. We provide premium, reliable outstation cab services designed to match your boarding timelines seamlessly.",
+      "Travel comfortably to and from Sainagar Shirdi Railway Station. We provide premium, reliable outstation cab services connecting Shirdi Station directly to Mumbai, Pune, Nashik, and Chhatrapati Sambhajinagar to match your train schedules seamlessly.",
     fleetDescription:
-      "Choose from our clean, fully air-conditioned fleet options including Swift Dzire, Toyota Innova, and group Tempo Travellers operated by experienced highway drivers.",
+      "Choose from our clean, fully air-conditioned fleet options including Swift Dzire, Toyota Innova Crysta, Ertiga, and group Tempo Travellers operated by experienced highway drivers.",
     contentBlocks: [
       {
         type: "text",
         heading: "Reliable Station Drop-offs & Pickups",
         content:
-          "Sainagar Shirdi is a core terminal for thousands of weekly passengers. Pre-booking your taxi ensures that your outstation transit runs strictly on time, allowing you to bypass platform-side congestion completely.",
+          "Sainagar Shirdi is a core railway terminal for thousands of weekly pilgrims and travelers. Pre-booking your cab ensures that your transit runs strictly on time, allowing you to bypass station platform congestion and taxi delays completely.",
       },
       {
         type: "callout",
-        heading: "Distance and Pricing Matrix",
+        heading: "Distance and Route Coverage",
         content:
-          "The route bridges approximately 90 km via safe national highway corridors. We implement fixed, completely transparent pricing structures with all toll parameters accounted for.",
+          "Connecting Shirdi Station to Nashik (90 km), Pune (185 km), and Mumbai (240 km) via primary expressway corridors. We implement fixed, completely transparent pricing structures with all toll charges included.",
       },
       {
         type: "list",
         heading: "Why Choose Our Shirdi Station Line?",
         intro:
-          "We coordinate your transit timings with train scheduling grids automatically:",
+          "We coordinate your transit timings with train arrival and departure grids automatically:",
         items: [
           "Strict adherence to scheduled pickup timelines",
-          "Knowledgeable outstation highway drivers",
-          "Ample luggage storage distribution space",
-          "Pristine, sanitized, outstation vehicle fleets",
-          "24/7 client booking operational helpline support",
+          "Knowledgeable highway drivers familiar with express routes",
+          "Ample luggage storage space for family travel",
+          "Pristine, sanitized outstation vehicle fleets",
+          "24/7 client booking and customer support helpline",
         ],
         closing:
-          "Reserve your transfer in advance to secure a guaranteed vehicle layout.",
+          "Reserve your transfer in advance to secure a guaranteed vehicle layout for your group.",
       },
     ],
     longDistance: {
       heading: "Extended Pilgrimage Tours Available",
       content:
-        "We provide complete dynamic multi-city options extending from the station loop directly into comprehensive sightseeing packages across the state.",
-      closing: "Call us right now for instant bookings!",
+        "We provide complete multi-city options extending from Sainagar Shirdi Station directly into comprehensive temple darshan and sightseeing packages across Maharashtra.",
+      closing: "Call us right now for instant cab bookings!",
     },
     meta: {
-      title: "Nashik to Sainagar Shirdi Railway Station Taxi | Outstation Cab",
+      title: "Sainagar Shirdi Railway Station Cab | Outstation Station Cab",
       description:
-        "Book reliable outstation taxi services from Nashik to Sainagar Shirdi Railway Station. Transparent fixed rates, professional drivers.",
+        "Book reliable outstation cab services connecting Sainagar Shirdi Railway Station to Nashik, Pune, and Mumbai. Transparent fixed rates, professional drivers.",
     },
   },
 
   // ─── 2. KOPARGAON ROUTE ────────────────────────────────────────────────────
   {
     id: "rail-02",
-    title: "Nashik to Kopargaon Railway Station Taxi Service",
-    slug: "nashik-to-kopargaon-railway-taxi",
+    title: "Kopargaon Railway Station Cab Service",
+    slug: "kopargaon-railway-station-cab",
     image: "/images/kopargaon-railway.jpg",
-    tagline: "Nashik to Kopargaon Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Kopargaon Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Fast, safe, and efficient outstation connections running dynamically from Nashik to Kopargaon Railway Station.",
+      "Fast, safe, and efficient outstation cab connections connecting Kopargaon Railway Station seamlessly with Shirdi Sai Baba Temple, Nashik, Ahmednagar, and Pune.",
     fleetDescription:
-      "A versatile range of well-maintained hatchbacks, sedans, and SUVs suitable for varying passenger payloads.",
+      "A versatile range of well-maintained hatchbacks, sedans, SUVs, and Tempo Travellers suitable for varying passenger group sizes and luggage requirements.",
     contentBlocks: [
       {
         type: "text",
         heading: "Time-Sensitive Station Transits",
         content:
-          "Kopargaon is the primary transit rail stop for various north-bound cross-state express lines. Our service focuses heavily on time-sensitive execution parameters to get you to your platform stress-free.",
+          "Kopargaon is the primary transit rail stop for various long-distance express lines servicing pilgrims and business travelers. Our service focuses heavily on punctual execution to ensure you reach your platform or destination stress-free.",
       },
       {
         type: "callout",
-        heading: "Route Scope",
+        heading: "Route Scope & Connectivity",
         content:
-          "Clocks approximately 85 km of highway navigation. Flat rates offer consistent financial transparency with no post-trip surprises.",
+          "Located just 18 km from Shirdi and 85 km from Nashik along key highway routes. Flat rates offer consistent financial transparency with zero post-trip surcharges.",
       },
     ],
     longDistance: {
-      heading: "Need Onward Travel Beyond the Station?",
+      heading: "Need Onward Travel Beyond Kopargaon Station?",
       content:
-        "We organize extended drop-offs and multi-stop packages spanning across regional industrial sectors easily.",
+        "We organize extended drops and multi-stop packages spanning across regional industrial sectors and pilgrim centers smoothly.",
       closing: "Connect with our reservation desk today!",
     },
     meta: {
-      title: "Nashik to Kopargaon Railway Station Cab | Fixed Rate Taxi",
+      title: "Kopargaon Railway Station Cab | Fixed Rate Station Cabs",
       description:
-        "Secure a comfortable taxi transfer from Nashik to Kopargaon Railway Station. Timely departures, transparent billing.",
+        "Secure a comfortable cab transfer connecting Kopargaon Railway Station to Shirdi, Nashik, and Ahmednagar. Timely departures, transparent billing.",
     },
   },
 
   // ─── 3. NAGARSOL ROUTE ─────────────────────────────────────────────────────
   {
     id: "rail-03",
-    title: "Nashik to Nagarsol Railway Station Taxi Service",
-    slug: "nashik-to-nagarsol-railway-taxi",
+    title: "Nagarsol Railway Station Cab Service",
+    slug: "nagarsol-railway-station-cab",
     image: "/images/nagarsol-station.webp",
-    tagline: "Nashik to Nagarsol Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Nagarsol Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Dependable inter-city outstation cabs connecting Nashik directly to Nagarsol Railway Station layout points.",
+      "Dependable inter-city outstation cabs connecting Nagarsol Railway Station directly to Shirdi, Nashik, Chhatrapati Sambhajinagar, and Pune.",
     fleetDescription:
-      "Clean, air-conditioned outstation sedans and family SUVs fully ready for long-distance cruising.",
+      "Clean, air-conditioned outstation sedans, Innova Crysta SUVs, and Tempo Travellers fully ready for long-distance highway travel.",
     contentBlocks: [
       {
         type: "text",
-        heading: "Bypass Local Transit Delays",
+        heading: "Bypass Station Transit Delays",
         content:
-          "Nagarsol serves as a prominent connection hub for south-bound transit networks. Pre-arranging your transfer guarantees a direct, reliable link that protects your travel itinerary.",
+          "Nagarsol serves as a prominent terminal hub for south-bound and central transit railway networks. Pre-arranging your transfer guarantees a direct, reliable cab link that protects your travel schedule.",
       },
       {
         type: "callout",
         heading: "Distance Metrics",
         content:
-          "Spans roughly 115 km via premium state highways. Bundled pricing blocks provide absolute cost clarity.",
+          "Spans roughly 45 km to Shirdi and 115 km to Nashik via smooth state highway corridors. Bundled pricing blocks provide absolute cost clarity.",
       },
     ],
     longDistance: {
       heading: "24/7 Operational Availability",
       content:
-        "Our dispatch team monitors late-night train schedules to ensure seamless pickup synchronization.",
+        "Our dispatch team monitors train arrival and departure schedules in real-time to ensure seamless pickup synchronization.",
       closing: "Book your Nagarsol transit cab now!",
     },
     meta: {
-      title: "Nashik to Nagarsol Railway Station Taxi | Inter-City Cabs",
+      title: "Nagarsol Railway Station Cab | Inter-City Station Cabs",
       description:
-        "Reliable outstation taxi lines linking Nashik to Nagarsol Railway Station. Low fixed bundle pricing.",
+        "Reliable outstation cab lines linking Nagarsol Railway Station to Shirdi, Nashik, and Sambhajinagar. Low fixed bundle pricing.",
     },
   },
 
   // ─── 4. MANMAD ROUTE ───────────────────────────────────────────────────────
   {
     id: "rail-04",
-    title: "Nashik to Manmad Junction Railway Station Taxi Service",
-    slug: "nashik-to-manmad-railway-taxi",
+    title: "Manmad Junction Railway Station Cab Service",
+    slug: "manmad-junction-railway-station-cab",
     image: "/images/manmad-railway.webp",
-    tagline: "Nashik to Manmad Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Manmad Junction Railway Station Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Prompt and professional taxi services from Nashik directly to Manmad Railway Junction for zero-delay passenger transit.",
+      "Prompt and professional outstation cab services connecting Manmad Railway Junction directly to Nashik, Shirdi, Chhatrapati Sambhajinagar, and Thane for zero-delay passenger transfers.",
     fleetDescription:
-      "Spacious utility SUVs and reliable sedans customized heavily for long-haul outstation comfort.",
+      "Spacious utility SUVs, premium sedans, and Tempo Travellers customized for long-haul outstation comfort and heavy luggage capacity.",
     contentBlocks: [
       {
         type: "text",
         heading: "Junction Transfer Specialists",
         content:
-          "Manmad Junction acts as one of the largest intersecting railway hubs in the region. Our drivers use direct highway shortcuts to make sure you bypass local junction bottlenecks smoothly.",
+          "Manmad Junction acts as one of the major intersecting railway hubs in Maharashtra. Our professional drivers use direct highway connections to ensure you reach your connecting train or city destination smoothly.",
       },
       {
         type: "callout",
         heading: "Transit Details",
         content:
-          "Clocks approximately 80 km of highway driving. Fixed flat-rate structures cover all toll permit fees automatically.",
+          "Clocks approximately 80 km to Nashik and 60 km to Shirdi via express highways. Fixed flat-rate structures cover all toll permit fees automatically.",
       },
     ],
     longDistance: {
-      heading: "Book Regular Corporate Shifts",
+      heading: "Book Regular Corporate & Station Transfers",
       content:
-        "We handle routine junction drop-offs for corporate accounts and individual business flyers systematically.",
-      closing: "Call today to lock your fixed route pricing!",
+        "We handle routine junction drop-offs and pickups for corporate clients, business travelers, and families systematically.",
+      closing: "Call today to lock in your fixed route pricing!",
     },
     meta: {
-      title: "Nashik to Manmad Junction Taxi | Station Connecting Cab",
+      title: "Manmad Junction Railway Station Cab | Station Connecting Cabs",
       description:
-        "Quick outstation taxi transfers from Nashik to Manmad Junction Railway Station. Safe, trusted local drivers.",
+        "Quick outstation cab transfers connecting Manmad Junction Railway Station to Nashik, Shirdi, and Mumbai. Safe, trusted local drivers.",
     },
   },
 
-  // ─── 5. NASHIK ROAD ROUTE (LOCAL TRANSFER) ─────────────────────────────────
+  // ─── 5. NASHIK ROAD ROUTE ─────────────────────────────────────────────────
   {
     id: "rail-05",
-    title: "Nashik City to Nashik Road Railway Station Taxi Service",
-    slug: "nashik-local-railway-station-taxi",
+    title: "Nashik Road Railway Station Cab Service",
+    slug: "nashik-road-railway-station-cab",
     image: "/images/nasik-road-railway.webp",
-    tagline: "Nashik to Nashik Road Railway Station Local Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Nashik Road Railway Station Local & Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Swift, seamless point-to-point local taxi pick and drop loops running from Nashik city center directly to Nashik Road Railway Station.",
+      "Swift, seamless point-to-point local and outstation cab pickup and drop services running from Nashik Road Railway Station directly across Nashik city, Trimbakeshwar, Shirdi, Pune, and Mumbai.",
     fleetDescription:
-      "Comfortable local sedans and compact hatchbacks optimized for prompt urban transit.",
+      "Comfortable local sedans, hatchbacks, and spacious outstation SUVs optimized for city loops and highway runs.",
     contentBlocks: [
       {
         type: "text",
-        heading: "Effortless City Connections",
+        heading: "Effortless City & Highway Connections",
         content:
-          "Bypass standard local booking delays and parking struggles entirely. Our localized drivers ensure you arrive at the Nashik Road entrance gates safely and with plenty of time to spare.",
+          "Bypass local auto queues and surge pricing entirely. Our experienced drivers ensure you arrive at the Nashik Road entrance gates or your hotel safely with complete punctuality.",
       },
       {
         type: "callout",
-        heading: "Proximity Rates",
+        heading: "Flat Rate Structures",
         content:
-          "Flat localized rates apply directly to all major municipal divisions inside the city limits, keeping transit affordable and highly predictable.",
+          "Fixed localized rates apply to all major municipal divisions inside Nashik, with clear outstation packages to Trimbakeshwar (38 km), Shirdi (85 km), and Mumbai (165 km).",
       },
     ],
     longDistance: {
       heading: "Heading Beyond the City?",
       content:
-        "We provide immediate onward extensions to outstation points right from the station entrance loop.",
-      closing: "Contact us for immediate local car dispatches!",
+        "We provide immediate onward extensions to outstation pilgrimage points and major metropolitan centers right from the station exit gates.",
+      closing: "Contact us for immediate car dispatches!",
     },
     meta: {
-      title: "Nashik Road Railway Station Taxi | Local Pick & Drop",
+      title: "Nashik Road Railway Station Cab | Station Pick & Drop",
       description:
-        "Quick point-to-point local cab transfers from Nashik into Nashik Road Railway Station. Fixed local flat rates.",
+        "Quick point-to-point local and outstation cab transfers from Nashik Road Railway Station into Nashik city, Trimbakeshwar, and Shirdi. Fixed flat rates.",
     },
   },
 
   // ─── 6. DAUND ROUTE ────────────────────────────────────────────────────────
   {
     id: "rail-06",
-    title: "Nashik to Daund Junction Railway Station Taxi Service",
-    slug: "nashik-to-daund-railway-taxi",
+    title: "Daund Junction Railway Station Cab Service",
+    slug: "daund-junction-railway-station-cab",
     image: "/images/daund-railway.jpg",
-    tagline: "Nashik to Daund Junction Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Daund Junction Railway Station Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Premium long-distance outstation travel solutions linking Nashik straight to Daund Junction Railway Station.",
+      "Premium long-distance outstation travel solutions linking Daund Junction Railway Station directly with Pune, Ahmednagar, Shirdi, and Nashik.",
     fleetDescription:
-      "High-end outstation MUVs and clean multi-row family SUVs recommended for multi-hour state highway transits.",
+      "High-end outstation MUVs like Innova Crysta, Ertiga, and clean multi-row family SUVs recommended for multi-hour state highway transits.",
     contentBlocks: [
       {
         type: "text",
         heading: "Long-Haul Outstation Reliability",
         content:
-          "Connecting North Maharashtra down into critical central junction nodes requires safe, steady driving. Our highway-certified operators ensure a relaxed, fatigue-free journey over extended distances.",
+          "Connecting critical railway junction nodes in Western Maharashtra requires safe, steady driving. Our highway-certified operators ensure a relaxed, fatigue-free journey over extended distances.",
       },
       {
         type: "callout",
         heading: "Route Metrics",
         content:
-          "Spans approximately 270 km along primary state highway systems. Upfront, fixed-rate package terms offer total billing transparency.",
+          "Located 75 km from Pune and 270 km from Nashik along key state highway corridors. Upfront, fixed-rate package terms offer total billing transparency.",
       },
     ],
     longDistance: {
       heading: "Multi-Day Bookings Welcomed",
       content:
-        "We manage roundtrip drop schedules and custom returns perfectly structured around your itinerary.",
+        "We manage roundtrip drop schedules and custom returns structured around your train travel itinerary.",
       closing: "Get a custom route quotation right now!",
     },
     meta: {
-      title: "Nashik to Daund Junction Taxi | Long Outstation Cab",
+      title: "Daund Junction Railway Station Cab | Outstation Station Cabs",
       description:
-        "Book comfortable long-distance outstation cabs from Nashik to Daund Junction Railway Station. Secure flat-rate billing.",
+        "Book comfortable long-distance outstation cabs connecting Daund Junction Railway Station to Pune, Shirdi, and Nashik. Secure flat-rate billing.",
     },
   },
 
   // ─── 7. AHMEDNAGAR ROUTE ───────────────────────────────────────────────────
   {
     id: "rail-07",
-    title: "Nashik to Ahmednagar Railway Station Taxi Service",
-    slug: "nashik-to-ahmednagar-railway-taxi",
+    title: "Ahmednagar Railway Station Cab Service",
+    slug: "ahmednagar-railway-station-cab",
     image: "/images/ahmednagar-railway.avif",
-    tagline: "Nashik to Ahmednagar Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Ahmednagar Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Comfortable and punctual inter-city outstation cabs running daily from Nashik to Ahmednagar Railway Station.",
+      "Comfortable and punctual inter-city outstation cabs running daily connecting Ahmednagar Railway Station directly to Shirdi, Shani Shingnapur, Pune, and Nashik.",
     fleetDescription:
-      "A modern fleet of AC sedans and versatile multi-row family cruisers optimized for long-distance highway comfort.",
+      "A modern fleet of AC sedans, Innova SUVs, and versatile multi-row family cruisers optimized for long-distance highway comfort.",
     contentBlocks: [
       {
         type: "text",
         heading: "Seamless Regional Travel",
         content:
-          "Avoid the hassle of changing multiple regional buses or local trains. Our professional drivers navigate direct highway corridors to ensure a smooth, direct connection to Ahmednagar.",
+          "Avoid changing multiple regional buses or trains. Our professional drivers navigate direct highway corridors to ensure a smooth, direct connection to Ahmednagar Station from all neighboring hubs.",
       },
       {
         type: "callout",
         heading: "Distance and Rates",
         content:
-          "Maps roughly 155 km of highway travel. Bundle packages feature all base toll permit parameters transparently inside the price.",
+          "Convenient access to Shani Shingnapur (35 km), Shirdi (85 km), Pune (120 km), and Nashik (155 km). Packages feature all toll charges transparently included.",
       },
     ],
     longDistance: {
       heading: "Custom Pilgrim Extensions",
       content:
-        "Optionally add regional temple stopovers to your itinerary seamlessly upon advanced request parameters.",
+        "Optionally add regional temple stopovers at Shani Shingnapur or Meherabad to your station itinerary upon request.",
       closing: "Call us now to set up your custom regional package!",
     },
     meta: {
-      title: "Nashik to Ahmednagar Railway Station Taxi | Inter-City Cab",
+      title: "Ahmednagar Railway Station Cab | Inter-City Station Cabs",
       description:
-        "Book clean outstation cabs from Nashik to Ahmednagar Railway Station. Low fixed bundle rates, top outstation drivers.",
+        "Book clean outstation cabs connecting Ahmednagar Railway Station to Shirdi, Pune, and Nashik. Low fixed rates, top drivers.",
     },
   },
 
   // ─── 8. PUNE STATION ROUTE ─────────────────────────────────────────────────
   {
     id: "rail-08",
-    title: "Nashik to Pune Junction Railway Station Taxi Service",
-    slug: "nashik-to-pune-railway-taxi",
+    title: "Pune Junction Railway Station Cab Service",
+    slug: "pune-junction-railway-station-cab",
     image: "/images/pune-railway.webp",
-    tagline: "Nashik to Pune Junction Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Pune Junction Railway Station Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Premium outstation cab services connecting Nashik directly to Pune Junction Railway Station terminals.",
+      "Premium outstation cab services connecting Pune Junction Railway Station directly to Nashik, Shirdi, Ahmednagar, Mumbai, and Mahabaleshwar.",
     fleetDescription:
-      "Innova Crysta, Ertiga, and clean outstation cruisers fully equipped for long-distance highway travel.",
+      "Innova Crysta, Ertiga, Dzire, and clean outstation cruisers fully equipped for long-distance highway travel and airport/station transfers.",
     contentBlocks: [
       {
         type: "text",
-        heading: "Traverse the Pune Highway Smoothly",
+        heading: "Traverse Regional Highways Smoothly",
         content:
-          "The Nashik-Pune corridor is a heavily traveled business and family route. Our experienced highway drivers manage route logistics efficiently, helping you bypass city entry delays seamlessly.",
+          "Pune Junction is a bustling major railway hub. Our experienced highway drivers manage route logistics efficiently, helping you bypass city congestion and arrive at your destination refreshed.",
       },
       {
         type: "callout",
         heading: "Route Specifications",
         content:
-          "Clocks approximately 210 km along state express routes. Fixed outstation structures protect you from dynamic pricing models.",
+          "Connecting to Nashik (210 km), Shirdi (185 km), and Mumbai (150 km) via primary highway routes. Fixed outstation structures protect you from surge pricing.",
       },
     ],
     longDistance: {
-      heading: "Corporate Invoicing Support",
+      heading: "Corporate & Individual Transfers",
       content:
-        "We provide systematic invoicing support for commercial accounts and routine corporate employee pickups.",
+        "We provide systematic invoicing support for commercial accounts, family vacations, and routine corporate employee pickups.",
       closing: "Reserve your high-comfort transfer today!",
     },
     meta: {
-      title: "Nashik to Pune Junction Taxi | Expressway Outstation Cab",
+      title: "Pune Junction Railway Station Cab | Outstation Station Cabs",
       description:
-        "Affordable outstation cab booking from Nashik to Pune Junction Railway Station. Professional highway travel solutions.",
+        "Affordable outstation cab booking connecting Pune Junction Railway Station to Nashik, Shirdi, and Mumbai. Professional highway travel solutions.",
     },
   },
 
   // ─── 9. MUMBAI CST ROUTE ───────────────────────────────────────────────────
   {
     id: "rail-09",
-    title: "Nashik to Mumbai CST Railway Station Taxi Service",
-    slug: "nashik-to-mumbai-cst-railway-taxi",
+    title: "Mumbai CSMT Railway Station Cab Service",
+    slug: "mumbai-csmt-railway-station-cab",
     image: "/images/mumbai-cst-railway.jpg",
-    tagline: "Nashik to Mumbai CST Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Mumbai CSMT Railway Station Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Premium long-distance outstation solutions connecting Nashik straight to Chhatrapati Shivaji Maharaj Terminus (CSMT) in Mumbai.",
+      "Premium long-distance outstation solutions connecting Chhatrapati Shivaji Maharaj Terminus (CSMT / CST) in Mumbai directly to Thane, Nashik, Pune, and Shirdi.",
     fleetDescription:
-      "Top-tier outstation luxury cruisers and utility SUVs recommended for premium highway comfort.",
+      "Top-tier outstation luxury cruisers, sedans, and family SUVs recommended for premium highway comfort and long-distance travel.",
     contentBlocks: [
       {
         type: "text",
         heading: "Expressway Cruising Excellence",
         content:
-          "Travel across the Kasara Ghat sector with ease. Our drivers are highly trained for expressway travel, ensuring a safe, relaxed, and punctual arrival at Mumbai's main terminal.",
+          "Travel across the Mumbai-Nashik Expressway or Mumbai-Pune Expressway with ease. Our drivers are trained for highway travel, ensuring a safe, relaxed, and punctual arrival at your destination.",
       },
       {
         type: "callout",
         heading: "Distance and Pricing Matrix",
         content:
-          "Tracks approximately 170 km via the Mumbai-Nashik Expressway. Fixed flat rates include all state expressway toll inclusions upfront.",
+          "CSMT to Nashik measures roughly 170 km, and Pune measures 150 km. Fixed flat rates include all state expressway toll inclusions upfront.",
       },
     ],
     longDistance: {
-      heading: "Heading to Mumbai Port or Terminals?",
+      heading: "Heading to Mumbai Terminals or Cruise Ports?",
       content:
-        "We provide extended drop options across all metropolitan points and corporate sectors smoothly.",
+        "We provide extended drop options across all metropolitan points, corporate sectors, and transit terminals smoothly.",
       closing: "Call for immediate outstation bookings!",
     },
     meta: {
-      title: "Nashik to Mumbai CST Taxi | Expressway Cab Transfers",
+      title: "Mumbai CSMT Railway Station Cab | Expressway Station Cabs",
       description:
-        "Book swift highway taxi transfers from Nashik to Mumbai CST (CSMT) Railway Station. Safe, clean outstation fleets.",
+        "Book swift highway cab transfers connecting Mumbai CSMT (CST) Railway Station to Nashik, Pune, and Shirdi. Safe, clean outstation fleets.",
     },
   },
 
   // ─── 10. THANE ROUTE ───────────────────────────────────────────────────────
   {
     id: "rail-10",
-    title: "Nashik to Thane Railway Station Taxi Service",
-    slug: "nashik-to-thane-railway-taxi",
+    title: "Thane Railway Station Cab Service",
+    slug: "thane-railway-station-cab",
     image: "/images/thane-railway.jpg",
-    tagline: "Nashik to Thane Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Thane Railway Station Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Reliable outstation airport/station connecting cabs operating daily from Nashik right into Thane Junction Railway Station.",
+      "Reliable outstation cabs operating daily connecting Thane Junction Railway Station directly to Nashik, Pune, Shirdi, and the Mumbai Metropolitan Region.",
     fleetDescription:
-      "Wide variety of clean outstation sedans and family utility vehicles ready for immediate deployment.",
+      "Wide variety of clean outstation sedans, Innova Crysta SUVs, and family utility vehicles ready for immediate deployment.",
     contentBlocks: [
       {
         type: "text",
         heading: "Direct Central Line Transits",
         content:
-          "Avoid the hassle of metropolitan transit changes. Our outstation service drops you directly at the Thane station gates, providing a direct link for onward travel.",
+          "Avoid the hassle of metropolitan transit changes. Our outstation service drops you directly at the Thane station gates or picks you up upon train arrival, providing a smooth link for onward highway travel.",
       },
       {
         type: "callout",
         heading: "Route Specifications",
         content:
-          "Clocks approximately 145 km via the expressway corridor. Clear, upfront bundle pricing keeps your travel costs fully transparent.",
+          "Connecting to Nashik (145 km) and Pune (150 km) via fast expressway corridors. Clear, upfront bundle pricing keeps your travel costs fully transparent.",
       },
     ],
     longDistance: {
       heading: "Flexible Drop Points",
       content:
-        "We adjust drop layouts smoothly to match residential or corporate locations across Thane districts.",
+        "We adjust drop layouts smoothly to match residential, industrial, or corporate locations across Thane and Mumbai districts.",
       closing: "Connect with our booking desk now!",
     },
     meta: {
-      title: "Nashik to Thane Railway Station Taxi | Outstation Cab",
+      title: "Thane Railway Station Cab | Outstation Station Cabs",
       description:
-        "Book reliable outstation cabs from Nashik to Thane Railway Station. Upfront pricing, courteous drivers.",
+        "Book reliable outstation cabs connecting Thane Railway Station to Nashik, Pune, and Shirdi. Upfront pricing, courteous drivers.",
     },
   },
 
   // ─── 11. KALYAN ROUTE ──────────────────────────────────────────────────────
   {
     id: "rail-11",
-    title: "Nashik to Kalyan Junction Railway Station Taxi Service",
-    slug: "nashik-to-kalyan-railway-taxi",
+    title: "Kalyan Junction Railway Station Cab Service",
+    slug: "kalyan-junction-railway-station-cab",
     image: "/images/kalyan-railway.png",
-    tagline: "Nashik to Kalyan Junction Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Kalyan Junction Railway Station Outstation Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Punctual outstation taxi lines linking Nashik to Kalyan Junction Railway Station for reliable travel.",
+      "Punctual outstation cab lines linking Kalyan Junction Railway Station to Nashik, Shirdi, Pune, and Ahmednagar for reliable travel.",
     fleetDescription:
-      "AC Sedans and multi-row family SUVs built perfectly to handle consistent outstation travel cleanly.",
+      "AC Sedans, Ertiga, Innova Crysta, and multi-row family SUVs built to handle consistent outstation travel smoothly.",
     contentBlocks: [
       {
         type: "text",
         heading: "Major Outstation Intersection Links",
         content:
-          "Kalyan Junction is a critical railway node for long-distance trains. Our service tracks your schedule closely to guarantee you arrive well ahead of your train's departure time.",
+          "Kalyan Junction is a critical railway node for long-distance trains entering and exiting Mumbai. Our service tracks your train schedule closely to guarantee you arrive well ahead of departure or are picked up promptly on arrival.",
       },
       {
         type: "callout",
         heading: "Transit Details",
         content:
-          "Spans approximately 135 km. Flat package structures feature transparent billing parameters for complete booking comfort.",
+          "Spans approximately 135 km to Nashik and 200 km to Shirdi. Flat package structures feature transparent billing parameters for complete booking comfort.",
       },
     ],
     longDistance: {
       heading: "Reliable Roundtrip Solutions",
       content:
-        "Book a return cab with us for a seamless, coordinated transition back to Nashik later.",
+        "Book a return cab with us for a seamless, coordinated transition back to your home city later.",
       closing: "Reserve your outstation transfer today!",
     },
     meta: {
-      title: "Nashik to Kalyan Junction Cab | Outstation Taxi Booking",
+      title: "Kalyan Junction Railway Station Cab | Outstation Cab Booking",
       description:
-        "Book clean outstation cabs from Nashik to Kalyan Junction Railway Station. Competitive flat rates, professional drivers.",
+        "Book clean outstation cabs connecting Kalyan Junction Railway Station to Nashik, Shirdi, and Pune. Competitive flat rates, professional drivers.",
     },
   },
 
   // ─── 12. CHHATRAPATI SAMBHAJINAGAR ROUTE ───────────────────────────────────
   {
     id: "rail-12",
-    title: "Nashik to Chhatrapati Sambhajinagar Railway Station Taxi Service",
-    slug: "nashik-to-chhatrapati-sambhajinagar-railway-taxi",
+    title: "Chhatrapati Sambhajinagar Railway Station Cab Service",
+    slug: "chhatrapati-sambhajinagar-railway-station-cab",
     image: "/images/chhatrapati-sambhaji-nagar.avif",
-    tagline: "Nashik to Chhatrapati Sambhajinagar Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Chhatrapati Sambhajinagar Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Convenient outstation cabs operating daily from Nashik directly into Chhatrapati Sambhajinagar Railway Station (formerly Aurangabad Station).",
+      "Convenient outstation cabs operating daily connecting Chhatrapati Sambhajinagar Railway Station (formerly Aurangabad) directly to Jalna, Shirdi, Nashik, and Pune.",
     fleetDescription:
-      "A modern fleet of outstation vehicles, spacious SUVs, and group cruisers ready for immediate long-distance booking.",
+      "A modern fleet of outstation sedans, spacious SUVs, and group cruisers ready for immediate long-distance booking.",
     contentBlocks: [
       {
         type: "text",
         heading: "Connecting Key Historic Hubs",
         content:
-          "Travel from Nashik into the historical heart of Marathwada. Our drivers possess extensive route expertise, ensuring a smooth journey across regional highways.",
+          "Travel into the historical heart of Marathwada. Our drivers possess extensive route expertise along the Samruddhi Mahamarg and state expressways, ensuring a smooth journey to and from the station.",
       },
       {
         type: "callout",
         heading: "Distance and Package Ranges",
         content:
-          "Clocks approximately 180 km. Clear upfront bundle rates provide effortless financial transparency tracking with all toll exclusions processed automatically.",
+          "Clocks approximately 110 km to Shirdi, 180 km to Nashik, and 60 km to Jalna. Clear upfront bundle rates provide effortless financial transparency.",
       },
     ],
     longDistance: {
@@ -477,115 +477,114 @@ export const railwayToursData = [
       closing: "Connect with our reservation desk now!",
     },
     meta: {
-      title:
-        "Nashik to Chhatrapati Sambhajinagar Railway Station Taxi | Outstation Cab",
+      title: "Chhatrapati Sambhajinagar Railway Station Cab | Outstation Station Cabs",
       description:
-        "Book reliable airport/station connecting cabs from Nashik to Chhatrapati Sambhajinagar Railway Station (formerly Aurangabad). Upfront pricing.",
+        "Book reliable cabs connecting Chhatrapati Sambhajinagar Railway Station to Shirdi, Jalna, and Nashik. Upfront pricing, experienced drivers.",
     },
   },
 
   // ─── 13. IGATPURI ROUTE ────────────────────────────────────────────────────
   {
     id: "rail-13",
-    title: "Nashik to Igatpuri Railway Station Taxi Service",
-    slug: "nashik-to-igatpuri-railway-taxi",
+    title: "Igatpuri Railway Station Cab Service",
+    slug: "igatpuri-railway-station-cab",
     image: "/images/igatpuri-railway.jpg",
-    tagline: "Nashik to Igatpuri Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Igatpuri Railway Station Station & Resort Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Reliable and prompt cab services connecting Nashik city center directly to Igatpuri Railway Station across the Kasara Ghat belt.",
+      "Reliable and prompt cab services connecting Igatpuri Railway Station directly to local hill resorts, Nashik, Mumbai, and Thane across the Kasara Ghat belt.",
     fleetDescription:
-      "Well-maintained hatchback models, AC sedans, and high-ground-clearance SUVs suitable for hill route transfers.",
+      "Well-maintained hatchback models, AC sedans, and high-ground-clearance SUVs suitable for hill route transfers and resort pickups.",
     contentBlocks: [
       {
         type: "text",
         heading: "Ghat-Section Transit Specialists",
         content:
-          "Igatpuri is a vital railway hub for changing train engines and navigating the Western Ghats line. Our drivers are specifically trained for safe, smooth navigation along mountain expressways.",
+          "Igatpuri is a vital railway hub in the Western Ghats. Our drivers are specifically trained for safe, smooth navigation along mountain roads and expressways.",
       },
       {
         type: "callout",
         heading: "Distance Metrics",
         content:
-          "Spans roughly 45 km via NH 160. Transparent flat pricing with zero hidden mountain surge costs.",
+          "Located 45 km from Nashik and 120 km from Mumbai along NH-160. Transparent flat pricing with zero hidden surge costs.",
       },
     ],
     longDistance: {
       heading: "Local Sightseeing Add-ons",
       content:
-        "Add stopovers at Dhammagiri Vipassana Centre, Bhavali Dam, or Bhatsa River Valley seamlessly along your transfer.",
+        "Add stopovers at Dhammagiri Vipassana Centre, Bhavali Dam, or Kalsubai Peak base seamlessly along your transfer.",
       closing: "Book your Igatpuri station transfer now!",
     },
     meta: {
-      title: "Nashik to Igatpuri Railway Station Taxi | Station Cab Service",
+      title: "Igatpuri Railway Station Cab | Hill Station Cab Service",
       description:
-        "Book fast and affordable cabs from Nashik to Igatpuri Railway Station. Transparent rates, Ghat-certified drivers.",
+        "Book fast and affordable cabs connecting Igatpuri Railway Station to local resorts, Nashik, and Mumbai. Transparent rates, Ghat-certified drivers.",
     },
   },
 
   // ─── 14. DEVLALI ROUTE ─────────────────────────────────────────────────────
   {
     id: "rail-14",
-    title: "Nashik to Devlali Railway Station Taxi Service",
-    slug: "nashik-to-devlali-railway-taxi",
+    title: "Devlali Railway Station Cab Service",
+    slug: "devlali-railway-station-cab",
     image: "/images/devlali-railway.jpg",
-    tagline: "Nashik to Devlali Railway Station Local Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Devlali Railway Station Local & Cantonment Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Quick, hassle-free suburban transfers between Nashik City, the Cantonment sector, and Devlali Railway Station.",
+      "Quick, hassle-free transfers between Devlali Railway Station, the Military Cantonment, Nashik City, and neighboring towns.",
     fleetDescription:
-      "Comfortable compact cars, local sedans, and multi-passenger vehicles tailored for suburban travel.",
+      "Comfortable compact cars, local sedans, and multi-passenger vehicles tailored for suburban and local transfers.",
     contentBlocks: [
       {
         type: "text",
         heading: "Cantonment & Station Connectivity",
         content:
-          "Devlali is an essential railway station serving military cantonments, local residents, and commuters. Our cab service ensures prompt doorstep pickups and timely platform arrival.",
+          "Devlali is an essential railway station serving military cantonments, local residents, and travelers. Our cab service ensures prompt doorstep pickups and timely platform arrivals.",
       },
       {
         type: "callout",
         heading: "Short Route Fixed Fares",
         content:
-          "Spans approximately 10 to 15 km depending on your city pickup location. Pocket-friendly flat rates apply across all suburban zones.",
+          "Located roughly 15 km from central Nashik. Pocket-friendly flat rates apply across all suburban cantonment zones.",
       },
     ],
     longDistance: {
       heading: "Suburban & Local Package Extensions",
       content:
         "Need multi-stop drop-offs across Devlali Camp or Artillery Centre? Custom hourly packages are available.",
-      closing: "Call us today to reserve your Devlali station taxi!",
+      closing: "Call us today to reserve your Devlali station cab!",
     },
     meta: {
-      title: "Nashik to Devlali Railway Station Taxi | Cantonment Cabs",
+      title: "Devlali Railway Station Cab | Cantonment Station Cabs",
       description:
-        "Book fast local cabs from Nashik to Devlali Railway Station. Safe and punctual pickups with affordable flat pricing.",
+        "Book fast local cabs connecting Devlali Railway Station to Nashik city and Cantonment areas. Safe, punctual pickups with flat pricing.",
     },
   },
 
   // ─── 15. NIPHAD ROUTE ──────────────────────────────────────────────────────
   {
     id: "rail-15",
-    title: "Nashik to Niphad Railway Station Taxi Service",
-    slug: "nashik-to-niphad-railway-taxi",
+    title: "Niphad Railway Station Cab Service",
+    slug: "niphad-railway-station-cab",
     image: "/images/niphad-railway.avif",
-    tagline: "Nashik to Niphad Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Niphad Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Seamless and dependable inter-district cab services from Nashik to Niphad Railway Station.",
+      "Seamless and dependable inter-district cab services connecting Niphad Railway Station to Nashik, Shirdi, and regional trading markets.",
     fleetDescription:
-      "Clean AC sedans, hatchbacks, and spacious family utility cars ideal for agricultural and commuter transit.",
+      "Clean AC sedans, hatchbacks, and spacious family utility cars ideal for agricultural and business travel.",
     contentBlocks: [
       {
         type: "text",
-        heading: "Connecting Agricultural Hubs",
+        heading: "Connecting Agricultural & Travel Hubs",
         content:
-          "Niphad is a major regional agricultural and rail trading hub. Pre-booking your ride ensures a direct, efficient link for both business commuters and daily travelers.",
+          "Niphad is a major regional agricultural and rail trading hub. Pre-booking your ride ensures a direct, efficient link for both business travelers and commuters.",
       },
       {
         type: "callout",
         heading: "Route Details",
         content:
-          "Covers roughly 40 km along the Nashik-Aurangabad highway corridor. Transparent billing with fixed route fares.",
+          "Covers roughly 40 km to Nashik and 60 km to Shirdi along primary state corridors. Transparent billing with fixed route fares.",
       },
     ],
     longDistance: {
@@ -595,22 +594,22 @@ export const railwayToursData = [
       closing: "Contact our booking counter to confirm your Niphad cab!",
     },
     meta: {
-      title: "Nashik to Niphad Railway Station Taxi | Outstation Cab",
+      title: "Niphad Railway Station Cab | Regional Station Cabs",
       description:
-        "Book dependable outstation taxis from Nashik to Niphad Railway Station. Low fixed rates and expert drivers.",
+        "Book dependable cabs connecting Niphad Railway Station to Nashik and Shirdi. Low fixed rates and expert drivers.",
     },
   },
 
   // ─── 16. ODHA ROUTE ────────────────────────────────────────────────────────
   {
     id: "rail-16",
-    title: "Nashik to Odha Railway Station Taxi Service",
-    slug: "nashik-to-odha-railway-taxi",
+    title: "Odha Railway Station Cab Service",
+    slug: "odha-railway-station-cab",
     image: "/images/odha-railway.webp",
-    tagline: "Nashik to Odha Railway Station Local Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Odha Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Punctual point-to-point local cab transfers from Nashik urban limits directly to Odha Railway Station.",
+      "Punctual point-to-point local cab transfers connecting Odha Railway Station to Nashik city center and surrounding suburban areas.",
     fleetDescription:
       "Compact hatchbacks, reliable sedans, and family vans suited for local suburban commuting.",
     contentBlocks: [
@@ -618,38 +617,38 @@ export const railwayToursData = [
         type: "text",
         heading: "Direct Suburban Station Transit",
         content:
-          "Avoid public transit delays when reaching local railway platforms. Our driver picks you up right at your doorstep, ensuring you reach Odha Station with zero hassle.",
+          "Avoid public transit delays when reaching local railway platforms. Our driver picks you up right at your doorstep, ensuring you reach Odha Station with complete peace of mind.",
       },
       {
         type: "callout",
         heading: "Proximity Pricing",
         content:
-          "Covers approximately 18 km from central Nashik. Affordable flat rates for smooth local travel.",
+          "Covers approximately 18 km from central Nashik. Affordable flat rates for smooth local suburban travel.",
       },
     ],
     longDistance: {
       heading: "Immediate Station Return Cabs",
       content:
         "Schedule return pickups from Odha Railway Station back to your hotel or residence instantly.",
-      closing: "Book your Odha local taxi transfer today!",
+      closing: "Book your Odha station cab transfer today!",
     },
     meta: {
-      title: "Nashik to Odha Railway Station Taxi | Local Station Transfers",
+      title: "Odha Railway Station Cab | Local Station Transfers",
       description:
-        "Quick point-to-point local taxi booking from Nashik to Odha Railway Station. Safe, low-cost suburban cabs.",
+        "Quick point-to-point local cab booking connecting Odha Railway Station to Nashik city. Safe, low-cost suburban cabs.",
     },
   },
 
   // ─── 17. LAHAVIT ROUTE ─────────────────────────────────────────────────────
   {
     id: "rail-17",
-    title: "Nashik to Lahavit Railway Station Taxi Service",
-    slug: "nashik-to-lahavit-railway-taxi",
+    title: "Lahavit Railway Station Cab Service",
+    slug: "lahavit-railway-station-cab",
     image: "/images/lahavit-railway.webp",
-    tagline: "Nashik to Lahavit Railway Station Taxi Service",
-    company: "Nashik Sai Yatra Cabs",
+    tagline: "Lahavit Railway Station Pickup & Drop Cab Services",
+    company: "Nashik Mumbai Pune Shirdi Cabs",
     intro:
-      "Comfortable and direct cab connections running from Nashik city directly to Lahavit Railway Station.",
+      "Comfortable and direct cab connections linking Lahavit Railway Station to Devlali, Igatpuri, and Nashik.",
     fleetDescription:
       "A complete range of clean, air-conditioned sedans and family hatchbacks ready for short rural transfers.",
     contentBlocks: [
@@ -657,13 +656,13 @@ export const railwayToursData = [
         type: "text",
         heading: "Rural Railway Line Access",
         content:
-          "Lahavit station acts as a key transit stop between Devlali and Igatpuri. Our taxi service provides a reliable link for passengers catching passenger and express train connections.",
+          "Lahavit station acts as a key transit stop between Devlali and Igatpuri. Our cab service provides a reliable link for passengers catching local passenger and express train connections.",
       },
       {
         type: "callout",
         heading: "Distance Details",
         content:
-          "Spans around 25 km from Nashik city center. Upfront, predictable pricing structures.",
+          "Spans around 25 km from Nashik city center. Upfront, predictable flat pricing structures.",
       },
     ],
     longDistance: {
@@ -673,9 +672,9 @@ export const railwayToursData = [
       closing: "Schedule your Lahavit station cab in advance!",
     },
     meta: {
-      title: "Nashik to Lahavit Railway Station Taxi | Station Cab Booking",
+      title: "Lahavit Railway Station Cab | Station Cab Booking",
       description:
-        "Reliable cab transfers from Nashik to Lahavit Railway Station. Doorstep pickup and fixed transparent fares.",
+        "Reliable cab transfers connecting Lahavit Railway Station to Devlali, Igatpuri, and Nashik. Doorstep pickup and fixed transparent fares.",
     },
   },
 ];
@@ -690,7 +689,7 @@ export function getAllRailwaySlugs() {
   return railwayToursData.map((t) => ({ slug: t.slug }));
 }
 
-export const NashikRailwayTaxiServices = railwayToursData.map((tour) => ({
+export const NashikRailwayCabServices = railwayToursData.map((tour) => ({
   ...tour,
   redirectUrl: `/railway-station/${tour.slug}`,
 }));
