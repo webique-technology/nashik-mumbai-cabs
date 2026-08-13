@@ -9,6 +9,7 @@ import Footer from "@/components/layout/Footer";
 import {
   DynamicFooterLinks,
   IndustryMarquee,
+  RoutePillGrid,
 } from "@/components/sections/IndustryMarquee";
 
 const inter = Inter({

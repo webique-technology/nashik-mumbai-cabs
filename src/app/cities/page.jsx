@@ -1,7 +1,8 @@
+// src/app/cities/page.jsx
 import ServicesGridCardSection from "@/components/sections/ServicesGridSec";
 import { CommonBanner } from "@/components/ui/cards";
-import { CabServicesCityToCity } from "@/lib/data";
-
+// 🔴 Import ONLY originalStaticTours for this page grid
+import { originalStaticTours } from "@/lib/cityData"; 
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata = generatePageMetadata({
@@ -19,16 +20,24 @@ const CitiesPage = () => {
     { label: "Home", url: "/" },
     { label: "Cities", url: "/cities" },
   ];
+
+  // Maps ONLY originalStaticTours to include redirect paths
+  const staticCityServices = originalStaticTours.map((tour) => ({
+    ...tour,
+    redirectUrl: `/cities/${tour.slug}`,
+  }));
+
   return (
     <main>
       <CommonBanner
         title="Cities Services"
         breadcrumbs={breadcrumbPaths}
-        bgImage={"/images/common-banner.avif"} // Can be static object image frame or direct hotlink string paths
+        bgImage={"/images/common-banner.avif"}
         overlayOpacity={0.6}
         textAlign="center"
       />
-      <ServicesGridCardSection data={CabServicesCityToCity} />
+      {/* Renders Grid with ONLY Original Static Tour Cards */}
+      <ServicesGridCardSection data={staticCityServices} />
     </main>
   );
 };

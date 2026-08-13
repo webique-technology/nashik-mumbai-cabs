@@ -15,10 +15,10 @@ export const DetailPage1 = ({ dataObject }) => {
             <Col lg={7} className="">
               <article className="data-details-page px-2">
                 {/* 1. Dynamic Header Image Banner */}
-                {data.image && (
+                {(data.routeImg || data.image) && (
                   <div className="w-100 overflow-hidden rounded-3 shadow-sm mb-4">
                     <img
-                      src={data.image}
+                      src={data.routeImg || data.image}
                       alt={data.title}
                       className="img-fluid w-100 rounded-3"
                       style={{ maxHeight: "460px", objectFit: "cover" }}

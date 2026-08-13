@@ -1,5 +1,5 @@
 import React from "react";
-import { getTourBySlug, getAllSlugs } from "@/lib/data";
+import { getTourBySlug, getAllSlugs } from "@/lib/cityData";
 import Link from "next/link";
 import { DetailPage1 } from "@/components/sections/DetailPageComp";
 import { generatePageMetadata } from "@/lib/seo";

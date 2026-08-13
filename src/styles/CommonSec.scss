@@ -881,6 +881,20 @@
     }
 }
 
+.route-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 12px;
+    row-gap: 16px;
+
+    ul {
+        li a {
+            font-size: $fs-common-sm !important;
+        }
+    }
+
+}
+
 // Mobile Layout Responsive Tweaks
 @media (max-width: 991px) {
     .pilgrim-standard-section {

@@ -618,8 +618,6 @@ export const CityServicesRoute = rawCityRoutes.map((route) => ({
 }));
 
 // tourData.js — Complete dynamic tour data
-// tourData.js — Complete dynamic tour data
-// tourData.js — Complete dynamic tour data
 export const toursData = [
   // ─── TOUR 01 ───────────────────────────────────────────────────────────────
   {
