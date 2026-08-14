@@ -7,6 +7,15 @@
     font-family: var(--font-poppins), sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#quickQuote {
+    scroll-margin-top: 80px;
+    /* Prevents sticky navbar from covering the booking form */
+}
+
 // text-excerpt
 .text-excerpt {
     display: -webkit-box;

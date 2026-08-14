@@ -9,7 +9,7 @@ import { EffectFade, Autoplay } from "swiper/modules";
 import { LinkPillBtn } from "../ui/Buttons";
 
 import banner2 from "../../../public/images/banner-4.webp";
-import banner3 from "../../../public/images/banner-5.webp";
+import banner3 from "../../../public/images/nmpsc-about-sec-img.webp";
 
 import "../../styles/HeroHeader.scss";
 import "../../styles/main.scss";
@@ -18,22 +18,22 @@ export const heroSliderConfig = [
   {
     id: 1,
     image: banner2?.src || banner2 || "",
-    title:
-      "Experience seamless travel with Nashik Mumbai Pune Shirdi Airport Cabs.",
+    title: "GO ANYWHERE. WE’LL TAKE YOU THERE.",
     subTitle: "Book With Us",
-    desc: "Professional Cab service connecting Nashik and Mumbai with reliable, comfortable, and affordable rides. Trusted drivers, 24/7 service, and hassle-free bookings.",
-    btnText: "Learn More",
-    href: "/cabs",
+    desc: "One-Way • Round Trip • Airport • Outstation.",
+    btnText: "Get a Quick Quote",
+    href: "#quickQuote",
+    isScrollBtn: true, // 👈 Flag for smooth scroll target
   },
   {
     id: 2,
     image: banner3?.src || banner3 || "",
-    title:
-      "Start your hassle-free journey with Nashik Mumbai Pune Shirdi Airport Cabs.",
+    title: "Never Miss Your Flight. Never Wait for Your Ride.",
     subTitle: "Book With Us",
-    desc: "Explore the most beautiful destinations and enjoy unforgettable travel experiences with us.",
+    desc: "On-time airport pickup and drop services from Nashik to Mumbai Airport and beyond.",
     btnText: "Check Out",
-    href: "/cities",
+    href: "/airport",
+    isScrollBtn: false,
   },
 ];
 
@@ -43,6 +43,24 @@ const HeroHeader = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  // Smooth scroll handler for Quick Quote
+  const handleScrollToQuote = (e) => {
+    e.preventDefault();
+    const element = document.getElementById("quickQuote");
+    if (element) {
+      // Offset scroll by header height if navbar is fixed
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
 
   if (!mounted) return null;
 
@@ -95,7 +113,17 @@ const HeroHeader = () => {
 
                   <div className="w-100 d-flex flex-column align-items-center justify-content-center">
                     <div className="d-flex align-items-center justify-content-center gap-4 pt-1 execution-row-layer">
-                      <LinkPillBtn btnText={item.btnText} target={"_blank"} href={item.href} />
+                      <div
+                        onClick={
+                          item.isScrollBtn ? handleScrollToQuote : undefined
+                        }
+                      >
+                        <LinkPillBtn
+                          btnText={item.btnText}
+                          target={item.id === 1 ? "_self" : "_blank"}
+                          href={item.href}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>

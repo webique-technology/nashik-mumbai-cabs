@@ -16,7 +16,7 @@ export default function Home() {
   const ExplorationSec = {
     heading: "Your Effortless Path to World ",
     highlightWord: "Exploration",
-    imageSrc: "/images/about-sec-img.jpg", // Replace with your image asset
+    imageSrc: "/images/about-sec-img-2.webp", // Replace with your image asset
     badgeText: {
       normalText: "Capture memories",
       highlightedText: "but also savor the Present Moment.",
@@ -161,16 +161,18 @@ export default function Home() {
       <ServiceTabsSection title="Your Next Trip Plan" highlightWord="Book" />
       <PopularDestinations />
       <TestimonialSec />
-      <AppDownloadBanner
-        titlePrefix={downloadSectionData.titlePrefix}
-        titleHighlight={downloadSectionData.titleHighlight}
-        titleSuffix={downloadSectionData.titleSuffix}
-        iosLink={downloadSectionData.iosLink}
-        androidLink={downloadSectionData.androidLink}
-        mockupImageSrc={downloadSectionData.mockupImageSrc}
-        bgImage={"/images/promo-banner-2.jpg"}
-        rightComponent={<BookingForm titleClass={"d-none"} />}
-      />
+      <div id="quickQuote">
+        <AppDownloadBanner
+          titlePrefix={downloadSectionData.titlePrefix}
+          titleHighlight={downloadSectionData.titleHighlight}
+          titleSuffix={downloadSectionData.titleSuffix}
+          iosLink={downloadSectionData.iosLink}
+          androidLink={downloadSectionData.androidLink}
+          mockupImageSrc={downloadSectionData.mockupImageSrc}
+          bgImage={"/images/promo-banner-2.jpg"}
+          rightComponent={<BookingForm titleClass={"d-none"} />}
+        />
+      </div>
     </main>
   );
 }
