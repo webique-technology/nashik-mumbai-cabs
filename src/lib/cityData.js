@@ -1719,7 +1719,6 @@ export const routePillGridData = [
 ];
 
 // ─── 5. FOOTER LINK DATA ───────────────────────────────────────────────────
-// ─── 5. FOOTER LINK DATA ───────────────────────────────────────────────────
 export const footerLinksData = [
   {
     id: "nashik-hub-routes",
