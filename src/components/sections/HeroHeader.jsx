@@ -103,7 +103,7 @@ const HeroHeader = () => {
             <Container className="position-relative z-index-2">
               <div className="d-flex align-items-center justify-content-center">
                 <div className="hero-slide-content text-center d-flex flex-column align-items-center justify-content-center">
-                  <h1 className="hero-title-h1 mb-2 hero-title playfair-display">
+                  <h1 className="hero-title-h1 mb-2 text-uppercase hero-title playfair-display">
                     {item.title}
                   </h1>
 

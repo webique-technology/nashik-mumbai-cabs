@@ -218,16 +218,9 @@ footer {
         background-color: $primary;
         position: relative;
 
+        p,
         span {
-            font-size: $fs-common-md;
-        }
-
-        @media(max-width:767px) {
-
-            p,
-            span {
-                font-size: $fs-common-base;
-            }
+            font-size: $fs-common-base;
         }
     }
 
