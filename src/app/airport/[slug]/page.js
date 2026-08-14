@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     return generatePageMetadata({
       staticData: {
         title:
-          "Airport Route Not Found | Nashik Mumbai Pune Shirdi Airport Cabs",
+          "Airport Route Not Found | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
         description: "The requested airport Cab route could not be located.",
       },
       path: `/airport/${slug || ""}`,

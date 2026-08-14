@@ -7,7 +7,7 @@ export const airportToursData = [
     slug: "nashik-airport-cab",
     image: "/images/nashik-airport.jpg",
     tagline: "Nashik Airport Local & Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Enjoy prompt, premium airport transfers connecting Nashik Airport (Ozar) straight into core Nashik city zones, as well as onward connections to Mumbai, Pune, and Shirdi.",
     fleetDescription:
@@ -60,7 +60,7 @@ export const airportToursData = [
     slug: "shirdi-airport-cab",
     image: "/images/datashirdi-airport.webp",
     tagline: "Shirdi Airport Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Enjoy seamless inter-city airport transfers operating to and from Shirdi International Airport (Kakadi). Connecting pilgrims and travelers directly with Nashik, Pune, Mumbai, and Chhatrapati Sambhajinagar.",
     fleetDescription:
@@ -113,7 +113,7 @@ export const airportToursData = [
     slug: "pune-airport-cab",
     image: "/images/pune-airport.jpg",
     tagline: "Pune Airport Pickup & Drop Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Reliable, comfortable, and highly punctual outstation airport cab services connecting Pune International Airport (Lohegaon / New Terminal) directly with Nashik, Shirdi, Ahmednagar, and Mumbai.",
     fleetDescription:
@@ -164,7 +164,7 @@ export const airportToursData = [
     slug: "mumbai-airport-cab",
     image: "/images/mumbai-airport.jpg",
     tagline: "Mumbai Airport T1 & T2 Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Premium long-distance terminal pickup solutions managing outstation routes from Mumbai Chhatrapati Shivaji Maharaj International Airport (T1 & T2) directly to Nashik, Pune, Shirdi, and Thane.",
     fleetDescription:
@@ -214,7 +214,7 @@ export const airportToursData = [
     slug: "chhatrapati-sambhajinagar-airport-cab",
     image: "/images/chhatrapati-sambhajinagar-airport.jpg",
     tagline: "Chhatrapati Sambhajinagar Airport Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Convenient inter-city airport cabs operating daily from Chhatrapati Sambhajinagar Airport (formerly Aurangabad) directly to Jalna, Shirdi, Nashik, and Pune.",
     fleetDescription:
@@ -253,7 +253,7 @@ export const airportToursData = [
     slug: "nagpur-airport-cab",
     image: "/images/nagpur-airport.jpg",
     tagline: "Nagpur Airport Expressway Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Premium outstation cab solutions connecting Dr. Babasaheb Ambedkar International Airport in Nagpur straight across the Samruddhi Mahamarg to Jalna, Chhatrapati Sambhajinagar, Shirdi, and Nashik.",
     fleetDescription:
@@ -292,7 +292,7 @@ export const airportToursData = [
     slug: "kolhapur-airport-cab",
     image: "/images/kolhapur-airport.jpg",
     tagline: "Kolhapur Airport Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Cross-regional outstation airport cab operations driving reliably from Chhatrapati Rajaram Maharaj Airport in Kolhapur into Pune, Satara, Ahmednagar, and Nashik.",
     fleetDescription:
@@ -331,7 +331,7 @@ export const airportToursData = [
     slug: "navi-mumbai-airport-cab",
     image: "/images/navi-mumbai-airport.webp",
     tagline: "Navi Mumbai Airport (NMI) Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Direct outstation cab transfers connecting the Navi Mumbai International Airport (NMI / Ulwe sector) straight to Thane, Mumbai, Pune, Nashik, and Shirdi with zero stress.",
     fleetDescription:

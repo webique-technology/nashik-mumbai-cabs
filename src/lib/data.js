@@ -20,7 +20,8 @@ export const rawCabsData = [
     description:
       "We provide Budget Mahindra Xylo/Scorpio Cab rentals ensuring premium comfort and spacious legroom. Highly ideal for family packages, outstation tours, and business transit, our vehicles come fully equipped with modern amenities. Get clean Cabs accompanied by our highly experienced local drivers-cum-guides.",
     imageSrc: "/images/mahindra-xylo.avif",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "Mahindra Xylo/Scorpio Online Booking, Luxury Car Hire for Family Tours, Outstation Online Cab Booking all over Maharashtra, Best Economical Car Rental Services.",
     category: "SUV",
@@ -49,9 +50,10 @@ export const rawCabsData = [
     description:
       "Experience premium class travel with our spotless Toyota Innova fleet. Recognized across Maharashtra for elite comfort and unmatched highway safety, it is the top choice for long-distance outstation journeys, corporate transits, and multicity holiday itineraries.",
     imageSrc: "/images/toyota-innova.avif",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
-      "Toyota Innova Car Rental, Premium SUV Hire for Long Trips, Nashik Mumbai Pune Shirdi Airport Airport Drop Cab, Affordable Innova Tour Packages.",
+      "Toyota Innova Car Rental, Premium SUV Hire for Long Trips, Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Airport Drop Cab, Affordable Innova Tour Packages.",
     category: "SUV",
     features: [
       "6-7 Passengers",
@@ -78,7 +80,8 @@ export const rawCabsData = [
     description:
       "Perfect for larger families and pilgrimage groups looking for budget-friendly alternatives without compromising structural seating space. Our Chevrolet fleet handles rough routes effortlessly, delivering a reliable commute to central tourist locations.",
     imageSrc: "/images/chevrolet-tavera-enjoy.avif",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "Budget Multi-Utility Vehicle Booking, Chevrolet Tavera Rental for Pilgrimages, Large Group Cab Booking, Economical Outstation Cab.",
     category: "SUV",
@@ -107,7 +110,8 @@ export const rawCabsData = [
     description:
       "The ideal modern 7-seater choice combining ultimate fuel efficiency with urban comfort. Perfect for mid-sized families traveling across busy city centers or taking swift intercity airport highway runs between Nashik and Mumbai.",
     imageSrc: "/images/maruti-ertiga.avif",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "Maruti Ertiga Rental Online, Cheap 7 Seater Cab Booking, Intercity Hybrid Cab Hire, Affordable Family Tour Vehicle.",
     category: "SUV",
@@ -136,7 +140,8 @@ export const rawCabsData = [
     description:
       "Our luxury sedan selection delivers powerful performance, sleek aerodynamics, and an ultra-modern cabin space. Perfect for executive business trips, airport drops, and couples seeking premium high-speed highway comfort.",
     imageSrc: "/images/hyundai-verna.webp",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "Hyundai Verna Sedan Booking, Premium Luxury Cab Rental, Outstation Executive Sedan Cab, Local Corporate Tour Packages.",
     category: "Sedan",
@@ -165,7 +170,8 @@ export const rawCabsData = [
     description:
       "Maharashtra's favorite choice for economic travel. Enjoy fully air-conditioned, well-maintained Swift Dzire cars perfect for dynamic solo tracking, swift couple getaways, and dynamic airport point-to-point transfers.",
     imageSrc: "/images/swift-dzire.avif",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "Swift Dzire Online Booking, Budget Sedan Cab Hire, Fast Airport Pick & Drop, Economical One-Way Cab Services.",
     category: "Sedan",
@@ -194,7 +200,8 @@ export const rawCabsData = [
     description:
       "A highly practical and tech-loaded compact sedan that perfectly balances fuel efficiency with contemporary styling. Featuring excellent cabin cooling, smart storage spaces, and an economical fare structure ideal for comfortable point-to-point transfers and airport drops.",
     imageSrc: "/images/hyundai-aura.webp",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "Hyundai Aura Cab Services, Affordable Compact Sedan Rentals, Railway Station Connection Cab, Lowest Fare Premium Sedan.",
     category: "Sedan",
@@ -223,7 +230,8 @@ export const rawCabsData = [
     description:
       "The ultimate compact travel option optimized for city navigation and short-distance outstation runs. An exceptionally priced solution offering complete maneuverability for tight schedules.",
     imageSrc: "/images/indica-vista.jpg",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "Indica Vista Hatchback Hire, Cheapest Local Car Booking, Small Family Tour Cab, Short Distance Economical Ride.",
     category: "Sedan",
@@ -252,7 +260,8 @@ export const rawCabsData = [
     description:
       "Travel together with your family without crowding. Our premium 10-seater Tempo Traveller offers pushback luxury seating, powerful dual air conditioning, and deep luggage hold areas for high-end comfort during religious tours.",
     imageSrc: "/images/tempo-traveller-10.jpg",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "10 Seater Tempo Traveller Booking, Luxury Mini Van Hire, Family Pilgrimage Transport, Premium Group Travel Service.",
     category: "Tempo Traveller",
@@ -281,7 +290,8 @@ export const rawCabsData = [
     description:
       "Streamline transportation logistics for massive corporate groups or wedding functions. Features customized wide aisles, premium entertainment set systems, and customized shock suspension for maximum travel ease.",
     imageSrc: "/images/tempo-traveller-20.jpg",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "20 Seater Bus Rental Online, Corporate Event Logistics, Large Tempo Traveller Rental, Group Tour Packages Maharashtra.",
     category: "Tempo Traveller",
@@ -310,7 +320,8 @@ export const rawCabsData = [
     description:
       "Our largest mini-bus configuration optimized for peak stability and long highway operations. Features comfortable seating arrangements perfect for keeping big tourist circles together comfortably on interstate trips.",
     imageSrc: "/images/tempo-traveller-25.jpg",
-    providerFallback: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    providerFallback:
+      "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     notes:
       "25 Seater Tempo Traveller Hire, Heavy Group Tour Logistics, Corporate Shuttle Services, Intercity Heavy Group Transit.",
     category: "Tempo Traveller",
@@ -626,11 +637,11 @@ export const toursData = [
     slug: "shani-shingnapur-car-rental",
     image: "/images/shani-shingnapur.jpg",
     tagline: "Shani Shingnapur Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Shani Shingnapur",
     intro:
-      "At Nashik Mumbai Pune Shirdi Airport Cab, we offer budget-friendly Cab rentals for your journey to Shani Shingnapur. Whether you're planning a roundtrip or a one-way ride, we provide the most reliable and affordable Cab services for this sacred journey.",
+      "At Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab, we offer budget-friendly Cab rentals for your journey to Shani Shingnapur. Whether you're planning a roundtrip or a one-way ride, we provide the most reliable and affordable Cab services for this sacred journey.",
     fleetDescription:
       "Our fleet includes a variety of cars like Swift Dzire, Tempo Traveller, and Innova, ensuring that you find the perfect vehicle to suit your needs. With our easy online booking system, friendly drivers, and well-maintained cabs, we guarantee a smooth and hassle-free experience as you travel to Shani Shingnapur.",
     contentBlocks: [
@@ -650,7 +661,7 @@ export const toursData = [
         type: "list",
         heading: "Why Choose Us?",
         intro:
-          "At Nashik Mumbai Pune Shirdi Airport Cab, we prioritize your safety, comfort, and satisfaction. Our services include:",
+          "At Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab, we prioritize your safety, comfort, and satisfaction. Our services include:",
         items: [
           "Safe, punctual, and dependable rides",
           "Competitive pricing",
@@ -679,7 +690,7 @@ export const toursData = [
           "Temple of Shri Dattatraya",
         ],
         closing:
-          "For a comfortable and smooth journey to Shani Shingnapur, book your Cab with Nashik Mumbai Pune Shirdi Airport Cab today!",
+          "For a comfortable and smooth journey to Shani Shingnapur, book your Cab with Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab today!",
       },
     ],
     longDistance: {
@@ -688,7 +699,8 @@ export const toursData = [
       closing: "Call us today for easy bookings and stress-free travel!",
     },
     meta: {
-      title: "Shani Shingnapur Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Shani Shingnapur Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Book affordable Cab to Shani Shingnapur. Swift Dzire, Innova, Tempo Traveller available. Fares from ₹1300. 24/7 service.",
     },
@@ -701,7 +713,7 @@ export const toursData = [
     slug: "trimbakeshwar-darshan-cab",
     image: "/images/nashik-trimbakeshwar.jpg",
     tagline: "Trimbakeshwar Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     intro: "",
     popularCity: true,
     popularCityTitle: "Trimbakeshwar",
@@ -711,12 +723,13 @@ export const toursData = [
       content: [
         "Trimbakeshwar is a religious center having one of the twelve Jyotirlingas. The extraordinary feature of the Jyotirlinga located here is its three faces embodying Lord Brahma, Lord Vishnu, and Lord Rudra. Due to the excessive use of water, the linga has started to erode. It is said that this erosion symbolizes the eroding nature of human society. The Lingas are covered by a jeweled crown which is placed over the Gold Mask of Tridev (Brahma Vishnu Mahesh).",
         "Planning a quick trip to Trimbakeshwar? Have you thought about how you’re going to commute with your entire family in a convenient and comfortable way? We can help. How? With the best of car rental services to Trimbakeshwar.",
-        "We provide Trimbakeshwar Cab services at awesome offers. Hire a cab to Trimbakeshwar from us with best car services. Experience our online Cab booking services to Trimbakeshwar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Airport Cabs, the leading car rental services in Nashik has all the variety fleet of cars like Swift Dzire, Tempo Traveller, Innova to get for a Trimbakeshwar tour package at affordable fare.",
+        "We provide Trimbakeshwar Cab services at awesome offers. Hire a cab to Trimbakeshwar from us with best car services. Experience our online Cab booking services to Trimbakeshwar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading car rental services in Nashik has all the variety fleet of cars like Swift Dzire, Tempo Traveller, Innova to get for a Trimbakeshwar tour package at affordable fare.",
       ],
       closing: "Call us to book your Trimbakeshwar Darshan cab today!",
     },
     meta: {
-      title: "Trimbakeshwar Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Trimbakeshwar Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Book comfortable Cab to Trimbakeshwar Jyotirlinga. Fares from ₹2000. AC cabs, experienced drivers.",
     },
@@ -729,21 +742,22 @@ export const toursData = [
     slug: "kopargaon-cab",
     image: "/images/kopargaon-shirdi-cab.jpg",
     tagline: "Kopargaon to Nashik Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Need Onward Travel from Nashik?",
       content: [
         "Planning a quick trip from Kopargaon to Nashik? Wondering how to ensure a comfortable and convenient journey for your entire family? We’ve got you covered with top-notch car rental services! The distance from Kopargaon Railway Station to the Nashik Sai Baba Temple is approximately 18 kilometers, taking about 26 to 30 minutes by Cab. Renting a cab from Kopargaon to Nashik ensures a smooth, fast, and comfortable ride. Our cars are well-maintained and easy to drive, with professional drivers who are familiar with the route and ensure a pleasant travel experience.",
         "Kopargaon Railway Station, located in Ahmednagar district, Maharashtra, serves the town of Kopargaon and operates under the Solapur railway division of the Central Railway Zone. Sitting at an elevation of 508 meters, the station has two platforms and is part of an electrified single broad gauge line. With 74 trains stopping here, it’s a busy hub. We offer affordable and reliable Cab services from Kopargaon to Nashik, ensuring a stress-free journey.",
-        "Hire a cab from Kopargaon to Nashik with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Mumbai Pune Shirdi Airport Cabs is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
+        "Hire a cab from Kopargaon to Nashik with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
         "Depending on your travel needs and group size, we offer a range of vehicle options to choose from. Whether you need a one-way trip from Kopargaon to Nashik or a round trip back, our exceptional Cab services ensure a reliable and enjoyable journey.",
-        "Nashik Mumbai Pune Shirdi Airport Cabs, based in Nashik, Maharashtra, also offers online booking for Cabs to Kopargaon. Check out our Kopargaon to Nashik Cab fares, and let us make your travel easy and hassle-free.",
+        "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, based in Nashik, Maharashtra, also offers online booking for Cabs to Kopargaon. Check out our Kopargaon to Nashik Cab fares, and let us make your travel easy and hassle-free.",
       ],
       closing: "Call us now for instant cab booking!",
     },
     meta: {
-      title: "Kopargaon to Nashik Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Kopargaon to Nashik Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Quick cab from Kopargaon Railway Station to Nashik Sai Baba Temple. Fares from ₹300. 24/7 service.",
     },
@@ -756,21 +770,22 @@ export const toursData = [
     slug: "manmad-cab-service",
     image: "/images/nashik-manmad.jpg",
     tagline: "Manmad Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Long Distance Travel?",
       content: [
         "Planning a quick trip to Manmad? Wondering how to ensure a comfortable and convenient journey for your entire family? We’ve got you covered with top-notch car rental services! The distance to Manmad is approximately 90 kilometers, taking about 2 hours by Cab. Renting a cab to Manmad ensures a smooth, fast, and comfortable ride. Our cars are well-maintained and easy to drive, with professional drivers who are familiar with the route and ensure a pleasant travel experience.",
         "Manmad Railway Station, located in the Nashik district of Maharashtra, is a crucial railway junction operating under the Bhusawal railway division of the Central Railway Zone. Serving as a major transit hub connecting various parts of the country, it handles a massive volume of daily passengers. We offer affordable and reliable Cab services to Manmad, ensuring a stress-free journey.",
-        "Hire a cab to Manmad with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Mumbai Pune Shirdi Airport Cab is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
+        "Hire a cab to Manmad with us, enjoying the best car services in the region. Our online booking platform provides access to a variety of vehicles such as Swift Dzire, Tempo Travellers, and Innovas, all at competitive rates. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab is dedicated to delivering high-quality service, both to our customers and our hardworking drivers, who strive to ensure a pleasant experience for every passenger.",
         "Depending on your travel needs and group size, we offer a range of vehicle options to choose from. Whether you need a one-way trip to Manmad or a round trip back, our exceptional Cab services ensure a reliable and enjoyable journey.",
-        "Nashik Mumbai Pune Shirdi Airport Cabs offers seamless online booking for Cabs to Manmad and back. Check out our Manmad Cab fares, and let us make your travel easy and hassle-free.",
+        "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs offers seamless online booking for Cabs to Manmad and back. Check out our Manmad Cab fares, and let us make your travel easy and hassle-free.",
       ],
       closing: "Call us for bookings!",
     },
     meta: {
-      title: "Manmad Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Manmad Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description: "Affordable cab to Manmad. Fares from ₹1800. 24/7 pickup.",
     },
   },
@@ -782,19 +797,20 @@ export const toursData = [
     slug: "bhimashankar-darshan-cab",
     image: "/images/nashik-bhimashankar.jpg",
     tagline: "Bhimashankar Jyotirlinga Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Bhimashankar",
     longDistance: {
       heading: "Combine with Pune Trip",
       content: [
-        "We provide Bhimashankar Cab services at awesome offers. Hire a cab to Bhimashankar from us with the best car services. Experience our online cab booking services to Bhimashankar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Airport Cabs, the leading car rental services in Nashik has all the variety fleet of cars like Swift Dzire, Tempo Traveller, Innova to hire for a Cab to Bhimashankar at affordable rates.",
+        "We provide Bhimashankar Cab services at awesome offers. Hire a cab to Bhimashankar from us with the best car services. Experience our online cab booking services to Bhimashankar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading car rental services in Nashik has all the variety fleet of cars like Swift Dzire, Tempo Traveller, Innova to hire for a Cab to Bhimashankar at affordable rates.",
         "Bhimashankar Temple is a Jyotirlinga shrine located 50 km northwest of Khed, near Pune, in India. It is located 127 km from Shivaji Nagar (Pune) in the Ghat region of the Sahyadri hills. Bhimashankar is also the source of the river Bhima, which flows southeast and merges with the Krishna river near Raichur. The other Jyotirlinga shrines in Maharashtra are Vaidyanath near Parli Dist Beed, Trimbakeshwara near Nashik, Grishneshwar near Aurangabad and Aundha Nagnath Temple in Hingoli, Nagnaath in Aundh built by Pandav brothers in one night during their exile.",
       ],
       closing: "Ask us about combo packages!",
     },
     meta: {
-      title: "Bhimashankar Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Bhimashankar Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Cab to Bhimashankar Jyotirlinga. Expert hill drivers. Fares from ₹3500.",
     },
@@ -807,18 +823,19 @@ export const toursData = [
     slug: "ahmednagar-cab-service",
     image: "/images/nashik-ahmednagar.jpg",
     tagline: "Ahmednagar Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "More Destinations from Ahmednagar",
       content: [
-        "Nashik Mumbai Pune Shirdi Airport Cabs provides Budget Cabs & Cab on Rent to Ahmednagar with roundtrip journeys.",
-        "We provide Ahmednagar Cab services with the lowest fare. Hire a cab to Ahmednagar from us with the best local car services. Experience our online cab booking services to Ahmednagar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Airport Cabs, the leading car rental travel services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Ahmednagar at affordable rates. Located in Maharashtra, the Ahmednagar District is at a distance of approximately 120 km from Nashik.",
+        "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides Budget Cabs & Cab on Rent to Ahmednagar with roundtrip journeys.",
+        "We provide Ahmednagar Cab services with the lowest fare. Hire a cab to Ahmednagar from us with the best local car services. Experience our online cab booking services to Ahmednagar with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading car rental travel services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Ahmednagar at affordable rates. Located in Maharashtra, the Ahmednagar District is at a distance of approximately 120 km from Nashik.",
       ],
       closing: "Call us for all your travel needs!",
     },
     meta: {
-      title: "Ahmednagar Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Ahmednagar Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description: "Reliable cab to Ahmednagar. Fares from ₹1200. Book now.",
     },
   },
@@ -830,21 +847,21 @@ export const toursData = [
     slug: "chhatrapati-sambhajinagar-ajanta-ellora-cab",
     image: "/images/nashik-aurangabad.jpg",
     tagline: "Chhatrapati Sambhajinagar Ajanta Ellora Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Perfect for a 2-Day Tour",
       content: [
         "The Ajanta Caves in the Chhatrapati Sambhajinagar (Aurangabad) district of Maharashtra state of India are about 30 rock-cut Buddhist cave monuments which date from the 2nd century BCE to about 480 or 650 CE. The caves include paintings and sculptures described by the government Archaeological Survey of India as “the finest surviving examples of Indian art, particularly painting”, which are masterpieces of Buddhist religious art, with figures of the Buddha and depictions of the Jataka tales.",
         "A few of the world heritage sites in Maharashtra are located at Chhatrapati Sambhajinagar (Aurangabad), including Ajanta-Ellora and Bibi ka Maqbara. It is just a 4-5 hour journey. If your weekend tour is planned on a Saturday, we recommend an excellent extended tour to Ajanta-Ellora. How to travel? Booking a full day car for a quick, convenient, comfortable, and affordable Ajanta-Ellora Caves tour is the best option you can choose over bus and train.",
-        "Nashik Mumbai Pune Shirdi Airport Cabs provides Cab services for local and outstation destinations. Book budget Cabs or hire Cab rental services at a very affordable rate from the most trusted leading car rental service provider in the region at a very economical fare. We offer one of the most affordable and comfortable cab services in the city, with multiple tour packages available as per your budget so you can plan your ride accordingly.",
+        "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides Cab services for local and outstation destinations. Book budget Cabs or hire Cab rental services at a very affordable rate from the most trusted leading car rental service provider in the region at a very economical fare. We offer one of the most affordable and comfortable cab services in the city, with multiple tour packages available as per your budget so you can plan your ride accordingly.",
         "Our drivers appreciate and enjoy the journey with each of our customers, keeping a primary responsibility for a safer journey & scheduled arrival at nearby places, or pickup/drop-off services to nearby airports, railway stations, or tourist places with transparent prices.",
       ],
       closing: "Ask about our 2-day package deals!",
     },
     meta: {
       title:
-        "Chhatrapati Sambhajinagar Ajanta Ellora Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+        "Chhatrapati Sambhajinagar Ajanta Ellora Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Cab to Ajanta Ellora Caves Aurangabad. Heritage day tour. Fares from ₹2500.",
     },
@@ -857,20 +874,22 @@ export const toursData = [
     slug: "verul-car-rental-cab",
     image: "/images/nashik-verul.jpg",
     tagline: "Verul Car Rental",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Verul",
     longDistance: {
-      heading: "Why Choose Nashik Mumbai Pune Shirdi Airport Cab?",
+      heading:
+        "Why Choose Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab?",
       content: [
-        "We provide Verul Cab services at awesome offers. Hire a cab to Verul from us with the best local car services. Experience our online cab booking services to Verul with reliable and polite drivers. Nashik Mumbai Pune Shirdi Airport Cabs, the leading car rental services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Verul at affordable rates.",
-        "Nashik Mumbai Pune Shirdi Airport Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Verul car rentals. We offer highly customized & transparent service at a lower rate in comparison with traditional tour operators. We leverage modern booking systems to ensure you get the absolute best value-to-cost equation.",
+        "We provide Verul Cab services at awesome offers. Hire a cab to Verul from us with the best local car services. Experience our online cab booking services to Verul with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading car rental services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Verul at affordable rates.",
+        "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Verul car rentals. We offer highly customized & transparent service at a lower rate in comparison with traditional tour operators. We leverage modern booking systems to ensure you get the absolute best value-to-cost equation.",
         "Offering premium touring options, we welcome the opportunity to introduce ourselves as a renowned transport contractor and fleet owner. We maintain strict quality management standards across our entire company while encouraging and ensuring the active dedication of our team.",
       ],
       closing: "Call us now for instant cab booking!",
     },
     meta: {
-      title: "Verul Ellora Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Verul Ellora Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description: "Cab to Verul Ellora Caves. Day trip fares from ₹2500.",
     },
   },
@@ -882,18 +901,19 @@ export const toursData = [
     slug: "ajanta-ellora-cab-service",
     image: "/images/nashik-ajanta.jpg",
     tagline: "Ajanta & Ellora Combined Tour",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Perfect Weekend Getaway",
       content: [
-        "We provide Ajanta Ellora Car Rental services at awesome offers. Hire a cab to Ajanta Ellora from us with the best local car services. Experience our online cab booking services to Ajanta Ellora with reliable and polite drivers. Nashik Mumbai Pune Shirdi Airport Cabs, the leading car rental services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Ajanta Ellora at affordable rates.",
-        "For Ajanta and Ellora Caves outstation (roundtrip) bookings, travelers can secure the best deals on our online cab/Cab booking platform, alongside transparent updates on cab fares and comprehensive tour package details. Nashik Mumbai Pune Shirdi Airport Cabs provides both economy and luxurious cab options to Ajanta and Ellora Caves, which are ideal for small family weekend trips, corporate outings, and long weekend getaways.",
+        "We provide Ajanta Ellora Car Rental services at awesome offers. Hire a cab to Ajanta Ellora from us with the best local car services. Experience our online cab booking services to Ajanta Ellora with reliable and polite drivers. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading car rental services in the region, has a varied fleet of cars like Swift Dzire, Tempo Traveller, and Innova available to hire for a Cab to Ajanta Ellora at affordable rates.",
+        "For Ajanta and Ellora Caves outstation (roundtrip) bookings, travelers can secure the best deals on our online cab/Cab booking platform, alongside transparent updates on cab fares and comprehensive tour package details. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides both economy and luxurious cab options to Ajanta and Ellora Caves, which are ideal for small family weekend trips, corporate outings, and long weekend getaways.",
       ],
       closing: "Book your heritage weekend now!",
     },
     meta: {
-      title: "Ajanta Ellora Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Ajanta Ellora Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description: "Combined Ajanta Ellora cave tour. Fares from ₹4500.",
     },
   },
@@ -905,18 +925,19 @@ export const toursData = [
     slug: "city-car-rental-cab",
     image: "/images/nashik-city.jpg",
     tagline: "City Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Mumbai Package",
       content: [
-        "We provide premium City Car Rental services at awesome offers. Hire a local or outstation cab from us to experience the best car rental services. Enjoy our seamless online cab booking system with highly reliable, professional, and polite drivers. Nashik Mumbai Pune Shirdi Airport Cabs, the leading vehicle rental service in the region, boasts a diverse fleet of well-maintained cars—including Swift Dzire, Tempo Traveller, and Innova—available to hire at incredibly affordable rates.",
-        "Whether you need a local city ride or an outstation roundtrip, travelers can get the best deals right here on our online Cab booking platform. Check our competitive cab fares, transparent pricing structures, and customizable tour packages. Nashik Mumbai Pune Shirdi Airport Cabs provides both economy and luxurious vehicle options, making us the ideal choice for small family weekend getaways, corporate outings, airport transfers, and long weekend trips.",
+        "We provide premium City Car Rental services at awesome offers. Hire a local or outstation cab from us to experience the best car rental services. Enjoy our seamless online cab booking system with highly reliable, professional, and polite drivers. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading vehicle rental service in the region, boasts a diverse fleet of well-maintained cars—including Swift Dzire, Tempo Traveller, and Innova—available to hire at incredibly affordable rates.",
+        "Whether you need a local city ride or an outstation roundtrip, travelers can get the best deals right here on our online Cab booking platform. Check our competitive cab fares, transparent pricing structures, and customizable tour packages. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides both economy and luxurious vehicle options, making us the ideal choice for small family weekend getaways, corporate outings, airport transfers, and long weekend trips.",
       ],
       closing: "Ask about our combo packages!",
     },
     meta: {
-      title: "City Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "City Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Comfortable city cab. Fares from ₹1800. Trimbakeshwar stop available.",
     },
@@ -929,7 +950,7 @@ export const toursData = [
     slug: "mumbai-car-rental-cab",
     image: "/images/nashik-mumbai.jpg",
     tagline: "Mumbai Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Gateway of India, Mumbai",
     longDistance: {
@@ -941,7 +962,8 @@ export const toursData = [
       closing: "Book your Mumbai cab now!",
     },
     meta: {
-      title: "Mumbai Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Mumbai Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Outstation cab to Mumbai. Expressway route. Fares from ₹3500.",
     },
@@ -954,19 +976,20 @@ export const toursData = [
     slug: "pune-car-rental-cab",
     image: "/images/nashik-pune.jpg",
     tagline: "Pune Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Shaniwar Wada, Pune",
     longDistance: {
       heading: "Pune Airport Drop",
       content: [
-        "Nashik Mumbai Pune Shirdi Airport Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Pune Cab and cab services. We offer affordable car rental options to the Pune Airport, as well as general city-to-city transfers to Pune. We offer a highly customized & transparent service at a lower rate in comparison with traditional tour operators, leveraging modern booking systems to ensure you get the absolute best value-to-cost equation.",
+        "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs is the premier provider of outstation & local car rental offerings, featuring specialized Pune Cab and cab services. We offer affordable car rental options to the Pune Airport, as well as general city-to-city transfers to Pune. We offer a highly customized & transparent service at a lower rate in comparison with traditional tour operators, leveraging modern booking systems to ensure you get the absolute best value-to-cost equation.",
         "Offering versatile touring options, we welcome the opportunity to introduce ourselves as a renowned transport contractor and fleet owner. We maintain strict quality management standards across our entire company while encouraging and ensuring the active dedication of our team.",
       ],
       closing: "Call us to plan your trip!",
     },
     meta: {
-      title: "Pune Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Pune Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Outstation cab to Pune. Via Shani Shingnapur option. Fares from ₹3200.",
     },
@@ -979,19 +1002,20 @@ export const toursData = [
     slug: "lonavala-car-rental-cab",
     image: "/images/nashik-lonavala.jpg",
     tagline: "Lonavala Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Lonavala & Khandala",
     longDistance: {
       heading: "Combine with Pune",
       content: [
-        "We provide premium Lonavala Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Lonavala from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who know the routes perfectly. Nashik Mumbai Pune Shirdi Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "We provide premium Lonavala Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Lonavala from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who know the routes perfectly. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
         "For your next Lonavala outstation roundtrip or one-way drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Lonavala tour packages.",
       ],
       closing: "Ask us about Lonavala-Pune combo!",
     },
     meta: {
-      title: "Lonavala Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Lonavala Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description: "Cab to Lonavala hill station. Fares from ₹4500.",
     },
   },
@@ -1003,19 +1027,20 @@ export const toursData = [
     slug: "mahabaleshwar-car-rental-cab",
     image: "/images/nashik-mahabaleshwar.jpg",
     tagline: "Mahabaleshwar Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Mahabaleshwar",
     longDistance: {
       heading: "2-Day Mahabaleshwar Package",
       content: [
-        "We provide premium Mahabaleshwar Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Mahabaleshwar from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey through the scenic ghats. Nashik Mumbai Pune Shirdi Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Ertigas, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Mahabaleshwar outstation roundtrip or one-way drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Mahabaleshwar tour packages. Nashik Mumbai Pune Shirdi Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family weekend getaways to the strawberry farms, office or corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your holiday to Mahabaleshwar completely stress-free.",
+        "We provide premium Mahabaleshwar Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Mahabaleshwar from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey through the scenic ghats. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, spacious Ertigas, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Mahabaleshwar outstation roundtrip or one-way drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Mahabaleshwar tour packages. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family weekend getaways to the strawberry farms, office or corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your holiday to Mahabaleshwar completely stress-free.",
       ],
       closing: "Enquire about our holiday packages!",
     },
     meta: {
-      title: "Mahabaleshwar Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Mahabaleshwar Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Scenic cab to Mahabaleshwar hill station. Fares from ₹4200.",
     },
@@ -1028,19 +1053,20 @@ export const toursData = [
     slug: "goa-car-rental-cab",
     image: "/images/nashik-goa.jpg",
     tagline: "Goa Long-Distance Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Goa",
     longDistance: {
       heading: "The Ultimate Maharashtra-Goa Road Trip",
       content: [
-        "We provide premium Goa Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Goa from us to experience the finest long-distance intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Pune Shirdi Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Goa outstation roundtrip or long-distance drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Goa tour packages. Nashik Mumbai Pune Shirdi Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family vacations, extended coastal road trips, and group holidays. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Goa completely stress-free.",
+        "We provide premium Goa Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Goa from us to experience the finest long-distance intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Goa outstation roundtrip or long-distance drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Goa tour packages. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for small family vacations, extended coastal road trips, and group holidays. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Goa completely stress-free.",
       ],
       closing: "Book our Goa package now!",
     },
     meta: {
-      title: "Goa Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Goa Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Long-distance cab to Goa. Fares from ₹7500. Overnight option.",
     },
@@ -1053,18 +1079,19 @@ export const toursData = [
     slug: "konkan-car-rental-cab",
     image: "/images/nashik-konkan.jpg",
     tagline: "Konkan Coast Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Konkan Weekend Package",
       content: [
-        "We provide premium Konkan Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Konkan from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey down to the beautiful coastal belt. Nashik Mumbai Pune Shirdi Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Konkan outstation roundtrip, beach holiday, or coastal tour, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Konkan tour packages. Nashik Mumbai Pune Shirdi Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for family beach vacations, nature weekend getaways, and extended coastal road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Konkan completely stress-free.",
+        "We provide premium Konkan Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Konkan from us to experience the finest intercity travel services in the region. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth journey down to the beautiful coastal belt. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and comfortable Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Konkan outstation roundtrip, beach holiday, or coastal tour, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Konkan tour packages. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for family beach vacations, nature weekend getaways, and extended coastal road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Konkan completely stress-free.",
       ],
       closing: "Book your Konkan escape!",
     },
     meta: {
-      title: "Konkan Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Konkan Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Cab to Konkan coast. Ganpatipule, Ratnagiri, Tarkarli. Fares from ₹5500.",
     },
@@ -1077,18 +1104,19 @@ export const toursData = [
     slug: "nagpur-car-rental-cab",
     image: "/images/nashik-nagpur.jpg",
     tagline: "Nagpur Long-Distance Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Vidarbha Extension Package",
       content: [
-        "We provide premium Nagpur Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Nagpur from us to experience the finest long-distance intercity travel services in the region, taking full advantage of the fast Samruddhi Mahamarg route. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth, quick, and safe long-distance journey. Nashik Mumbai Pune Shirdi Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Nagpur outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nagpur tour packages. Nashik Mumbai Pune Shirdi Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family travel, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Nagpur completely stress-free.",
+        "We provide premium Nagpur Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Nagpur from us to experience the finest long-distance intercity travel services in the region, taking full advantage of the fast Samruddhi Mahamarg route. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth, quick, and safe long-distance journey. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Nagpur outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Nagpur tour packages. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family travel, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Nagpur completely stress-free.",
       ],
       closing: "Plan your Vidarbha tour with us!",
     },
     meta: {
-      title: "Nagpur Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Nagpur Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Long-distance cab to Nagpur. Fares from ₹7000. Night travel available.",
     },
@@ -1101,18 +1129,19 @@ export const toursData = [
     slug: "indore-car-rental-cab",
     image: "/images/nashik-indore.webp",
     tagline: "Indore Inter-State Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Ujjain Extension",
       content: [
-        "We provide premium Indore Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Indore from us to experience the finest long-distance intercity travel services across state lines. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Pune Shirdi Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
-        "For your next Indore outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Indore tour packages. Nashik Mumbai Pune Shirdi Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family vacations, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Indore completely stress-free.",
+        "We provide premium Indore Car Rental services packed with awesome offers and competitive packages. Hire a reliable cab to Indore from us to experience the finest long-distance intercity travel services across state lines. Enjoy our seamless online cab booking system, backed by professional, highly experienced, and polite drivers who ensure a smooth and safe long-distance journey. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs, the leading vehicle rental service provider, boasts a diverse and well-maintained fleet of cars—including fuel-efficient Swift Dzires, premium Innovas, and spacious Tempo Travellers—all available for hire at incredibly affordable rates.",
+        "For your next Indore outstation roundtrip, family holiday, or business drop, travelers can unlock the absolute best deals right here on our booking platform. Get transparent, up-front cab fares and all-inclusive cost details with our customizable Indore tour packages. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs provides both economy and luxurious vehicle options tailored to your group size and travel preferences, making our services the ideal choice for long-distance family vacations, corporate outings, and extended road trips. We bridge the gap between quality and cost by leveraging modern scheduling and transparent pricing, ensuring you never have to worry about hidden charges. Book your ride today and make your journey to Indore completely stress-free.",
       ],
       closing: "Book your Indore-Ujjain package!",
     },
     meta: {
-      title: "Indore Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Indore Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Inter-state cab to Indore MP. All-India permit. Fares from ₹7500.",
     },
@@ -1125,18 +1154,19 @@ export const toursData = [
     slug: "jalna-car-rental-cab",
     image: "/images/jalna.webp",
     tagline: "Jalna Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: false,
     longDistance: {
       heading: "Connect via Samruddhi Mahamarg",
       content: [
-        "We provide premium Jalna Car Rental services packed with unbeatable offers and budget-friendly packages. Hire a reliable cab to Jalna from us to experience smooth and comfortable travel via the direct Samruddhi Mahamarg expressway corridor. Enjoy our seamless online cab booking platform with polite, skilled drivers who ensure on-time pick-ups and safe highway transit. Nashik Mumbai Pune Shirdi Airport Cabs offers a wide fleet including Swift Dzire, Ertiga, Innova Crysta, and Tempo Travellers for groups of all sizes.",
+        "We provide premium Jalna Car Rental services packed with unbeatable offers and budget-friendly packages. Hire a reliable cab to Jalna from us to experience smooth and comfortable travel via the direct Samruddhi Mahamarg expressway corridor. Enjoy our seamless online cab booking platform with polite, skilled drivers who ensure on-time pick-ups and safe highway transit. Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs offers a wide fleet including Swift Dzire, Ertiga, Innova Crysta, and Tempo Travellers for groups of all sizes.",
         "Located in the Marathwada region adjacent to Chhatrapati Sambhajinagar, Jalna is a key commercial center known for its steel industry and agricultural trade. Whether you need a one-way transfer, roundtrip ride, or an extended Marathwada heritage tour combined with Shirdi and Ajanta-Ellora, we provide transparent fares with no hidden costs.",
       ],
       closing: "Book your Jalna cab service today!",
     },
     meta: {
-      title: "Jalna Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Jalna Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Reliable cab service to Jalna via Samruddhi Mahamarg. Fares from ₹3200. 24/7 service.",
     },
@@ -1149,19 +1179,20 @@ export const toursData = [
     slug: "igatpuri-hill-station-cab",
     image: "/images/nashik-igatpuri.jpg",
     tagline: "Igatpuri Getaway Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Igatpuri",
     longDistance: {
       heading: "Kasara Ghat & Monsoon Getaway",
       content: [
         "Escape to the serene hills with our specialized Igatpuri Car Rental services. Located along the Western Ghats between Mumbai and Nashik, Igatpuri is famous for the Vipassana International Academy (Dhammagiri), Bhatsa River Valley, Kalsubai Peak, and ancient forts like Tringalwadi. We offer flexible local sightseeing, resort pickup/drop, and outstation roundtrips at competitive prices.",
-        "Whether you are traveling from Mumbai, Pune, or Nashik for a weekend retreat or monsoon getaway, Nashik Mumbai Pune Shirdi Airport Cabs ensures a safe, comfortable drive through the Kasara Ghats with experienced mountain drivers. Choose from sedan models, spacious SUVs, or Tempo Travellers for group weekend tours.",
+        "Whether you are traveling from Mumbai, Pune, or Nashik for a weekend retreat or monsoon getaway, Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs ensures a safe, comfortable drive through the Kasara Ghats with experienced mountain drivers. Choose from sedan models, spacious SUVs, or Tempo Travellers for group weekend tours.",
       ],
       closing: "Plan your Igatpuri hill retreat with us!",
     },
     meta: {
-      title: "Igatpuri Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Igatpuri Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Book scenic hill station cab to Igatpuri. Resort drops & sightseeing packages from ₹1500.",
     },
@@ -1174,19 +1205,20 @@ export const toursData = [
     slug: "thane-car-rental-cab",
     image: "/images/nashik-thane.jpg",
     tagline: "Thane Expressway Cab Service",
-    company: "Nashik Mumbai Pune Shirdi Airport Cab",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cab",
     popularCity: true,
     popularCityTitle: "Thane Junction",
     longDistance: {
       heading: "Gateway to Mumbai & MMR Region",
       content: [
-        "Nashik Mumbai Pune Shirdi Airport Cabs offers dedicated Thane Car Rental services connecting Nashik, Pune, Shirdi, and the Mumbai Metropolitan Region. Situated at the crossroads of major national highways and the Samruddhi Mahamarg entrance corridor, Thane is a key transit destination for corporate travelers, commuters, and pilgrims.",
+        "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs offers dedicated Thane Car Rental services connecting Nashik, Pune, Shirdi, and the Mumbai Metropolitan Region. Situated at the crossroads of major national highways and the Samruddhi Mahamarg entrance corridor, Thane is a key transit destination for corporate travelers, commuters, and pilgrims.",
         "Enjoy door-to-door cab drops to all major Thane localities including Ghodbunder Road, Majiwada, Thane Railway Station, and Eastern Express Highway connectors. We offer clean AC cabs, 24/7 customer support, transparent toll/fare structures, and professional drivers experienced in suburban traffic management.",
       ],
       closing: "Call us now to book your Thane cab!",
     },
     meta: {
-      title: "Thane Cab | Nashik Mumbai Pune Shirdi Airport Cabs",
+      title:
+        "Thane Cab | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
       description:
         "Direct cab to Thane from Nashik, Pune, or Shirdi. Fast highway connectivity. Fares from ₹2800.",
     },

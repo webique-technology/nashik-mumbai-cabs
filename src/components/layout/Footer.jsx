@@ -301,7 +301,7 @@ const Footer = () => {
             <p className="mb-0 fw-medium text-light text-center text-lg-start">
               © 2026 All Rights Reserved by{" "}
               <span className="text-light fw-bold">
-                Nashik Mumbai Pune Shirdi Airport Cabs
+                Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs
               </span>{" "}
               {currentYear}
             </p>

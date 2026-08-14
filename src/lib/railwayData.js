@@ -7,7 +7,7 @@ export const railwayToursData = [
     slug: "sainagar-shirdi-railway-station-cab",
     image: "/images/sainagar-shirdi.jpg",
     tagline: "Sainagar Shirdi Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Travel comfortably to and from Sainagar Shirdi Railway Station. We provide premium, reliable outstation cab services connecting Shirdi Station directly to Mumbai, Pune, Nashik, and Chhatrapati Sambhajinagar to match your train schedules seamlessly.",
     fleetDescription:
@@ -61,7 +61,7 @@ export const railwayToursData = [
     slug: "kopargaon-railway-station-cab",
     image: "/images/kopargaon-railway.jpg",
     tagline: "Kopargaon Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Fast, safe, and efficient outstation cab connections connecting Kopargaon Railway Station seamlessly with Shirdi Sai Baba Temple, Nashik, Ahmednagar, and Pune.",
     fleetDescription:
@@ -100,7 +100,7 @@ export const railwayToursData = [
     slug: "nagarsol-railway-station-cab",
     image: "/images/nagarsol-station.webp",
     tagline: "Nagarsol Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Dependable inter-city outstation cabs connecting Nagarsol Railway Station directly to Shirdi, Nashik, Chhatrapati Sambhajinagar, and Pune.",
     fleetDescription:
@@ -139,7 +139,7 @@ export const railwayToursData = [
     slug: "manmad-junction-railway-station-cab",
     image: "/images/manmad-railway.webp",
     tagline: "Manmad Junction Railway Station Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Prompt and professional outstation cab services connecting Manmad Railway Junction directly to Nashik, Shirdi, Chhatrapati Sambhajinagar, and Thane for zero-delay passenger transfers.",
     fleetDescription:
@@ -178,7 +178,7 @@ export const railwayToursData = [
     slug: "nashik-road-railway-station-cab",
     image: "/images/nasik-road-railway.webp",
     tagline: "Nashik Road Railway Station Local & Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Swift, seamless point-to-point local and outstation cab pickup and drop services running from Nashik Road Railway Station directly across Nashik city, Trimbakeshwar, Shirdi, Pune, and Mumbai.",
     fleetDescription:
@@ -217,7 +217,7 @@ export const railwayToursData = [
     slug: "daund-junction-railway-station-cab",
     image: "/images/daund-railway.jpg",
     tagline: "Daund Junction Railway Station Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Premium long-distance outstation travel solutions linking Daund Junction Railway Station directly with Pune, Ahmednagar, Shirdi, and Nashik.",
     fleetDescription:
@@ -256,7 +256,7 @@ export const railwayToursData = [
     slug: "ahmednagar-railway-station-cab",
     image: "/images/ahmednagar-railway.avif",
     tagline: "Ahmednagar Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Comfortable and punctual inter-city outstation cabs running daily connecting Ahmednagar Railway Station directly to Shirdi, Shani Shingnapur, Pune, and Nashik.",
     fleetDescription:
@@ -295,7 +295,7 @@ export const railwayToursData = [
     slug: "pune-junction-railway-station-cab",
     image: "/images/pune-railway.webp",
     tagline: "Pune Junction Railway Station Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Premium outstation cab services connecting Pune Junction Railway Station directly to Nashik, Shirdi, Ahmednagar, Mumbai, and Mahabaleshwar.",
     fleetDescription:
@@ -334,7 +334,7 @@ export const railwayToursData = [
     slug: "mumbai-csmt-railway-station-cab",
     image: "/images/mumbai-cst-railway.jpg",
     tagline: "Mumbai CSMT Railway Station Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Premium long-distance outstation solutions connecting Chhatrapati Shivaji Maharaj Terminus (CSMT / CST) in Mumbai directly to Thane, Nashik, Pune, and Shirdi.",
     fleetDescription:
@@ -373,7 +373,7 @@ export const railwayToursData = [
     slug: "thane-railway-station-cab",
     image: "/images/thane-railway.jpg",
     tagline: "Thane Railway Station Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Reliable outstation cabs operating daily connecting Thane Junction Railway Station directly to Nashik, Pune, Shirdi, and the Mumbai Metropolitan Region.",
     fleetDescription:
@@ -412,7 +412,7 @@ export const railwayToursData = [
     slug: "kalyan-junction-railway-station-cab",
     image: "/images/kalyan-railway.png",
     tagline: "Kalyan Junction Railway Station Outstation Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Punctual outstation cab lines linking Kalyan Junction Railway Station to Nashik, Shirdi, Pune, and Ahmednagar for reliable travel.",
     fleetDescription:
@@ -452,7 +452,7 @@ export const railwayToursData = [
     image: "/images/chhatrapati-sambhaji-nagar.avif",
     tagline:
       "Chhatrapati Sambhajinagar Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Convenient outstation cabs operating daily connecting Chhatrapati Sambhajinagar Railway Station (formerly Aurangabad) directly to Jalna, Shirdi, Nashik, and Pune.",
     fleetDescription:
@@ -492,7 +492,7 @@ export const railwayToursData = [
     slug: "igatpuri-railway-station-cab",
     image: "/images/igatpuri-railway.jpg",
     tagline: "Igatpuri Railway Station Station & Resort Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Reliable and prompt cab services connecting Igatpuri Railway Station directly to local hill resorts, Nashik, Mumbai, and Thane across the Kasara Ghat belt.",
     fleetDescription:
@@ -531,7 +531,7 @@ export const railwayToursData = [
     slug: "devlali-railway-station-cab",
     image: "/images/devlali-railway.jpg",
     tagline: "Devlali Railway Station Local & Cantonment Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Quick, hassle-free transfers between Devlali Railway Station, the Military Cantonment, Nashik City, and neighboring towns.",
     fleetDescription:
@@ -570,7 +570,7 @@ export const railwayToursData = [
     slug: "niphad-railway-station-cab",
     image: "/images/niphad-railway.avif",
     tagline: "Niphad Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Seamless and dependable inter-district cab services connecting Niphad Railway Station to Nashik, Shirdi, and regional trading markets.",
     fleetDescription:
@@ -609,7 +609,7 @@ export const railwayToursData = [
     slug: "odha-railway-station-cab",
     image: "/images/odha-railway.webp",
     tagline: "Odha Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Punctual point-to-point local cab transfers connecting Odha Railway Station to Nashik city center and surrounding suburban areas.",
     fleetDescription:
@@ -648,7 +648,7 @@ export const railwayToursData = [
     slug: "lahavit-railway-station-cab",
     image: "/images/lahavit-railway.webp",
     tagline: "Lahavit Railway Station Pickup & Drop Cab Services",
-    company: "Nashik Mumbai Pune Shirdi Airport Cabs",
+    company: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     intro:
       "Comfortable and direct cab connections linking Lahavit Railway Station to Devlali, Igatpuri, and Nashik.",
     fleetDescription:

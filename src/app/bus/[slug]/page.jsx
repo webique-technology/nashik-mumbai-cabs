@@ -13,7 +13,8 @@ export async function generateMetadata({ params }) {
   if (!bus) {
     return generatePageMetadata({
       staticData: {
-        title: "Vehicle Not Found | Nashik Mumbai Pune Shirdi Airport Cabs",
+        title:
+          "Vehicle Not Found | Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
         description: "The requested bus or vehicle details could not be found.",
       },
       path: `/bus/${slug || ""}`,

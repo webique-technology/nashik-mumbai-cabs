@@ -25,7 +25,7 @@ export const DynamicFooterLinks = () => {
           </h2>
           <p className="text-muted">
             Discover Reliable Cab Services in Top Cities with Nashik Mumbai Pune
-            Shirdi Cabs. Click Below to Explore Availability!
+            Shirdi Cha. Sambhajinagar Cabs. Click Below to Explore Availability!
           </p>
         </div>
 

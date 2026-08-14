@@ -1,13 +1,13 @@
 // src/lib/seo.js
 
 const DEFAULT_SITE_CONFIG = {
-  siteName: "Nashik Mumbai Pune Shirdi Airport Cabs",
+  siteName: "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
   defaultTitle:
-    "Nashik Mumbai Pune Shirdi Airport Cabs | Premium Cab & Car Rentals in Maharashtra",
+    "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs | Premium Cab & Car Rentals in Maharashtra",
   defaultDescription:
     "Book reliable, affordable, and safe outstation Cabs, cabs, and buses from Nashik to Mumbai, Pune, Shirdi, and across Maharashtra. 24/7 service.",
   defaultKeywords: [
-    "Nashik Mumbai Pune Shirdi Airport Cabs",
+    "Nashik Mumbai Pune Shirdi Cha. Sambhajinagar Airport Cabs",
     "Cab service Nashik",
     "Outstation cab booking",
     "Cab rental Nashik to Mumbai",
